@@ -1,0 +1,1194 @@
+fileFormatVersion: 2
+guid: a76002882b0d72a4e8545517c9f19c95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4990756583372148082
+    second: idle-gnd
+  - first:
+      213: -6000363247279800669
+    second: S_Wizard_Air_1
+  - first:
+      213: -7181259790985824273
+    second: S_Wizard_Air_2
+  - first:
+      213: 7923248519532435738
+    second: S_Wizard_Air_3
+  - first:
+      213: 8054675878312635425
+    second: S_Wizard_Air_4
+  - first:
+      213: -2229921181963966571
+    second: idle_air
+  - first:
+      213: 2129627941483359921
+    second: S_Wizard_Air_6
+  - first:
+      213: -300279714211226510
+    second: S_Wizard_Air_7
+  - first:
+      213: -231396896359751809
+    second: S_Wizard_Air_8
+  - first:
+      213: 2426869043236473786
+    second: S_Wizard_Air_9
+  - first:
+      213: -3620268110946215360
+    second: move-air
+  - first:
+      213: 4177589173741313386
+    second: S_Wizard_Air_11
+  - first:
+      213: 5838092508359218304
+    second: S_Wizard_Air_12
+  - first:
+      213: -651982446574020166
+    second: S_Wizard_Air_13
+  - first:
+      213: -3768089203115349768
+    second: move-gnd
+  - first:
+      213: -7463074525646042069
+    second: S_Wizard_Air_15
+  - first:
+      213: 7305420540538788479
+    second: S_Wizard_Air_16
+  - first:
+      213: 4874703126456946408
+    second: S_Wizard_Air_17
+  - first:
+      213: -3934056312949175168
+    second: S_Wizard_Air_18
+  - first:
+      213: -451871023329761335
+    second: S_Wizard_Air_19
+  - first:
+      213: 8602741105156890038
+    second: S_Wizard_Air_20
+  - first:
+      213: 109108894117467376
+    second: S_Wizard_Air_21
+  - first:
+      213: -185122677421205125
+    second: hit
+  - first:
+      213: 4881100169242735277
+    second: death
+  - first:
+      213: 7799856671878992747
+    second: S_Wizard_Air_24
+  - first:
+      213: -4297612411825226998
+    second: S_Wizard_Air_25
+  - first:
+      213: -1376934871975445199
+    second: S_Wizard_Air_26
+  - first:
+      213: 3437743615883701502
+    second: S_Wizard_Air_27
+  - first:
+      213: -3099331258517989779
+    second: S_Wizard_Air_28
+  - first:
+      213: -5305234013116128916
+    second: cast-gnd
+  - first:
+      213: 2155236154800217589
+    second: S_Wizard_Air_30
+  - first:
+      213: 1735998627654254529
+    second: S_Wizard_Air_31
+  - first:
+      213: -1103843763554699311
+    second: S_Wizard_Air_32
+  - first:
+      213: -7340517493381336563
+    second: S_Wizard_Air_33
+  - first:
+      213: -3629731847825167543
+    second: S_Wizard_Air_34
+  - first:
+      213: -1646862175104291944
+    second: S_Wizard_Air_35
+  - first:
+      213: 5429551235419230374
+    second: S_Wizard_Air_36
+  - first:
+      213: -822521134466616528
+    second: S_Wizard_Air_37
+  - first:
+      213: 1081571966564630396
+    second: cast-air
+  - first:
+      213: 2455335567435427889
+    second: S_Wizard_Air_39
+  - first:
+      213: 6521532879835878323
+    second: S_Wizard_Air_40
+  - first:
+      213: 9112028443344845204
+    second: S_Wizard_Air_41
+  - first:
+      213: 6056862262448203441
+    second: S_Wizard_Air_42
+  - first:
+      213: 7183738168973929595
+    second: S_Wizard_Air_43
+  - first:
+      213: 3033963898114822440
+    second: S_Wizard_Air_44
+  - first:
+      213: -6685458110923616189
+    second: S_Wizard_Air_45
+  - first:
+      213: 9083727898800147987
+    second: S_Wizard_Air_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle-gnd
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 241
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8239af54554dbab0800000000000000
+      internalID: -4990756583372148082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 241
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aef39afa6d6abca0800000000000000
+      internalID: -6000363247279800669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 241
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe77e7e944a075c90800000000000000
+      internalID: -7181259790985824273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 241
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19ded1ac8805fd60800000000000000
+      internalID: 7923248519532435738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 241
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c6bbb2905f7cf60800000000000000
+      internalID: 8054675878312635425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_air
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 214
+        width: 17
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5972be7ef7abd01e0800000000000000
+      internalID: -2229921181963966571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 214
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beacdb5455fd8d10800000000000000
+      internalID: 2129627941483359921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 213
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c1f2dd03135dbf0800000000000000
+      internalID: -300279714211226510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 213
+        width: 17
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f595eafb9e9ccf0800000000000000
+      internalID: -231396896359751809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 213
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb80866988fda120800000000000000
+      internalID: 2426869043236473786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-air
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a5067855932cdc0800000000000000
+      internalID: -3620268110946215360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 17
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d5e5e3837c9f930800000000000000
+      internalID: 4177589173741313386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 183
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084de9e6432150150800000000000000
+      internalID: 5838092508359218304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 182
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab95a205b61b3f6f0800000000000000
+      internalID: -651982446574020166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move-gnd
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 145
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8235e75de05bbc0800000000000000
+      internalID: -3768089203115349768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 145
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cc99e8245dd6890800000000000000
+      internalID: -7463074525646042069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 145
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a18ad9641126560800000000000000
+      internalID: 7305420540538788479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 145
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec3fd8aac66a340800000000000000
+      internalID: 4874703126456946408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 145
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c084c70ac6769c0800000000000000
+      internalID: -3934056312949175168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 17
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7232ac2b1aab9f0800000000000000
+      internalID: -451871023329761335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 145
+        width: 18
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd1783b473136770800000000000000
+      internalID: 8602741105156890038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 145
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f415bb06f1a38100800000000000000
+      internalID: 109108894117467376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 113
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79907cd7ef4e6df0800000000000000
+      internalID: -185122677421205125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 81
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ffc42eb62db340800000000000000
+      internalID: 4881100169242735277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 80
+        width: 18
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63de425158ae3c60800000000000000
+      internalID: 7799856671878992747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 80
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bf8daf740db54c0800000000000000
+      internalID: -4297612411825226998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 81
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc6d9dca9155bf20800000000000000
+      internalID: 3437743615883701502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cast-gnd
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 40
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61a4edf5c50066b0800000000000000
+      internalID: -5305234013116128916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd12f52ddfe8ed10800000000000000
+      internalID: 2155236154800217589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 40
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfb5ebdd81871810800000000000000
+      internalID: 1735998627654254529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 40
+        width: 22
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7bac902fb5ea0f0800000000000000
+      internalID: -1103843763554699311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 40
+        width: 23
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02f6734b3e312a90800000000000000
+      internalID: -7340517493381336563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b65749d1a90adc0800000000000000
+      internalID: -3629731847825167543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 40
+        width: 27
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ba1e2c39b2529e0800000000000000
+      internalID: -1646862175104291944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 40
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a052f4e414a95b40800000000000000
+      internalID: 5429551235419230374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 40
+        width: 24
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033bdd7d261d594f0800000000000000
+      internalID: -822521134466616528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cast-air
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ffa1229f3820f00800000000000000
+      internalID: 1081571966564630396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130fe5d80ba131220800000000000000
+      internalID: 2455335567435427889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 5
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3d5a50a93218a50800000000000000
+      internalID: 6521532879835878323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_41
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 5
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49933d4779d647e70800000000000000
+      internalID: 9112028443344845204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6a1b6132c4e0450800000000000000
+      internalID: 6056862262448203441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 5
+        width: 19
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c2b19bdc3c1b360800000000000000
+      internalID: 7183738168973929595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 6
+        width: 27
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8215e78371eca1a20800000000000000
+      internalID: 3033963898114822440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 5
+        width: 25
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340d4a9e44b7833a0800000000000000
+      internalID: -6685458110923616189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Air_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ec9447562ef0e70800000000000000
+      internalID: 9083727898800147987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
