@@ -75,6 +75,9 @@ Unity Serialization
 Unity is a data driven engine. So when programming with unity it is important to understand the difference between Serialized and Non-Serialized.  
 The process of serialization is converting data between unity and C#.  This is used to allow the creation instances of a class and modify the class's serialized values from the editor.  This can be used to create controls to customize functionality or tweak values to modify behaviors.  This can also be used to manually assign dependencies from the Unity Editor.  **Note: This can be useful at times, but it can cause to null reference errors if you forget to assign the dependency in the editor.**  For that reason I like to use this technique for assigning optional dependencies which alter functionality, and resolve all mandatory dependencies from code.  The following types can be serialized by unity.
 
+All serialized fields on Unity types will show up in the Inspector inside the Unity Editor.  
+
+
 |Type |Example                | Default Value|
 |-----|-----------------------|-----|
 |bool    |`public bool canSprint = true;` |`false`|
@@ -86,7 +89,7 @@ The process of serialization is converting data between unity and C#.  This is u
 |Array of any types above| `public string[] spells;`| `new string[0]`|
 |List of any types above| `public List<GameObject> enemyPrefabs;`|`new List<GameObject>()`|
 
-a complete list of serializable types can be found here 
+[a complete guide to Unity's serializable types can be found here](https://docs.unity3d.com/Manual/script-Serialization.html)
 
 By default Unity serialized all public fields and does not serialize private fields.
 
