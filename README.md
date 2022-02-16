@@ -53,9 +53,8 @@ Complete the previous setups before this one
 8. Next to **External Script Editor** click the dropdown menu and select **Rider** from the options
 9. Now you are all ready to go!
 
-Java to C# Guide
+[Java to C# Guide](https://github.com/mharris382/Software-Engineering-Capstone/blob/main/Docs/CSharp%20for%20Java%20Developers%20-%20Cheat%20Sheet.pdf)
 ====
-included pdf cheatsheet in repo 
 
 Collection Types
 | Type       | Java               | C#                       |
