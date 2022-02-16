@@ -110,6 +110,7 @@ Project Organization Structure
 We will need to devise an organization strategy that works best for us, however there are some standard conventions that we should use.  Additionally it is important to be aware that [unity has special folders](https://docs.unity3d.com/Manual/SpecialFolders.html) which we will make use of.
 
 
-
-
+Software Package Diagram
+----
+![Package Diagram](https://github.com/mharris382/Software-Engineering-Capstone/blob/main/Docs/Images/Package%20Diagram.png)
 
