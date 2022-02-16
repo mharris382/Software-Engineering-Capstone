@@ -1,7 +1,151 @@
 fileFormatVersion: 2
 guid: 816fabb926ddf694e983a6e278b3080e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2864718546183836097
+    second: S_Wizard_Thunder_0
+  - first:
+      213: 8319882124618883661
+    second: S_Wizard_Thunder_1
+  - first:
+      213: -4496178591644408335
+    second: S_Wizard_Thunder_2
+  - first:
+      213: -1487723721137889408
+    second: S_Wizard_Thunder_3
+  - first:
+      213: 6136566807886742935
+    second: S_Wizard_Thunder_4
+  - first:
+      213: -954395728040624248
+    second: S_Wizard_Thunder_5
+  - first:
+      213: -1268642256970231235
+    second: S_Wizard_Thunder_6
+  - first:
+      213: -2716959242346785836
+    second: S_Wizard_Thunder_7
+  - first:
+      213: -3782141924346749412
+    second: S_Wizard_Thunder_8
+  - first:
+      213: 2361710216808192019
+    second: S_Wizard_Thunder_9
+  - first:
+      213: -6083958606387427848
+    second: S_Wizard_Thunder_10
+  - first:
+      213: 2612431348016311681
+    second: S_Wizard_Thunder_11
+  - first:
+      213: -7842926014736710813
+    second: S_Wizard_Thunder_12
+  - first:
+      213: -1669655780228067592
+    second: S_Wizard_Thunder_13
+  - first:
+      213: 4601756109557130453
+    second: S_Wizard_Thunder_14
+  - first:
+      213: -1552689039273546388
+    second: S_Wizard_Thunder_15
+  - first:
+      213: 1572071458559044228
+    second: S_Wizard_Thunder_16
+  - first:
+      213: -3834351790076149955
+    second: S_Wizard_Thunder_17
+  - first:
+      213: -8893506688335622061
+    second: S_Wizard_Thunder_18
+  - first:
+      213: 2863646089435024930
+    second: S_Wizard_Thunder_19
+  - first:
+      213: -988420378886875715
+    second: S_Wizard_Thunder_20
+  - first:
+      213: -288526155649639341
+    second: S_Wizard_Thunder_21
+  - first:
+      213: 4260106417683070314
+    second: S_Wizard_Thunder_22
+  - first:
+      213: -6456949656942849560
+    second: S_Wizard_Thunder_23
+  - first:
+      213: 1538442099730018246
+    second: S_Wizard_Thunder_24
+  - first:
+      213: -8092309847228489648
+    second: S_Wizard_Thunder_25
+  - first:
+      213: -4620519008754570066
+    second: S_Wizard_Thunder_26
+  - first:
+      213: 2259614054804262613
+    second: S_Wizard_Thunder_27
+  - first:
+      213: -1752111935690702389
+    second: S_Wizard_Thunder_28
+  - first:
+      213: 8157101782379597463
+    second: S_Wizard_Thunder_29
+  - first:
+      213: 8810792042538111295
+    second: S_Wizard_Thunder_30
+  - first:
+      213: 3629125296934907079
+    second: S_Wizard_Thunder_31
+  - first:
+      213: 3859159408046602388
+    second: S_Wizard_Thunder_32
+  - first:
+      213: -5026959412460626781
+    second: S_Wizard_Thunder_33
+  - first:
+      213: 7611523429460393955
+    second: S_Wizard_Thunder_34
+  - first:
+      213: 3558413594467784761
+    second: S_Wizard_Thunder_35
+  - first:
+      213: -7700254851506926191
+    second: S_Wizard_Thunder_36
+  - first:
+      213: -3885732294659387368
+    second: S_Wizard_Thunder_37
+  - first:
+      213: 6380265407029835273
+    second: S_Wizard_Thunder_38
+  - first:
+      213: -3873586950130047637
+    second: S_Wizard_Thunder_39
+  - first:
+      213: -1776177859502156994
+    second: S_Wizard_Thunder_40
+  - first:
+      213: -7744106706061897578
+    second: S_Wizard_Thunder_41
+  - first:
+      213: 2033487830580423468
+    second: S_Wizard_Thunder_42
+  - first:
+      213: 3536000734590210697
+    second: S_Wizard_Thunder_43
+  - first:
+      213: -6713113661163763771
+    second: S_Wizard_Thunder_44
+  - first:
+      213: 1412862314753330563
+    second: S_Wizard_Thunder_45
+  - first:
+      213: -1077570913909733599
+    second: S_Wizard_Thunder_46
+  - first:
+      213: -4843770220267576857
+    second: S_Wizard_Thunder_47
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +233,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 241
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d2cef65681c720800000000000000
+      internalID: 2864718546183836097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 241
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42e70336b8267370800000000000000
+      internalID: 8319882124618883661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 241
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a156846d5a91c0800000000000000
+      internalID: -4496178591644408335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 241
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f57ad682b8a5be0800000000000000
+      internalID: -1487723721137889408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 241
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795ca84bff6792550800000000000000
+      internalID: 6136566807886742935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 213
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ffcf6542e41c2f0800000000000000
+      internalID: -954395728040624248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 213
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d325d3eb690e46ee0800000000000000
+      internalID: -1268642256970231235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 212
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d394b2d6fb6b4ad0800000000000000
+      internalID: -2716959242346785836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 211
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e133d55f1238bc0800000000000000
+      internalID: -3782141924346749412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 212
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185347edea76c020800000000000000
+      internalID: 2361710216808192019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5c816b1ef619ba0800000000000000
+      internalID: -6083958606387427848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d6b924878314420800000000000000
+      internalID: 2612431348016311681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 183
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363c2fbd754582390800000000000000
+      internalID: -7842926014736710813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 182
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe04520ae034d8e0800000000000000
+      internalID: -1669655780228067592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 145
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4e22decc8bcdf30800000000000000
+      internalID: 4601756109557130453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 145
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d25779b8db37ae0800000000000000
+      internalID: -1552689039273546388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 145
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a21f099ae11d510800000000000000
+      internalID: 1572071458559044228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 145
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb0a8bc55a9cac0800000000000000
+      internalID: -3834351790076149955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 145
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350d13a69cae39480800000000000000
+      internalID: -8893506688335622061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e063332f6bdb720800000000000000
+      internalID: 2863646089435024930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 145
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5d0bbf6ec6842f0800000000000000
+      internalID: -988420378886875715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 145
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c18187df2fefbf0800000000000000
+      internalID: -288526155649639341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 113
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d7c534730fe1b30800000000000000
+      internalID: 4260106417683070314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 81
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e157555f7e4466a0800000000000000
+      internalID: -6456949656942849560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 81
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe9ed40f4a95510800000000000000
+      internalID: 1538442099730018246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 82
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050ec8f911752bf80800000000000000
+      internalID: -8092309847228489648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_26
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 98
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac6e3d217e90efb0800000000000000
+      internalID: -4620519008754570066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 83
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de861ac203cb5f10800000000000000
+      internalID: 2259614054804262613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 85
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc10f624a7f3fa7e0800000000000000
+      internalID: -1752111935690702389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e01775ad8d33170800000000000000
+      internalID: 8157101782379597463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 40
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31925d5ea8364a70800000000000000
+      internalID: 8810792042538111295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc6039ca3e3d5230800000000000000
+      internalID: 3629125296934907079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 40
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4987930f80d7e8530800000000000000
+      internalID: 3859159408046602388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_33
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 40
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac5aff5c07ac3ab0800000000000000
+      internalID: -5026959412460626781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_34
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 40
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efbc844b3091a960800000000000000
+      internalID: 7611523429460393955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_35
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 40
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9385c269f46026130800000000000000
+      internalID: 3558413594467784761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 40
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d83ff9203332590800000000000000
+      internalID: -7700254851506926191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_37
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 40
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8105094c01b131ac0800000000000000
+      internalID: -3885732294659387368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906f9b665914b8850800000000000000
+      internalID: 6380265407029835273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 5
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e8e621314e3ac0800000000000000
+      internalID: -3873586950130047637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d57ab5afb957e0800000000000000
+      internalID: -1776177859502156994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_41
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690d57a1bf7678490800000000000000
+      internalID: -7744106706061897578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_42
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b63d47866683c10800000000000000
+      internalID: 2033487830580423468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_43
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 5
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98215cefee5621130800000000000000
+      internalID: 3536000734590210697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 6
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7038951ba36d2a0800000000000000
+      internalID: -6713113661163763771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_45
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 5
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d88632ace7b9310800000000000000
+      internalID: 1412862314753330563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_46
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1270e1886f2bb01f0800000000000000
+      internalID: -1077570913909733599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Thunder_47
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 5
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1e557e5a877ccb0800000000000000
+      internalID: -4843770220267576857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

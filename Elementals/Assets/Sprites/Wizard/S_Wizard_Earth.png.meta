@@ -1,7 +1,148 @@
 fileFormatVersion: 2
 guid: 1faa4d652eb09be498304fa09ff278a7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 854464734785560126
+    second: S_Wizard_Earth_0
+  - first:
+      213: -1106282264449116752
+    second: S_Wizard_Earth_1
+  - first:
+      213: -4312007620157605556
+    second: S_Wizard_Earth_2
+  - first:
+      213: -2691716465544172258
+    second: S_Wizard_Earth_3
+  - first:
+      213: 6183253376966325407
+    second: S_Wizard_Earth_4
+  - first:
+      213: -35241799120156023
+    second: S_Wizard_Earth_5
+  - first:
+      213: -4057563965790327239
+    second: S_Wizard_Earth_6
+  - first:
+      213: 5946277136865014588
+    second: S_Wizard_Earth_7
+  - first:
+      213: -3101119558314454319
+    second: S_Wizard_Earth_8
+  - first:
+      213: 1204919223131109419
+    second: S_Wizard_Earth_9
+  - first:
+      213: 3896174053532504446
+    second: S_Wizard_Earth_10
+  - first:
+      213: 1106954421897290672
+    second: S_Wizard_Earth_11
+  - first:
+      213: 9040206720611665420
+    second: S_Wizard_Earth_12
+  - first:
+      213: 2610371702840096583
+    second: S_Wizard_Earth_13
+  - first:
+      213: -2541540145292565241
+    second: S_Wizard_Earth_14
+  - first:
+      213: 3451812830656177845
+    second: S_Wizard_Earth_15
+  - first:
+      213: 9061625586755935457
+    second: S_Wizard_Earth_16
+  - first:
+      213: 6955061059814296397
+    second: S_Wizard_Earth_17
+  - first:
+      213: 4023105275820411950
+    second: S_Wizard_Earth_18
+  - first:
+      213: -9066245627767031729
+    second: S_Wizard_Earth_19
+  - first:
+      213: -3184502235730850331
+    second: S_Wizard_Earth_20
+  - first:
+      213: -5803115829948608569
+    second: S_Wizard_Earth_21
+  - first:
+      213: 3591489073755152046
+    second: S_Wizard_Earth_22
+  - first:
+      213: 1283965372986190309
+    second: S_Wizard_Earth_23
+  - first:
+      213: 689543510502024630
+    second: S_Wizard_Earth_24
+  - first:
+      213: -1758601770011686972
+    second: S_Wizard_Earth_25
+  - first:
+      213: -7209660949049639270
+    second: S_Wizard_Earth_26
+  - first:
+      213: -695305903208315768
+    second: S_Wizard_Earth_27
+  - first:
+      213: -6038136893106781469
+    second: S_Wizard_Earth_28
+  - first:
+      213: -7344578639828874381
+    second: S_Wizard_Earth_29
+  - first:
+      213: -3806685931027828313
+    second: S_Wizard_Earth_30
+  - first:
+      213: 4357678023012410583
+    second: S_Wizard_Earth_31
+  - first:
+      213: 6714743096592425315
+    second: S_Wizard_Earth_32
+  - first:
+      213: -4343804497577757705
+    second: S_Wizard_Earth_33
+  - first:
+      213: 6365584065713739183
+    second: S_Wizard_Earth_34
+  - first:
+      213: -1491728939817220994
+    second: S_Wizard_Earth_35
+  - first:
+      213: -2549207879670571441
+    second: S_Wizard_Earth_36
+  - first:
+      213: 1239020112035851583
+    second: S_Wizard_Earth_37
+  - first:
+      213: -8196974033185907877
+    second: S_Wizard_Earth_38
+  - first:
+      213: 9035188226789277485
+    second: S_Wizard_Earth_39
+  - first:
+      213: 8376276161642366967
+    second: S_Wizard_Earth_40
+  - first:
+      213: -2871832233466403791
+    second: S_Wizard_Earth_41
+  - first:
+      213: -7459864809788337308
+    second: S_Wizard_Earth_42
+  - first:
+      213: 5966071594830489459
+    second: S_Wizard_Earth_43
+  - first:
+      213: 6999147051703019562
+    second: S_Wizard_Earth_44
+  - first:
+      213: 5106506808738036955
+    second: S_Wizard_Earth_45
+  - first:
+      213: -6755763077575932825
+    second: S_Wizard_Earth_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +230,994 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: S_Wizard_Earth_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 241
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3eddfd262babdb00800000000000000
+      internalID: 854464734785560126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 241
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5123e4422b5a0f0800000000000000
+      internalID: -1106282264449116752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 241
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c497abb5aeba824c0800000000000000
+      internalID: -4312007620157605556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 241
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d6b2bc22a15aad0800000000000000
+      internalID: -2691716465544172258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 241
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ff42af245fc550800000000000000
+      internalID: 6183253376966325407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 214
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a823a35cbc28ff0800000000000000
+      internalID: -35241799120156023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 214
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e64ad2213a0b7c0800000000000000
+      internalID: -4057563965790327239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 213
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33bdde1d8b658250800000000000000
+      internalID: 5946277136865014588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 213
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d296a0313c96f4d0800000000000000
+      internalID: -3101119558314454319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 213
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f4c546abb8b010800000000000000
+      internalID: 1204919223131109419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7116eba8adf11630800000000000000
+      internalID: 3896174053532504446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b36cbb8e21bc5f00800000000000000
+      internalID: 1106954421897290672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 183
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0648268d14457d70800000000000000
+      internalID: 9040206720611665420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 182
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747f38fbb37e93420800000000000000
+      internalID: 2610371702840096583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 145
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705217914b2aabcd0800000000000000
+      internalID: -2541540145292565241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 145
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6a5622b7d47ef20800000000000000
+      internalID: 3451812830656177845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 145
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9d2ae57c51cd70800000000000000
+      internalID: 9061625586755935457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 145
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b02653f27558060800000000000000
+      internalID: 6955061059814296397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 145
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c864bdee0f4d730800000000000000
+      internalID: 4023105275820411950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48f186f2a93e2280800000000000000
+      internalID: -9066245627767031729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 145
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed43dcb6106ec3d0800000000000000
+      internalID: -3184502235730850331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 145
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf877d16e0377fa0800000000000000
+      internalID: -5803115829948608569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 113
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae5fd7b84887d130800000000000000
+      internalID: 3591489073755152046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 81
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e96eb834bf81d110800000000000000
+      internalID: 1283965372986190309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 82
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b526a06b20c19900800000000000000
+      internalID: 689543510502024630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 81
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c78415f1013897e0800000000000000
+      internalID: -1758601770011686972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 83
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ef3e4b09322fb90800000000000000
+      internalID: -7209660949049639270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 85
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884490507f6c956f0800000000000000
+      internalID: -695305903208315768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 87
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e28035bc7a343ca0800000000000000
+      internalID: -6038136893106781469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 40
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b041ce3a0d21a90800000000000000
+      internalID: -7344578639828874381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1fb9d705feb2bc0800000000000000
+      internalID: -3806685931027828313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 40
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46e2fe215997c30800000000000000
+      internalID: 4357678023012410583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 40
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361e566254f8f2d50800000000000000
+      internalID: 6714743096592425315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 40
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3322ce2d4b7b3c0800000000000000
+      internalID: -4343804497577757705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa511c04bf8175850800000000000000
+      internalID: 6365584065713739183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 40
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e744609ce605c4be0800000000000000
+      internalID: -1491728939817220994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 40
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4edb9190f46f9cd0800000000000000
+      internalID: -2549207879670571441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 40
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d267f2a32e13110800000000000000
+      internalID: 1239020112035851583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b5ad6db8f7e3e80800000000000000
+      internalID: -8196974033185907877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ff09062df636d70800000000000000
+      internalID: 9035188226789277485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 5
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f704432ac28e3470800000000000000
+      internalID: 8376276161642366967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_41
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 5
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134e7bd9cc33528d0800000000000000
+      internalID: -2871832233466403791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4631124ca7c397890800000000000000
+      internalID: -7459864809788337308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 5
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3776b62818ebbc250800000000000000
+      internalID: 5966071594830489459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 6
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a282b731927f12160800000000000000
+      internalID: 6999147051703019562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 5
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb1f913e4fdd640800000000000000
+      internalID: 5106506808738036955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Earth_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76403664645be32a0800000000000000
+      internalID: -6755763077575932825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
