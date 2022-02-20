@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: b6fdd7c71fd473c43b04ef984fa97b1f
+guid: 45b341a1c92913542a93eee30112f873
+labels:
+- Earth
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
