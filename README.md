@@ -57,6 +57,7 @@ Complete the previous setups before this one
 ====
 
 Collection Types
+
 | Type       | Java               | C#                       |
 |------------|--------------------|--------------------------|
 | Array      | `int[]`            | `int[]`                  |
@@ -96,12 +97,13 @@ By default Unity serialized all public fields and does not serialize private fie
 There are a few things that are not universally agreed on with c#.  One is whether or not to explicitly add the `private` keyword to private methods and fields since it is optional.
 
 For example these c# statements are equivalent
-|Member Type| implicit                            | explicit                                    |
-|-----------|-------------------------------------|---------------------------------------------|
-|field| `float _currentHealth;`             | `private float _currentHealth;`             |
-|serialized field| `[SerializeField] float maxHealth;` | `[SerializeField] private float maxHealth;` |
-|method| `void Awake()` | `private void Awake()` |
-|property| `float CurrentHealth { get; set; }`    | `private float CurrentHealth { get; set; }`    |
+
+| Member Type | implicit | explicit    |
+|-----------|-----------|----------------|
+| field | `float _currentHealth;`             | `private float _currentHealth;`             |
+| serialized field | `[SerializeField] float maxHealth;` | `[SerializeField] private float maxHealth;` |
+| method | `void Awake()` | `private void Awake()` |
+| property | `float CurrentHealth { get; set; }`    | `private float CurrentHealth { get; set; }`    |
 
 
 Project Organization Structure

@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "835d1da79f8287bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "270d96df3f02f6e0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Data Oriented Design.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b63fc648ee0ae3bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e5fc81759e0a34b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "785e2572ae477c09",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f775c4dca748a124",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8580c3a435b95a60",
+    "type": "split",
+    "children": [
+      {
+        "id": "643575d00a73f230",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa4688c19cbc7438",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data Oriented Design.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "270d96df3f02f6e0",
+  "lastOpenFiles": [
+    "Data Oriented Design.md",
+    "README.md"
+  ]
+}
