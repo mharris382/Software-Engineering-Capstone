@@ -36,7 +36,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Background
   m_SortingLayers:
   - name: Background
     uniqueID: 613496703
