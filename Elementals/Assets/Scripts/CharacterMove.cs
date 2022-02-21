@@ -21,7 +21,6 @@ public class MovementState
     }
 }
 
-
 [RequireComponent(typeof(CharacterState))]
 public class CharacterMove : MonoBehaviour
 {
@@ -30,9 +29,6 @@ public class CharacterMove : MonoBehaviour
     public float moveSpeed = 10f;
     public float jumpVert = 10f;
     public LayerMask groundMask;
-
-    
-    
 
     void Start()
     {
@@ -56,7 +52,7 @@ public class CharacterMove : MonoBehaviour
     // Based on Physics Updates
     private void FixedUpdate()
     {
-        _rb.velocity = _state.Movement.Velocity;
+        _rb.velocity = new Vector2(_state.Movement.HorizontalMovement, _rb.velocity.y);
     }
 
 }
