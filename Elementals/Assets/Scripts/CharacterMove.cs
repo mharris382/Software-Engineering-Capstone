@@ -28,6 +28,7 @@ public class CharacterMove : MonoBehaviour
     private CharacterState _state;
     public float moveSpeed = 10f;
     public float jumpVert = 10f;
+    public float castDistance = 0.5f;
     public LayerMask groundMask;
 
     void Start()
@@ -40,7 +41,9 @@ public class CharacterMove : MonoBehaviour
     void Update()
     {
         _state.Movement.HorizontalMovement = _state.Input.MoveInput.x * moveSpeed;
-        var hit = Physics2D.Raycast(transform.position, Vector2.down, distance: 0.5f, groundMask);
+        var distance =castDistance;
+        var hit = Physics2D.Raycast(transform.position, Vector2.down, distance: distance, groundMask);
+        Debug.DrawRay(transform.position, Vector3.down * distance, Color.green);
         _state.Movement.IsGrounded = hit;
 
         if (_state.Movement.IsGrounded && _state.Input.Jump) 
@@ -55,4 +58,13 @@ public class CharacterMove : MonoBehaviour
         _rb.velocity = new Vector2(_state.Movement.HorizontalMovement, _rb.velocity.y);
     }
 
+
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        if (Application.isPlaying) return;
+        Gizmos.color = Color.green;
+        Gizmos.DrawRay(transform.position, Vector3.down * castDistance); 
+    }
+#endif
 }
