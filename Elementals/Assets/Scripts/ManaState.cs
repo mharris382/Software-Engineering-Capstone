@@ -1,4 +1,6 @@
-﻿public class ManaState : StatusValue
+﻿using System;
+
+public class ManaState : StatusValue
 {
     
 }

@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 164795736}
   - component: {fileID: 164795735}
   - component: {fileID: 164795741}
+  - component: {fileID: 164795742}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -344,6 +345,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxValue: 10
   Generation: 0
+--- !u!114 &164795742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164795734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0726b87e4c64c1ca5399ac6b4fab021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxValue: 10
+  Generation: 0
+--- !u!1 &165420691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5412027540785155074, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
+  m_PrefabInstance: {fileID: 5412027540753583724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &165420693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165420691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92313ad60d424ad588f95970cae7cc83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiProgressBar: {fileID: 677148852}
+  uiManaProgressBar: {fileID: 0}
+  target: {fileID: 164795741}
+  manaTarget: {fileID: 0}
 --- !u!1 &469749691
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +529,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &677148852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5412027540509305168, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
+  m_PrefabInstance: {fileID: 5412027540753583724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680647653
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,8 +589,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92313ad60d424ad588f95970cae7cc83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiProgressBar: {fileID: 1598522087}
-  target: {fileID: 164795741}
+  uiProgressBar: {fileID: 0}
+  uiManaProgressBar: {fileID: 1598522087}
+  target: {fileID: 0}
+  manaTarget: {fileID: 164795742}
 --- !u!1 &1085498795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,6 +1611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5412027539889006826, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
+      propertyPath: m_Name
+      value: ManaBar
+      objectReference: {fileID: 0}
     - target: {fileID: 5412027539889006827, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1669,6 +1722,10 @@ PrefabInstance:
     - target: {fileID: 5412027540100010928, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412027540785155074, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
+      propertyPath: m_Name
+      value: HealthBar
       objectReference: {fileID: 0}
     - target: {fileID: 5412027540785155075, guid: 14838adc603ca8849b6b9d6a31f6c870, type: 3}
       propertyPath: m_AnchorMax.y
