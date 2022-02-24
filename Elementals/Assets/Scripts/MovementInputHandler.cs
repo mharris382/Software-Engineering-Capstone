@@ -12,7 +12,7 @@ public class MovementInputHandler : MonoBehaviour
 
     private void Update()
     {
-        _state.Input.Jump = Input.GetButton("Jump");
+        _state.Input.Jump = Input.GetButtonDown("Jump");
         var x = Input.GetAxis("Horizontal");
         var y = Input.GetAxis("Vertical");
 
