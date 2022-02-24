@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wizard_Move_Grd_Water
+  m_Name: Wizard_Water_Move_Grounded
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
