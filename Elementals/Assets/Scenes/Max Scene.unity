@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 164795737}
   - component: {fileID: 164795736}
   - component: {fileID: 164795735}
+  - component: {fileID: 164795741}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -240,10 +241,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   jumpVert: 10
-  castDistance: 0.52
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!114 &164795736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,6 +328,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &164795741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164795734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540f7443b731824499a2ff51bd2daac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facingReference: {fileID: 989682844}
+  mask:
+    serializedVersion: 2
+    m_Bits: 8
+  checkPoints:
+  - offset: {x: 0, y: -0.4}
+    distance: 0.1
+  - offset: {x: -0.4, y: -0.4}
+    distance: 0.1
+  - offset: {x: 0.4, y: -0.4}
+    distance: 0.1
+  groundedDelay: 0.05
+  grounded: 0
 --- !u!1 &288802725
 GameObject:
   m_ObjectHideFlags: 0

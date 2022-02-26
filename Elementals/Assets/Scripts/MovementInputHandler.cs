@@ -17,5 +17,10 @@ public class MovementInputHandler : MonoBehaviour
         var y = Input.GetAxis("Vertical");
 
         _state.Input.MoveInput = new Vector2(x, y);
+
+        _state.Input.Casting = Input.GetButton("Fire1");
+        _state.Input.CastDown = Input.GetButtonDown("Fire1");
+        _state.Input.CastUp = Input.GetButtonUp("Fire1");
+        
     }
 }

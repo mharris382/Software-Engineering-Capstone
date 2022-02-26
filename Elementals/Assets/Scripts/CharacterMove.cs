@@ -3,36 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputState
-{
-    public Vector2 MoveInput { get; set; }
-    public bool Jump { get; set; }
-}
-
-public class MovementState
-{
-    public Vector2 Velocity { get; set; }
-    public bool IsGrounded { get; set; }
-    
-    public float HorizontalMovement
-    {
-        get => Velocity.x;
-        set => Velocity = new Vector2(value, Velocity.y);
-    }
-}
-
-[RequireComponent(typeof(CharacterState))]
+[RequireComponent(typeof(CharacterState), typeof(GroundCheck))]
 public class CharacterMove : MonoBehaviour
 {
     private Rigidbody2D _rb;
     private CharacterState _state;
     public float moveSpeed = 10f;
     public float jumpVert = 10f;
-    public float castDistance = 0.5f;
-    public LayerMask groundMask;
+
+    private GroundCheck _groundCheck;
 
     void Start()
     {
+        _groundCheck = GetComponent<GroundCheck>();
         _rb = GetComponent<Rigidbody2D>();
         _state = GetComponent<CharacterState>();
     }
@@ -41,11 +24,7 @@ public class CharacterMove : MonoBehaviour
     void Update()
     {
         _state.Movement.HorizontalMovement = _state.Input.MoveInput.x * moveSpeed;
-        var distance =castDistance;
-        var hit = Physics2D.Raycast(transform.position, Vector2.down, distance: distance, groundMask);
-        Debug.DrawRay(transform.position, Vector3.down * distance, Color.green);
-        _state.Movement.IsGrounded = hit;
-
+        _state.Movement.IsGrounded = _groundCheck.grounded;
         if (_state.Movement.IsGrounded && _state.Input.Jump) 
         {
             _rb.AddForce(Vector2.up * jumpVert, ForceMode2D.Impulse);
@@ -57,14 +36,4 @@ public class CharacterMove : MonoBehaviour
     {
         _rb.velocity = new Vector2(_state.Movement.HorizontalMovement, _rb.velocity.y);
     }
-
-
-#if UNITY_EDITOR
-    private void OnDrawGizmos()
-    {
-        if (Application.isPlaying) return;
-        Gizmos.color = Color.green;
-        Gizmos.DrawRay(transform.position, Vector3.down * castDistance); 
-    }
-#endif
 }
