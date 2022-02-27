@@ -31,12 +31,13 @@ public class ManaGatherer : MonoBehaviour
    }
 
 
-   private void Consume(Mana mana)
+
+   private void ConsumeMana(Mana mana)
    {
       //TODO: add mana to state
       Destroy(mana.gameObject);
    }
-   private void ForcePullMana(Mana mana)
+   private void ForcePullManaPickup(Mana mana)
    {
       var rb = mana.GetComponent<Rigidbody2D>();
       var dir = ((Vector2) transform.position - rb.position).normalized;
@@ -49,4 +50,5 @@ public class ManaGatherer : MonoBehaviour
       var dist = Vector2.Distance(mana.transform.position, transform.position);
       return dist < radius;
    }
+
 }
