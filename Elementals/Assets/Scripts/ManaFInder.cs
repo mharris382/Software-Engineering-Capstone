@@ -28,6 +28,7 @@ public class ManaFinder : MonoBehaviour, IManaFinder
         if (mana != null)
         {
             foundMana[mana.element].Add(mana);
+            Debug.Log("I found the mana!!!");
         }
     }
 
