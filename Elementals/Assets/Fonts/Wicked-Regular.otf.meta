@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 39579e6fcde3bba4a85a545f84d7ef74
+=======
+guid: 788908f9300f02a48b99084a86287e34
+>>>>>>> Stashed changes
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
