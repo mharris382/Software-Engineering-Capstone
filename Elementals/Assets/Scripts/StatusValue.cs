@@ -7,7 +7,12 @@ public class StatusValue : MonoBehaviour
     private float maxValue = 10;
     private float currentValue = 10;
     public float MaxValue => maxValue;
-    public float CurrentValue => currentValue;
+
+    public float CurrentValue
+    {
+        get => currentValue;
+        set => currentValue = Mathf.Clamp(value, 0, maxValue);
+    }
     
     [Range(-5, 5)]
     public float Generation;
@@ -21,4 +26,6 @@ public class StatusValue : MonoBehaviour
         currentValue += Generation * Time.deltaTime;
         currentValue = Mathf.Clamp(currentValue, 0, maxValue);
     }
+    
+    
 }

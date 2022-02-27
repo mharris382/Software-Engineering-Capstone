@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class SpellCaster : MonoBehaviour
@@ -6,27 +7,74 @@ public class SpellCaster : MonoBehaviour
     [Serializable]
     class SpellConfig
     {
-        [SerializeField] private float manaCost = 0.5f;
-        [SerializeField] private GameObject spellPrefab;
+        public float manaCost = 0.5f;
+        
+        public GameObject spellPrefab;
+        
+        [Range(0,60)]
+        public float autoDestroyTime = 5;
+        
+        public void Cast(SpellCaster caster)
+        {
+            
+            caster._mana.CurrentValue -= manaCost;
+            if (spellPrefab != null)
+            {
+                var instance = Instantiate(spellPrefab, caster.spellSpawnPoint.position, caster.spellSpawnPoint.rotation);
+                
+                //interface for extending the behavior of the spell
+                ISpell[] spells = instance.GetComponents<ISpell>();
+                if (spells != null && spells.Length > 0)
+                    foreach (var spell in spells)
+                        spell.OnCasted(caster);
+
+                //if auto destroy time is set being the coroutine that destroys it after the given time
+                if (autoDestroyTime > 0) 
+                    caster.StartCoroutine(caster.DestroyAfterSeconds(instance, autoDestroyTime));
+            }
+        }
+        
     }
+    
+    
     private CasterState _state;
     private ManaState _mana;
+
+    [SerializeField] private Transform spellSpawnPoint;
     [SerializeField] private SpellConfig basicSpell;
     [SerializeField] private SpellConfig strongSpell;
 
+    
+    private bool HasMana => _mana.CurrentValue > 0.1f;
+    
     private void Awake()
     {
         _state = GetComponent<CasterState>();
-        _mana = GetComponentInParent<ManaState>();
+        _mana = GetComponentInChildren<ManaState>();
+        if (spellSpawnPoint == null) spellSpawnPoint = transform;
     }
 
     public void BasicCast()
     {
-        
+        basicSpell.Cast(this);
     }
 
     public void StrongCast()
     {
-        throw new NotImplementedException();
+        strongSpell.Cast(this);
     }
+
+    IEnumerator DestroyAfterSeconds(GameObject gameObject, float time)
+    {
+        yield return new WaitForSeconds(time);
+        if (gameObject != null)
+        {
+            Destroy(gameObject);
+        }
+    }
+}
+
+public interface ISpell
+{
+    void OnCasted(SpellCaster caster);
 }
