@@ -7,11 +7,8 @@
         "id": "270d96df3f02f6e0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Data Oriented Design.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Oriented Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +84,7 @@
   },
   "active": "270d96df3f02f6e0",
   "lastOpenFiles": [
+    "Projectile Mechanics.md",
     "Data Oriented Design.md",
     "README.md"
   ]
