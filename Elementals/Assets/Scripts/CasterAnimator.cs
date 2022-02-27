@@ -15,9 +15,13 @@ public class CasterAnimator : MonoBehaviour
     {
         var currentState = _anim.GetCurrentAnimatorStateInfo(0);
         _state.AllowCast = !currentState.IsTag("Cast");
-        if (_state.Casting && _state.AllowCast)
+        if ( _state.AllowCast)
         {
-            _anim.SetTrigger("cast");
+            if(_state.Casting)
+                _anim.SetTrigger("cast");
+            else if(_state.CastingStrong)
+                _anim.Play("HCast");
         }
+        
     }
 }
