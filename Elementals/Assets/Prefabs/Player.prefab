@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 1344690875478681546}
   - component: {fileID: 1344690875478681544}
   - component: {fileID: 8766888715803771124}
+  - component: {fileID: 5838284391966866114}
   m_Layer: 0
   m_Name: animator
   m_TagString: Untagged
@@ -219,6 +220,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5424fb3eb439bb4dff38fb9412a12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5838284391966866114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344690875478681548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefaa69d6e284eb7b0e71035cfbff8c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1344690876302126593
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +345,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1344690876302126606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,11 +420,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdc566e19aec43dea8a4f5da7d6d7ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellSpawnPoint: {fileID: 0}
+  spellSpawnPoint: {fileID: 4037820058528786291}
   basicSpell:
     manaCost: 0.5
     spellPrefab: {fileID: 6919023403400811334, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
-    autoDestroyTime: 5
+    autoDestroyTime: 0.5
   strongSpell:
     manaCost: 2
     spellPrefab: {fileID: 6919023403400811334, guid: 24f23c60f8987e34da24d9be86b37efc, type: 3}
@@ -440,7 +453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090044610573684206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.174, y: 0.943, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1344690875478681547}

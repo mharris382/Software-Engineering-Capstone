@@ -13,10 +13,11 @@ public class SpellCaster : MonoBehaviour
         
         [Range(0,60)]
         public float autoDestroyTime = 5;
+
+        [SerializeField] private float minSpawnSpeed = 10;
         
         public void Cast(SpellCaster caster)
         {
-            
             caster._mana.CurrentValue -= manaCost;
             if (spellPrefab != null)
             {
@@ -27,7 +28,19 @@ public class SpellCaster : MonoBehaviour
                 if (spells != null && spells.Length > 0)
                     foreach (var spell in spells)
                         spell.OnCasted(caster);
-
+                
+                //initialize spawn speed
+                if( instance.TryGetComponent<Rigidbody2D>(out var rb))
+                {
+                    caster.gameObject.TryGetComponent<Rigidbody2D>(out var casterRb);
+                    rb.velocity = casterRb != null ? casterRb.velocity : Vector2.zero;
+                    
+                    if (rb.velocity.sqrMagnitude < (minSpawnSpeed * minSpawnSpeed))
+                    {
+                        rb.velocity = caster.spellSpawnPoint.right * minSpawnSpeed;
+                    }
+                }
+                
                 //if auto destroy time is set being the coroutine that destroys it after the given time
                 if (autoDestroyTime > 0) 
                     caster.StartCoroutine(caster.DestroyAfterSeconds(instance, autoDestroyTime));

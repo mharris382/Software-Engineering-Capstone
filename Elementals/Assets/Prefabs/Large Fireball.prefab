@@ -81,6 +81,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fireball VFX
       objectReference: {fileID: 0}
+    - target: {fileID: 408897782122821814, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408897782122821814, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317613611035639173, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317613611035639173, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317613611035639173, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317613611035639173, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startSpeed.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317613611035639173, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.gravityModifier.minScalar
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317613611035639173, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.gravityModifier.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3029941940348658125, guid: 4292325019375384b99bf06527f89269, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -124,6 +156,34 @@ PrefabInstance:
     - target: {fileID: 3029941940348658125, guid: 4292325019375384b99bf06527f89269, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 152.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.startSpeed.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.gravityModifier.minScalar
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3828723458290279176, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: InitialModule.gravityModifier.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4292325019375384b99bf06527f89269, type: 3}

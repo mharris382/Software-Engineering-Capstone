@@ -30,11 +30,5 @@ public class CharacterAnimator : MonoBehaviour
             
             transform.rotation = Quaternion.Euler(0, yRotation , 0);
         }
-
-        var currentState = _anim.GetCurrentAnimatorStateInfo(0);
-        if (_state.Input.CastDown && !currentState.IsTag("Cast"))
-        {
-            _anim.SetTrigger("cast");
-        }
     }
 }
