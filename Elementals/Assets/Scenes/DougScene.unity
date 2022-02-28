@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   consumeRadius: 1
   forceStrength: 5
-  element: {fileID: 0}
+  element: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
 --- !u!1 &44071439
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 1
+  updateColor: 1
 --- !u!1 &112656729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3294787079402567323, guid: 5b8ccc0b205c83a4b899f99c434c185b, type: 3}
@@ -452,6 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
+  updateColor: 1
 --- !u!50 &142856250
 Rigidbody2D:
   serializedVersion: 4
@@ -606,6 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
+  updateColor: 1
 --- !u!50 &203111775
 Rigidbody2D:
   serializedVersion: 4
@@ -771,6 +774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
+  updateColor: 1
 --- !u!50 &304000527
 Rigidbody2D:
   serializedVersion: 4
@@ -1147,6 +1151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
+  updateColor: 1
 --- !u!50 &642871252
 Rigidbody2D:
   serializedVersion: 4
@@ -1344,6 +1349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
+  updateColor: 1
 --- !u!50 &792056722
 Rigidbody2D:
   serializedVersion: 4
@@ -1479,6 +1485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 1
+  updateColor: 1
 --- !u!50 &848724615
 Rigidbody2D:
   serializedVersion: 4
@@ -1625,6 +1632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 1
+  updateColor: 1
 --- !u!50 &981465924
 Rigidbody2D:
   serializedVersion: 4
@@ -2070,6 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 1
+  updateColor: 1
 --- !u!50 &1442557015
 Rigidbody2D:
   serializedVersion: 4
@@ -2823,6 +2832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 1
+  updateColor: 1
 --- !u!50 &1915045940
 Rigidbody2D:
   serializedVersion: 4
