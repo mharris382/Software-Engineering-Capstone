@@ -17,7 +17,10 @@ public class ManaGatherer : MonoBehaviour
       Finder = GetComponent<IManaFinder>();
       _mana = GetComponentInChildren<ManaState>();  
       _state = GetComponent<CasterState>();
+   }
 
+   private void Update()
+   {
       if (_state.Gathering)
       {
          var nearbyMana = Finder.GetManaNearby(element.Element);
@@ -41,8 +44,6 @@ public class ManaGatherer : MonoBehaviour
          }
       }
    }
-
-
 
    private void ConsumeMana(Mana mana)
    {
