@@ -140,7 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b0b4d20e71edc442b106bc2f46c7452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  container: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
+  consumeRadius: 1
+  forceStrength: 5
+  element: {fileID: 0}
 --- !u!1 &44071439
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc9352f8245934aa9e4d3502eda683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  element: 0
+  element: 1
 --- !u!1 &112656729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3294787079402567323, guid: 5b8ccc0b205c83a4b899f99c434c185b, type: 3}

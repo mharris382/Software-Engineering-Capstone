@@ -21,11 +21,23 @@ public class ManaGatherer : MonoBehaviour
       if (_state.Gathering)
       {
          var nearbyMana = Finder.GetManaNearby(element.Element);
+         var closeRadius = gameObject.AddComponent<ManaGatherer>();
          foreach (var mana in nearbyMana)
          {
             //TODO: check if we are close enough to pick it up
+            if (IsInsideRadius(mana, closeRadius.consumeRadius))
+            {
+               Debug.Log("..........Yep we can get it.....");
+               ConsumeMana(mana);
+            }
+            else  
+            {
+               //TODO: otherwise force pull it
+               ForcePullManaPickup(mana);
+               ConsumeMana(mana);
+            }
             
-            //TODO: otherwise force pull it
+            
          }
       }
    }
@@ -35,6 +47,7 @@ public class ManaGatherer : MonoBehaviour
    private void ConsumeMana(Mana mana)
    {
       //TODO: add mana to state
+      _mana.CurrentValue += 1;
       Destroy(mana.gameObject);
    }
    private void ForcePullManaPickup(Mana mana)

@@ -14,7 +14,6 @@ public class ManaFinder : MonoBehaviour, IManaFinder
     public void Awake()
     {
         foundMana = new Dictionary<Element, List<Mana>>();
-
         foundMana.Add(Element.Air, new List<Mana>());
         foundMana.Add(Element.Earth, new List<Mana>());
         foundMana.Add(Element.Fire, new List<Mana>());
