@@ -17,31 +17,39 @@ public class ManaGatherer : MonoBehaviour
       Finder = GetComponent<IManaFinder>();
       _mana = GetComponentInChildren<ManaState>();  
       _state = GetComponent<CasterState>();
+   }
 
+   private void Update()
+   {
       if (_state.Gathering)
       {
          var nearbyMana = Finder.GetManaNearby(element.Element);
-         var closeRadius = gameObject.AddComponent<ManaGatherer>();
+         var closeRadius = this.consumeRadius;
          foreach (var mana in nearbyMana)
          {
             //TODO: check if we are close enough to pick it up
-            if (IsInsideRadius(mana, closeRadius.consumeRadius))
+            if (IsInsideRadius(mana, closeRadius))
             {
                Debug.Log("..........Yep we can get it.....");
-               ConsumeMana(mana);
+               if (_mana.CurrentValue < _mana.MaxValue)
+               {
+                  ConsumeMana(mana);
+               }
+               
             }
             else  
             {
                //TODO: otherwise force pull it
                ForcePullManaPickup(mana);
-               ConsumeMana(mana);
+               if (_mana.CurrentValue < _mana.MaxValue)
+               {
+                  ConsumeMana(mana);
+               }
             }
-            
-            
          }
       }
    }
-
+   
 
 
    private void ConsumeMana(Mana mana)
