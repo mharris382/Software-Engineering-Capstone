@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ManaGatherer : MonoBehaviour
@@ -23,11 +24,14 @@ public class ManaGatherer : MonoBehaviour
    {
       if (_state.Gathering)
       {
-         var nearbyMana = Finder.GetManaNearby(element.Element);
+         // var nearbyMana = Finder.GetManaNearby(element.Element);
+         var nearbyMana = Finder.GetManaNearby(element.Element).ToList();
          var closeRadius = this.consumeRadius;
-         foreach (var mana in nearbyMana)
+
+         for (int i = 0; i < nearbyMana.Count; i++)
          {
-            //TODO: check if we are close enough to pick it up
+            var mana = nearbyMana[i];
+            
             if (IsInsideRadius(mana, closeRadius))
             {
                Debug.Log("..........Yep we can get it.....");
@@ -41,10 +45,6 @@ public class ManaGatherer : MonoBehaviour
             {
                //TODO: otherwise force pull it
                ForcePullManaPickup(mana);
-               if (_mana.CurrentValue < _mana.MaxValue)
-               {
-                  ConsumeMana(mana);
-               }
             }
          }
       }
