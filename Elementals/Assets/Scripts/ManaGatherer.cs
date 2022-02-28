@@ -49,12 +49,8 @@ public class ManaGatherer : MonoBehaviour
          }
       }
    }
-<<<<<<< HEAD
    
-
-=======
->>>>>>> main
-
+   
    private void ConsumeMana(Mana mana)
    {
       //TODO: add mana to state
