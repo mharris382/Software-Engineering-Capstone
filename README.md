@@ -1,3 +1,9 @@
+Project Management
+------
+[Codecks](https://elementals.codecks.io/decks)
+[Discord](https://discord.gg/TrZ2W2FU)
+
+
 Software Engineering Capstone
 =====
 
