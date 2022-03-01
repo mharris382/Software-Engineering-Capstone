@@ -11,8 +11,8 @@ public class CasterInputHandler : MonoBehaviour
 
     private void Update()
     {
-        _state.Casting       = _state.AllowCast && Input.GetButtonDown("Fire1");
-        _state.CastingStrong = _state.AllowCast && Input.GetButtonDown("Fire2");
-        _state.Gathering     = _state.AllowCast && Input.GetButton("Fire3");
+        _state.input.CastBasic  =  UnityEngine.Input.GetButtonDown("Fire1");
+        _state.input.CastStrong =  UnityEngine.Input.GetButtonDown("Fire2");
+        _state.input.Gathering     =  UnityEngine.Input.GetButton("Fire3");
     }
 }

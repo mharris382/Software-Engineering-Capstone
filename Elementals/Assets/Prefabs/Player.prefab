@@ -9861,6 +9861,8 @@ GameObject:
   - component: {fileID: 1677703090}
   - component: {fileID: 1677703089}
   - component: {fileID: 32902412}
+  - component: {fileID: 6957354114925333494}
+  - component: {fileID: 32902414}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9947,7 +9949,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 4.43
 --- !u!114 &1344690876302126602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10035,6 +10037,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff4004a6282843f3838f3cb13206af82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basicSpell:
+    onCastStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    onCastTriggered:
+      m_PersistentCalls:
+        m_Calls: []
+    onCastCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  strongSpell:
+    onCastStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    onCastTriggered:
+      m_PersistentCalls:
+        m_Calls: []
+    onCastCompleted:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &1677703089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10070,6 +10092,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce1a33fc5d28ed43929ee47b51a8801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6957354114925333494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344690876302126593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9748de4fe89b4affb2d5204bf2dae7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &32902414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344690876302126593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0b4d20e71edc442b106bc2f46c7452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumeRadius: 1
+  forceStrength: 5
+  element: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
 --- !u!1 &2090044610573684206
 GameObject:
   m_ObjectHideFlags: 0

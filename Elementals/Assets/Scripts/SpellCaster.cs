@@ -2,6 +2,13 @@
 using System.Collections;
 using UnityEngine;
 
+public abstract class Spell : ScriptableObject
+{
+    
+}
+
+
+
 public class SpellCaster : MonoBehaviour
 {
     [Serializable]
@@ -18,13 +25,20 @@ public class SpellCaster : MonoBehaviour
         
         public void Cast(SpellCaster caster)
         {
-            caster._mana.CurrentValue -= manaCost;
+            if (caster._mana.HasMana(manaCost) == false)
+            {
+                //TODO: failure message
+                return;
+            }
+            
+            caster._mana.RemoveMana(manaCost);
+            
             if (spellPrefab != null)
             {
                 var instance = Instantiate(spellPrefab, caster.spellSpawnPoint.position, caster.spellSpawnPoint.rotation);
                 
                 //interface for extending the behavior of the spell
-                ISpell[] spells = instance.GetComponents<ISpell>();
+                ISpellDecorator[] spells = instance.GetComponents<ISpellDecorator>();
                 if (spells != null && spells.Length > 0)
                     foreach (var spell in spells)
                         spell.OnCasted(caster);
@@ -43,7 +57,7 @@ public class SpellCaster : MonoBehaviour
                 
                 //if auto destroy time is set being the coroutine that destroys it after the given time
                 if (autoDestroyTime > 0) 
-                    caster.StartCoroutine(caster.DestroyAfterSeconds(instance, autoDestroyTime));
+                    caster.StartCoroutine(DestroyAfterSeconds(instance, autoDestroyTime));
             }
         }
         
@@ -51,8 +65,32 @@ public class SpellCaster : MonoBehaviour
     
     
     private CasterState _state;
-    private ManaState _mana;
+    private IManaSource _mana;
+    
+    internal IManaSource ManaState
+    {
+        get
+        {
+            if (_mana == null)
+            {
+                _mana = GetComponentInChildren<IManaSource>();
+            }
+            return _mana;
+        }
+    }
 
+    internal CasterState CasterState
+    {
+        get
+        {
+            if (_state == null)
+            {
+                _state = GetComponent<CasterState>();
+            }
+            return _state;
+        }
+    }
+    
     [SerializeField] private Transform spellSpawnPoint;
     [SerializeField] private SpellConfig basicSpell;
     [SerializeField] private SpellConfig strongSpell;
@@ -64,20 +102,36 @@ public class SpellCaster : MonoBehaviour
     {
         _state = GetComponent<CasterState>();
         _mana = GetComponentInChildren<ManaState>();
-        if (spellSpawnPoint == null) spellSpawnPoint = transform;
+        
+        if (spellSpawnPoint == null)
+            spellSpawnPoint = transform;
     }
 
-    public void BasicCast()
+    private void Start()
     {
-        basicSpell.Cast(this);
+        if (_state == null)
+        {
+            Debug.LogError("Caster State missing on Spell Caster", this);
+            return;
+        }
+        _state.BasicSpell.onCastTriggered.AddListener(BasicCast);
+        _state.StrongSpell.onCastTriggered.AddListener(StrongCast);
     }
 
-    public void StrongCast()
+    private void BasicCast()
     {
-        strongSpell.Cast(this);
+        if(HasMana)
+            basicSpell.Cast(this);
     }
 
-    IEnumerator DestroyAfterSeconds(GameObject gameObject, float time)
+    private void StrongCast()
+    {
+        if(HasMana)
+            strongSpell.Cast(this);
+    }
+
+
+    private static IEnumerator DestroyAfterSeconds(GameObject gameObject, float time)
     {
         yield return new WaitForSeconds(time);
         if (gameObject != null)
@@ -85,9 +139,17 @@ public class SpellCaster : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
+    
 }
 
+
 public interface ISpell
+{
+    void CastSpell(SpellCaster caster, Vector2 origin, Vector2 direction);
+}
+
+public interface ISpellDecorator
 {
     void OnCasted(SpellCaster caster);
 }

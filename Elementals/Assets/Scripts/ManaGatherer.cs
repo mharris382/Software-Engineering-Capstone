@@ -10,13 +10,14 @@ public class ManaGatherer : MonoBehaviour
    [SerializeField] private float forceStrength = 5;
    public IManaFinder Finder { get; set; }
    public ElementContainer element;
-   private ManaState _mana;
+   private IManaSource _manaSource;
    private CasterState _state;
-
+   
+   
    private void Awake()
    {
       Finder = GetComponent<IManaFinder>();
-      _mana = GetComponentInChildren<ManaState>();  
+      _manaSource = GetComponentInChildren<IManaSource>();
       _state = GetComponent<CasterState>();
    }
 
@@ -24,7 +25,6 @@ public class ManaGatherer : MonoBehaviour
    {
       if (_state.Gathering)
       {
-         // var nearbyMana = Finder.GetManaNearby(element.Element);
          var nearbyMana = Finder.GetManaNearby(element.Element).ToList();
          var closeRadius = this.consumeRadius;
 
@@ -34,8 +34,7 @@ public class ManaGatherer : MonoBehaviour
             
             if (IsInsideRadius(mana, closeRadius))
             {
-               Debug.Log("..........Yep we can get it.....");
-               if (_mana.CurrentValue < _mana.MaxValue)
+               if (_manaSource.CurrentValue < _manaSource.MaxValue)
                {
                   ConsumeMana(mana);
                }
@@ -43,7 +42,6 @@ public class ManaGatherer : MonoBehaviour
             }
             else  
             {
-               //TODO: otherwise force pull it
                ForcePullManaPickup(mana);
             }
          }
@@ -53,8 +51,8 @@ public class ManaGatherer : MonoBehaviour
    
    private void ConsumeMana(Mana mana)
    {
-      //TODO: add mana to state
-      _mana.CurrentValue += 1;
+      _manaSource.AddMana(1);
+      //TODO: add a consumption event to trigger pickup feedback FX
       Destroy(mana.gameObject);
    }
    private void ForcePullManaPickup(Mana mana)
