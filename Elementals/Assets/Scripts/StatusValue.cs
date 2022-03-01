@@ -10,16 +10,13 @@ public class StatusValue : MonoBehaviour
 
     public float CurrentValue
     {
-        get => currentValue;
+        get { return currentValue; }
         set => currentValue = Mathf.Clamp(value, 0, maxValue);
     }
-    
+
     [Range(-5, 5)]
     public float Generation;
-    private void Awake()
-    {
-        currentValue = maxValue;
-    }
+    private void Awake() => currentValue = maxValue;
 
     private void Update()
     {
