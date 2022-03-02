@@ -9852,7 +9852,6 @@ GameObject:
   - component: {fileID: 1344690876302126603}
   - component: {fileID: 1344690876302126605}
   - component: {fileID: 1344690876302126604}
-  - component: {fileID: 32902413}
   - component: {fileID: 1344690876302126602}
   - component: {fileID: 1344690876302126606}
   - component: {fileID: 1344690876302126607}
@@ -9860,7 +9859,6 @@ GameObject:
   - component: {fileID: 8179710839055700717}
   - component: {fileID: 1677703090}
   - component: {fileID: 1677703089}
-  - component: {fileID: 32902412}
   - component: {fileID: 6957354114925333494}
   - component: {fileID: 32902414}
   m_Layer: 0
@@ -9934,22 +9932,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8983171, y: 1.1824392}
   m_EdgeRadius: 0
---- !u!58 &32902413
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344690876302126593}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 4.43
 --- !u!114 &1344690876302126602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10080,18 +10062,6 @@ MonoBehaviour:
     spellPrefab: {fileID: 1337889554986911493, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     autoDestroyTime: 5
     minSpawnSpeed: 10
---- !u!114 &32902412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344690876302126593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fce1a33fc5d28ed43929ee47b51a8801, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6957354114925333494
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ public class ManaGatherer : MonoBehaviour
    
    private void Awake()
    {
-      Finder = GetComponent<IManaFinder>();
+      Finder = GetComponentInChildren<IManaFinder>();
       _manaSource = GetComponentInChildren<IManaSource>();
       _state = GetComponent<CasterState>();
    }
