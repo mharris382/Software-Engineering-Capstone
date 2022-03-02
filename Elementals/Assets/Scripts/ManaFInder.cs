@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Newtonsoft.Json;
 using UnityEngine;
 
 public interface IManaFinder
@@ -10,7 +12,8 @@ public interface IManaFinder
 public class ManaFinder : MonoBehaviour, IManaFinder
 {
     Dictionary<Element, List<Mana>> foundMana;
-
+    [Multiline(4)]
+   [SerializeField] private string json;
     public void Awake()
     {
         foundMana = new Dictionary<Element, List<Mana>>();
@@ -21,6 +24,21 @@ public class ManaFinder : MonoBehaviour, IManaFinder
         foundMana.Add(Element.Thunder, new List<Mana>());
     }
 
+    private void Start()
+    {
+        InvokeRepeating("WriteJson", 0.1f, 0.5f);
+    }
+
+    void WriteJson()
+    {
+        var dic = foundMana.Select(t => new KeyValuePair<Element, string>(t.Key, t.Value.Count.ToString()));
+        var d = new Dictionary<Element, string>();
+        foreach (var keyValuePair in dic)
+        {
+            d.Add(keyValuePair.Key, keyValuePair.Value);
+        }
+        json = JsonConvert.SerializeObject(d);
+    }
     private void OnTriggerEnter2D(Collider2D col)
     {
         var mana = col.GetComponent<Mana>();

@@ -3,17 +3,36 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ManaGatherer : MonoBehaviour
 {
+   public ElementContainer element;
    [SerializeField] private float consumeRadius = 1;
    [SerializeField] private float forceStrength = 5;
-   public IManaFinder Finder { get; set; }
-   public ElementContainer element;
+   public Events manaGatherEvents;
+   
+   
    private IManaSource _manaSource;
    private CasterState _state;
-   
-   
+
+   private bool _gathering;
+
+   public IManaFinder Finder { get; set; }
+   private bool Gathering
+   {
+      get => _gathering;
+      set
+      {
+         if (_gathering != value)
+         {
+            _gathering = value;
+            if(_gathering)manaGatherEvents.onStartGathering?.Invoke();
+            else manaGatherEvents.onStopGathering?.Invoke();
+         }
+      }
+   }
+
    private void Awake()
    {
       Finder = GetComponentInChildren<IManaFinder>();
@@ -23,6 +42,7 @@ public class ManaGatherer : MonoBehaviour
 
    private void Update()
    {
+      Gathering = _state.Gathering;//this invokes the start/stop gathering events whenever the gathering state changes 
       if (_state.Gathering)
       {
          var nearbyMana = Finder.GetManaNearby(element.Element).ToList();
@@ -52,7 +72,7 @@ public class ManaGatherer : MonoBehaviour
    private void ConsumeMana(Mana mana)
    {
       _manaSource.AddMana(1);
-      //TODO: add a consumption event to trigger pickup feedback FX
+      manaGatherEvents?.onManaGathered?.Invoke(element.Element);
       Destroy(mana.gameObject);
    }
    private void ForcePullManaPickup(Mana mana)
@@ -67,6 +87,15 @@ public class ManaGatherer : MonoBehaviour
    {
       var dist = Vector2.Distance(mana.transform.position, transform.position);
       return dist < radius;
+   }
+
+   
+   [Serializable]
+   public class Events
+   {
+      public UnityEvent onStartGathering;
+      public UnityEvent onStopGathering;
+      public UnityEvent<Element> onManaGathered;
    }
 
 }

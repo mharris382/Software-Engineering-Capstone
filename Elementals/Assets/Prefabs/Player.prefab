@@ -9699,6 +9699,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxValue: 10
   Generation: 0
+--- !u!1 &2070362330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2070362331}
+  - component: {fileID: 2070362333}
+  - component: {fileID: 2070362332}
+  m_Layer: 10
+  m_Name: ManaFinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2070362331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070362330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1344690876302126603}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2070362333
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070362330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 4.43
+--- !u!114 &2070362332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070362330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce1a33fc5d28ed43929ee47b51a8801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: 
 --- !u!1 &1344690875478681548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9882,6 +9943,7 @@ Transform:
   - {fileID: 1344690875478681547}
   - {fileID: 1878273615}
   - {fileID: 882495409}
+  - {fileID: 2070362331}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10086,9 +10148,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b0b4d20e71edc442b106bc2f46c7452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
   consumeRadius: 1
   forceStrength: 5
-  element: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
+  manaGatherEvents:
+    onStartGathering:
+      m_PersistentCalls:
+        m_Calls: []
+    onStopGathering:
+      m_PersistentCalls:
+        m_Calls: []
+    onManaGathered:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2090044610573684206
 GameObject:
   m_ObjectHideFlags: 0
