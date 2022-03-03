@@ -9,7 +9,7 @@ public interface IManaFinder
 {
     IEnumerable<Mana> GetManaNearby(Element e);
 }
-public class ManaFinder : MonoBehaviour, IManaFinder
+public class ManaFInder : MonoBehaviour, IManaFinder
 {
     Dictionary<Element, List<Mana>> foundMana;
     [Multiline(4)]
