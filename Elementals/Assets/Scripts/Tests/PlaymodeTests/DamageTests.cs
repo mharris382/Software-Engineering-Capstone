@@ -8,11 +8,23 @@ public class DamageTests
 {
     // A Test behaves as an ordinary method
     [Test]
-    public void DamageTestsSimplePasses()
+    public void HealthIsAliveWhenItHasHealth()
     {
         // Use the Assert class to test conditions
-        
+        var health = CreateTestComponent<HealthState>("");
 
+        health.CurrentValue = 1;
+        Assert.IsTrue(health.isAlive);
+    }
+    
+    [Test]
+    public void HealthIsDeadWhenItDoesntHaveHealth()
+    {
+        // Use the Assert class to test conditions
+        var health = CreateTestComponent<HealthState>("");
+
+        health.CurrentValue = 0;
+        Assert.IsFalse(health.isAlive);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
@@ -25,4 +37,8 @@ public class DamageTests
         yield return null;
     }
     
+    T CreateTestComponent<T>(string name) where T:Component{
+        var go = new GameObject(name);
+        return go.AddComponent<T>();
+    }
 }
