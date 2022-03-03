@@ -23,9 +23,9 @@ public class CharacterMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _state.Movement.HorizontalMovement = _state.Input.MoveInput.x * moveSpeed;
+        _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * moveSpeed;
         _state.Movement.IsGrounded = _groundCheck.grounded;
-        if (_state.Movement.IsGrounded && _state.Input.Jump) 
+        if (_state.Movement.IsGrounded && _state.MovementInput.Jump) 
         {
             _rb.AddForce(Vector2.up * jumpVert, ForceMode2D.Impulse);
         }

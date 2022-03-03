@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class CharacterState : MonoBehaviour
 {
-    public InputState Input { get; private set; }
+    public MovementInputState MovementInput { get; private set; }
     public MovementState Movement { get; private set; }
 
 
     private void Awake()
     {
-        Input = new InputState();
+        MovementInput = new MovementInputState();
         Movement = new MovementState();
     }
 }

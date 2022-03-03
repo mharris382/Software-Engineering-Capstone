@@ -18,7 +18,7 @@ namespace DefaultNamespace
 
         private void Update()
         {
-            var direction = _state.Input.MoveInput;  // target.position - transform.position;
+            var direction = _state.MovementInput.MoveInput;  // target.position - transform.position;
             var f = direction.normalized * force;
             _rb.AddForce(f);
             

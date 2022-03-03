@@ -20,27 +20,23 @@ namespace DefaultNamespace
 
         private void Update()
         { 
+            
+            
+            if (IsTargetOutsideRadius())
+            {
+                _state.MovementInput.MoveInput = _initialPosition - transform.position;
+            }
+            else
+            {
+                _state.MovementInput.MoveInput =target.position - transform.position;
+            }
+            
+            
+        }
 
-            /*if (Vector2.Distance(target.position, transform.position) > radius)
-            {
-                _state.Input.MoveInput =target.position - transform.position;
-            }
-            else
-            {
-                 //_state.Input.MoveInput = new Vector2(0,0);
-                 _state.Input.MoveInput = _initialPosition - transform.position;
-            }*/
-            
-            if (Vector2.Distance(target.position, transform.position) > (radius *2))
-            {
-                _state.Input.MoveInput = _initialPosition - transform.position;
-            }
-            else
-            {
-                _state.Input.MoveInput =target.position - transform.position;
-            }
-            
-            
+        private bool IsTargetOutsideRadius()
+        {
+            return Vector2.Distance(target.position, transform.position) > (radius *2);
         }
     }
 }
