@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 public class Levels : ScriptableObject
@@ -58,10 +61,33 @@ public class Levels : ScriptableObject
 [CustomEditor(typeof(Levels))]
 public class LevelsEditor : Editor
 {
+    private SerializedProperty _levelsProperty;
+    private void OnEnable()
+    {
+        _levelsProperty = serializedObject.FindProperty("levels");
+    }
+
     public override void OnInspectorGUI()
     {
-        if(GUILayout.Button("Find All Levels", GUILayoutOption))
-        base.OnInspectorGUI();
+        if (GUILayout.Button("Find All Levels", GUILayout.MinWidth(150), GUILayout.MaxWidth(300)))
+        {
+            string[] guids = AssetDatabase.FindAssets(string.Format("t:{0}", typeof(LevelData)));
+            List<LevelData> levels = new List<LevelData>();
+            foreach (var guid in guids)
+            {
+                var path = AssetDatabase.GUIDToAssetPath(guid);
+                var levelData = AssetDatabase.LoadAssetAtPath<LevelData>(path);
+                levels.Add(levelData);
+            }
+            LevelData[] levelArray = levels.ToArray();
+            _levelsProperty.arraySize = levelArray.Length;
+            for (int i = 0; i < levelArray.Length; i++)
+            {
+                _levelsProperty.InsertArrayElementAtIndex(i);
+                _levelsProperty.GetArrayElementAtIndex(i).objectReferenceValue = levelArray[i];
+            }
+        }
+    base.OnInspectorGUI();
     }
 }
 
