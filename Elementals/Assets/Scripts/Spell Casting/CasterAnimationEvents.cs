@@ -2,7 +2,7 @@
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class CastAnimationEvents : MonoBehaviour
+public class CasterAnimationEvents : MonoBehaviour
 {
     private CasterState _state;
     
