@@ -769,7 +769,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: S_Wizard_Water-move-gnd_0
+  m_Name: Wizard_Animator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: cast
