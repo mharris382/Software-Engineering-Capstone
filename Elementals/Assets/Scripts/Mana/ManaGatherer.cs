@@ -43,32 +43,36 @@ public class ManaGatherer : MonoBehaviour
    private void Update()
    {
       Gathering = _state.Gathering;//this invokes the start/stop gathering events whenever the gathering state changes 
-      if (_state.Gathering)
-      {
-         var nearbyMana = Finder.GetManaNearby(element.Element).ToList();
-         var closeRadius = this.consumeRadius;
+      
+      if (!Gathering) 
+         return;
+      GatherMana();
+   }
 
-         for (int i = 0; i < nearbyMana.Count; i++)
+   private void GatherMana()
+   {
+      var nearbyMana = Finder.GetManaNearby(element.Element).ToList();
+      var closeRadius = this.consumeRadius;
+
+      for (int i = 0; i < nearbyMana.Count; i++)
+      {
+         var mana = nearbyMana[i];
+
+         if (IsInsideRadius(mana, closeRadius))
          {
-            var mana = nearbyMana[i];
-            
-            if (IsInsideRadius(mana, closeRadius))
+            if (_manaSource.CurrentValue < _manaSource.MaxValue)
             {
-               if (_manaSource.CurrentValue < _manaSource.MaxValue)
-               {
-                  ConsumeMana(mana);
-               }
-               
+               ConsumeMana(mana);
             }
-            else  
-            {
-               ForcePullManaPickup(mana);
-            }
+         }
+         else
+         {
+            ForcePullManaPickup(mana);
          }
       }
    }
-   
-   
+
+
    private void ConsumeMana(Mana mana)
    {
       _manaSource.AddMana(1);

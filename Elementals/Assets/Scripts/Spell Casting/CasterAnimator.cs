@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
-
 public class CasterAnimator : MonoBehaviour
 {
     private Animator _anim;
     private CasterState _state;
-
     void Start()
     {
         _anim = GetComponent<Animator>();
