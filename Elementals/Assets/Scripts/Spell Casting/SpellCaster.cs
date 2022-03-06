@@ -90,20 +90,23 @@ public class SpellCaster : MonoBehaviour
             var spell =_spellProvider.GetSpell(spellName);
             //TODO: null check and raise error if strong spell is missing
             CastSpell(spell);
-            strongSpell.Cast(this);
+            
         }
     }
 
     private void CastSpell(ISpell spell)
     {
-        //TODO: get mana cost of this spell
-        //TODO: check if mana state has enough mana
-        //TODO: subtract mana cost from mana state
-        //TODO: cast spell
-        var position = spellSpawnPoint.position;
-        var direction = spellSpawnPoint.right;
-        Debug.DrawRay(position,direction, Color.blue, 1);
-        throw new NotImplementedException();
+        var mana = ManaState;
+        if (mana.CurrentValue >= spell.ManaCost)
+        {
+            mana.RemoveMana(spell.ManaCost);
+            var position = spellSpawnPoint.position;
+            var direction = spellSpawnPoint.right;
+            spell.CastSpell(gameObject, position, direction);
+            Debug.DrawRay(position,direction, Color.blue, 1);
+        }
+        
+        
     }
 
     #region OBSOLETE CODE
