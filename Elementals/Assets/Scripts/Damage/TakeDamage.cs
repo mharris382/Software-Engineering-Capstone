@@ -16,7 +16,7 @@ public class TakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _health = GetComponent<HealthState>();
+        _health = GetComponentInChildren<HealthState>();
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -24,7 +24,7 @@ public class TakeDamage : MonoBehaviour
         if (col.CompareTag("Enemy"))
         {
             Debug.Log("Ouch that hurt!");
-            _health.damageHealth(-1);
+            _health.damageHealth(1);
         }
     }
 }

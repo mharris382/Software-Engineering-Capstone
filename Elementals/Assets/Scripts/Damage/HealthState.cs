@@ -21,5 +21,6 @@ public class HealthState : StatusValue, IHealth
     {
         Debug.Log("Damage HEALTH");
         CurrentValue -= amount;
+        Debug.Log(CurrentValue);
     }
 }
