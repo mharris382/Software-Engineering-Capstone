@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 public interface IHealth
 {
@@ -18,6 +19,7 @@ public class HealthState : StatusValue, IHealth
 
     public void damageHealth(float amount)
     {
+        Debug.Log("Damage HEALTH");
         CurrentValue -= amount;
     }
 }
