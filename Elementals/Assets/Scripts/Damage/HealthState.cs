@@ -23,4 +23,9 @@ public class HealthState : StatusValue, IHealth
         CurrentValue -= amount;
         Debug.Log(CurrentValue);
     }
+
+    public void OnDestroy()
+    {
+        
+    }
 }

@@ -6,6 +6,7 @@ using UnityEngine;
 public class TakeDamage : MonoBehaviour
 {
     private HealthState _health;
+    public ParticleSystem sys;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +27,12 @@ public class TakeDamage : MonoBehaviour
             Debug.Log("Ouch that hurt!");
             _health.damageHealth(1);
         }
+        if (!_health.isAlive)
+        {
+            Debug.Log("You Are Dead");
+            Destroy (this.gameObject);
+        }
     }
+
+    // Want to add a destroyed effect like particles to this
 }
