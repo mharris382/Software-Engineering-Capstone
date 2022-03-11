@@ -43,7 +43,13 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
         //apply the launch force
         var force = direction.normalized * projectile.launchForce;
         spawnedProjectile.Rb.AddForce(force, ForceMode2D.Impulse);
-        
+
+        var decorators = GetComponentsInChildren<IProjectileDecorator>();
+        foreach (var decorator in decorators)
+        {
+            decorator.OnProjectileFired(spawnedProjectile);
+        }
+
     }
 
     public void CastSpell(GameObject caster, Vector2 position, Vector2 direction)
@@ -58,4 +64,9 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
     [SerializeField]
     private float manaCost = 1;
     
+}
+
+public interface IProjectileDecorator
+{
+    void OnProjectileFired(RigidbodyProjectile projectile);
 }

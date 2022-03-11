@@ -1444,6 +1444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1268982209}
+  - component: {fileID: 1268982210}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -1465,6 +1466,18 @@ Transform:
   m_Father: {fileID: 1818824733}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268982210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268982208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a4a620ff08768408ffe0cd6b68a7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1308146389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6771,6 +6784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588273295}
   - component: {fileID: 1588273296}
+  - component: {fileID: 1588273297}
   m_Layer: 0
   m_Name: DebugStrongProjectile
   m_TagString: Untagged
@@ -6814,6 +6828,19 @@ MonoBehaviour:
     projectileRadius: 0.25
   ignore: {fileID: 1533188187}
   manaCost: 2
+--- !u!114 &1588273297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588273294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be72509c2b44066933d552a040683ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
 --- !u!1 &1593517558
 GameObject:
   m_ObjectHideFlags: 0
@@ -7223,6 +7250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747076530}
   - component: {fileID: 1747076531}
+  - component: {fileID: 1747076532}
   m_Layer: 0
   m_Name: DebugFastProjectile
   m_TagString: Untagged
@@ -7266,6 +7294,19 @@ MonoBehaviour:
     projectileRadius: 0.25
   ignore: {fileID: 1533188187}
   manaCost: 1
+--- !u!114 &1747076532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747076529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be72509c2b44066933d552a040683ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
 --- !u!4 &1818824733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4037820058528786291, guid: 3b5ab0f0d84ac4c4abde38e986203fac, type: 3}
