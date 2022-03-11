@@ -2,13 +2,6 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public interface IHealth
-{
-    bool isAlive { get; }
-    void healHealth(float amount);
-    void damageHealth(float amount);
-}
-
 public class HealthState : StatusValue, IHealth
 {
     [Tooltip("Triggered when the entity gains health")]

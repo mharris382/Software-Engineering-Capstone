@@ -1,3 +1,5 @@
+
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,6 +20,11 @@ public class TakeDamage : MonoBehaviour
     void Update()
     {
         _health = GetComponentInChildren<HealthState>();
+        if (!_health.isAlive)
+        {
+            Debug.Log("You Are Dead");
+            Destroy (this.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
