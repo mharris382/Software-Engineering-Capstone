@@ -1,4 +1,4 @@
-﻿namespace deVoid.Utils
+﻿namespace Damage
 {
     public struct DamageInfo
     {
