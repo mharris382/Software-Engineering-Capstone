@@ -4916,7 +4916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &733276217
 Transform:
   m_ObjectHideFlags: 0
@@ -14641,7 +14641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile:
-    prefab: {fileID: -312908233938099893, guid: 24f23c60f8987e34da24d9be86b37efc, type: 3}
+    prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 10
     castRate: 0.5
     accuracy: 0.9
@@ -14708,7 +14708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile:
-    prefab: {fileID: -664825597825090570, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
+    prefab: {fileID: 311448704776073141, guid: d1c4d5731ec57a4409621cfed8bc4bc6, type: 3}
     launchForce: 10
     castRate: 0.5
     accuracy: 0.9
@@ -14859,6 +14859,7 @@ GameObject:
   - component: {fileID: 1344690875478681544}
   - component: {fileID: 8766888715803771124}
   - component: {fileID: 5838284391966866114}
+  - component: {fileID: 837579122}
   m_Layer: 0
   m_Name: animator
   m_TagString: Untagged
@@ -14926,7 +14927,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.1875}
+  m_Size: {x: 1.5625, y: 1.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14942,7 +14943,7 @@ Animator:
   m_GameObject: {fileID: 1344690875478681548}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: ff1f2669206f6934cb114b302f0403f8, type: 2}
+  m_Controller: {fileID: 22100000, guid: 947cedda3eb78574ebd52fc71d3983f4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -14987,6 +14988,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefaa69d6e284eb7b0e71035cfbff8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &837579122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344690875478681548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a91c9636efbc2442898050c9ec3b21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerElement: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
+  _controllers:
+  - {fileID: 9100000, guid: 6c8a956fa7168604793f58eb5d04ae85, type: 2}
+  - {fileID: 22100000, guid: 947cedda3eb78574ebd52fc71d3983f4, type: 2}
+  - {fileID: 22100000, guid: ff1f2669206f6934cb114b302f0403f8, type: 2}
+  - {fileID: 22100000, guid: 15547c83c4d06a34995a1e809c3b45d5, type: 2}
+  - {fileID: 22100000, guid: 06a1406634adedb4d8e08c9a104e313c, type: 2}
 --- !u!1 &1344690876302126593
 GameObject:
   m_ObjectHideFlags: 0
