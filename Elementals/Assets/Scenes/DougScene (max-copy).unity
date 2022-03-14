@@ -349,35 +349,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206013924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.32, y: 0.95, z: 0}
+  m_LocalPosition: {x: -9.15, y: 0.91, z: 0}
   m_LocalScale: {x: 1.0947124, y: 1.0947124, z: 1.0947124}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &209023989 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1344690876302126593, guid: 3b5ab0f0d84ac4c4abde38e986203fac, type: 3}
-  m_PrefabInstance: {fileID: 1308146389}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &209023990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209023989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 056551124aed45be8f0a52ef38cbe001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerElement: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
-  elementSlots:
-  - {fileID: 11400000, guid: 9bce380b48d1d6c49b984b97f23a5b7f, type: 2}
-  - {fileID: 11400000, guid: 45ce299b105b78040bbc311a16d3bc40, type: 2}
-  - {fileID: 11400000, guid: 8c3962301077d4745bd6f05a8b55097e, type: 2}
-  swapDelay: 0.5
 --- !u!1 &249488744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,8 +1607,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropPrefab: {fileID: 1624767120568648528, guid: 00c9ec196aff3194a928c7989dd40e9a, type: 3}
-  minNumberOfDrops: 1
-  maxNumberOfDrops: 10
+  minNumberOfDrops: 21
+  maxNumberOfDrops: 31
   maxRadius: 0.5
 --- !u!4 &1434550775
 Transform:
@@ -1641,7 +1618,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434550773}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.26, y: 0.1399998, z: 0}
+  m_LocalPosition: {x: -10.69, y: 0.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2077756676}
