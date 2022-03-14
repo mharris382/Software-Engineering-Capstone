@@ -11,7 +11,7 @@ namespace Spell_Casting.Spells
     public class SpellProvider : MonoBehaviour, ISpellProvider
     {
         public SpellKey[] spells;
-        
+        public ElementContainer activeElement;
         
         
         [System.Serializable]
@@ -36,6 +36,7 @@ namespace Spell_Casting.Spells
         
         public ISpell GetSpell(string spellName)
         {
+            spellName = spellName + "_" + activeElement.Element;
             for (int i = 0; i < spells.Length; i++)
             {
                 if (spells[i].key == spellName)

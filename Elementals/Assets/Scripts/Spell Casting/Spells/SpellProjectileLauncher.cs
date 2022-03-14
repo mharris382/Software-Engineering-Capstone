@@ -37,7 +37,8 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
         spawnPosition += (direction * (projectile.projectileRadius + 0.5f));
         
         //spawn the projectile
-        var spawnedProjectile = Instantiate(projectile.prefab, spawnPosition, Quaternion.LookRotation(direction, Vector3.up));
+        var spawnedProjectile = Instantiate(projectile.prefab, spawnPosition, Quaternion.identity);
+        spawnedProjectile.transform.right = direction;
         var ignoreColls = this.ignore.GetComponentsInChildren<Collider2D>();
         foreach (var coll in ignoreColls) Physics2D.IgnoreCollision(coll, spawnedProjectile.Coll, true);
         //apply the launch force
