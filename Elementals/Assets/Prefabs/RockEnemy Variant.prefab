@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2678078726782390188, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_Name
-      value: RockEnemy
+      value: RockEnemy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2678078726782390188, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_TagString
@@ -87,5 +87,13 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300002, guid: 29f3d1c834eca3f4cb939f695bfc91c8, type: 3}
+    - target: {fileID: 5837053118739044436, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: element
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465557160382965917, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: element
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
