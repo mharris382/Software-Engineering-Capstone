@@ -11,6 +11,7 @@ namespace Damage
 
         private void OnCollisionEnter2D(Collision2D other)
         {
+            if (other.rigidbody == null) return;
             var hit = other.rigidbody.gameObject;
             DamageSystem.DealDamage(hit, GetDamageInfo());
         }
