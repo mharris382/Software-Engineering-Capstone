@@ -4,6 +4,9 @@ using UnityEngine.Events;
 
 public class HealthState : StatusValue, IHealth
 {
+    public ElementContainer container;
+    public Element element;
+    public Element Element => container != null ? container.Element : element; 
     [Tooltip("Triggered when the entity gains health")]
     public UnityEvent OnHealed;
     
