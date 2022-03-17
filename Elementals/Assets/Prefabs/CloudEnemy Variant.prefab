@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2678078726782390188, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_Name
-      value: CloudEnemy
+      value: CloudEnemy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2678078726782390188, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_TagString
@@ -79,5 +79,13 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 51554110f03d8834594f33830f04097e, type: 3}
+    - target: {fileID: 5837053118739044436, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: element
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465557160382965917, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: element
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
