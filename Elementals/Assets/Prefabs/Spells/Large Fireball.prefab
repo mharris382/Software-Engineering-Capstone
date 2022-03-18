@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: InitialModule.gravityModifier.minMaxState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8400795474900898309, guid: 4292325019375384b99bf06527f89269, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4292325019375384b99bf06527f89269, type: 3}
 --- !u!4 &7364692203839160506 stripped

@@ -37,13 +37,20 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
         spawnPosition += (direction * (projectile.projectileRadius + 0.5f));
         
         //spawn the projectile
-        var spawnedProjectile = Instantiate(projectile.prefab, spawnPosition, Quaternion.LookRotation(direction, Vector3.up));
+        var spawnedProjectile = Instantiate(projectile.prefab, spawnPosition, Quaternion.identity);
+        spawnedProjectile.transform.right = direction;
         var ignoreColls = this.ignore.GetComponentsInChildren<Collider2D>();
         foreach (var coll in ignoreColls) Physics2D.IgnoreCollision(coll, spawnedProjectile.Coll, true);
         //apply the launch force
         var force = direction.normalized * projectile.launchForce;
         spawnedProjectile.Rb.AddForce(force, ForceMode2D.Impulse);
-        
+
+        var decorators = GetComponentsInChildren<IProjectileDecorator>();
+        foreach (var decorator in decorators)
+        {
+            decorator.OnProjectileFired(spawnedProjectile);
+        }
+
     }
 
     public void CastSpell(GameObject caster, Vector2 position, Vector2 direction)
@@ -58,4 +65,9 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
     [SerializeField]
     private float manaCost = 1;
     
+}
+
+public interface IProjectileDecorator
+{
+    void OnProjectileFired(RigidbodyProjectile projectile);
 }
