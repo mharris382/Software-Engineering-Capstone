@@ -2,9 +2,9 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor
+namespace MyEditor
 {
-    [CustomEditor(typeof(ElementEntity))]
+   // [CustomEditor(typeof(ElementEntity))]
     public class ElementEntityEditor : UnityEditor.Editor
     {
         private SerializedProperty _propContainer;

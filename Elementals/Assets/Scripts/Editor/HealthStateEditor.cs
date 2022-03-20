@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor
+namespace MyEditor
 {
     [CustomEditor(typeof(HealthState))]
     public class HealthStateEditor : UnityEditor.Editor

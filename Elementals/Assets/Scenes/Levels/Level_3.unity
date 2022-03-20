@@ -1005,7 +1005,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.96
+  orthographic size: 3.27
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1121,6 +1121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557800625}
   - component: {fileID: 557800624}
+  - component: {fileID: 557800626}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -1150,14 +1151,14 @@ MonoBehaviour:
   m_Follow: {fileID: 111990407}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5.96
+    OrthographicSize: 3.27
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8722575, y: 1}
+    m_SensorSize: {x: 1.9921976, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1182,6 +1183,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &557800626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557800623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BoundingShape2D: {fileID: 1887374910}
+  m_Damping: 0.5
+  m_MaxWindowSize: -1
 --- !u!1 &586474749
 GameObject:
   m_ObjectHideFlags: 0
@@ -34399,6 +34415,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b5ab0f0d84ac4c4abde38e986203fac, type: 3}
+--- !u!1 &1960165376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1344690876302126593, guid: 3b5ab0f0d84ac4c4abde38e986203fac, type: 3}
+  m_PrefabInstance: {fileID: 1960165375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1960165377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960165376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fceb997625430f8662786b97ca689c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element:
+    dynamicElement: {fileID: 0}
+    constantElement: 0
 --- !u!1 &1966557455
 GameObject:
   m_ObjectHideFlags: 0
