@@ -12,10 +12,12 @@ public class MovementInputHandler : MonoBehaviour
 
     private void Update()
     {
-        _state.MovementInput.Jump = UnityEngine.Input.GetButtonDown("Jump");
+       _state.MovementInput.Jump = Input.GetButtonDown("Jump");
+        _state.MovementInput.TryingToJump = Input.GetButton("Jump");
+        _state.MovementInput.IsDoneJumping = Input.GetButtonUp("Jump");
+        
         var x = UnityEngine.Input.GetAxis("Horizontal");
         var y = UnityEngine.Input.GetAxis("Vertical");
-
         _state.MovementInput.MoveInput = new Vector2(x, y);
 
     }
