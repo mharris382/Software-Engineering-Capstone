@@ -1,10 +1,12 @@
-﻿using UnityEditor.Experimental.GraphView;
+﻿using System;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 namespace DefaultNamespace
 {
     public class StupidEnemyAI : MonoBehaviour
     {
+        private bool autoTargetPlayer = true;
         public Transform target;
         private CharacterState _state;
         [SerializeField]
@@ -16,27 +18,52 @@ namespace DefaultNamespace
         {
             _state = GetComponent<CharacterState>();
             _initialPosition = transform.position;
+            AutoTargetPlayerTransform();
         }
 
         private void Update()
         { 
-            
-            
+            AutoTargetPlayerTransform(); //rider gives expensive warning, but in practice it is only expensive if no player exists in the scene
             if (IsTargetOutsideRadius())
             {
-                _state.MovementInput.MoveInput = _initialPosition - transform.position;
+                SteerTowards(_initialPosition);
             }
             else
             {
-                _state.MovementInput.MoveInput =target.position - transform.position;
+                SteerTowards(target.position);
             }
-            
-            
+        }
+
+        private void SteerTowards(Vector3 targetPosition)
+        {
+            _state.MovementInput.MoveInput = targetPosition - transform.position;
         }
 
         private bool IsTargetOutsideRadius()
         {
             return Vector2.Distance(target.position, transform.position) > (radius *2);
+        }
+
+        private void AutoTargetPlayerTransform()
+        {
+            if (autoTargetPlayer && target == null)
+            {
+                var go = GameObject.FindWithTag("Player");
+                if (go == null)
+                {
+                    Debug.LogError("No Player found in scene.  Player GameObject must have the <b>Player</b> tag assigned!");
+                    return;
+                }
+
+                target = go.transform;
+            }
+        }
+
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, radius);
         }
     }
 }

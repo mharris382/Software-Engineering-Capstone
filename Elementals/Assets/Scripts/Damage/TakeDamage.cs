@@ -7,9 +7,21 @@ using UnityEngine;
 
 public class TakeDamage : MonoBehaviour
 {
-    private HealthState _health;
     public ParticleSystem sys;
 
+    private HealthState _health;
+    HealthState Health
+    {
+        get
+        {
+            if(_health == null)
+                _health = GetComponentInChildren<HealthState>();
+            return _health;
+        }
+    }
+    
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +31,9 @@ public class TakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _health = GetComponentInChildren<HealthState>();
-        if (!_health.isAlive)
+        if(_health == null)
+            _health = GetComponentInChildren<HealthState>();
+        if (_health != null && !_health.isAlive)
         {
             Debug.Log("You Are Dead");
             Destroy (this.gameObject);
@@ -29,6 +42,11 @@ public class TakeDamage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        if (_health == null)
+        {
+            Debug.LogWarning("Missing Health Component!", this);
+            return;
+        }
         if (col.CompareTag("Enemy"))
         {
             Debug.Log("Ouch that hurt!");

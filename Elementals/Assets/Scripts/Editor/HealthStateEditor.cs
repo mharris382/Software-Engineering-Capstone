@@ -38,8 +38,10 @@ namespace Editor
                 EditorGUILayout.PropertyField(_propContainer, new GUIContent(), GUILayout.MaxWidth(300));
             }
             serializedObject.Update();
-            EditorGUILayout.PropertyField(_propMaxValue);
+            EditorGUILayout.PropertyField(_propMaxValue, new GUIContent("Max Health"));
             
+            
+            GUILayout.Space(5);
             GUILayout.BeginVertical(EditorStyles.helpBox);
             GUILayout.BeginHorizontal(EditorStyles.helpBox);
             EditorGUILayout.LabelField("Element", GUILayout.MaxWidth(120));
@@ -73,9 +75,6 @@ namespace Editor
                 
             }
             GUILayout.EndVertical();
-             GUILayout.Space(20);
-            //
-            
             
             GUILayout.BeginVertical(EditorStyles.helpBox);
             _showEvents = EditorGUILayout.Foldout(_showEvents, "Events");

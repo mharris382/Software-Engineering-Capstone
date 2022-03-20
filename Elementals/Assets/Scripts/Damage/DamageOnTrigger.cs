@@ -1,18 +1,18 @@
-﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Damage
 {
-    public class DamageOnCollision : MonoBehaviour
+    public class DamageOnTrigger : MonoBehaviour
     {
         public Element element;
         public float amount = 1;
 
-
-        private void OnCollisionEnter2D(Collision2D other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.rigidbody == null) return;
-            var hit = other.rigidbody.gameObject;
+            if (other.attachedRigidbody == null) return;
+            var hit = other.attachedRigidbody.gameObject;
             DamageSystem.DealDamage(hit, GetDamageInfo());
         }
 
