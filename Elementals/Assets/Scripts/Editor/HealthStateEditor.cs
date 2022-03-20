@@ -32,37 +32,49 @@ namespace Editor
 
         public override void OnInspectorGUI()
         {
+            void DrawPropContainer()
+            {
+                
+                EditorGUILayout.PropertyField(_propContainer, new GUIContent(), GUILayout.MaxWidth(300));
+            }
             serializedObject.Update();
             EditorGUILayout.PropertyField(_propMaxValue);
             
-            
-            
+            GUILayout.BeginVertical(EditorStyles.helpBox);
             GUILayout.BeginHorizontal(EditorStyles.helpBox);
-            var c1 = GUI.backgroundColor;
-            var c0 = GUI.contentColor;
-            GUI.backgroundColor = Color.green/0.7f;
-            GUI.contentColor = Color.green;
-            
             EditorGUILayout.LabelField("Element", GUILayout.MaxWidth(120));
-            EditorGUILayout.PropertyField(_propContainer, new GUIContent(), GUILayout.MaxWidth(300));
+            
             if (_propContainer.objectReferenceValue == null)
             {
                 EditorGUILayout.PropertyField(_propElement, new GUIContent(), GUILayout.MaxWidth(200));
+                DrawPropContainer();
+                GUILayout.EndHorizontal();
             }
             else
             {
-                var elementContainer = _propContainer.objectReferenceValue as ElementContainer;
-                var value = elementContainer.Element.ToString();
-                EditorGUILayout.LabelField(value, GUILayout.MaxWidth(50));
+                var propElementInContainer = _propContainer.FindPropertyRelative("element");
+                if (propElementInContainer != null)
+                {
+                    Element value = (Element) propElementInContainer.enumValueIndex;
+                    value = (Element) EditorGUILayout.EnumPopup("", value, GUILayout.MaxWidth(200));
+                    propElementInContainer.enumValueIndex = (int) value;
+                    DrawPropContainer();
+                    GUILayout.EndHorizontal();
+                }
+                else
+                {
+                    DrawPropContainer();
+                    GUILayout.EndHorizontal();
+                    EditorGUI.indentLevel++;
+                    var editor = CreateEditor(_propContainer.objectReferenceValue);
+                    editor.OnInspectorGUI();
+                    EditorGUI.indentLevel--;
+                }
+                
             }
-            
-            GUILayout.EndHorizontal();
-            
-            GUI.backgroundColor = c1;
-            GUI.contentColor = c0;
-            
-            GUILayout.Space(20);
-            
+            GUILayout.EndVertical();
+             GUILayout.Space(20);
+            //
             
             
             GUILayout.BeginVertical(EditorStyles.helpBox);

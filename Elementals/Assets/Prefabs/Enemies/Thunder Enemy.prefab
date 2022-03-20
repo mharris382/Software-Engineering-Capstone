@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6035909776424206839}
   - component: {fileID: 7465557160382965917}
   m_Layer: 0
-  m_Name: ThunderEnemy
+  m_Name: Thunder Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 2678078727294593422}
   - component: {fileID: 2678078727294593417}
   m_Layer: 0
-  m_Name: Storm_Elemental_0
+  m_Name: sprite animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
