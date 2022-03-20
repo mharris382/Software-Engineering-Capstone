@@ -7,12 +7,19 @@ namespace DefaultNamespace
     public class StupidEnemyAI : MonoBehaviour
     {
         private bool autoTargetPlayer = true;
-        public Transform target;
+       [SerializeField] private Transform target;
         private CharacterState _state;
         [SerializeField]
         private float radius = 5f;
 
         private Vector3 _initialPosition = new Vector2(0,0);
+
+        public Transform Target
+        {
+            get => target;
+            set => target = value;
+        }
+
 
         private void Awake()
         {

@@ -5,7 +5,7 @@ namespace DefaultNamespace
 {
     public class StupidEnemyMover : MonoBehaviour
     {
-        public Transform target;
+       
         public float force = 2f;
         private Rigidbody2D _rb;
         private CharacterState _state;
