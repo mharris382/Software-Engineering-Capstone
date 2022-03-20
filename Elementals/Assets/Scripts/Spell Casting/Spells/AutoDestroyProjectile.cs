@@ -14,7 +14,8 @@ namespace Spell_Casting.Spells
         IEnumerator AutoDestroy(RigidbodyProjectile projectile)
         {
             yield return new WaitForSeconds(destroyTime);
-            GameObject.Destroy(projectile.gameObject);
+            if(projectile != null)
+                GameObject.Destroy(projectile.gameObject);
         }
     }
 }
