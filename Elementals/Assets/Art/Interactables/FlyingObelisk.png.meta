@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      FlyingObelisk_8: 6635241377940926156
+      FlyingObelisk_2: 3295978992587006072
+      FlyingObelisk_4: 8917504338888860111
+      FlyingObelisk_5: -7285122802690474906
+      FlyingObelisk_0: -4020387572289885469
+      FlyingObelisk_9: 1336358505112482884
+      FlyingObelisk_11: 581755266307524579
+      FlyingObelisk_7: 5105576336974567177
+      FlyingObelisk_3: 8837421385842492814
+      FlyingObelisk_12: -2020679243836801798
+      FlyingObelisk_1: -5592388691817969647
+      FlyingObelisk_6: -558919826321776523
+      FlyingObelisk_10: -6047498179675335896
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

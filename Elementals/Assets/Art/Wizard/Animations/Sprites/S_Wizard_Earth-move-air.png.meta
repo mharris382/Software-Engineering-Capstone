@@ -36,6 +36,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -196,6 +197,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Earth-move-air_1: -66524598329011038
+      S_Wizard_Earth-move-air_0: -4922012568160057675
+      S_Wizard_Earth-move-air_2: -7399773824070109221
+      S_Wizard_Earth-move-air_3: 4931403428480470616
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

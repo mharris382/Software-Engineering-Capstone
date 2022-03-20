@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -340,6 +341,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      AutoTile_GrassBright_2: 2589433564788970711
+      AutoTile_GrassBright_0: 5967633927227640024
+      AutoTile_GrassBright_3: 945070710328116317
+      AutoTile_GrassBright_7: -194076421660901064
+      AutoTile_GrassBright_9: 4760828966002951933
+      AutoTile_GrassBright_4: -3514682846103171559
+      AutoTile_GrassBright_5: 6951933059271050246
+      AutoTile_GrassBright_8: -1933452438878968504
+      AutoTile_GrassBright_1: 1453605542025971524
+      AutoTile_GrassBright_6: 4776677244524627490
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

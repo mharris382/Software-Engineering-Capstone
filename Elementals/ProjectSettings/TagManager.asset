@@ -43,6 +43,27 @@ TagManager:
   - name: Background
     uniqueID: 613496703
     locked: 0
+  - name: Enviornment_BG
+    uniqueID: 1396063509
+    locked: 0
+  - name: Ground
+    uniqueID: 1032539115
+    locked: 0
+  - name: Enviornment_MG
+    uniqueID: 1784859945
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2516634661
+    locked: 0
+  - name: Enemies
+    uniqueID: 3609134377
+    locked: 0
+  - name: Enviornment_FG
+    uniqueID: 2825056601
+    locked: 0
+  - name: Foreground
+    uniqueID: 1569765239
     locked: 0

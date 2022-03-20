@@ -36,6 +36,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -196,6 +197,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Water-move-air_0: 7304874776099047715
+      S_Wizard_Water-move-air_2: 1819087588164929396
+      S_Wizard_Water-move-air_3: -3245914060150501191
+      S_Wizard_Water-move-air_1: -3077284142093668323
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

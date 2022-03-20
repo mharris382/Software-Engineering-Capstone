@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Newtonsoft.Json;
+using Unity.Plastic.Newtonsoft.Json;
 using UnityEngine;
 
 public interface IManaFinder
@@ -23,22 +23,7 @@ public class ManaFInder : MonoBehaviour, IManaFinder
         foundMana.Add(Element.Water, new List<Mana>());
         foundMana.Add(Element.Thunder, new List<Mana>());
     }
-
-    private void Start()
-    {
-        InvokeRepeating("WriteJson", 0.1f, 0.5f);
-    }
-
-    void WriteJson()
-    {
-        var dic = foundMana.Select(t => new KeyValuePair<Element, string>(t.Key, t.Value.Count.ToString()));
-        var d = new Dictionary<Element, string>();
-        foreach (var keyValuePair in dic)
-        {
-            d.Add(keyValuePair.Key, keyValuePair.Value);
-        }
-        json = JsonConvert.SerializeObject(d);
-    }
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
         var mana = col.GetComponent<Mana>();

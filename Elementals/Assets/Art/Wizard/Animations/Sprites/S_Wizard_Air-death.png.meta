@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -202,6 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Air-death_0: 4181061840820370428
+      S_Wizard_Air-death_1: -3186897538662791723
+      S_Wizard_Air-death_4: 3950111541171672350
+      S_Wizard_Air-death_2: -5071636162343087722
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

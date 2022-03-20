@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -378,6 +379,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Boulder_Impact_3: -548426548536571998
+      Boulder: -3402407950645494785
+      Boulder_Impact_1: -2383328780013526881
+      Rock_Breaking_4: -6970509463252352937
+      Boulder_Impact_2: 8461190478143727761
+      Rock_Breaking_3: -3165441051719370386
+      Boulder_Impact_5: -159034239702058488
+      Rock_Breaking_1: -3602265054764922746
+      Boulder_Impact_0: 6246675837505259980
+      Rock_Breaking_2: 5820375808314282597
+      Boulder_Impact_4: 4996252641639175631
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

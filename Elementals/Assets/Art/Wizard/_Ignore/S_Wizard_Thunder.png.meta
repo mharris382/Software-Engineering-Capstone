@@ -168,6 +168,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1252,6 +1253,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Thunder_29: 8157101782379597463
+      S_Wizard_Thunder_44: -6713113661163763771
+      S_Wizard_Thunder_45: 1412862314753330563
+      S_Wizard_Thunder_14: 4601756109557130453
+      S_Wizard_Thunder_22: 4260106417683070314
+      S_Wizard_Thunder_25: -8092309847228489648
+      S_Wizard_Thunder_30: 8810792042538111295
+      S_Wizard_Thunder_31: 3629125296934907079
+      S_Wizard_Thunder_47: -4843770220267576857
+      S_Wizard_Thunder_10: -6083958606387427848
+      S_Wizard_Thunder_32: 3859159408046602388
+      S_Wizard_Thunder_41: -7744106706061897578
+      S_Wizard_Thunder_39: -3873586950130047637
+      S_Wizard_Thunder_46: -1077570913909733599
+      S_Wizard_Thunder_7: -2716959242346785836
+      S_Wizard_Thunder_0: 2864718546183836097
+      S_Wizard_Thunder_35: 3558413594467784761
+      S_Wizard_Thunder_28: -1752111935690702389
+      S_Wizard_Thunder_6: -1268642256970231235
+      S_Wizard_Thunder_4: 6136566807886742935
+      S_Wizard_Thunder_36: -7700254851506926191
+      S_Wizard_Thunder_23: -6456949656942849560
+      S_Wizard_Thunder_26: -4620519008754570066
+      S_Wizard_Thunder_42: 2033487830580423468
+      S_Wizard_Thunder_12: -7842926014736710813
+      S_Wizard_Thunder_24: 1538442099730018246
+      S_Wizard_Thunder_15: -1552689039273546388
+      S_Wizard_Thunder_16: 1572071458559044228
+      S_Wizard_Thunder_37: -3885732294659387368
+      S_Wizard_Thunder_43: 3536000734590210697
+      S_Wizard_Thunder_13: -1669655780228067592
+      S_Wizard_Thunder_38: 6380265407029835273
+      S_Wizard_Thunder_17: -3834351790076149955
+      S_Wizard_Thunder_33: -5026959412460626781
+      S_Wizard_Thunder_27: 2259614054804262613
+      S_Wizard_Thunder_5: -954395728040624248
+      S_Wizard_Thunder_18: -8893506688335622061
+      S_Wizard_Thunder_20: -988420378886875715
+      S_Wizard_Thunder_8: -3782141924346749412
+      S_Wizard_Thunder_1: 8319882124618883661
+      S_Wizard_Thunder_3: -1487723721137889408
+      S_Wizard_Thunder_11: 2612431348016311681
+      S_Wizard_Thunder_2: -4496178591644408335
+      S_Wizard_Thunder_19: 2863646089435024930
+      S_Wizard_Thunder_21: -288526155649639341
+      S_Wizard_Thunder_34: 7611523429460393955
+      S_Wizard_Thunder_40: -1776177859502156994
+      S_Wizard_Thunder_9: 2361710216808192019
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

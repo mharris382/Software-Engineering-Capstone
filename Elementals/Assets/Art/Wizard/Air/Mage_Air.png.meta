@@ -162,6 +162,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1183,6 +1184,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mage_Air_Death_0: 8258408881666613731
+      Mage_Air_Cast_Gnd_6: -6966146945755096729
+      Mage_Air_Cast_Gnd_2: 3795175828898289698
+      Mage_Air_Cast_Air_7: 5697969197940399087
+      Mage_Air_Idle_Gnd_1: 3072181134664709093
+      Mage_Air_Cast_Air_1: -33773124342590482
+      Mage_Air_Cast_Air_4: -7135036954847794468
+      Mage_Air_Idle_Air_2: -723315732534110695
+      Mage_Air_Death_1: 8214755810280746093
+      Mage_Air_Move_Air_0: -5035267135485227791
+      Mage_Air_Move_Air_3: 8734124104335251694
+      Mage_Air_Idle_Air_3: -4211198239363854600
+      Mage_Air_Cast_Air_2: 3519039684302771919
+      Mage_Air_Move_Gnd_0: -5301080501338343740
+      Mage_Air_Move_Gnd_6: 475304637586734954
+      Mage_Air_Move_Gnd_2: 7618175774540671426
+      Mage_Air_Cast_Air_5: -6140211750152562457
+      Mage_Air_Move_Gnd_1: -5179943742280411178
+      Mage_Air_Idle_Gnd_0: -7137556173429586522
+      Mage_Air_Idle_Gnd_3: 2371556203033684383
+      Mage_Air_Idle_Gnd_2: -8479541352136680482
+      Mage_Air_Move_Gnd_7: 5947434836302903089
+      Mage_Air_Idle_Air_1: -6750510806786283439
+      Mage_Air_Cast_Gnd_0: -1436738613170296694
+      Mage_Air_Cast_Gnd_3: 2446830225963599192
+      Mage_Air_Cast_Gnd_4: -3132915003085427109
+      Mage_Air_Cast_Gnd_1: 31094979776737816
+      Mage_Air_Cast_Air_6: -7702737819551060574
+      Mage_Air_Hit: -5854571879291665274
+      Mage_Air_Death_3: -172519036266920555
+      Mage_Air_Idle_Air_0: 2535168176161459244
+      Mage_Air_Idle_Air_4: -4241193892502052770
+      Mage_Air_Move_Air_1: -4283270743104928454
+      Mage_Air_Cast_Gnd_5: -5382669741142675713
+      Mage_Air_Cast_Air_3: 63178448403575295
+      Mage_Air_Cast_Gnd_7: -8409899729563459250
+      Mage_Air_Cast_Gnd_8: -3861724506433789174
+      Mage_Air_Move_Gnd_3: -617356813506731603
+      Mage_Air_Move_Gnd_5: -3471516478480641638
+      Mage_Air_Move_Air_2: -5283379656778011194
+      Mage_Air_Death_2: 7805100997128340077
+      Mage_Air_Idle_Gnd_4: 4814771966753768861
+      Mage_Air_Move_Gnd_4: 7056588670266298153
+      Mage_Air_Cast_Air_0: -2381159246089514141
+      Mage_Air_Cast_Air_8: 2754028940696051966
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
