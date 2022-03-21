@@ -19,7 +19,9 @@ public class TakeDamage : MonoBehaviour
             return _health;
         }
     }
-    
+
+    [SerializeField]
+    private bool dontDestroy = true;
     
     
     // Start is called before the first frame update
@@ -36,7 +38,8 @@ public class TakeDamage : MonoBehaviour
         if (_health != null && !_health.isAlive)
         {
             Debug.Log("You Are Dead");
-            Destroy (this.gameObject);
+            if(!dontDestroy)
+                Destroy (this.gameObject);
         }
     }
 

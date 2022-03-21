@@ -21,7 +21,7 @@ namespace Damage
             return new DamageInfo()
             {
                 Element = element,
-                RawAmount = amount
+                RawDamage = amount
             };
         }
     }

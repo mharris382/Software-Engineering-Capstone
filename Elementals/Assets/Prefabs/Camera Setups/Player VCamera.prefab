@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7056856291408859965}
   - component: {fileID: 4153242412239358030}
   - component: {fileID: 76194404520322895}
+  - component: {fileID: -5593002769097664780}
   m_Layer: 0
   m_Name: Player VCamera
   m_TagString: Untagged
@@ -100,6 +101,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-5593002769097664780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924296190448797914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ce9e195911bfb47b428ea63a0eae48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  readme: makes the camera follow the player, provided you have the Main Camera prefab
+    (which needs the Cinemachine brain)
+  referencedObjects:
+  - {fileID: 7404794601825394419, guid: 81474bc823814c148974cbda53545844, type: 3}
 --- !u!1 &2085584278209552241
 GameObject:
   m_ObjectHideFlags: 0

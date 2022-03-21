@@ -35,9 +35,4 @@ public class HealthState : StatusValue, IHealth
         if(!isAlive) OnKilled?.Invoke();
     }
 
-    
-    public void OnDestroy()
-    {
-        
-    }
 }
