@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Fire-idle-gnd_1: -9143221478135286311
+      S_Wizard_Fire-idle-gnd_2: 6994816490826397588
+      S_Wizard_Fire-idle-gnd_0: -2652802912241228900
+      S_Wizard_Fire-idle-gnd_3: -1796284831473727606
+      S_Wizard_Fire-idle-gnd_4: 7055961155155788605
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

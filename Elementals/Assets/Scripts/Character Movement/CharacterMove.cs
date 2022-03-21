@@ -8,10 +8,39 @@ public class CharacterMove : MonoBehaviour
 {
     private Rigidbody2D _rb;
     private CharacterState _state;
+    public float jumpTime = 1;
     public float moveSpeed = 10f;
     public float jumpVert = 10f;
 
     private GroundCheck _groundCheck;
+
+    private CharacterState State
+    {
+        get
+        {
+            if (_state == null) _state = GetComponent<CharacterState>();
+            return _state;
+        }
+    }
+
+    private float _jumpTimeCounter;
+
+    private bool IsGrounded => State.Movement.IsGrounded;
+
+    private bool WantsToKeepJumping => State.MovementInput.TryingToJump;
+    private bool WantsToStartJump => State.MovementInput.Jump;
+    
+    private bool IsJumping
+    {
+        get => _state.Movement.IsJumping;
+        set => _state.Movement.IsJumping = value;
+    }
+
+    private float JumpTimeCounter
+    {
+        get => _jumpTimeCounter;
+        set => _jumpTimeCounter = value;
+    }
 
     void Start()
     {
@@ -23,17 +52,40 @@ public class CharacterMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * moveSpeed;
+        void ApplyJumpVelocity() => State.Movement.VerticalMovement = jumpVert;
         _state.Movement.IsGrounded = _groundCheck.grounded;
-        if (_state.Movement.IsGrounded && _state.MovementInput.Jump) 
+        _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * moveSpeed;
+
+        
+
+        if (IsGrounded && WantsToStartJump)
         {
-            _rb.AddForce(Vector2.up * jumpVert, ForceMode2D.Impulse);
+            IsJumping = true;
+            JumpTimeCounter = jumpTime;
+            ApplyJumpVelocity();
+        }  
+
+        if (IsJumping && WantsToKeepJumping)
+        {
+            if (JumpTimeCounter > 0)
+            {
+                ApplyJumpVelocity();
+                JumpTimeCounter -= Time.deltaTime;
+            }
+            else
+            {
+                IsJumping = false;
+            }
+        }
+        else if(IsJumping)
+        {
+            IsJumping = false; 
         }
     }
 
     // Based on Physics Updates
     private void FixedUpdate()
     {
-        _rb.velocity = new Vector2(_state.Movement.HorizontalMovement, _rb.velocity.y);
+        _rb.velocity = IsJumping ? State.Movement.Velocity : new Vector2(State.Movement.HorizontalMovement, _rb.velocity.y);
     }
 }

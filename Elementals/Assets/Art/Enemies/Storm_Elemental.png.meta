@@ -53,6 +53,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -318,6 +319,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Storm_Elemental_3: -4274024868535993270
+      Storm_Elemental_0: 2933205324100895873
+      Storm_Elemental_7: -6092502134679207319
+      Storm_Elemental_6: 8119003520493717805
+      Storm_Elemental_1: -3560470605383936115
+      Storm_Elemental_4: 1282062071296642641
+      Storm_Elemental_5: -6412667405217527320
+      Storm_Elemental_2: 5578415549718267940
+      Storm_Elemental_8: 8554983267278278236
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

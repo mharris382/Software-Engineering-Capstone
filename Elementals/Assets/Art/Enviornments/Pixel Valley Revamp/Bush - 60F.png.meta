@@ -1,0 +1,1398 @@
+fileFormatVersion: 2
+guid: 5d05c56a8f62ba24bbd88ff080f3373a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bush - 60F_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 947
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe51f1b2dbcc4642867e70fcfbc09ef
+      internalID: -902077995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 947
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f398089488ce574b8ae09a26b38fe6b
+      internalID: -1052184828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 947
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f5383d973b3f418f7dcb04e73615f
+      internalID: 64472800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 947
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e845621410a0a014a9295e568311ac9f
+      internalID: -1202752475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 947
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdb33800b1de524196ffd8e12f50958
+      internalID: -717077068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 947
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86183f1d38069664185c191400f4d548
+      internalID: 1220912886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 947
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e1b99f4421e5479a71a48965955b3
+      internalID: 2066602030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 947
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b075cfb60ef516448bde85b2577185b6
+      internalID: 1592392362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44489e8c1749a5447a66d1a78565e285
+      internalID: -1211390346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702cb565cd649bb44950a6384d40300f
+      internalID: -1991556265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bd8d1a691b746439cf0f009d451248
+      internalID: 1851502323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ca9e8c8f3d25140b66ab3e9658fca4
+      internalID: -18790583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34557aca977ea714b976fd6fa80e2a01
+      internalID: -425281805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_13
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fbeaf728d0aad40b2ce4a7c510ed79
+      internalID: -1039659367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_14
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd367230d93fd945835a107800078f7
+      internalID: -959420535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_15
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 819
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9dc6e4df1176e4f8477ee6be74d110
+      internalID: -1715044353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 691
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee4307575925594aaf07b3ac5735054
+      internalID: 548300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 691
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75880a9cf5870d741be264fcc68cec29
+      internalID: 1034423933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 691
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ee38dec584aae4c8c5d6af62fbd0a6
+      internalID: -1056064085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 691
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca5a488f0ac9d04f94fbdebbe663f32
+      internalID: -733159326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_20
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 691
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d646ec7aba413f4aa2c1aaace161f74
+      internalID: -628533430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_21
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 691
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29782552600f7034896459cc1867df3e
+      internalID: -1779939051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_22
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 691
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e37ffebfe94f8b4bacdb507ffef4866
+      internalID: 326788678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_23
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 691
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dfd06b87dd7be49a71b6943de584ba
+      internalID: 964530629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e196fdfdc710243bf175d145f0b3d6
+      internalID: 237963716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dadb30265ba8940a9555abb32ef1f6
+      internalID: -1574541841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4322096c755089344956b1ee3b68fb73
+      internalID: -1369101484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 563
+        width: 117
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c8b57c5803a6409f237083e57a01b
+      internalID: -1172100065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_28
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b529df47cad1e4468dc3ad7e8e35538
+      internalID: -693857130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_29
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d13f6d343350f4c8e13e9ae29f57e0
+      internalID: -255945399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_30
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0be13a033cfa0b43a1afb1d76c669d7
+      internalID: 1687482128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_31
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 563
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee718149d3ca70c4f9a9ac09e26e6791
+      internalID: 632239198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 435
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199fe46c39334a4e93e5c630a8d6e05
+      internalID: -1485840746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 435
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fccdc7a1e0b374faed85f0bf6a4d21
+      internalID: 229228107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_34
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 435
+        width: 116
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e203589d41884781b2f5c56af615e
+      internalID: -1950637374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_35
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 435
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f3267f9d463354aaa048e15ef7572f
+      internalID: -595751006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_36
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 435
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc20074fd5388d04fbcd0bad755d3ccf
+      internalID: -1262543352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_37
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 435
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88de384ab33c474385f127d6954dd09
+      internalID: -1204050427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_38
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 435
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5915a0a2551fa034d8e312d573c23df6
+      internalID: -1672332782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_39
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 435
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f115719dbcf72584d8d03bb10de4a50e
+      internalID: -1967994719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 307
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee99d19b8621d7459b841ef8b2f09c9
+      internalID: 947060984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 307
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0403f89ed53fdfe44b3f6c254a33583c
+      internalID: -707257907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_42
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 307
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c78b567f20203e44b9bdc9bf2028dfa
+      internalID: 1115159914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_43
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 307
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e97c2ae2900a8d45b043f1aed87bf99
+      internalID: 1900048443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_44
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 307
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba28c538c86fbd42a0a461385736602
+      internalID: -1831042426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_45
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 307
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ccedaa5ff7bb48a1e8e2afb321472
+      internalID: 1394170906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_46
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 307
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e9a057ad918e429aac7d0b4c45846
+      internalID: -171953856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_47
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 307
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e24207e2e987749bfe66740f255071
+      internalID: 106802795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc8452e410b4cf40bfd4fe39143dff9
+      internalID: -1075818206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_49
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f7a2f25bcdcdb45a0d4807cca68a32
+      internalID: -1070938759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_50
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbd0193c35172446bfb0b73323ef356
+      internalID: 1199239949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_51
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b4fbdd38a9d51408c62a0d28f1e08a
+      internalID: -1764411821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_52
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e4f32d2b51eb4196f90d40ddd6c9a
+      internalID: -1873527458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc61ea8851ac21469c8406fe4790b2d
+      internalID: -2124521666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_54
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c00095b9d8df4f8bfe3ea5c9a557e
+      internalID: 681274573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_55
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 179
+        width: 114
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825219992a642fe4ca3064fd922746ef
+      internalID: -1866421601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 51
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1770bfc2dcf404ab1c69b1895d5859
+      internalID: -758140979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush - 60F_57
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 51
+        width: 115
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e44b99866ee8a94ebca21f17b8581b9
+      internalID: 1661472930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bush - 60F_51: -1764411821
+      Bush - 60F_16: 548300182
+      Bush - 60F_14: -959420535
+      Bush - 60F_44: -1831042426
+      Bush - 60F_17: 1034423933
+      Bush - 60F_54: 681274573
+      Bush - 60F_11: -18790583
+      Bush - 60F_48: -1075818206
+      Bush - 60F_30: 1687482128
+      Bush - 60F_42: 1115159914
+      Bush - 60F_37: -1204050427
+      Bush - 60F_2: 64472800
+      Bush - 60F_13: -1039659367
+      Bush - 60F_15: -1715044353
+      Bush - 60F_6: 2066602030
+      Bush - 60F_22: 326788678
+      Bush - 60F_27: -1172100065
+      Bush - 60F_41: -707257907
+      Bush - 60F_10: 1851502323
+      Bush - 60F_50: 1199239949
+      Bush - 60F_7: 1592392362
+      Bush - 60F_24: 237963716
+      Bush - 60F_47: 106802795
+      Bush - 60F_9: -1991556265
+      Bush - 60F_57: 1661472930
+      Bush - 60F_26: -1369101484
+      Bush - 60F_3: -1202752475
+      Bush - 60F_31: 632239198
+      Bush - 60F_28: -693857130
+      Bush - 60F_52: -1873527458
+      Bush - 60F_43: 1900048443
+      Bush - 60F_53: -2124521666
+      Bush - 60F_32: -1485840746
+      Bush - 60F_0: -902077995
+      Bush - 60F_33: 229228107
+      Bush - 60F_5: 1220912886
+      Bush - 60F_38: -1672332782
+      Bush - 60F_39: -1967994719
+      Bush - 60F_1: -1052184828
+      Bush - 60F_23: 964530629
+      Bush - 60F_20: -628533430
+      Bush - 60F_46: -171953856
+      Bush - 60F_8: -1211390346
+      Bush - 60F_29: -255945399
+      Bush - 60F_49: -1070938759
+      Bush - 60F_36: -1262543352
+      Bush - 60F_45: 1394170906
+      Bush - 60F_25: -1574541841
+      Bush - 60F_19: -733159326
+      Bush - 60F_34: -1950637374
+      Bush - 60F_4: -717077068
+      Bush - 60F_35: -595751006
+      Bush - 60F_18: -1056064085
+      Bush - 60F_55: -1866421601
+      Bush - 60F_40: 947060984
+      Bush - 60F_21: -1779939051
+      Bush - 60F_56: -758140979
+      Bush - 60F_12: -425281805
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

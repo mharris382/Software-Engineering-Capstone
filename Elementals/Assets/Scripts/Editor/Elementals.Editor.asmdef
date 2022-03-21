@@ -1,0 +1,20 @@
+{
+    "name": "Elementals.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e4056aa90e39eab4a910af5719bad9b0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -292,6 +293,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Ice_impact_2: -2567411226368997077
+      Ice_impact_1: -6832445717243608836
+      Water_Bolt_2: 7868582355295611056
+      Ice_impact_4: -9027191091913931965
+      Ice_impact_5: -6945054620767898380
+      Ice_impact_3: 7759103466004531172
+      Water_Bolt_1: -7053814755061233567
+      Water_Bolt_3: -8795426806120457034
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

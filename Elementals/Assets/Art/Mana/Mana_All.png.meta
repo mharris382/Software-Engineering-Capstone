@@ -132,6 +132,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -976,6 +977,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mana_Air_1: -509129829936218964
+      Mana_Air_2: 6917771467781515695
+      Mana_Earth_6: -8945343006847401551
+      Mana_Earth_5: -6338630664082160733
+      Mana_Air_4: 5513573257050629109
+      Mana_Thunder_4: 1181568994444233376
+      Mana_Water_3: 2336667432787302413
+      Mana_Thunder_6: 1658764023124563072
+      Mana_Pure_2: -2567730267145218324
+      Mana_Fire_3: 1507164511108484412
+      Mana_Fire_2: 7906855496283186951
+      Mana_Fire_1: -7922334140863366587
+      Mana_Thunder_3: 6527379922504634447
+      Mana_Earth_4: -9974108902563532
+      Mana_Pure_5: -1358813543313165990
+      Mana_Pure_6: -1503277428844350832
+      Mana_Fire_6: -5966358500255333779
+      Mana_Pure_1: -315412532668777984
+      Mana_Pure_3: 2793747120497959424
+      Mana_Water_4: 282751921005664303
+      Mana_Water_5: 1679251280888439837
+      Mana_Water_2: 7313382182978162345
+      Mana_Fire_5: -3530871702197268148
+      Mana_Earth_3: 7947422584349374707
+      Mana_Thunder_1: -1001638534166109421
+      Mana_Water_6: -1013217012160774014
+      Mana_Earth_2: -8063536156964755391
+      Mana_Thunder_5: -3475919021159686341
+      Mana_Thunder_2: 2721955427651610180
+      Mana_Earth_1: -620206005326771415
+      Mana_Fire_4: -831844186053969824
+      Mana_Air_5: 6863936786270419393
+      Mana_Pure_4: 1537413485024176642
+      Mana_Air_3: 658711174583994505
+      Mana_Water_1: -7972390393447020363
+      Mana_Air_6: -397213901795833075
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

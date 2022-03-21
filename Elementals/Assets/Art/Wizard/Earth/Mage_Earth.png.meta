@@ -249,6 +249,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -688,7 +689,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8c9559911f6dcabd0800000000000000
-      internalID: -2617480952404420152
+      internalID: -617356813506731603
       vertices: []
       indices: 
       edges: []
@@ -709,7 +710,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 00ce8d802ce50b920800000000000000
-      internalID: 3004005138921221120
+      internalID: 7056588670266298153
       vertices: []
       indices: 
       edges: []
@@ -730,7 +731,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a119b2f6b9b6369f0800000000000000
-      internalID: -476418820241911526
+      internalID: -3471516478480641638
       vertices: []
       indices: 
       edges: []
@@ -751,7 +752,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 678c3f53d16b5bda0800000000000000
-      internalID: -5929633097787914122
+      internalID: 475304637586734954
       vertices: []
       indices: 
       edges: []
@@ -772,7 +773,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6a7c57e985da83310800000000000000
-      internalID: 1385047481543673766
+      internalID: 5947434836302903089
       vertices: []
       indices: 
       edges: []
@@ -793,7 +794,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bb5a97fb575982ab0800000000000000
-      internalID: -5032608250630396485
+      internalID: -5854571879291665274
       vertices: []
       indices: 
       edges: []
@@ -814,7 +815,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 52177d070878013d0800000000000000
-      internalID: -3237939146360655579
+      internalID: 8258408881666613731
       vertices: []
       indices: 
       edges: []
@@ -835,7 +836,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e843d9e903b4d8220800000000000000
-      internalID: 2489728841197368462
+      internalID: 8214755810280746093
       vertices: []
       indices: 
       edges: []
@@ -856,7 +857,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 70128fd7de11f9ff0800000000000000
-      internalID: -27283361022598905
+      internalID: 7805100997128340077
       vertices: []
       indices: 
       edges: []
@@ -877,7 +878,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7bb505a2f2b6ad820800000000000000
-      internalID: 2943783156757584823
+      internalID: -172519036266920555
       vertices: []
       indices: 
       edges: []
@@ -1213,7 +1214,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e2944c25a3c70a370800000000000000
-      internalID: 8331795900573960494
+      internalID: 2116080207067554198
       vertices: []
       indices: 
       edges: []
@@ -1270,6 +1271,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mage_Earth_Move_Gnd_2: 7618175774540671426
+      Mage_Earth_Cast_Ground_4: 9144740309738177634
+      Mage_Earth_Cast_Ground_3: 3859875152673566274
+      Mage_Earth_Move_Gnd_4: 7056588670266298153
+      Mage_Earth_Cast_Aerial_8: -4675956059051057706
+      Mage_Earth_Cast_Aerial_4: 4546661473967275736
+      Mage_Earth_Idle_Gnd_0: -7137556173429586522
+      Mage_Earth_Death_1: 8214755810280746093
+      Mage_Earth_Idle_Air_0: 2535168176161459244
+      Mage_Earth_Idle_Air_1: -6750510806786283439
+      Mage_Earth_Move_Air_0: -5035267135485227791
+      Mage_Earth_Move_Air_2: -5283379656778011194
+      Mage_Earth_Death_0: 8258408881666613731
+      Mage_Earth_Move_Gnd_1: -5179943742280411178
+      Mage_Earth_Cast_Ground_7: 4011227431593751940
+      Mage_Earth_Move_Air_3: 8734124104335251694
+      Mage_Earth_Idle_Gnd_2: -8479541352136680482
+      Mage_Earth_Move_Gnd_0: -5301080501338343740
+      Mage_Earth_Death_2: 7805100997128340077
+      Mage_Earth_Cast_Ground_5: -977224331057123990
+      Mage_Earth_Cast_Aerial_3: -3813778125678823981
+      Mage_Earth_Cast_Aerial_7: -8938728536804384911
+      Mage_Earth_Idle_Gnd_1: 3072181134664709093
+      Mage_Earth_Cast_Aerial_6: 2116080207067554198
+      Mage_Earth_Cast_Ground_8: -1463194475794698176
+      Mage_Earth_Cast_Aerial_5: 853195896353928383
+      Mage_Earth_Cast_Ground_2: 7282615271411005423
+      Mage_Earth_Death_3: -172519036266920555
+      Mage_Earth_Idle_Gnd_3: 2371556203033684383
+      Mage_Earth_Cast_Ground_1: -8646556328671580571
+      Mage_Earth_Cast_Aerial_1: -51547859343820891
+      Mage_Earth_Cast_Aerial_0: 4288526901431344853
+      Mage_Earth_Idle_Gnd_4: 4814771966753768861
+      Mage_Earth_Idle_Air_4: -4241193892502052770
+      Mage_Earth_Move_Gnd_5: -3471516478480641638
+      Mage_Earth_Move_Gnd_6: 475304637586734954
+      Mage_Earth_Idle_Air_3: -4211198239363854600
+      Mage_Earth_Move_Air_1: -4283270743104928454
+      Mage_Earth_Hit: -5854571879291665274
+      Mage_Earth_Move_Gnd_7: 5947434836302903089
+      Mage_Earth_Cast_Aerial_2: 875381205541150073
+      Mage_Earth_Move_Gnd_3: -617356813506731603
+      Mage_Earth_Idle_Air_2: -723315732534110695
+      Mage_Earth_Cast_Ground_0: -5493718789865780523
+      Mage_Earth_Cast_Ground_6: -4495595904051150424
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

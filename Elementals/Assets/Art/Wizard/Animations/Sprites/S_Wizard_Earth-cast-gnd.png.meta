@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -316,6 +317,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Earth-cast-gnd_3: -4270258597644475324
+      S_Wizard_Earth-cast-gnd_4: -371728827929119777
+      S_Wizard_Earth-cast-gnd_6: -8604729443951321268
+      S_Wizard_Earth-cast-gnd_5: -8468156054700777155
+      S_Wizard_Earth-cast-gnd_7: -7625428912775678798
+      S_Wizard_Earth-cast-gnd_8: 7500987932091771073
+      S_Wizard_Earth-cast-gnd_2: 8438239299425394395
+      S_Wizard_Earth-cast-gnd_1: -2447634483349908944
+      S_Wizard_Earth-cast-gnd_0: -6153050356515223022
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2678078726782390188, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_Name
-      value: RockEnemy Variant
+      value: Rock Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2678078726782390188, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_TagString

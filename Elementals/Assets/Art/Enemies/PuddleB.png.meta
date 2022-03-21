@@ -71,6 +71,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -462,6 +463,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Puddle_14: 21300028
+      Puddle_9: 21300018
+      Puddle_3: 21300006
+      Puddle_5: 21300010
+      Puddle_12: 21300024
+      Puddle_0: 21300000
+      Puddle_13: 21300026
+      Puddle_4: 21300008
+      Puddle_10: 21300020
+      Puddle_8: 21300016
+      Puddle_1: 21300002
+      Puddle_7: 21300014
+      Puddle_6: 21300012
+      Puddle_11: 21300022
+      Puddle_2: 21300004
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

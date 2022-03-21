@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Air-idle-gnd_0: 8355235928742599037
+      S_Wizard_Air-idle-gnd_4: 5595878263418034558
+      S_Wizard_Air-idle-gnd_1: -3007675687343977750
+      S_Wizard_Air-idle-gnd_2: -8179012201994607557
+      S_Wizard_Air-idle-gnd_3: -4488492948242227603
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

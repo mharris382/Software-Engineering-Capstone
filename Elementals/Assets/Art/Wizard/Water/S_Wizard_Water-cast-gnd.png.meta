@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -316,6 +317,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Water-cast-gnd_3: 598218644784881751
+      S_Wizard_Water-cast-gnd_6: 6120374241683508937
+      S_Wizard_Water-cast-gnd_5: -3356379664819823479
+      S_Wizard_Water-cast-gnd_2: -7241684082202344844
+      S_Wizard_Water-cast-gnd_8: -5672948850470399181
+      S_Wizard_Water-cast-gnd_4: 1132962788620878820
+      S_Wizard_Water-cast-gnd_0: 4357853704739040209
+      S_Wizard_Water-cast-gnd_7: 8475307649468744535
+      S_Wizard_Water-cast-gnd_1: -6085891104525952890
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

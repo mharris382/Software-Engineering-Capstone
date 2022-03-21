@@ -165,6 +165,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1186,6 +1187,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Air_43: 7183738168973929595
+      move-gnd: -3768089203115349768
+      S_Wizard_Air_40: 6521532879835878323
+      cast-gnd: -5305234013116128916
+      idle-gnd: -4990756583372148082
+      S_Wizard_Air_4: 8054675878312635425
+      hit: -185122677421205125
+      cast-air: 1081571966564630396
+      S_Wizard_Air_45: -6685458110923616189
+      S_Wizard_Air_25: -4297612411825226998
+      S_Wizard_Air_6: 2129627941483359921
+      S_Wizard_Air_32: -1103843763554699311
+      S_Wizard_Air_42: 6056862262448203441
+      move-air: -3620268110946215360
+      S_Wizard_Air_11: 4177589173741313386
+      S_Wizard_Air_8: -231396896359751809
+      S_Wizard_Air_30: 2155236154800217589
+      death: 4881100169242735277
+      S_Wizard_Air_1: -6000363247279800669
+      S_Wizard_Air_44: 3033963898114822440
+      S_Wizard_Air_19: -451871023329761335
+      S_Wizard_Air_20: 8602741105156890038
+      S_Wizard_Air_12: 5838092508359218304
+      S_Wizard_Air_37: -822521134466616528
+      S_Wizard_Air_21: 109108894117467376
+      S_Wizard_Air_16: 7305420540538788479
+      S_Wizard_Air_7: -300279714211226510
+      S_Wizard_Air_36: 5429551235419230374
+      idle_air: -2229921181963966571
+      S_Wizard_Air_34: -3629731847825167543
+      S_Wizard_Air_31: 1735998627654254529
+      S_Wizard_Air_27: 3437743615883701502
+      S_Wizard_Air_39: 2455335567435427889
+      S_Wizard_Air_17: 4874703126456946408
+      S_Wizard_Air_15: -7463074525646042069
+      S_Wizard_Air_24: 7799856671878992747
+      S_Wizard_Air_18: -3934056312949175168
+      S_Wizard_Air_13: -651982446574020166
+      S_Wizard_Air_35: -1646862175104291944
+      S_Wizard_Air_3: 7923248519532435738
+      S_Wizard_Air_46: 9083727898800147987
+      S_Wizard_Air_9: 2426869043236473786
+      S_Wizard_Air_41: 9112028443344845204
+      S_Wizard_Air_2: -7181259790985824273
+      S_Wizard_Air_33: -7340517493381336563
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
