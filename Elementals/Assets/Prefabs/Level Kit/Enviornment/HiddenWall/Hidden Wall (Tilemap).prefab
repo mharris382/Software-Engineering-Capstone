@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4790703376398667341}
   - component: {fileID: 4790703376398667336}
-  - component: {fileID: 4790703376398667343}
-  - component: {fileID: 4790703376398667342}
   - component: {fileID: 4630436901853040630}
   - component: {fileID: 3961044108689911564}
+  - component: {fileID: -3199202557248372640}
+  - component: {fileID: 4790703376398667342}
   m_Layer: 1
   m_Name: Hidden Wall (Tilemap)
   m_TagString: Untagged
@@ -57,96 +57,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &4790703376398667343
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4790703376398667340}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 12.024445, y: 25.675877}
-      - {x: 6.1313343, y: 15.082703}
-      - {x: -2.478033, y: -2.1289697}
-      - {x: -3.087452, y: -5.239285}
-      - {x: 6.139431, y: -5.277177}
-      - {x: 13.022915, y: -3.4703813}
-      - {x: 22.624094, y: 1.1792397}
-      - {x: 25.415802, y: 2.9073248}
-      - {x: 26.731476, y: 4.702979}
-      - {x: 27.019386, y: 24.415298}
---- !u!114 &4790703376398667342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4790703376398667340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca5b0c2ba134c82975c4df16c8336b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 3
-  fadeEasing:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  exitDelay: 1
-  fadeChildren: 1
-  updateWallColor:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Tilemaps.Tilemap, UnityEngine
-        m_MethodName: set_color
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-  wallColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1839735485 &4630436901853040630
 Tilemap:
   m_ObjectHideFlags: 0
@@ -5339,7 +5249,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.7267132, a: 0}
   m_Origin: {x: -6, y: -14, z: 0}
   m_Size: {x: 65, y: 40, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -5410,3 +5320,51 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &-3199202557248372640
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790703376398667340}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
+--- !u!114 &4790703376398667342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790703376398667340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca5b0c2ba134c82975c4df16c8336b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallColor: {r: 1, g: 0, b: 0.7267132, a: 0}
+  duration: 0.527
+  exitDelay: 2.25
+  fadeChildren: 1
+  updateWallColor:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4630436901853040630}
+        m_TargetAssemblyTypeName: UnityEngine.Tilemaps.Tilemap, UnityEngine
+        m_MethodName: set_color
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  hidden: 1

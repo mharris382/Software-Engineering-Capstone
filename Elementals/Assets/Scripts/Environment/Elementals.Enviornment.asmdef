@@ -1,0 +1,18 @@
+{
+    "name": "Elementals.Enviornment",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e4056aa90e39eab4a910af5719bad9b0",
+        "GUID:50f5050e5a7e64444b3dd6d7330b34d7",
+        "GUID:028f9130d631dbb4fbc098042fa020bd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
