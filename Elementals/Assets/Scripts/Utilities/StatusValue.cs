@@ -6,7 +6,12 @@ public class StatusValue : MonoBehaviour
     [SerializeField]
     private float maxValue = 10;
     private float currentValue = 10;
-    public float MaxValue => maxValue;
+
+    public float MaxValue
+    {
+        get => maxValue;
+        set => maxValue = value;
+    }
 
     public float CurrentValue
     {

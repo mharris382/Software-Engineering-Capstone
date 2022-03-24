@@ -11,8 +11,20 @@ public class ManaGatherer : MonoBehaviour
    [SerializeField] private float consumeRadius = 1;
    [SerializeField] private float forceStrength = 5;
    public Events manaGatherEvents;
-   
-   
+
+
+   public float ConsumeRadius
+   {
+      get => consumeRadius;
+      set => consumeRadius = value;
+   }
+
+   public float ForceStrength
+   {
+      get => forceStrength;
+      set => forceStrength = value;
+   }
+
    private IManaSource _manaSource;
    private CasterState _state;
 

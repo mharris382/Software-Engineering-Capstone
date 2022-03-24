@@ -9,7 +9,7 @@ Elementals/[Bb]uild/
 Elementals/[Bb]uilds/
 Elementals/[Ll]ogs/
 Elementals/[Mm]emoryCaptures/
-
+Elementals/Assets/Scenes/Levels/Feedback/USERNAME.txt
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
