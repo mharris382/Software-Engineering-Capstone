@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
+using DG.Tweening.Core;
 using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour
 {
     private Rigidbody2D rb;
-
+    [SerializeField] private float duration = 1f;
+    [SerializeField] private int vibrato = 10;
+    [SerializeField] private float elasticity = 1f;
+    [SerializeField] private float delay = 0.5f;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,6 +29,11 @@ public class FallingPlatform : MonoBehaviour
 
     private void DropPlatform()
     {
-        rb.isKinematic = false;
+
+        rb.transform.DOPunchRotation(Vector3.forward, 1f, 10, 1f)
+            .SetDelay(delay)
+            .OnComplete(() => rb.isKinematic = false)
+            .Play();
+
     }
 }
