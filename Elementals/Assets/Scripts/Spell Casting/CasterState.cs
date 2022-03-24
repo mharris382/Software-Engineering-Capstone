@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
 
-[RequireComponent(typeof(CasterController))]
 public class CasterState : MonoBehaviour
 {
     [FormerlySerializedAs("basicSpellEvents")] [SerializeField] CastEvents basicSpell;

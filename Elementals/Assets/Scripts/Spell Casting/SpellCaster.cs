@@ -70,27 +70,22 @@ public class SpellCaster : MonoBehaviour
         _state.StrongSpell.onCastTriggered.AddListener(StrongCast);
     }
 
-    private void BasicCast()
+    public void BasicCast()
     {
         if (HasMana)
         {
             var spellName = SpellNames.FastAttackSpell;
             var spell =_spellProvider.GetSpell(spellName);
-            //TODO: null check and raise error if fast spell is missing
             CastSpell(spell);
-            //basicSpell.Cast(this);
         }
     }
 
-    private void StrongCast()
+    public void StrongCast()
     {
         if (HasMana)
         {
-            var spellName = SpellNames.StrongAttackSpell;
-            var spell =_spellProvider.GetSpell(spellName);
-            //TODO: null check and raise error if strong spell is missing
+            var spell =_spellProvider.GetSpell( SpellNames.StrongAttackSpell);
             CastSpell(spell);
-            
         }
     }
 
