@@ -510,8 +510,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      land1: 21300032
       land3: 21300028
+      lesenka: 21300022
       tree: 21300002
       barrel: 21300016
       box: 21300014
@@ -524,7 +524,7 @@ TextureImporter:
       pine: 21300004
       bush: 21300006
       opora: 21300020
-      lesenka: 21300022
+      land1: 21300032
       stone4: 21300026
       stone3: 21300012
   spritePackingTag: 
