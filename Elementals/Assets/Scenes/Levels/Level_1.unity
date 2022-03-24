@@ -36150,7 +36150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383515304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.437298, y: -2.9252598, z: -10}
+  m_LocalPosition: {x: 6.4437757, y: -2.92524, z: -10}
   m_LocalScale: {x: 30.1875, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36191,6 +36191,63 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &398470975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1896819741954645127, guid: 550d654b2aeca3d4982fe927b14d04a8, type: 3}
+  m_PrefabInstance: {fileID: 892357571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &398470976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398470975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b87825d776a442bf97fb5afb8d0b8250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellCaster: {fileID: 398470985}
+  target: {fileID: 1180917479}
+  fireRadius: 5
+  useStrongCast: 0
+--- !u!114 &398470985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398470975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc566e19aec43dea8a4f5da7d6d7ed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellSpawnPoint: {fileID: 1180917479}
+  basicSpell:
+    manaCost: 0.5
+    spellPrefab: {fileID: 1675782745}
+    autoDestroyTime: 5
+    minSpawnSpeed: 10
+  strongSpell:
+    manaCost: 0.5
+    spellPrefab: {fileID: 1746131514}
+    autoDestroyTime: 5
+    minSpawnSpeed: 10
+--- !u!114 &398470986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398470975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fc9352f8245934aa9e4d3502eda683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 0
 --- !u!1001 &437423188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36445,7 +36502,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7767175, y: 1}
+    m_SensorSize: {x: 1.7773632, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -36645,6 +36702,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1896819740319300260, guid: 550d654b2aeca3d4982fe927b14d04a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.708885
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896819740319300260, guid: 550d654b2aeca3d4982fe927b14d04a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.9
+      objectReference: {fileID: 0}
     - target: {fileID: 1896819741954645127, guid: 550d654b2aeca3d4982fe927b14d04a8, type: 3}
       propertyPath: m_Name
       value: ThunderEnemy
@@ -37996,6 +38061,11 @@ Transform:
   m_Father: {fileID: 532971334}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1675782745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2017650856, guid: 3b5ab0f0d84ac4c4abde38e986203fac, type: 3}
+  m_PrefabInstance: {fileID: 1180917478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1685264931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38053,6 +38123,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31ffffe78f0fa4d49bf31269b06f035b, type: 3}
+--- !u!1 &1746131514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1047435832, guid: 3b5ab0f0d84ac4c4abde38e986203fac, type: 3}
+  m_PrefabInstance: {fileID: 1180917478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1808513191
 PrefabInstance:
   m_ObjectHideFlags: 0

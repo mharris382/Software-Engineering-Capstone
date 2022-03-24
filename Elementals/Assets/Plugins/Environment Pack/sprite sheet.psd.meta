@@ -511,7 +511,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       land3: 21300028
-      lesenka: 21300022
+      stone4: 21300026
       tree: 21300002
       barrel: 21300016
       box: 21300014
@@ -523,9 +523,9 @@ TextureImporter:
       bridge: 21300024
       pine: 21300004
       bush: 21300006
-      opora: 21300020
+      lesenka: 21300022
       land1: 21300032
-      stone4: 21300026
+      opora: 21300020
       stone3: 21300012
   spritePackingTag: 
   pSDRemoveMatte: 1
