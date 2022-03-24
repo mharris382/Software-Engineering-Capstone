@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 76194404520322895}
   - component: {fileID: -5593002769097664780}
   m_Layer: 0
-  m_Name: Player VCamera
+  m_Name: Player Virtual Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

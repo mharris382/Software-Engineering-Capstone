@@ -7,7 +7,7 @@ using UnityEngine.Serialization;
 
 namespace SOHandlers
 {
-    [CreateAssetMenu(fileName = "PlayerDied", menuName = "Event Handlers/Player Death Handler", order = 0)]
+    [CreateAssetMenu(fileName = "PlayerDied", menuName = "Core/Event Handlers/Player Death Handler", order = 0)]
     public class PlayerDeathHandler : ScriptableObject
     {
         [SerializeField] private float delay= 1f;

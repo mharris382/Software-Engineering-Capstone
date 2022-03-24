@@ -3150,7 +3150,7 @@ GameObject:
   - component: {fileID: 73580872450935548}
   - component: {fileID: 1460840160367681044}
   m_Layer: 0
-  m_Name: Basic Ground Grid
+  m_Name: Basic Ground Tilemaps (with BG tilemap)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
