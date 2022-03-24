@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Configs
 {
-    [CreateAssetMenu(fileName = "PlayerConfig", menuName = "Configs/Player Config", order = 0)]
+    [CreateAssetMenu(fileName = "PlayerConfig", menuName = "Core/Configs/Player Config", order = 0)]
     public class PlayerConfig : ScriptableObject
     {
         
