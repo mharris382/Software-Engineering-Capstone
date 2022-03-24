@@ -6,6 +6,8 @@ public class ProjectileConfig
     [Tooltip("Projectile Prefab that will be instantiated when fired")]
     public RigidbodyProjectile prefab;
     
+    [Header("Main Settings")]
+    
     [Tooltip("The impulse force that will be applied to the projectile when fired")]
     public float launchForce = 10;
     
@@ -26,3 +28,5 @@ public class ProjectileConfig
 
     public float projectileRadius = 0.25f;
 }
+
+

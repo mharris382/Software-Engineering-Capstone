@@ -14,7 +14,6 @@ using UnityEngine;
 /// </summary>
 public class SpellCaster : MonoBehaviour
 {
-    private CasterState _state;
     private IManaSource _mana;
     private ISpellProvider _spellProvider;
     
@@ -35,8 +34,7 @@ public class SpellCaster : MonoBehaviour
     }
    
     
-    [SerializeField] 
-    private Transform spellSpawnPoint;
+    [SerializeField] private Transform spellSpawnPoint;
     public GameObject[] castFX;
 
 
@@ -45,77 +43,89 @@ public class SpellCaster : MonoBehaviour
     private void Awake()
     {
         _spellProvider = GetComponentInChildren<ISpellProvider>();
-       
-        _mana = GetComponentInChildren<ManaState>();
+        _mana = ManaState;
         
-        if (spellSpawnPoint == null)
-            spellSpawnPoint = transform;
+        if (spellSpawnPoint == null) spellSpawnPoint = transform;
     }
 
     private void Start()
     {
-        if (_spellProvider == null)
-        {
-            Debug.LogError("No Spell Provider found in children of Spell caster!", this);
-            return;
-        }
-
+        Debug.Assert(_spellProvider != null, "No Spell Provider found in children of Spell caster!", this);
         StartListeningToCasterEvents();
-    }
-
-    private void StartListeningToCasterEvents()
-    {
-        var state = GetComponent<CasterState>();
-        if (state != null)
+        
+        
+        void StartListeningToCasterEvents()
         {
-            state.BasicSpell.onCastTriggered.AddListener(BasicCast);
-            state.StrongSpell.onCastTriggered.AddListener(StrongCast);
-        }
-    }
-
-    public void BasicCast()
-    {
-        if (HasMana)
-        {
-            var spellName = SpellNames.FastAttackSpell;
-            var spell =_spellProvider.GetSpell(spellName);
-            CastSpell(spell);
-            SpawnCastFX();
-        }
-    }
-
-    public void StrongCast()
-    {
-        if (HasMana)
-        {
-            var spell =_spellProvider.GetSpell( SpellNames.StrongAttackSpell);
-            CastSpell(spell);
-            SpawnCastFX();
-        }
-    }
-
-    private void SpawnCastFX()
-    {
-        if (castFX != null && castFX.Length > 0)
-        {
-            foreach (var fx in castFX)
+            var state = GetComponent<CasterState>();
+            if (state != null)
             {
-                if(fx != null) Instantiate(fx, transform.position, transform.rotation);
+                state.BasicSpell.onCastTriggered.AddListener(BasicCast);
+                state.StrongSpell.onCastTriggered.AddListener(StrongCast);
             }
         }
     }
+    
+    
 
-    private void CastSpell(ISpell spell)
+    
+    
+    
+    public void BasicCast() => TryCastSpell(SpellNames.FastAttackSpell);
+    public void StrongCast() => TryCastSpell(SpellNames.StrongAttackSpell);
+
+    void TryCastSpell(string spellName)
     {
-        var mana = ManaState;
-        if (mana.CurrentValue >= spell.ManaCost)
+        ISpell spell;
+         if (TryGetSpell(out spell) && CastSpell(spell))
+            SpawnCastFX();
+
+
+         void SpawnCastFX()
+         {
+             if (castFX is not {Length: > 0}) return;
+             foreach (var fx in castFX)
+             {
+                 if (fx == null) continue;
+                 var t = transform;
+                 Instantiate(fx, t.position, t.rotation);
+             }
+         }
+         bool TryGetSpell(out ISpell spell1)
+         {
+             spell1 = _spellProvider.GetSpell(spellName);
+             if (spell1 == null)
+             {
+                 Debug.LogError($"Spell Provider is Missing spell with name {spellName}", this);
+                 return false;
+             }
+
+             return true;
+         }
+         
+    }
+    
+
+
+    private bool CastSpell(ISpell spell)
+    {
+        bool TryCastSpell()
         {
-            mana.RemoveMana(spell.ManaCost);
             var position = spellSpawnPoint.position;
             var direction = spellSpawnPoint.right;
-            spell.CastSpell(gameObject, position, direction);
-            Debug.DrawRay(position,direction, Color.blue, 1);
+            if (spell.CastSpell(gameObject, position, direction))
+            {
+                Debug.DrawRay(position,direction, Color.blue, 1);
+                return true;
+            }
+            return false;
         }
+        var mana = ManaState;
+        if (mana.HasMana(spell.ManaCost))
+        {
+            mana.RemoveMana(spell.ManaCost);
+            return TryCastSpell();
+        }
+        return false;
     }
 
 

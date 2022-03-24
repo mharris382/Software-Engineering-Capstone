@@ -17,12 +17,12 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
 
     private float lastCastTime = 0;
 
-    public void FireProjectile( Vector2 spawnPosition, Vector2 direction)
+    public bool FireProjectile( Vector2 spawnPosition, Vector2 direction)
     {
         // Vector2 spawnPosition = aimTransform.position;
        // var direction = AimDirection;
        if (projectile.enforceCastRate && Time.time - lastCastTime < projectile.castRate)
-           return;
+           return false;
        lastCastTime = Time.time;
        
        //check to see if the direction is within projectile angle limits 
@@ -56,11 +56,13 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
             decorator.OnProjectileFired(spawnedProjectile);
         }
 
+        return true;
     }
 
-    public void CastSpell(GameObject caster, Vector2 position, Vector2 direction)
+    public bool CastSpell(GameObject caster, Vector2 position, Vector2 direction)
     {
-        FireProjectile(position, direction);
+        return  FireProjectile(position, direction);
+         
     }
     public float ManaCost
     {

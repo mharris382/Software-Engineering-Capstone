@@ -1429,6 +1429,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4979996781693328103, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+      propertyPath: ignore
+      value: 
+      objectReference: {fileID: 6925483293026658273}
+    - target: {fileID: 4979996781693328103, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+      propertyPath: projectile.prefab
+      value: 
+      objectReference: {fileID: -664825597825090570, guid: 00dc40cba31279b4998672110491ec2a, type: 3}
+    - target: {fileID: 4979996781693328103, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+      propertyPath: projectile.castRate
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 4979996781811301321, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1473,10 +1485,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4979996781811301322, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+      propertyPath: fireRadius
+      value: 18.01
+      objectReference: {fileID: 0}
     - target: {fileID: 4979996781811301323, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
       propertyPath: onAssigned.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1198363374574773345}
+    - target: {fileID: 4979996781811301332, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+      propertyPath: castFX.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979996781811301332, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+      propertyPath: castFX.Array.data[0]
+      value: 
+      objectReference: {fileID: 100018, guid: a40b64bf23366dc42a892af2c6ff6140, type: 3}
     - target: {fileID: 4979996781811301333, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
       propertyPath: m_Name
       value: FIxedShooter (Fireballs)
@@ -1488,12 +1512,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3864567658878662741, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
   m_PrefabInstance: {fileID: 2666345300967480372}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 6925483293026658273}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a75b9d1e37a4560a77c90a3bc7f91d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &6925483293026658273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4979996781811301333, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}
+  m_PrefabInstance: {fileID: 2666345300967480372}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6925483293026658301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4979996781811301321, guid: ac3aaeab4e2f9af4296a51367353b1a8, type: 3}

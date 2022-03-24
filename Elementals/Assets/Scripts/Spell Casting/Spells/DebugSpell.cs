@@ -4,9 +4,10 @@ namespace Spell_Casting.Spells
 {
     public class DebugSpell : MonoBehaviour, ISpell
     {
-        public void CastSpell(GameObject caster, Vector2 position, Vector2 direction)
+        public bool CastSpell(GameObject caster, Vector2 position, Vector2 direction)
         {
             Debug.Log(message);
+            return true;
         }
 
         public float ManaCost
