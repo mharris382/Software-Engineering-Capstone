@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 namespace DefaultNamespace
 {
@@ -20,7 +21,20 @@ namespace DefaultNamespace
 
         private void Update()
         {
-            
+            if (Vector2.Distance(target.position, transform.position) <= fireRadius)
+            {
+
+                var randNumber = Random.Range(1, 5);
+                if (randNumber == 5)
+                {
+                    useStrongCast = true;
+                }
+                else
+                {
+                    useStrongCast = false;
+                }
+                Fire();
+            }
         }
 
         void Fire()
