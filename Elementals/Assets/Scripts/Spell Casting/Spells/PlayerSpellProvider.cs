@@ -8,7 +8,7 @@ namespace Spell_Casting.Spells
         ISpell GetSpell(string spellName);
     }
 
-    public class SpellProvider : MonoBehaviour, ISpellProvider
+    public class PlayerSpellProvider : MonoBehaviour, ISpellProvider
     {
         public SpellKey[] spells;
         public ElementContainer activeElement;
@@ -53,6 +53,7 @@ namespace Spell_Casting.Spells
         }
         
     }
+
 
     public class SpellMissingException : Exception
     {

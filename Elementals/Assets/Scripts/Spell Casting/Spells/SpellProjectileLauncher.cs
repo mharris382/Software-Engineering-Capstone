@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Spell_Casting.Spells;
 using UnityEngine;
 
+[AddComponentMenu("Spells/Spell Projectile Launcher")]
 public class SpellProjectileLauncher : MonoBehaviour, ISpell
 {
     private const float MAX_ANGLE_OFFSET = 90f;
@@ -14,13 +15,17 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
     
     private float Accuracy => projectile.accuracy;
 
+    private float lastCastTime = 0;
 
     public void FireProjectile( Vector2 spawnPosition, Vector2 direction)
     {
         // Vector2 spawnPosition = aimTransform.position;
        // var direction = AimDirection;
-        
-        //check to see if the direction is within projectile angle limits 
+       if (projectile.enforceCastRate && Time.time - lastCastTime < projectile.castRate)
+           return;
+       lastCastTime = Time.time;
+       
+       //check to see if the direction is within projectile angle limits 
         var referenceVector = direction.x > 0 ? Vector2.right : Vector2.left;
         var angle = Vector2.SignedAngle(referenceVector, direction);
         var clampedAngle = Mathf.Clamp(angle, projectile.minAngle, projectile.maxAngle);

@@ -44,5 +44,17 @@ namespace DefaultNamespace
             else
                 spellCaster.BasicCast();
         }
+
+
+        private void OnDrawGizmos()
+        {
+            var c = Color.red;
+            c.a = 0.6f;
+            Gizmos.color = c;
+            var position = transform.position;
+            Gizmos.DrawWireSphere(position, fireRadius);
+            
+
+        }
     }
 }

@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections;
+using DefaultNamespace;
 using Spell_Casting.Spells;
 using UnityEngine;
 
 
-
+//TODO: need to update documentation.  Spell caster no longer requires CasterState.
+//TODO: If mana source is not added, Unlimited Mana Source will be created as the mana source
+/// <summary>
+/// No longer requires a caster state
+/// Mana Source is still required in the code, but doesn't need to be added manaually anymore. If it is missing an Unlimited Mana Source will be created. 
+/// The only component that must be added manually to the hierarchy is the ISpellProvider <see cref="ISpellProvider"/> 
+/// </summary>
 public class SpellCaster : MonoBehaviour
 {
-
-    
     private CasterState _state;
     private IManaSource _mana;
     private ISpellProvider _spellProvider;
@@ -20,34 +25,27 @@ public class SpellCaster : MonoBehaviour
             if (_mana == null)
             {
                 _mana = GetComponentInChildren<IManaSource>();
+                if (_mana == null) {
+                    _mana = gameObject.AddComponent<UnlimitedMana>();
+                    Debug.Log("No mana source found on caster.  Adding UnlimitedMana source.",this);
+                }
             }
             return _mana;
         }
     }
-    internal CasterState CasterState
-    {
-        get
-        {
-            if (_state == null)
-            {
-                _state = GetComponent<CasterState>();
-            }
-            return _state;
-        }
-    }
+   
     
     [SerializeField] 
     private Transform spellSpawnPoint;
-    
+    public GameObject[] castFX;
 
 
-    
-    private bool HasMana => _mana.CurrentValue > 0.1f;
+    private bool HasMana => ManaState == null || ManaState.HasMana(0.01f);
     
     private void Awake()
     {
         _spellProvider = GetComponentInChildren<ISpellProvider>();
-        _state = GetComponent<CasterState>();
+       
         _mana = GetComponentInChildren<ManaState>();
         
         if (spellSpawnPoint == null)
@@ -56,18 +54,23 @@ public class SpellCaster : MonoBehaviour
 
     private void Start()
     {
-        if (_state == null)
-        {
-            Debug.LogError("Caster State missing on Spell Caster", this);
-            return;
-        }
         if (_spellProvider == null)
         {
             Debug.LogError("No Spell Provider found in children of Spell caster!", this);
             return;
         }
-        _state.BasicSpell.onCastTriggered.AddListener(BasicCast);
-        _state.StrongSpell.onCastTriggered.AddListener(StrongCast);
+
+        StartListeningToCasterEvents();
+    }
+
+    private void StartListeningToCasterEvents()
+    {
+        var state = GetComponent<CasterState>();
+        if (state != null)
+        {
+            state.BasicSpell.onCastTriggered.AddListener(BasicCast);
+            state.StrongSpell.onCastTriggered.AddListener(StrongCast);
+        }
     }
 
     public void BasicCast()
@@ -77,6 +80,7 @@ public class SpellCaster : MonoBehaviour
             var spellName = SpellNames.FastAttackSpell;
             var spell =_spellProvider.GetSpell(spellName);
             CastSpell(spell);
+            SpawnCastFX();
         }
     }
 
@@ -86,6 +90,18 @@ public class SpellCaster : MonoBehaviour
         {
             var spell =_spellProvider.GetSpell( SpellNames.StrongAttackSpell);
             CastSpell(spell);
+            SpawnCastFX();
+        }
+    }
+
+    private void SpawnCastFX()
+    {
+        if (castFX != null && castFX.Length > 0)
+        {
+            foreach (var fx in castFX)
+            {
+                if(fx != null) Instantiate(fx, transform.position, transform.rotation);
+            }
         }
     }
 
@@ -100,9 +116,8 @@ public class SpellCaster : MonoBehaviour
             spell.CastSpell(gameObject, position, direction);
             Debug.DrawRay(position,direction, Color.blue, 1);
         }
-        
-        
     }
+
 
     #region OBSOLETE CODE
 
@@ -158,11 +173,15 @@ public class SpellCaster : MonoBehaviour
         }
         
     }
-
-    [Obsolete]
+    
+    [HideInInspector]
+    [Obsolete("Replaced by SpellProvider.Get(SpellNames.StrongSpell")]
     [SerializeField] private SpellConfig basicSpell;
+    
+    [HideInInspector]
     [Obsolete("Replaced by SpellProvider.Get(SpellNames.StrongSpell")]
     [SerializeField] private SpellConfig strongSpell;
+    
     [Obsolete("Spell Caster Should not be handling object destruction")]
     private static IEnumerator DestroyAfterSeconds(GameObject gameObject, float time)
     {
@@ -172,8 +191,9 @@ public class SpellCaster : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     #endregion
+
+
     
 }
 

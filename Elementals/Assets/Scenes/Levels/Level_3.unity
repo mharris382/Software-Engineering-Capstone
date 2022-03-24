@@ -35421,6 +35421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca5b0c2ba134c82975c4df16c8336b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallColor: {r: 1, g: 1, b: 1, a: 1}
   duration: 0.545
   exitDelay: 0.72
   fadeChildren: 1
@@ -35439,7 +35440,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-  wallColor: {r: 1, g: 1, b: 1, a: 1}
   hidden: 0
 --- !u!66 &44518466
 CompositeCollider2D:
@@ -152703,6 +152703,63 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1001 &6925483292793895951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6925483293026658273, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_Name
+      value: FIxedShooter (Fireballs)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.11747216
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925483293026658301, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28162ed6ac3934040aa3bf36c7969033, type: 3}
 --- !u!483693784 &7513878088300987243
 TilemapRenderer:
   m_ObjectHideFlags: 0
