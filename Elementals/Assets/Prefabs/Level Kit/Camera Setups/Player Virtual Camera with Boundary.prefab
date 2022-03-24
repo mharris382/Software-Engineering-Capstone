@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 3489425924242238439}
   - component: {fileID: 4680864373614136284}
   m_Layer: 0
-  m_Name: Player VCam with Boundary
+  m_Name: Player Virtual Camera with Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
