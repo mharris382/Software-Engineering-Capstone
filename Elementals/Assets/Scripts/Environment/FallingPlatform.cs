@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using DG.Tweening.Core;
 using UnityEngine;
+using UnityEngine.UIElements.Experimental;
 
 public class FallingPlatform : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class FallingPlatform : MonoBehaviour
     {
 
         rb.transform.DOPunchRotation(Vector3.forward, 1f, 10, 1f)
+            .SetEase(Ease.OutBounce)
             .SetDelay(delay)
             .OnComplete(() => rb.isKinematic = false)
             .Play();
