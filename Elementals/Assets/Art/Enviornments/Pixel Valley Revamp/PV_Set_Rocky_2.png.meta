@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: a1d68c7f6d647614185bc86c97ffe0f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 64
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.375, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -6.5}
+        - {x: -6, y: -4.5}
+        - {x: -5, y: -3.5}
+        - {x: 0, y: -3.5}
+        - {x: 2, y: -4.5}
+        - {x: 2, y: -6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db72870be44745f4199074b62766c715
+      internalID: -667303360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 66
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2.6858788, y: -3.5}
+        - {x: 1, y: -3.5}
+        - {x: 0.59881973, y: -4.5}
+        - {x: -0.5523453, y: -4.5557404}
+        - {x: -2, y: -2.5}
+        - {x: -4, y: -2.5}
+        - {x: -5, y: -1.5}
+        - {x: -6, y: -1.5}
+        - {x: -6, y: 3.5}
+        - {x: -5, y: 3.5}
+        - {x: -4, y: 4.5}
+        - {x: -2, y: 4.5}
+        - {x: -1, y: 5.5}
+        - {x: 4, y: 5.5}
+        - {x: 5, y: 4.5}
+        - {x: 7, y: 4.5}
+        - {x: 7, y: 1.5}
+        - {x: 5, y: -0.5}
+        - {x: 5, y: -2.9097748}
+        - {x: 5.6282463, y: -3.562828}
+        - {x: 6, y: -4.5}
+        - {x: 5, y: -5.5}
+        - {x: 4, y: -5.5}
+        - {x: 3, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11505c40f0293194b97033a282fc4ce3
+      internalID: -1848023467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da36531f85f15dd44a28cc81612b22c6
+      internalID: -1372777421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -6.5}
+        - {x: -4, y: 6.5}
+        - {x: 8, y: 6.5}
+        - {x: 8, y: -6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b18cc7296788244bb8618cca395b52
+      internalID: 333623307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 64
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc663c2426aad394da55b522c2480d1c
+      internalID: 1607519395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -6.5}
+        - {x: -8, y: 6.5}
+        - {x: -2, y: 5.5}
+        - {x: 3, y: 3.5}
+        - {x: 6, y: 3.5}
+        - {x: 6, y: -1.5}
+        - {x: 8, y: -3.5}
+        - {x: 8, y: -6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6159d5c3aedb9ff44bf06b07c5867f2b
+      internalID: 1780096460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -8}
+        - {x: -4, y: -4}
+        - {x: -6, y: -3}
+        - {x: -6, y: 2.3350182}
+        - {x: -6.768982, y: 3.5694962}
+        - {x: -6, y: 4.6601067}
+        - {x: -6, y: 8}
+        - {x: 1, y: 8}
+        - {x: 1, y: 5}
+        - {x: 0, y: 4}
+        - {x: 0, y: 1}
+        - {x: 2, y: 0}
+        - {x: 2, y: -3}
+        - {x: 0, y: -4}
+        - {x: 0, y: -6}
+        - {x: 2, y: -6.3359985}
+        - {x: 2, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ad3d0c7f5944459cd6f7d8cb79081
+      internalID: 1833367112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0954004b50cf4454fb47428aa8935275
+      internalID: -1623838692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313d0f87fc945746941b152195175c5
+      internalID: 137160175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ca3cec0274f640aeb1e2be9ec5f87
+      internalID: -738345849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a748dbfd6dbf22419e66f3d2307d799
+      internalID: 182360002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffe9c796bebdf040987d5469b9a0d46
+      internalID: -124283829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: -8}
+        - {x: -8, y: -4}
+        - {x: -8, y: 3}
+        - {x: -6, y: 8}
+        - {x: 4, y: 8}
+        - {x: 2, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b82230d0118194c90fcb1d26f0ae01
+      internalID: -1102119590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c77460312988af428ad774c59a2213f
+      internalID: -155311245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c56c4314eb0cb49bad5139115bab1d
+      internalID: -1032957410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747f57f5544b4f42bf5096cd1123340
+      internalID: 1299783731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca614703dcf23a241b41d610060de049
+      internalID: -2089742468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_18
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e354a9032e34049a7b32b774ea0322
+      internalID: -410885697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -8}
+        - {x: -6, y: -6}
+        - {x: -5, y: -3}
+        - {x: -4, y: -1}
+        - {x: -3, y: 2}
+        - {x: -3, y: 8}
+        - {x: 2, y: 8}
+        - {x: 3, y: 7}
+        - {x: 3, y: 1}
+        - {x: 4, y: 0}
+        - {x: 4, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0a8b7e234e7447861e943cf2566b1
+      internalID: 1456979441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 16
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066fa6b875caf1d42bdf975d74bf2581
+      internalID: -331989790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e361385b25ca63478c36e03ad13e92c
+      internalID: 881912922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a58513feb2cdf42aab37bd3c01be20
+      internalID: 957039268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c466eea7954674db772e0bef5cd68d
+      internalID: 1384102428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91042be2d5a9796469adeee381d01fe0
+      internalID: -807051954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a1cf399c983e34eb14ab0cffe92657
+      internalID: 1477262816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce48c679a183cef4ba4ccf6febef14a7
+      internalID: -24088961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Rocky_2_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -8}
+        - {x: -7, y: -3}
+        - {x: -5.390797, y: -1.3126378}
+        - {x: -4.052107, y: -0.7394681}
+        - {x: -3, y: 1}
+        - {x: -3, y: 8}
+        - {x: 3, y: 8}
+        - {x: 3, y: 2}
+        - {x: 3.952282, y: 0.37202072}
+        - {x: 4.870081, y: -2.1491508}
+        - {x: 6, y: -4}
+        - {x: 6, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6046bb82c549e459cdf811a76d0a1f
+      internalID: -124137540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PV_Set_Rocky_2_11: 182360002
+      PV_Set_Rocky_2_16: 1299783731
+      PV_Set_Rocky_2_5: 1780096460
+      PV_Set_Rocky_2_17: -2089742468
+      PV_Set_Rocky_2_8: -1623838692
+      PV_Set_Rocky_2_18: -410885697
+      PV_Set_Rocky_2_19: 1456979441
+      PV_Set_Rocky_2_7: 1833367112
+      PV_Set_Rocky_2_12: -124283829
+      PV_Set_Rocky_2_0: -667303360
+      PV_Set_Rocky_2_4: 1607519395
+      PV_Set_Rocky_2_10: -738345849
+      PV_Set_Rocky_2_27: -24088961
+      PV_Set_Rocky_2_1: -1848023467
+      PV_Set_Rocky_2_15: -1032957410
+      PV_Set_Rocky_2_9: 137160175
+      PV_Set_Rocky_2_22: 881912922
+      PV_Set_Rocky_2_26: 1477262816
+      PV_Set_Rocky_2_2: -1372777421
+      PV_Set_Rocky_2_24: 1384102428
+      PV_Set_Rocky_2_28: -124137540
+      PV_Set_Rocky_2_3: 333623307
+      PV_Set_Rocky_2_13: -1102119590
+      PV_Set_Rocky_2_14: -155311245
+      PV_Set_Rocky_2_6: -1110957912
+      PV_Set_Rocky_2_23: 957039268
+      PV_Set_Rocky_2_25: -807051954
+      PV_Set_Rocky_2_20: -1029208888
+      PV_Set_Rocky_2_21: -331989790
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
