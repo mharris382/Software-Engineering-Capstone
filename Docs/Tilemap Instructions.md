@@ -3,20 +3,26 @@ Setup your Tilemap Gameobject
 
 
 Create a new tilemap in your scene
+
 ![](https://raw.githubusercontent.com/mharris382/Software-Engineering-Capstone/main/Docs/Images/Pasted%20image%2020220324082944.png)
 
 Change GameObject Layer
+
 ![](https://raw.githubusercontent.com/mharris382/Software-Engineering-Capstone/main/Docs/Images/Pasted%20image%2020220324083023.png)
 
 Change Sorting Layer
 ![](https://raw.githubusercontent.com/mharris382/Software-Engineering-Capstone/main/Docs/Images/Pasted%20image%2020220324083313.png)
 
 Add the Collider to the tilemap that the player will walk on
+
 ![](https://raw.githubusercontent.com/mharris382/Software-Engineering-Capstone/main/Docs/Images/Pasted%20image%2020220324083408.png)
 
 You can tweak the appearance of your tilemap by changing the color property.  Clicking on the box will open the color picker. 
+
 ![](https://raw.githubusercontent.com/mharris382/Software-Engineering-Capstone/main/Docs/Images/Pasted%20image%2020220324084355.png)
+
 You can also use the eyedropper on the very right to pick a color directly from the scene.
+
 ![](https://raw.githubusercontent.com/mharris382/Software-Engineering-Capstone/main/Docs/Images/Pasted%20image%2020220324084519.png)
 
 
