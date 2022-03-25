@@ -21,8 +21,10 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
     {
         // Vector2 spawnPosition = aimTransform.position;
        // var direction = AimDirection;
-       if (projectile.enforceCastRate && Time.time - lastCastTime < projectile.castRate)
-           return false;
+
+        if ( Time.time - lastCastTime < projectile.castRate)
+            return false;
+
        lastCastTime = Time.time;
        
        //check to see if the direction is within projectile angle limits 

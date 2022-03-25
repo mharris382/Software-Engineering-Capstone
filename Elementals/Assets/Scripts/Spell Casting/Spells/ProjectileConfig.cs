@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 [Serializable]
 public class ProjectileConfig 
@@ -14,7 +14,6 @@ public class ProjectileConfig
     [Tooltip("Minimum amount of time after firing before another projectile can be fired")]
     public float castRate = 0.5f;
 
-    public bool enforceCastRate = false;
     [Header("Extra Settings")]
     [Tooltip("0 is completely random, 1 is perfect accuracy")]
     [Range(0,1)] 
