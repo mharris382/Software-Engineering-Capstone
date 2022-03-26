@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "270d96df3f02f6e0",
+        "id": "9338d0289dcc1240",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Docs/Tilemap Instructions.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 763
   },
   "right": {
     "id": "8580c3a435b95a60",
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docs/Tilemap Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,11 +83,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 237,
     "collapsed": true
   },
-  "active": "270d96df3f02f6e0",
+  "active": "9338d0289dcc1240",
   "lastOpenFiles": [
+    "Docs/Tilemap Instructions.md",
+    "Docs/Unity Upgrade Steps.md",
+    "Docs/Installation and Setup.md",
+    "Docs/Jump Pseudocode.md",
+    "Docs/Images/Pasted image 20220324082944.png",
+    "Docs/Tilemap Shortcuts.md",
     "Projectile Mechanics.md",
     "Data Oriented Design.md",
     "README.md"
