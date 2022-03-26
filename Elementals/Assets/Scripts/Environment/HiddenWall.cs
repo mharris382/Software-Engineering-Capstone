@@ -148,6 +148,11 @@ namespace Environment
         private void OnEnable()
         {
             this._propWallColor  = serializedObject.FindProperty("wallColor");
+            serializedObject.Update();
+            var c = this._propWallColor.colorValue;
+            c.a = 1;
+            this._propWallColor.colorValue = c;
+            serializedObject.ApplyModifiedProperties();
         }
 
         public override void OnInspectorGUI()
@@ -156,6 +161,7 @@ namespace Environment
             var wall = target as HiddenWall;
             if(!Application.isPlaying)
                 DrawWallButtons(wall);
+            
             
             DrawWallColorField(wall);
 
@@ -169,6 +175,16 @@ namespace Environment
         /// <param name="wall"></param>
         private void DrawWallColorField(HiddenWall wall)
         {
+            EditorGUI.BeginChangeCheck();
+            EditorGUILayout.PropertyField(_propWallColor);
+            if (EditorGUI.EndChangeCheck())
+            {
+                wall.ShowWall();
+                var tilemap = wall.GetComponent<Tilemap>();
+                if (tilemap != null) tilemap.color = _propWallColor.colorValue;
+                EditorGUI.EndChangeCheck();
+            }
+            return;
             var tm = wall.GetComponent<Tilemap>();
             if (tm != null)
             {

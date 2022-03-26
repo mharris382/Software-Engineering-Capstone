@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7056856291408859965}
-  - component: {fileID: 4153242412239358030}
-  - component: {fileID: 76194404520322895}
   - component: {fileID: -5593002769097664780}
+  - component: {fileID: 76194404520322895}
+  - component: {fileID: 4153242412239358030}
+  - component: {fileID: -8406362269327298394}
   m_Layer: 0
   m_Name: Player Virtual Camera
   m_TagString: Untagged
@@ -35,6 +36,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5593002769097664780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924296190448797914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ce9e195911bfb47b428ea63a0eae48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  readme: makes the camera follow the player, provided you have the Main Camera prefab
+    (which needs the Cinemachine brain)
+  referencedObjects:
+  - {fileID: 7404794601825394419, guid: 81474bc823814c148974cbda53545844, type: 3}
+--- !u!114 &76194404520322895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924296190448797914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17d0c3a42e3447eb488c0a80d69a588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  container: {fileID: 11400000, guid: 3bf2c41825d9da54c81a5a7f2557f625, type: 2}
+  onAssigned:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4153242412239358030}
+        m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+        m_MethodName: set_Follow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4153242412239358030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,7 +109,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7779019, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -73,7 +118,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1709305798892504374}
---- !u!114 &76194404520322895
+--- !u!114 &-8406362269327298394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,41 +127,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924296190448797914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e17d0c3a42e3447eb488c0a80d69a588, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a3a410d21f5ae24c94a1a5b1448630d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  container: {fileID: 11400000, guid: 3bf2c41825d9da54c81a5a7f2557f625, type: 2}
-  onAssigned:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4153242412239358030}
-        m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
-        m_MethodName: set_Follow
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &-5593002769097664780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924296190448797914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9ce9e195911bfb47b428ea63a0eae48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  readme: makes the camera follow the player, provided you have the Main Camera prefab
-    (which needs the Cinemachine brain)
-  referencedObjects:
-  - {fileID: 7404794601825394419, guid: 81474bc823814c148974cbda53545844, type: 3}
+  mainCameraPrefab: {fileID: 7404794601825394419, guid: 81474bc823814c148974cbda53545844, type: 3}
 --- !u!1 &2085584278209552241
 GameObject:
   m_ObjectHideFlags: 0

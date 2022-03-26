@@ -5249,7 +5249,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 0, b: 0.7267132, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -6, y: -14, z: 0}
   m_Size: {x: 65, y: 40, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -5348,7 +5348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca5b0c2ba134c82975c4df16c8336b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallColor: {r: 1, g: 0, b: 0.7267132, a: 0}
+  wallColor: {r: 1, g: 1, b: 1, a: 1}
   duration: 0.527
   exitDelay: 2.25
   fadeChildren: 1
@@ -5367,4 +5367,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-  hidden: 1
+  hidden: 0
