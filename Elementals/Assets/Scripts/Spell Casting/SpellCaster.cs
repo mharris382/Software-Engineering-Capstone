@@ -82,7 +82,7 @@ public class SpellCaster : MonoBehaviour
 
          void SpawnCastFX()
          {
-             if (castFX is not {Length: > 0}) return;
+             if (castFX == null || castFX.Length == 0) return;
              foreach (var fx in castFX)
              {
                  if (fx == null) continue;
