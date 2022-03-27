@@ -1,0 +1,10 @@
+Size:512x300
+
+layers from far to near
+- Background4
+- Background3
+- Background2
+- Background1
+- Trees
+- Bushes
+- Front leaves

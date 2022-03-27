@@ -1,0 +1,8 @@
+Size:272x160
+
+layers from far to near
+- mountain_dusk_bg
+- mountain_dusk_montains_far
+- mountain_dusk_mountains
+- mountain_dusk_mountain_trees
+- mountain_dusk_trees_fg
