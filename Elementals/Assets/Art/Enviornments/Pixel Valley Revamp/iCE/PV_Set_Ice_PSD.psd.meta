@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: dd416f39eaaf4d34993fb82c59564d9a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PV_Set_Ice__1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.73333335, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630d90139b717e43be0752afaa5bd07
+      internalID: 135593040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 216
+        width: 24
+        height: 27
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.2962963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7a7cb23a18c84a888ebe085e9a26e
+      internalID: 648551497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 187
+        width: 27
+        height: 28
+      alignment: 9
+      pivot: {x: 0.7037037, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f662ca7391dca64b8f9bcf401340e13
+      internalID: 1200427937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 190
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.68}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343f8fe33a5d3cc4ca6191722e768b6e
+      internalID: 37462810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 193
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91091a6f6ab92346910911dfd0ca906
+      internalID: -247863752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 176
+        width: 31
+        height: 20
+      alignment: 9
+      pivot: {x: 0.7419355, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a2e1708fc911a4490756ed631d2514
+      internalID: -1148161407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3efb422c7a964589fb26f88f3c50e
+      internalID: -65698194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 172
+        width: 36
+        height: 26
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d7b132cd695f74a8c9d6c9c7184e65
+      internalID: -1479326261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9a5108c5b263b499713ff015a7334c
+      internalID: 1275395227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976daaa33665304da8ef2e90b543658
+      internalID: 1465494620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__33
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 148
+        width: 24
+        height: 27
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.7037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233a4e491c4bec44381a53e4e157cb1b
+      internalID: -234547134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772edbdf30f160c408d954c3b1c776fc
+      internalID: -667315373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8904b949accf94e9d7cce33ce36939
+      internalID: -1253256336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PV_Set_Ice__17: -1668308076
+      PV_Set_Ice__28: -94695913
+      PV_Set_Ice__36: -1943427879
+      PV_Set_Ice__49: 1012095714
+      PV_Set_Ice__55: 1650788689
+      PV_Set_Ice__3: 315102373
+      PV_Set_Ice__33: -234547134
+      PV_Set_Ice__60: 208584459
+      PV_Set_Ice__51: 1884658242
+      PV_Set_Ice__58: 508593451
+      PV_Set_Ice__57: -1038997148
+      PV_Set_Ice__31: -36313440
+      PV_Set_Ice__24: -65698194
+      PV_Set_Ice__45: 1838149078
+      PV_Set_Ice__20: -1839768218
+      PV_Set_Ice__30: 1465494620
+      PV_Set_Ice__52: -136439890
+      PV_Set_Ice__11: 1200427937
+      PV_Set_Ice__32: -1143425507
+      PV_Set_Ice__26: -1198434761
+      PV_Set_Ice__5: -1996798619
+      PV_Set_Ice__9: -738143914
+      PV_Set_Ice__1: 135593040
+      PV_Set_Ice__2: 648551497
+      PV_Set_Ice__22: -1982546250
+      PV_Set_Ice__18: -48544408
+      PV_Set_Ice__38: -1253256336
+      PV_Set_Ice__59: 470069492
+      PV_Set_Ice__37: -667315373
+      PV_Set_Ice__29: 1275395227
+      PV_Set_Ice__53: 242564520
+      PV_Set_Ice__23: -1148161407
+      PV_Set_Ice__13: 1426351262
+      PV_Set_Ice__19: 1701055804
+      PV_Set_Ice__47: 1084978222
+      PV_Set_Ice__48: 1651013107
+      PV_Set_Ice__46: -1669686163
+      PV_Set_Ice__4: 1564578622
+      PV_Set_Ice__10: -1094906183
+      PV_Set_Ice__14: 2113496587
+      PV_Set_Ice__43: -253732233
+      PV_Set_Ice__42: 1039388614
+      PV_Set_Ice__25: -1479326261
+      PV_Set_Ice__35: -1255623346
+      PV_Set_Ice__21: -528239960
+      PV_Set_Ice__8: -929766171
+      PV_Set_Ice__56: -1959102972
+      PV_Set_Ice__16: -393249298
+      PV_Set_Ice__7: 891018246
+      PV_Set_Ice__27: -96886019
+      PV_Set_Ice__39: -2063680391
+      PV_Set_Ice__50: 560278715
+      PV_Set_Ice__15: -247863752
+      PV_Set_Ice__34: -1088943971
+      PV_Set_Ice__12: 37462810
+      PV_Set_Ice__41: -798820724
+      PV_Set_Ice__6: 394373335
+      PV_Set_Ice__40: -37216981
+      PV_Set_Ice__44: 586568764
+      PV_Set_Ice__0: -1137839002
+      PV_Set_Ice__54: 133884422
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
