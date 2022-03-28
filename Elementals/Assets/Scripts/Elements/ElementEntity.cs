@@ -1,11 +1,10 @@
-﻿using OneLine;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Elements
 {
     public class ElementEntity : MonoBehaviour
     {
-        [SerializeField, OneLine]
+        [SerializeField]
         private OptionalElementContainer element;
     }
 }
