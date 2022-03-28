@@ -14449,6 +14449,7 @@ GameObject:
   - component: {fileID: 6511419966647092720}
   - component: {fileID: 1062552200881644828}
   - component: {fileID: 1062552200881644829}
+  - component: {fileID: 1858497931047094346}
   m_Layer: 1
   m_Name: Victory Portal
   m_TagString: Untagged
@@ -14504,6 +14505,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 1
   delay: 3.5
+--- !u!114 &1858497931047094346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274528979644089553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ac07930b574732b38abd6add01802a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPlayerEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1062552200881644829}
+        m_TargetAssemblyTypeName: VictoryTrigger, Elementals
+        m_MethodName: LoadNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ignorePlayerTriggerCollider: 1
 --- !u!1 &1436713583261870184
 GameObject:
   m_ObjectHideFlags: 0
@@ -29854,11 +29883,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.06
+      value: -2.27
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.14
+      value: 6.88
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29866,7 +29895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7263691
+      value: 0.7539272
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalRotation.x
@@ -29878,7 +29907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.68730485
+      value: -0.656958
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29890,7 +29919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -86.834
+      value: -82.137
       objectReference: {fileID: 0}
     - target: {fileID: 5160913405395374648, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_SortingLayer
@@ -30235,7 +30264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.80298173
+      value: 0.83804435
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalRotation.x
@@ -30247,7 +30276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.5960036
+      value: -0.54560214
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30259,7 +30288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403004067421642940, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -73.168
+      value: -66.132
       objectReference: {fileID: 0}
     - target: {fileID: 5160913405395374648, guid: c626bfe4c737f0c40851e2e5c5e3d492, type: 3}
       propertyPath: m_SortingLayer

@@ -13,24 +13,25 @@ public class VictoryTrigger : MonoBehaviour
 
     private bool _reachedVictory = true;
     public float delay = 0.5f;
+    
     public void OnVictory()
     {
-        _reachedVictory = false;
         SceneManager.LoadScene(level + 1);
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (_reachedVictory)
-        {
-            return;
-        }
         var rb = other.attachedRigidbody;
         if (rb == null) return;
         if (rb.gameObject.CompareTag("Player"))
         {
-            _reachedVictory = true;
             Invoke("OnVictory", delay);
         }
+    }
+
+
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(level + 1);
     }
 }
