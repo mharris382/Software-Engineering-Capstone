@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5039328539134835973}
   - component: {fileID: 6510426092193540153}
   - component: {fileID: 4478074482430289232}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (01)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4824,7 +4824,7 @@ GameObject:
   - component: {fileID: 5853008159388811718}
   - component: {fileID: 5853008159388811716}
   - component: {fileID: 5853008159388811717}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9637,7 +9637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5853008159564001899}
   - component: {fileID: 5853008159564001898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Thunderball (02)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9721,7 +9721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5853008160742574880}
   - component: {fileID: 5853008160742574887}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Thunderball (01)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9806,7 +9806,11 @@ GameObject:
   - component: {fileID: 5853008160832517207}
   - component: {fileID: 5853008160832517200}
   - component: {fileID: -4279357097408187118}
-  m_Layer: 0
+  - component: {fileID: 2146039571}
+  - component: {fileID: 2146039570}
+  - component: {fileID: 7263611497612787171}
+  - component: {fileID: 2146039576}
+  m_Layer: 9
   m_Name: Thunderball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9895,12 +9899,67 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 15
+  m_Mass: 1
+  m_LinearDrag: 0.35
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!58 &2146039571
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853008160832517201}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &2146039570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853008160832517201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084459a2aa5199e4c90b3ad52db33527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7263611497612787171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853008160832517201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be72509c2b44066933d552a040683ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 5
+--- !u!114 &2146039576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853008160832517201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd09fc92d8004c2cbdb5e218ea288c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 2
+  amount: 3
