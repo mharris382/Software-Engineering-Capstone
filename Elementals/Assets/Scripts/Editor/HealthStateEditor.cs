@@ -1,4 +1,5 @@
 ﻿using System;
+using Elements;
 using UnityEditor;
 using UnityEngine;
 
@@ -17,6 +18,8 @@ namespace MyEditor
         private SerializedProperty _propHealEvent;
         private SerializedProperty _propKillEvent;
         private SerializedProperty _propDamageEvent;
+        private SerializedProperty _propOnPreMagicDamaged;
+        private SerializedProperty _propOnPostMagicDamaged;
 
         private void OnEnable()
         {
@@ -28,24 +31,52 @@ namespace MyEditor
             _propHealEvent = serializedObject.FindProperty("OnHealed");
             _propKillEvent = serializedObject.FindProperty("OnKilled");
             _propDamageEvent = serializedObject.FindProperty("OnDamaged");
+            _propOnPreMagicDamaged = serializedObject.FindProperty("onPreMagicDamaged");
+            _propOnPostMagicDamaged = serializedObject.FindProperty("onPostMagicDamaged");
         }
 
         public override void OnInspectorGUI()
         {
-            void DrawPropContainer()
-            {
-                
-                EditorGUILayout.PropertyField(_propContainer, new GUIContent(), GUILayout.MaxWidth(300));
-            }
             serializedObject.Update();
             EditorGUILayout.PropertyField(_propMaxValue, new GUIContent("Max Health"));
+
+            var health = target as HealthState;
+            if(health.GetComponent<ElementInjector>()==null)
+                DrawElementGUI();
+
+            DrawEventsGUI();
             
-            
+            serializedObject.ApplyModifiedProperties();
+        }
+
+        private void DrawEventsGUI()
+        {
+            GUILayout.BeginVertical(EditorStyles.helpBox);
+            _showEvents = EditorGUILayout.Foldout(_showEvents, "Events");
+            if (_showEvents)
+            {
+                EditorGUILayout.PropertyField(_propHealEvent);
+                EditorGUILayout.PropertyField(_propKillEvent);
+                EditorGUILayout.PropertyField(_propDamageEvent);
+                EditorGUILayout.PropertyField(_propOnPreMagicDamaged);
+                EditorGUILayout.PropertyField(_propOnPostMagicDamaged);
+            }
+
+            GUILayout.EndVertical();
+        }
+
+        private void DrawElementGUI()
+        {
+            void DrawPropContainer()
+            {
+                EditorGUILayout.PropertyField(_propContainer, new GUIContent(), GUILayout.MaxWidth(300));
+            }
+
             GUILayout.Space(5);
             GUILayout.BeginVertical(EditorStyles.helpBox);
             GUILayout.BeginHorizontal(EditorStyles.helpBox);
             EditorGUILayout.LabelField("Element", GUILayout.MaxWidth(120));
-            
+
             if (_propContainer.objectReferenceValue == null)
             {
                 EditorGUILayout.PropertyField(_propElement, new GUIContent(), GUILayout.MaxWidth(200));
@@ -72,20 +103,9 @@ namespace MyEditor
                     editor.OnInspectorGUI();
                     EditorGUI.indentLevel--;
                 }
-                
             }
+
             GUILayout.EndVertical();
-            
-            GUILayout.BeginVertical(EditorStyles.helpBox);
-            _showEvents = EditorGUILayout.Foldout(_showEvents, "Events");
-            if (_showEvents)
-            {
-                EditorGUILayout.PropertyField(_propHealEvent);
-                EditorGUILayout.PropertyField(_propKillEvent);
-                EditorGUILayout.PropertyField(_propDamageEvent);
-            }
-            GUILayout.EndVertical();
-            serializedObject.ApplyModifiedProperties();
         }
     }
 }
