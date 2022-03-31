@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public interface IModifySpeed
+public interface ISpeedModifyingObject
 {
     public IEnumerable<SpeedModifier> GetSpeedModifiers();
 }

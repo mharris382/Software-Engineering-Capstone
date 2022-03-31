@@ -10,8 +10,14 @@ public class CharacterState : MonoBehaviour
     
     public List<IMovingGround> MovingGround { get; } = new List<IMovingGround>();
 
+    private MoveSpeed _speed;
+
+    public float CheckForSpeedModifiers(float baseSpeed) => _speed == null ? baseSpeed : _speed.GetModifiedSpeed(baseSpeed);
+
     private void Awake()
     {
+        _speed = GetComponent<MoveSpeed>();
+        
         MovementInput = new MovementInputState();
         Movement = new MovementState();
     }
