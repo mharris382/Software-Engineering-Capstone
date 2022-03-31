@@ -54,7 +54,7 @@ public class CharacterMove : MonoBehaviour
     {
         void ApplyJumpVelocity() => State.Movement.VerticalMovement = jumpVert;
         _state.Movement.IsGrounded = _groundCheck.grounded;
-        _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * moveSpeed;
+        _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * _state.CheckForSpeedModifiers(moveSpeed);
 
         
 

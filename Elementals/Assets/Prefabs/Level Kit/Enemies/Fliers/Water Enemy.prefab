@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1059095040492457677}
   m_RootOrder: 0
@@ -121,6 +122,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 2678078726782390189, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2678078727074619833, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_Layer
       value: 12
@@ -153,6 +158,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300002, guid: 845d2cc70cdce4e408fcbdcb39f3bae1, type: 3}
+    - target: {fileID: 3988263176044727965, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: element
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5837053118739044436, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: element
       value: 1

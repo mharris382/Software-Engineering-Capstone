@@ -28,6 +28,8 @@ namespace SOHandlers
             player.transform.GetChild(0).gameObject.SetActive(true);
             var hp = player.GetComponentInChildren<HealthState>();
             hp.CurrentValue = hp.MaxValue;
+            var mana = player.GetComponentInChildren<ManaState>();
+            mana.CurrentValue = mana.MaxValue;
         }
         
         void SpawnDeathPrefabs(Vector3 transformPosition)

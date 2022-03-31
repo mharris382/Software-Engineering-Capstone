@@ -6,11 +6,11 @@ using UnityEngine;
 public class Dropper : MonoBehaviour
 {
     public GameObject dropPrefab;
-
+    public bool dropOnStart = true;
     public int minNumberOfDrops = 1;
     public int maxNumberOfDrops = 10;
     public float maxRadius = .5f;
-    void Drop()
+    public void Drop()
     {
         var number = UnityEngine.Random.Range(minNumberOfDrops, maxNumberOfDrops);
         var position = transform.position;
@@ -25,12 +25,7 @@ public class Dropper : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Drop();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(dropOnStart)
+            Drop();
     }
 }

@@ -22,15 +22,15 @@ namespace Damage
             if (_receivers.ContainsKey(target))
             {
                 var health = _receivers[target];
-                void ApplyDamageToHealth()
+                
+                void ApplyDamageToHealth(DamageInfo dInfo)
                 {
-                    health.damageHealth(damageInfo.Damage);
-                    damageInfo.HasDamageBeenApplied = true;
+                    health.damageHealth(damageInfo);
+                    dInfo.HasDamageBeenApplied = true;
                 }
                 
-                
                 damageInfo.DamageMultiplier = ElementMatrix.getDamageModifier(health.Element, damageInfo.Element);
-                ApplyDamageToHealth();
+                ApplyDamageToHealth(damageInfo);
             }
         }
     }

@@ -2,6 +2,8 @@
 
 namespace Spell_Casting.Spells
 {
+    
+    [AddComponentMenu("Spells/SpellProviders")]
     public class SingleSpellProvider : MonoBehaviour, ISpellProvider
     {
         private ISpell _spell;

@@ -44,7 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5de2826b5c80647938fa50d88e96b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropPrefab: {fileID: 1624767120568648528, guid: 00c9ec196aff3194a928c7989dd40e9a, type: 3}
+  dropPrefab: {fileID: 1624767120568648528, guid: 255e3d4d397c4b244af1757e5d5cac03, type: 3}
+  dropOnStart: 1
   minNumberOfDrops: 15
   maxNumberOfDrops: 25
   maxRadius: 1

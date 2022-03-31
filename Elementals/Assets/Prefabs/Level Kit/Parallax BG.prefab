@@ -70,11 +70,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1396063509
-  m_SortingLayer: -3
+  m_SortingLayerID: 613496703
+  m_SortingLayer: -4
   m_SortingOrder: -94
   m_Sprite: {fileID: 21300000, guid: 323c013439df6e946a41a09e1174582e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7938779, g: 1, b: 0.61006284, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -154,11 +154,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1396063509
-  m_SortingLayer: -3
+  m_SortingLayerID: 613496703
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d646c1ebbed7df34fa054af0127865ab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7938779, g: 1, b: 0.61006284, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -238,15 +238,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1396063509
-  m_SortingLayer: -3
+  m_SortingLayerID: 613496703
+  m_SortingLayer: -4
   m_SortingOrder: -15
   m_Sprite: {fileID: 21300000, guid: f24d6b5563a45a5429d02fe105f0c8d0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8326211, g: 1, b: 0.6289308, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 543.74963, y: 118.1824}
+  m_Size: {x: 543.74963, y: 150.78291}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -322,11 +322,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1396063509
-  m_SortingLayer: -3
+  m_SortingLayerID: 613496703
+  m_SortingLayer: -4
   m_SortingOrder: -42
   m_Sprite: {fileID: 21300000, guid: d4f490b54904f7e429dd10cd5942a52b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7938779, g: 1, b: 0.61006284, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -361,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 7768573861873767380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 31.502491, y: -1.701529, z: -1.1863394}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 400029820432175625}

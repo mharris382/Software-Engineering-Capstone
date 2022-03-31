@@ -117,7 +117,7 @@ MonoBehaviour:
     prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 21.61
     castRate: 0.5
-    accuracy: 0.9
+    accuracy: 1
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
@@ -10075,7 +10075,7 @@ MonoBehaviour:
     prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 21.61
     castRate: 0.5
-    accuracy: 0.9
+    accuracy: 1
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
@@ -10143,7 +10143,7 @@ MonoBehaviour:
     prefab: {fileID: -312908233938099893, guid: 24f23c60f8987e34da24d9be86b37efc, type: 3}
     launchForce: 21.61
     castRate: 0.5
-    accuracy: 0.9
+    accuracy: 1
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
@@ -15132,10 +15132,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile:
-    prefab: {fileID: 5317357165494780221, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
+    prefab: {fileID: -312908233938099893, guid: 24f23c60f8987e34da24d9be86b37efc, type: 3}
     launchForce: 21.61
     castRate: 0.5
-    accuracy: 0.9
+    accuracy: 1
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
@@ -15271,7 +15271,7 @@ MonoBehaviour:
     prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 21.61
     castRate: 0.5
-    accuracy: 0.9
+    accuracy: 1
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
@@ -15336,7 +15336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile:
-    prefab: {fileID: 9045533657281489241, guid: ea2dd15e09fc57d4fb5b5c9945dd2254, type: 3}
+    prefab: {fileID: 5317357165494780221, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
     launchForce: 15
     castRate: 0.5
     accuracy: 1
@@ -15428,6 +15428,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+  onPreMagicDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onPostMagicDamaged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &6509355672886205196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15802,7 +15808,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ce9e195911bfb47b428ea63a0eae48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  readme: let's play the game! Drop me into the scene to start playing!
+  readme: 'let''s play the game! Drop me into the scene to start playing!
+
+    Max
+    Jump Height 4 grid squares.'
   referencedObjects: []
 --- !u!114 &8666015475524812779
 MonoBehaviour:
