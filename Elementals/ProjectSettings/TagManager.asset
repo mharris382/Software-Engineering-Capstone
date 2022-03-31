@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - FxTemporaire
+  - SpeedModifier
   layers:
   - Default
   - TransparentFX
@@ -60,6 +61,9 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 3609134377
+    locked: 0
+  - name: Projectiles
+    uniqueID: 4074351819
     locked: 0
   - name: Enviornment_FG
     uniqueID: 2825056601
