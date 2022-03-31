@@ -60,7 +60,7 @@ MonoBehaviour:
   projectile:
     prefab: {fileID: 2146039570, guid: be20cdcf853a5fc4781610e42fee3ea6, type: 3}
     launchForce: 15
-    castRate: 1
+    castRate: 5
     accuracy: 1
     maxAngle: 90
     minAngle: -90

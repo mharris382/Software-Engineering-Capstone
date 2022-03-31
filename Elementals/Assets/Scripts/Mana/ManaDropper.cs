@@ -84,7 +84,14 @@ namespace ManaSystem
             _instance = null;
         }
 
-        Mana GetElementPrefab(Element e) => _manaDropPrefabs[e];
+        Mana GetElementPrefab(Element e)
+        {
+            if(!_manaDropPrefabs.ContainsKey(e))
+                LoadManaPrefabs();
+            Debug.Assert(_manaDropPrefabs.ContainsKey(e));
+            Debug.Assert(_manaDropPrefabs[e]!=null);
+            return _manaDropPrefabs[e];
+        }
 
         private void DeSpawnAllPickups()
         {
@@ -117,7 +124,16 @@ namespace ManaSystem
                 Debug.Assert(mana.element == e, $"Element Mismatch, name {name} expected {e} but found element {mana.element}", mana);
                 return mana;
             }
-            void AddElementPrefabToDictionary(Element e) => _manaDropPrefabs.Add(e, GetPrefab(e));
+
+            void AddElementPrefabToDictionary(Element e)
+            {
+                if (_manaDropPrefabs.ContainsKey(e))
+                {
+                    if (_manaDropPrefabs[e] == null) _manaDropPrefabs.Remove(e);
+                    else return;
+                }
+                _manaDropPrefabs.Add(e, GetPrefab(e));
+            }
             AddElementPrefabToDictionary(Element.Air);
             AddElementPrefabToDictionary(Element.Water);
             AddElementPrefabToDictionary(Element.Fire);
@@ -146,6 +162,16 @@ namespace ManaSystem
         {
             var dropInfo = Instance.defaultDrop.ToPosition(position);
            DropMana(element, position, dropInfo);
+        }
+
+        public static void DropMana(Element element, Vector2 position, RangeI dropAmountRange) => DropMana(element, position, dropAmountRange.min, dropAmountRange.max);
+
+        public static void DropMana(Element element, Vector2 position, int amountMin, int amountMax)
+        {
+            var dropInfo = Instance.defaultDrop.ToPosition(position);
+            dropInfo.MinDropAmount = amountMin;
+            dropInfo.MaxDropAmount = amountMax;
+            DropMana(element, position, dropInfo);
         }
     }
 
@@ -180,4 +206,16 @@ namespace ManaSystem
         }
     }
     
+}
+
+
+public class MinMaxRangeAttribute : PropertyAttribute
+{
+    public float min, max;
+
+    public MinMaxRangeAttribute(float min, float max)
+    {
+        this.min = min;
+        this.max = max;
+    }
 }

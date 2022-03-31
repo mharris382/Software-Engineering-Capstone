@@ -221,6 +221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 550c4fe7b5d344d2b66b101680c05403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropAmount:
+    min: 4
+    max: 7
   element: 0
 --- !u!1 &2678078727074619833
 GameObject:

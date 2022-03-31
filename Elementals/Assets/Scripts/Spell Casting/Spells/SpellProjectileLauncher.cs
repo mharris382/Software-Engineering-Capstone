@@ -63,6 +63,8 @@ public class SpellProjectileLauncher : MonoBehaviour, ISpell
 
     public bool CastSpell(GameObject caster, Vector2 position, Vector2 direction)
     {
+        if (caster == null) this.ignore = caster;
+        
         return  FireProjectile(position, direction);
          
     }
