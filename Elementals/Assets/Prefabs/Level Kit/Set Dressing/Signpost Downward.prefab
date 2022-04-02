@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3566576147745089860, guid: 11f2fbc9ef7e6ae4198a485ee7c73606, type: 3}
       propertyPath: m_Name
-      value: Signpost_2
+      value: Signpost Downward
       objectReference: {fileID: 0}
     - target: {fileID: 3566576147745089861, guid: 11f2fbc9ef7e6ae4198a485ee7c73606, type: 3}
       propertyPath: m_Sprite

@@ -107,10 +107,10 @@ TextureImporter:
       name: Rocks_Ice_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 82
+        x: 78
+        y: 52
         width: 15
-        height: 20
+        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,6 +901,287 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: -7}
+        - {x: 7, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 2}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c320f29f88e447b42a3dc9e5a4a1e800
+      internalID: -901806508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7de6435b9926944b8bd98ea0afd2fa9
+      internalID: 174673930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ed2b7340549b844b27e15e6107cc08
+      internalID: -137019515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: -5}
+        - {x: -7, y: 0}
+        - {x: -6, y: 3}
+        - {x: -4, y: 5}
+        - {x: -2, y: 6}
+        - {x: 0, y: 7}
+        - {x: 4, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64e9a873194be4c99c01cd33bdc517
+      internalID: 1569310869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f7f292e6743ee489f6083b522ee668
+      internalID: -669029184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838b4f6f3b5a4804b8f26e2fac8284b6
+      internalID: -1126378786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5c881534f9fb43b35bfe6f936eef8
+      internalID: -224028424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780141ff00ceb7e4e813826b7d991ac2
+      internalID: 192930314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -7, y: -6}
+        - {x: -6, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -2}
+        - {x: -4, y: 0}
+        - {x: -4, y: 3}
+        - {x: -3, y: 4}
+        - {x: -1, y: 5}
+        - {x: 4, y: 7}
+        - {x: 8, y: 7}
+        - {x: 8, y: -1}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25273607aa51bc47b7d644309885419
+      internalID: -603857134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29c90354b8253a4a9923222c1cf6253
+      internalID: 1165181654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6c47386eebd4e48a828c7a51db0fbc
+      internalID: 1391096081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV_Set_Ice__14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f0351636ef9b748b0e75990a13e54f
+      internalID: -407666581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -912,43 +1193,55 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Set_Ice_M: -1590643335
-      Rocks_Ice_3: -438529059
-      Set_Ice_BM: 1108095923
       Stelagmites_2x4_Ice_1: -1829851963
-      Stone_Ice_2: 1600090106
-      Set_Ice_BL: -1893276682
+      PV_Set_Ice__3: -137019515
       Set_Ice_L: -1008872433
-      Stelagmites_Ice_1: -495327906
-      Set_Ice_BR: -1522222026
       Set_Ice_TR: 254225612
       Set_IceSpikes_M: 614121410
-      Set_IceSpikes_CornerTR: 996093601
-      Set_Ice_TM: 1298214491
-      Rocks_Ice_2: -690018363
-      Crystal_Ice_2: -694099205
       Rocks_Ice_5: -1533832951
+      Set_Ice_TM: 1298214491
       Set_IceSpikes_TL: -678921223
       Stone_Ice_4: 1171279526
       Set_IceSpikes_R: 1845288144
+      PV_Set_Ice__11: -224028424
+      PV_Set_Ice__5: 78651573
+      PV_Set_Ice__9: -669029184
+      Rocks_Ice_0: -1869051006
+      PV_Set_Ice__1: -901806508
+      PV_Set_Ice__2: 174673930
+      Set_Ice_TL: -1501510321
+      Stone_Ice_1: -1374330066
+      Set_Ice_R: -21464318
+      Set_Ice_M: -1590643335
+      Rocks_Ice_3: -438529059
+      Set_Ice_BM: 1108095923
+      PV_Set_Ice__13: -603857134
+      Stone_Ice_2: 1600090106
+      Set_Ice_BL: -1893276682
+      Stelagmites_Ice_1: -495327906
+      PV_Set_Ice__4: 1569310869
+      PV_Set_Ice__10: -1126378786
+      Set_Ice_BR: -1522222026
+      PV_Set_Ice__14: -57674977
+      Set_IceSpikes_CornerTR: 996093601
+      Rocks_Ice_2: -690018363
+      Crystal_Ice_2: -694099205
       Rocks_Ice_6: -1091902711
       Stelagmites_1x1_Ice: -394572583
       PV_Set_Ice__8: 1157890650
       Set_IceSpikes_BM: 1587054684
       Stelagmite_Ice_2: -2136482388
       Stelagmites_2x4_Ice_3: -63424982
-      PV_Set_Ice__5: 78651573
+      PV_Set_Ice__7: 1442074439
       Set_IceSpikes_BR: -1691748236
       Set_IceSpikes_T: -487464538
       Mushroom_Ice: 1059674451
-      Rocks_Ice_0: -1869051006
-      Set_Ice_TL: -1501510321
       Icicles_Ceiling_1: 1794211769
       Rocks_Ice_4: -1759481206
+      PV_Set_Ice__12: 192930314
       Rocks_Ice_1: 1220578578
       Crystal_Ice_1: 84406859
-      Stone_Ice_1: -1374330066
-      Set_Ice_R: -21464318
+      PV_Set_Ice__6: 2098949408
       Stelagmites_2x4_Ice_2: 246033283
       PV_Set_Ice__0: -1333952749
   spritePackingTag: 
