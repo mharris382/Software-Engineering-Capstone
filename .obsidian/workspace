@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docs/Tilemap Instructions.md",
+            "file": "Docs/Level Designer's Guidebook.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Tilemap Instructions.md",
+                "file": "Docs/Level Designer's Guidebook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "9338d0289dcc1240",
   "lastOpenFiles": [
+    "Docs/Level Designer's Guidebook.md",
     "Docs/Tilemap Instructions.md",
     "Docs/Unity Upgrade Steps.md",
     "Docs/Installation and Setup.md",
