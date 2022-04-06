@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3104512738251572367}
   - component: {fileID: 3104512738251572366}
   - component: {fileID: 1013828259}
+  - component: {fileID: -7891366843823730451}
   m_Layer: 0
   m_Name: Orbiting Lightning Balls
   m_TagString: Untagged
@@ -3614,11 +3615,11 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 4
     type: 1
     collisionMode: 0
-    colliderForce: 0
+    colliderForce: 6.43
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
@@ -3787,7 +3788,7 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 384
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -4827,6 +4828,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 4
+--- !u!114 &-7891366843823730451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104512738251572401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4057cf738b1442db6bd39a7bd76446b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
+  damageElement: 4
 --- !u!1 &3104512739672515937
 GameObject:
   m_ObjectHideFlags: 0

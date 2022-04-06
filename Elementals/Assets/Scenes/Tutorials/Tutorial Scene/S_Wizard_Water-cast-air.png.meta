@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: 8e0ec15f76d3f13409afed66a7fab5a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 803760851777079498
+    second: S_Wizard_Water-cast-air_0
+  - first:
+      213: 5567970063150281218
+    second: S_Wizard_Water-cast-air_1
+  - first:
+      213: 3060685820883779641
+    second: S_Wizard_Water-cast-air_2
+  - first:
+      213: 7612031262497105805
+    second: S_Wizard_Water-cast-air_3
+  - first:
+      213: -5391123032636421503
+    second: S_Wizard_Water-cast-air_4
+  - first:
+      213: -716740778274438454
+    second: S_Wizard_Water-cast-air_5
+  - first:
+      213: 5264846471771242750
+    second: S_Wizard_Water-cast-air_6
+  - first:
+      213: 5650544781175130003
+    second: S_Wizard_Water-cast-air_7
+  - first:
+      213: 6969384968489737415
+    second: S_Wizard_Water-cast-air_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c9867c38872b00800000000000000
+      internalID: 803760851777079498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202f416a547654d40800000000000000
+      internalID: 5567970063150281218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9304ad2b98db97a20800000000000000
+      internalID: 3060685820883779641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87ee4c5a1e53a960800000000000000
+      internalID: 7612031262497105805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 4
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a874b4a22ee25b0800000000000000
+      internalID: -5391123032636421503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac24ae24f00ad06f0800000000000000
+      internalID: -716740778274438454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: 0.3833443, y: 0.0018072128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0c4e2c8fd701940800000000000000
+      internalID: 5264846471771242750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 4
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.44535524, y: 0.0000001243923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39781656a84ca6e40800000000000000
+      internalID: 5650544781175130003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Wizard_Water-cast-air_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 4
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.35001484, y: 0.0015812913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc17c514ba38b060800000000000000
+      internalID: 6969384968489737415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      S_Wizard_Water-cast-air_0: 803760851777079498
+      S_Wizard_Water-cast-air_2: 3060685820883779641
+      S_Wizard_Water-cast-air_6: 5264846471771242750
+      S_Wizard_Water-cast-air_4: -5391123032636421503
+      S_Wizard_Water-cast-air_7: 5650544781175130003
+      S_Wizard_Water-cast-air_3: 7612031262497105805
+      S_Wizard_Water-cast-air_1: 5567970063150281218
+      S_Wizard_Water-cast-air_5: -716740778274438454
+      S_Wizard_Water-cast-air_8: 6969384968489737415
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
