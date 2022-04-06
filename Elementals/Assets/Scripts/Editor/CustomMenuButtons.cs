@@ -13,7 +13,7 @@ namespace MyEditor
         private const float OFFSET = 3;
         
         
-        [MenuItem("GameObject/New Divider Transform")]
+      //  [MenuItem("GameObject/New Divider Transform")]
         public static void AddNewDividerObject()
         {
             FolderNameWindow window = (FolderNameWindow)EditorWindow.GetWindow(typeof(FolderNameWindow));
