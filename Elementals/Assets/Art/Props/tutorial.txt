@@ -1,0 +1,16 @@
+-show the new props we want to add to the scene
+-find the image in the props folder
+-apply the 32x32 image preset
+-open sprite editor and use the automatic slice option, change the pivot point to bottom
+-delete and fix any sprites which have seperate parts, but belong to the same image (spiderwebs)
+-
+-give the sprites thoughtful descriptive names
+	- pine tree cluster
+	- winter tree 1
+	- winter tree 2
+	- winter tree cluster
+	- mixed snowy tree cluster
+	- pine tree 1, pine tree 2, pine tree 3, pine tree 4
+	- snow pile 1, snow pile 2, snow pile 3, buried sled
+	- stone pile, stone pile sml, stone 1, stone 2, stone 3
+-

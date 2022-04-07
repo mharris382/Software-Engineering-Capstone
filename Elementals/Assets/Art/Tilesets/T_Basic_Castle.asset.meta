@@ -1,7 +1,8 @@
 fileFormatVersion: 2
-guid: fd8a5c21c0dbeae4da920ae9bca38454
+guid: 14c8a5e9752fed64180c2a9ad6881f4b
 labels:
-- Simple
+- Basic
+- Castle
 - Tile
 NativeFormatImporter:
   externalObjects: {}
