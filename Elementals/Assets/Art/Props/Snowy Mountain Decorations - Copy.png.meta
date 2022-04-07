@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f79d040ed84fa5c41b07cbc8f790e2a8
+guid: 34d34b2cc906b8444851cd71984d5c5b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,280 +104,238 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_0
+      name: Cobwebs 1
       rect:
         serializedVersion: 2
         x: 0
         y: 239
         width: 45
         height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.2176869, y: 0.7958069}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c886710360ddb42b0c343e54a1f3f1
-      internalID: 1820676258
+      spriteID: bbd4a7ec6d7c02548bc76a34af55f78b
+      internalID: 1046699059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_1
+      name: Cobwebs 2
       rect:
         serializedVersion: 2
         x: 68
         y: 255
         width: 28
         height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50630325, y: 0.8234142}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16d85c80afa30a840afc6cea034838bb
-      internalID: -1727631425
+      spriteID: 0408538c815f0e842a0ab53891d68647
+      internalID: 1254149387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_2
+      name: Cobwebs 3
       rect:
         serializedVersion: 2
         x: 109
-        y: 274
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d9bae2b6948cfe4f88ed5bd924d9e46
-      internalID: -1663590456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snowy Mountain Decorations_3
-      rect:
-        serializedVersion: 2
-        x: 114
         y: 270
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 27
+        height: 18
+      alignment: 9
+      pivot: {x: 0.52018315, y: 0.8401964}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43a120f58c0ce4f49a4c48a2e8d89301
-      internalID: 1270114015
+      spriteID: f5549b4ee0e1b76429b800e6c6d8f7af
+      internalID: -1709751485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_4
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 278
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 802c135c805c65a469d18a0beeca247a
-      internalID: -654153712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snowy Mountain Decorations_5
+      name: Cobwebs 4
       rect:
         serializedVersion: 2
         x: 144
         y: 266
         width: 33
         height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49465433, y: 0.80282897}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1ef29b218dbb2448fd288bffb97418
-      internalID: -713240076
+      spriteID: 7359563e8e5fe894a91a9fa68562c321
+      internalID: 1920113761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_6
+      name: Cobwebs 5
       rect:
         serializedVersion: 2
         x: 190
         y: 255
         width: 31
         height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4829249, y: 0.78140366}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e7cf5ee9a53bd04a8410801579defae
-      internalID: -91528999
+      spriteID: e79ba0e2e8ec63f40ad4d0201ddf1dd3
+      internalID: 859530393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_7
+      name: Stone 1
       rect:
         serializedVersion: 2
         x: 64
         y: 195
         width: 10
         height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 499ba56c6cfb17945b4a2d51ec2f37c9
-      internalID: 2078096237
+      spriteID: df52930a7e3ecfb43ac1d9c9f1f16e12
+      internalID: 1837053150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_8
+      name: Stone 2
       rect:
         serializedVersion: 2
         x: 88
         y: 195
         width: 15
         height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69e623b83db093c4bab3460762dfbfaa
-      internalID: 2038603516
+      spriteID: 63acd3450277cf24bb1b084e3e0f2ced
+      internalID: -1370973190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_9
+      name: Stone 3
       rect:
         serializedVersion: 2
         x: 113
         y: 194
         width: 13
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91032686c75c00242be6efb5f46e79ec
-      internalID: 1688626084
+      spriteID: eba6a7dd61aa84e418db0f24b147743b
+      internalID: -1059697114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_10
+      name: Snow Pile Sml
       rect:
         serializedVersion: 2
         x: 144
         y: 192
         width: 39
         height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d757970f564cbc408c21b5ae62eb5e4
-      internalID: 1837981444
+      spriteID: ec90d04cc78a80a4185ed08c6facff5e
+      internalID: 1431650385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_11
+      name: Winter Tree 1
       rect:
         serializedVersion: 2
         x: 231
         y: 95
         width: 96
         height: 149
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea661b705e901134da32816e6481aa48
-      internalID: 800115252
+      spriteID: 35ee1641506a0e741a227fa54ec4c3d7
+      internalID: -739492917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_12
+      name: Winter Tree 2
       rect:
         serializedVersion: 2
         x: 337
         y: 96
         width: 111
         height: 111
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a410e6c4c4c9cd499b1f84366b61c80
-      internalID: 964222675
+      spriteID: 67ba837ab45b9ba49bed0fd694d9965b
+      internalID: -413722847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_13
+      name: Winter Tree Cluster
       rect:
         serializedVersion: 2
         x: 453
@@ -391,323 +349,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04f92cf6b0aef4447b8e0cb0c3a5be7a
-      internalID: 664318628
+      spriteID: f5f5305b713d32a4d976566a0f5193a4
+      internalID: -915744859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_14
+      name: Snowy Tree Cluster
       rect:
         serializedVersion: 2
         x: 643
         y: 96
         width: 183
         height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b316182c843e4e84aaa9e2589c8fba60
-      internalID: -116549084
+      spriteID: 116cbdf4745e0904799885e743c683ac
+      internalID: -325810763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_15
+      name: Pine Tree Cluster
       rect:
         serializedVersion: 2
         x: 848
         y: 96
         width: 162
         height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d5b6f4929a61724ebe269fc76331d07
-      internalID: 409318919
+      spriteID: 4cc37c169a5953f45b3012120b389446
+      internalID: 1520826796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_16
+      name: Stone Pile
       rect:
         serializedVersion: 2
         x: 48
         y: 156
         width: 111
         height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19e910cdb2872be45a90c8ee2f99c705
-      internalID: -1127887763
+      spriteID: 984f3ed56cb26a945936a6146bbc7117
+      internalID: -1589809748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_17
+      name: Pine Tree 1
       rect:
         serializedVersion: 2
         x: 9
         y: 0
         width: 73
-        height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6306489c4286b343a881a7301f103c5
-      internalID: 1801749031
+      spriteID: feaf4e18b72f35a4587daca6adb4ee7c
+      internalID: 149506819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_18
+      name: Pine Tree 2
       rect:
         serializedVersion: 2
         x: 98
         y: 0
         width: 59
         height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5699661259e985743846eb05d365c36e
-      internalID: -249896634
+      spriteID: 3a0c7bb719e96a643b0015090d2d4cc3
+      internalID: -960958375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_19
+      name: Pine Tree 3
       rect:
         serializedVersion: 2
         x: 171
         y: 0
         width: 41
         height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0a436098c326248a666bc1fd155b08
-      internalID: 1296752394
+      spriteID: d37a0068a4510f94d9dde653fdec4082
+      internalID: -718396547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_20
+      name: Pine Tree 4
       rect:
         serializedVersion: 2
         x: 238
         y: 0
         width: 35
         height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b37a986164a3e0f40b5184c52ded5d70
-      internalID: -2074064509
+      spriteID: f2295d27b42749b4f8dd3fe3a4563ca3
+      internalID: -1966626159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_21
+      name: Buried Sled
       rect:
         serializedVersion: 2
         x: 288
         y: 32
         width: 96
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e2859bda86dc9478fa938158082494
-      internalID: -85173007
+      spriteID: 8b7638eba0303a54daee2fb6e180bc02
+      internalID: -1081341627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_22
+      name: Snow Pile 2
       rect:
         serializedVersion: 2
         x: 392
         y: 32
         width: 84
         height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5645b672c2c0a6c45abab07b5b9b95b3
-      internalID: -1357491671
+      spriteID: e28affca80dcb2a42a94352ad217d5db
+      internalID: -1216977863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_23
-      rect:
-        serializedVersion: 2
-        x: 935
-        y: 0
-        width: 17
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 137c36c896f2fb94fb67995120cbf3ac
-      internalID: 1784736637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snowy Mountain Decorations_24
+      name: Snow Pile 3
       rect:
         serializedVersion: 2
         x: 292
         y: 0
         width: 84
         height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f916378522c9dc42af0977236cdf0a7
-      internalID: -1194061817
+      spriteID: 1fb8f861ec4f3f7428fcdddeeee81696
+      internalID: 694721983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowy Mountain Decorations_25
+      name: Snow Pile 1
       rect:
         serializedVersion: 2
         x: 384
         y: 0
         width: 128
         height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d3520c65d8884745b1d3f2358bf6a22
-      internalID: 1055369736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snowy Mountain Decorations_26
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 49
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e476536d7f193a24c8702a33884a4c8d
-      internalID: -1864587003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snowy Mountain Decorations_27
-      rect:
-        serializedVersion: 2
-        x: 897
-        y: 0
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72e25cdcf4047f54385673f3005303f0
-      internalID: 1288305275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snowy Mountain Decorations_28
-      rect:
-        serializedVersion: 2
-        x: 973
-        y: 0
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c4389a9508db3b42b53bf8433712f7e
-      internalID: 1843103018
+      spriteID: ff7797b0878a2574e87f68efd1e92eb5
+      internalID: 1627100688
       vertices: []
       indices: 
       edges: []
@@ -723,35 +597,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Snowy Mountain Decorations_27: 1288305275
-      Snowy Mountain Decorations_0: 1820676258
-      Snowy Mountain Decorations_6: -91528999
-      Snowy Mountain Decorations_7: 2078096237
-      Snowy Mountain Decorations_9: 1688626084
-      Snowy Mountain Decorations_23: 1784736637
-      Snowy Mountain Decorations_3: 1270114015
-      Snowy Mountain Decorations_10: 1837981444
-      Snowy Mountain Decorations_28: 1843103018
-      Snowy Mountain Decorations_25: 1055369736
-      Snowy Mountain Decorations_5: -713240076
-      Snowy Mountain Decorations_11: 800115252
-      Snowy Mountain Decorations_13: 664318628
-      Snowy Mountain Decorations_17: 1801749031
-      Snowy Mountain Decorations_4: -654153712
-      Snowy Mountain Decorations_16: -1127887763
-      Snowy Mountain Decorations_14: -116549084
-      Snowy Mountain Decorations_26: -1864587003
-      Snowy Mountain Decorations_22: -1357491671
-      Snowy Mountain Decorations_20: -2074064509
-      Snowy Mountain Decorations_12: 964222675
-      Snowy Mountain Decorations_15: 409318919
-      Snowy Mountain Decorations_21: -85173007
-      Snowy Mountain Decorations_19: 1296752394
-      Snowy Mountain Decorations_1: -1727631425
-      Snowy Mountain Decorations_8: 2038603516
-      Snowy Mountain Decorations_24: -1194061817
-      Snowy Mountain Decorations_2: -1663590456
-      Snowy Mountain Decorations_18: -249896634
+      Cobwebs 1: 1046699059
+      Cobwebs 4: 1920113761
+      Snowy Mountain Decorations - Copy_4: 208033675
+      Snowy Mountain Decorations - Copy_28: 361745317
+      Winter Tree 1: -739492917
+      Stone 1: 1837053150
+      Cobwebs 3: -1709751485
+      Snowy Tree Cluster: -325810763
+      Snowy Mountain Decorations - Copy_2: -78559820
+      Snow Pile 1: 1627100688
+      Stone Pile: -1589809748
+      Pine Tree 1: 149506819
+      Cobwebs 2: 1254149387
+      Pine Tree 3: -718396547
+      Buried Sled: -1081341627
+      Winter Tree Cluster: -915744859
+      Winter Tree 2: -413722847
+      Snow Pile Sml: 1431650385
+      Snow Pile 3: 694721983
+      Snowy Mountain Decorations - Copy_27: -1476455972
+      Stone 2: -1370973190
+      Pine Tree Cluster: 1520826796
+      Pine Tree 2: -960958375
+      Snowy Mountain Decorations - Copy_23: 51783233
+      Pine Tree 4: -1966626159
+      Stone 3: -1059697114
+      Cobwebs 5: 859530393
+      Snow Pile 2: -1216977863
+      Snowy Mountain Decorations - Copy_26: 1255909686
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
