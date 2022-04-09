@@ -1,0 +1,1238 @@
+fileFormatVersion: 2
+guid: 6928ee9158ae9f145bf97883cb472d8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7137556173429586522
+    second: Mage_Air_Idle_Gnd_0
+  - first:
+      213: 3072181134664709093
+    second: Mage_Air_Idle_Gnd_1
+  - first:
+      213: -8479541352136680482
+    second: Mage_Air_Idle_Gnd_2
+  - first:
+      213: 2371556203033684383
+    second: Mage_Air_Idle_Gnd_3
+  - first:
+      213: 4814771966753768861
+    second: Mage_Air_Idle_Gnd_4
+  - first:
+      213: 2535168176161459244
+    second: Mage_Air_Idle_Air_0
+  - first:
+      213: -6750510806786283439
+    second: Mage_Air_Idle_Air_1
+  - first:
+      213: -723315732534110695
+    second: Mage_Air_Idle_Air_2
+  - first:
+      213: -4211198239363854600
+    second: Mage_Air_Idle_Air_3
+  - first:
+      213: -4241193892502052770
+    second: Mage_Air_Idle_Air_4
+  - first:
+      213: -5035267135485227791
+    second: Mage_Air_Move_Air_0
+  - first:
+      213: -4283270743104928454
+    second: Mage_Air_Move_Air_1
+  - first:
+      213: -5283379656778011194
+    second: Mage_Air_Move_Air_2
+  - first:
+      213: 8734124104335251694
+    second: Mage_Air_Move_Air_3
+  - first:
+      213: -5301080501338343740
+    second: Mage_Air_Move_Gnd_0
+  - first:
+      213: -5179943742280411178
+    second: Mage_Air_Move_Gnd_1
+  - first:
+      213: 7618175774540671426
+    second: Mage_Air_Move_Gnd_2
+  - first:
+      213: -617356813506731603
+    second: Mage_Air_Move_Gnd_3
+  - first:
+      213: 7056588670266298153
+    second: Mage_Air_Move_Gnd_4
+  - first:
+      213: -3471516478480641638
+    second: Mage_Air_Move_Gnd_5
+  - first:
+      213: 475304637586734954
+    second: Mage_Air_Move_Gnd_6
+  - first:
+      213: 5947434836302903089
+    second: Mage_Air_Move_Gnd_7
+  - first:
+      213: -5854571879291665274
+    second: Mage_Air_Hit
+  - first:
+      213: 8258408881666613731
+    second: Mage_Air_Death_0
+  - first:
+      213: 8214755810280746093
+    second: Mage_Air_Death_1
+  - first:
+      213: 7805100997128340077
+    second: Mage_Air_Death_2
+  - first:
+      213: 2116080207067554198
+    second: Mage_Air_26
+  - first:
+      213: -172519036266920555
+    second: Mage_Air_Death_3
+  - first:
+      213: -1436738613170296694
+    second: Mage_Air_Cast_Gnd_0
+  - first:
+      213: 31094979776737816
+    second: Mage_Air_Cast_Gnd_1
+  - first:
+      213: 3795175828898289698
+    second: Mage_Air_Cast_Gnd_2
+  - first:
+      213: 2446830225963599192
+    second: Mage_Air_Cast_Gnd_3
+  - first:
+      213: -3132915003085427109
+    second: Mage_Air_Cast_Gnd_4
+  - first:
+      213: -5382669741142675713
+    second: Mage_Air_Cast_Gnd_5
+  - first:
+      213: -6966146945755096729
+    second: Mage_Air_Cast_Gnd_6
+  - first:
+      213: -8409899729563459250
+    second: Mage_Air_Cast_Gnd_7
+  - first:
+      213: -3861724506433789174
+    second: Mage_Air_Cast_Gnd_8
+  - first:
+      213: -2381159246089514141
+    second: Mage_Air_Cast_Air_0
+  - first:
+      213: -33773124342590482
+    second: Mage_Air_Cast_Air_1
+  - first:
+      213: 3519039684302771919
+    second: Mage_Air_Cast_Air_2
+  - first:
+      213: 63178448403575295
+    second: Mage_Air_Cast_Air_3
+  - first:
+      213: -7135036954847794468
+    second: Mage_Air_Cast_Air_4
+  - first:
+      213: -6140211750152562457
+    second: Mage_Air_Cast_Air_5
+  - first:
+      213: -7702737819551060574
+    second: Mage_Air_Cast_Air_6
+  - first:
+      213: 5697969197940399087
+    second: Mage_Air_Cast_Air_7
+  - first:
+      213: 2754028940696051966
+    second: Mage_Air_Cast_Air_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Gnd_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a545560a7e42fc90800000000000000
+      internalID: -7137556173429586522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Gnd_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b851077492aa20800000000000000
+      internalID: 3072181134664709093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Gnd_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb58a7111e925a80800000000000000
+      internalID: -8479541352136680482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Gnd_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9962b63dc579e020800000000000000
+      internalID: 2371556203033684383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Gnd_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 464
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d950ed0189181d240800000000000000
+      internalID: 4814771966753768861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Air_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 396
+        width: 17
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c8af9360abe2320800000000000000
+      internalID: 2535168176161459244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Air_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 396
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158611ddf2e5152a0800000000000000
+      internalID: -6750510806786283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Air_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 395
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165add6c2446f5f0800000000000000
+      internalID: -723315732534110695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Air_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 394
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe87ff5381de85c0800000000000000
+      internalID: -4211198239363854600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Idle_Air_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 395
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50ebd520a04425c0800000000000000
+      internalID: -4241193892502052770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Air_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 334
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc4430e7332f1ab0800000000000000
+      internalID: -5035267135485227791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Air_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 335
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a354860f3f3ce84c0800000000000000
+      internalID: -4283270743104928454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Air_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 334
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda838d13aada6b0800000000000000
+      internalID: -5283379656778011194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Air_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 333
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee85417f897d53970800000000000000
+      internalID: 8734124104335251694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 272
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c67affce57ce66b0800000000000000
+      internalID: -5301080501338343740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 272
+        width: 17
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d75ed46c942d18b0800000000000000
+      internalID: -5179943742280411178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 272
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9abfd018239b960800000000000000
+      internalID: 7618175774540671426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 272
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1a34fbf35be67f0800000000000000
+      internalID: -617356813506731603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 272
+        width: 18
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fc449120a0ee160800000000000000
+      internalID: 7056588670266298153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 272
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911f3cd722b2dfc0800000000000000
+      internalID: -3471516478480641638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 272
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ff373bc0f989600800000000000000
+      internalID: 475304637586734954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Move_Gnd_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 272
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1373e960978898250800000000000000
+      internalID: 5947434836302903089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Hit
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68444d605e160cea0800000000000000
+      internalID: -5854571879291665274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Death_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 144
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e16ba97f13cb9270800000000000000
+      internalID: 8258408881666613731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Death_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 143
+        width: 18
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49668163, y: 0.047772218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c2c54c2eca00270800000000000000
+      internalID: 8214755810280746093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Death_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 143
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62c1e1f00a415c60800000000000000
+      internalID: 7805100997128340077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Death_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 143
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595415eb9d61b9df0800000000000000
+      internalID: -172519036266920555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 80
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88a5eee7ddaf0ce0800000000000000
+      internalID: -1436738613170296694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812f3e728b87e6000800000000000000
+      internalID: 31094979776737816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22891a50f4c2ba430800000000000000
+      internalID: 3795175828898289698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 80
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855cf3c6023e4f120800000000000000
+      internalID: 2446830225963599192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 80
+        width: 21
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee9915766a584d0800000000000000
+      internalID: -3132915003085427109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 80
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe62f7936aec45b0800000000000000
+      internalID: -5382669741142675713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 80
+        width: 27
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7695815d246435f90800000000000000
+      internalID: -6966146945755096729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 80
+        width: 25
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4167b6e0c80a4b80800000000000000
+      internalID: -8409899729563459250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Gnd_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 80
+        width: 21
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03e79d8506686ac0800000000000000
+      internalID: -3861724506433789174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3639237184c64fed0800000000000000
+      internalID: -2381159246089514141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 13
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3da98b583088ff0800000000000000
+      internalID: -33773124342590482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 13
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc69e5db2f326d030800000000000000
+      internalID: 3519039684302771919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 13
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff13e8ec67470e000800000000000000
+      internalID: 63178448403575295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 13
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda230f41b14bfc90800000000000000
+      internalID: -7135036954847794468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 13
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e81a7a02f599caa0800000000000000
+      internalID: -6140211750152562457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 27
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad21b393c06a1590800000000000000
+      internalID: -7702737819551060574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 13
+        width: 25
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febda50ebc0431f40800000000000000
+      internalID: 5697969197940399087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Air_Cast_Air_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 13
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06557eab6483620800000000000000
+      internalID: 2754028940696051966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mage_Air_Death_0: 8258408881666613731
+      Mage_Air_Cast_Gnd_6: -6966146945755096729
+      Mage_Air_Cast_Gnd_2: 3795175828898289698
+      Mage_Air_Cast_Air_7: 5697969197940399087
+      Mage_Air_Idle_Gnd_1: 3072181134664709093
+      Mage_Air_Cast_Air_1: -33773124342590482
+      Mage_Air_Cast_Air_4: -7135036954847794468
+      Mage_Air_Idle_Air_2: -723315732534110695
+      Mage_Air_Death_1: 8214755810280746093
+      Mage_Air_Move_Air_0: -5035267135485227791
+      Mage_Air_Move_Air_3: 8734124104335251694
+      Mage_Air_Idle_Air_3: -4211198239363854600
+      Mage_Air_Cast_Air_2: 3519039684302771919
+      Mage_Air_Move_Gnd_0: -5301080501338343740
+      Mage_Air_Move_Gnd_6: 475304637586734954
+      Mage_Air_Move_Gnd_2: 7618175774540671426
+      Mage_Air_Cast_Air_5: -6140211750152562457
+      Mage_Air_Move_Gnd_1: -5179943742280411178
+      Mage_Air_Idle_Gnd_0: -7137556173429586522
+      Mage_Air_Idle_Gnd_3: 2371556203033684383
+      Mage_Air_Idle_Gnd_2: -8479541352136680482
+      Mage_Air_Move_Gnd_7: 5947434836302903089
+      Mage_Air_Idle_Air_1: -6750510806786283439
+      Mage_Air_Cast_Gnd_0: -1436738613170296694
+      Mage_Air_Cast_Gnd_3: 2446830225963599192
+      Mage_Air_Cast_Gnd_4: -3132915003085427109
+      Mage_Air_Cast_Gnd_1: 31094979776737816
+      Mage_Air_Cast_Air_6: -7702737819551060574
+      Mage_Air_Hit: -5854571879291665274
+      Mage_Air_Death_3: -172519036266920555
+      Mage_Air_Idle_Air_0: 2535168176161459244
+      Mage_Air_Idle_Air_4: -4241193892502052770
+      Mage_Air_Move_Air_1: -4283270743104928454
+      Mage_Air_Cast_Gnd_5: -5382669741142675713
+      Mage_Air_Cast_Air_3: 63178448403575295
+      Mage_Air_Cast_Gnd_7: -8409899729563459250
+      Mage_Air_Cast_Gnd_8: -3861724506433789174
+      Mage_Air_Move_Gnd_3: -617356813506731603
+      Mage_Air_Move_Gnd_5: -3471516478480641638
+      Mage_Air_Move_Air_2: -5283379656778011194
+      Mage_Air_Death_2: 7805100997128340077
+      Mage_Air_Idle_Gnd_4: 4814771966753768861
+      Mage_Air_Move_Gnd_4: 7056588670266298153
+      Mage_Air_Cast_Air_0: -2381159246089514141
+      Mage_Air_Cast_Air_8: 2754028940696051966
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

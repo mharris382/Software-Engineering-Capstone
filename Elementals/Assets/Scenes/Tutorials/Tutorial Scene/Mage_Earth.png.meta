@@ -1,0 +1,1325 @@
+fileFormatVersion: 2
+guid: 5d3e9c0ea46a4ee4dbfba15aba722cbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7137556173429586522
+    second: Mage_Earth_Idle_Gnd_0
+  - first:
+      213: 3072181134664709093
+    second: Mage_Earth_Idle_Gnd_1
+  - first:
+      213: -8479541352136680482
+    second: Mage_Earth_Idle_Gnd_2
+  - first:
+      213: 2371556203033684383
+    second: Mage_Earth_Idle_Gnd_3
+  - first:
+      213: 4814771966753768861
+    second: Mage_Earth_Idle_Gnd_4
+  - first:
+      213: 2535168176161459244
+    second: Mage_Earth_Idle_Air_0
+  - first:
+      213: -6750510806786283439
+    second: Mage_Earth_Idle_Air_1
+  - first:
+      213: -723315732534110695
+    second: Mage_Earth_Idle_Air_2
+  - first:
+      213: -4211198239363854600
+    second: Mage_Earth_Idle_Air_3
+  - first:
+      213: -4241193892502052770
+    second: Mage_Earth_Idle_Air_4
+  - first:
+      213: -5035267135485227791
+    second: Mage_Earth_Move_Air_0
+  - first:
+      213: -4283270743104928454
+    second: Mage_Earth_Move_Air_1
+  - first:
+      213: -5283379656778011194
+    second: Mage_Earth_Move_Air_2
+  - first:
+      213: 8734124104335251694
+    second: Mage_Earth_Move_Air_3
+  - first:
+      213: -5301080501338343740
+    second: Mage_Earth_Move_Gnd_0
+  - first:
+      213: -5179943742280411178
+    second: Mage_Earth_Move_Gnd_1
+  - first:
+      213: 7618175774540671426
+    second: Mage_Earth_Move_Gnd_2
+  - first:
+      213: -617356813506731603
+    second: Mage_Earth_Move_Gnd_3
+  - first:
+      213: 7056588670266298153
+    second: Mage_Earth_Move_Gnd_4
+  - first:
+      213: -3471516478480641638
+    second: Mage_Earth_Move_Gnd_5
+  - first:
+      213: 475304637586734954
+    second: Mage_Earth_Move_Gnd_6
+  - first:
+      213: 5947434836302903089
+    second: Mage_Earth_Move_Gnd_7
+  - first:
+      213: -5854571879291665274
+    second: Mage_Earth_Hit
+  - first:
+      213: 8258408881666613731
+    second: Mage_Earth_Death_0
+  - first:
+      213: 8214755810280746093
+    second: Mage_Earth_Death_1
+  - first:
+      213: 7805100997128340077
+    second: Mage_Earth_Death_2
+  - first:
+      213: 2116080207067554198
+    second: Mage_Earth_Cast_Aerial_6
+  - first:
+      213: -172519036266920555
+    second: Mage_Earth_Death_3
+  - first:
+      213: -1436738613170296694
+    second: Mage_Earth_Cast_Gnd_0
+  - first:
+      213: 31094979776737816
+    second: Mage_Earth_Cast_Gnd_1
+  - first:
+      213: 3795175828898289698
+    second: Mage_Earth_Cast_Gnd_2
+  - first:
+      213: 2446830225963599192
+    second: Mage_Earth_Cast_Gnd_3
+  - first:
+      213: -3132915003085427109
+    second: Mage_Earth_Cast_Gnd_4
+  - first:
+      213: -5382669741142675713
+    second: Mage_Earth_Cast_Gnd_5
+  - first:
+      213: -6966146945755096729
+    second: Mage_Earth_Cast_Gnd_6
+  - first:
+      213: -8409899729563459250
+    second: Mage_Earth_Cast_Gnd_7
+  - first:
+      213: -3861724506433789174
+    second: Mage_Earth_Cast_Gnd_8
+  - first:
+      213: -2381159246089514141
+    second: Mage_Earth_Cast_Air_0
+  - first:
+      213: -33773124342590482
+    second: Mage_Earth_Cast_Air_1
+  - first:
+      213: 3519039684302771919
+    second: Mage_Earth_Cast_Air_2
+  - first:
+      213: 63178448403575295
+    second: Mage_Earth_Cast_Air_3
+  - first:
+      213: -7135036954847794468
+    second: Mage_Earth_Cast_Air_4
+  - first:
+      213: -6140211750152562457
+    second: Mage_Earth_Cast_Air_5
+  - first:
+      213: -7702737819551060574
+    second: Mage_Earth_Cast_Air_6
+  - first:
+      213: 5697969197940399087
+    second: Mage_Earth_Cast_Air_7
+  - first:
+      213: 2754028940696051966
+    second: Mage_Earth_Cast_Air_8
+  - first:
+      213: -2959528959125410972
+    second: 'Mage_Earth_Move_Gnd_3 rect:'
+  - first:
+      213: -2617480952404420152
+    second: Mage_Earth_Move_Gnd_3
+  - first:
+      213: 3004005138921221120
+    second: Mage_Earth_Move_Gnd_4
+  - first:
+      213: -476418820241911526
+    second: Mage_Earth_Move_Gnd_5
+  - first:
+      213: -5929633097787914122
+    second: Mage_Earth_Move_Gnd_6
+  - first:
+      213: 1385047481543673766
+    second: Mage_Earth_Move_Gnd_7
+  - first:
+      213: -5032608250630396485
+    second: Mage_Earth_Hit
+  - first:
+      213: -3237939146360655579
+    second: Mage_Earth_Death_0
+  - first:
+      213: 2489728841197368462
+    second: Mage_Earth_Death_1
+  - first:
+      213: -27283361022598905
+    second: Mage_Earth_Death_2
+  - first:
+      213: 2943783156757584823
+    second: Mage_Earth_Death_3
+  - first:
+      213: -5493718789865780523
+    second: Mage_Earth_Cast_Ground_0
+  - first:
+      213: -8646556328671580571
+    second: Mage_Earth_Cast_Ground_1
+  - first:
+      213: 7282615271411005423
+    second: Mage_Earth_Cast_Ground_2
+  - first:
+      213: 3859875152673566274
+    second: Mage_Earth_Cast_Ground_3
+  - first:
+      213: 9144740309738177634
+    second: Mage_Earth_Cast_Ground_4
+  - first:
+      213: -977224331057123990
+    second: Mage_Earth_Cast_Ground_5
+  - first:
+      213: -4495595904051150424
+    second: Mage_Earth_Cast_Ground_6
+  - first:
+      213: 4011227431593751940
+    second: Mage_Earth_Cast_Ground_7
+  - first:
+      213: -1463194475794698176
+    second: Mage_Earth_Cast_Ground_8
+  - first:
+      213: 4288526901431344853
+    second: Mage_Earth_Cast_Aerial_0
+  - first:
+      213: -51547859343820891
+    second: Mage_Earth_Cast_Aerial_1
+  - first:
+      213: 875381205541150073
+    second: Mage_Earth_Cast_Aerial_2
+  - first:
+      213: -3813778125678823981
+    second: Mage_Earth_Cast_Aerial_3
+  - first:
+      213: 4546661473967275736
+    second: Mage_Earth_Cast_Aerial_4
+  - first:
+      213: 853195896353928383
+    second: Mage_Earth_Cast_Aerial_5
+  - first:
+      213: 8331795900573960494
+    second: Mage_Earth_Cast_Aerial_6
+  - first:
+      213: -8938728536804384911
+    second: Mage_Earth_Cast_Aerial_7
+  - first:
+      213: -4675956059051057706
+    second: Mage_Earth_Cast_Aerial_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Gnd_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a545560a7e42fc90800000000000000
+      internalID: -7137556173429586522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Gnd_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b851077492aa20800000000000000
+      internalID: 3072181134664709093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Gnd_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb58a7111e925a80800000000000000
+      internalID: -8479541352136680482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Gnd_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 464
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9962b63dc579e020800000000000000
+      internalID: 2371556203033684383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Gnd_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 464
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d950ed0189181d240800000000000000
+      internalID: 4814771966753768861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Air_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 396
+        width: 17
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c8af9360abe2320800000000000000
+      internalID: 2535168176161459244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Air_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 396
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158611ddf2e5152a0800000000000000
+      internalID: -6750510806786283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Air_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 395
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165add6c2446f5f0800000000000000
+      internalID: -723315732534110695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Air_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 394
+        width: 17
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe87ff5381de85c0800000000000000
+      internalID: -4211198239363854600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Idle_Air_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 395
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50ebd520a04425c0800000000000000
+      internalID: -4241193892502052770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Air_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 334
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc4430e7332f1ab0800000000000000
+      internalID: -5035267135485227791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Air_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 335
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a354860f3f3ce84c0800000000000000
+      internalID: -4283270743104928454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Air_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 334
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda838d13aada6b0800000000000000
+      internalID: -5283379656778011194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Air_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 333
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee85417f897d53970800000000000000
+      internalID: 8734124104335251694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 272
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c67affce57ce66b0800000000000000
+      internalID: -5301080501338343740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 272
+        width: 17
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d75ed46c942d18b0800000000000000
+      internalID: -5179943742280411178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 272
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9abfd018239b960800000000000000
+      internalID: 7618175774540671426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 272
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9559911f6dcabd0800000000000000
+      internalID: -617356813506731603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 272
+        width: 18
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ce8d802ce50b920800000000000000
+      internalID: 7056588670266298153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 272
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119b2f6b9b6369f0800000000000000
+      internalID: -3471516478480641638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 272
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678c3f53d16b5bda0800000000000000
+      internalID: 475304637586734954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Move_Gnd_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 272
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c57e985da83310800000000000000
+      internalID: 5947434836302903089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Hit
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a97fb575982ab0800000000000000
+      internalID: -5854571879291665274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Death_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 144
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52177d070878013d0800000000000000
+      internalID: 8258408881666613731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Death_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 143
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e843d9e903b4d8220800000000000000
+      internalID: 8214755810280746093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Death_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 143
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70128fd7de11f9ff0800000000000000
+      internalID: 7805100997128340077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Death_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 142
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb505a2f2b6ad820800000000000000
+      internalID: -172519036266920555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 80
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da492a1ed362c3b0800000000000000
+      internalID: -5493718789865780523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5489048, y: 0.00000069358134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eef1b94d2410880800000000000000
+      internalID: -8646556328671580571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5410659, y: 0.007496227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7b940210c011560800000000000000
+      internalID: 7282615271411005423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 80
+        width: 22
+        height: 21
+      alignment: 9
+      pivot: {x: 0.51882935, y: 0.0019731068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ee6783008019530800000000000000
+      internalID: 3859875152673566274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 80
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.52424425, y: -0.0058078766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264c32d5cd4a8ee70800000000000000
+      internalID: 9144740309738177634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 80
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6da87106a33072f0800000000000000
+      internalID: -977224331057123990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 80
+        width: 27
+        height: 19
+      alignment: 9
+      pivot: {x: 0.38540196, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1845d085f6c91c0800000000000000
+      internalID: -4495595904051150424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 80
+        width: 26
+        height: 18
+      alignment: 9
+      pivot: {x: 0.37218064, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b27db81ebaa730800000000000000
+      internalID: 4011227431593751940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Ground_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 80
+        width: 24
+        height: 18
+      alignment: 9
+      pivot: {x: 0.38855743, y: 0.002043406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04071f86060b1bbe0800000000000000
+      internalID: -1463194475794698176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de9589ce78e38b30800000000000000
+      internalID: 4288526901431344853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 13
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5690895, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a731eabe7dd84ff0800000000000000
+      internalID: -51547859343820891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 13
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d5557819af52c00800000000000000
+      internalID: 875381205541150073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 13
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d532ce300db21bc0800000000000000
+      internalID: -3813778125678823981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 13
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8def5c5758cf81f30800000000000000
+      internalID: 4546661473967275736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 13
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb43ff5b52927db00800000000000000
+      internalID: 853195896353928383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 27
+        height: 22
+      alignment: 9
+      pivot: {x: 0.37812522, y: 0.009755004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2944c25a3c70a370800000000000000
+      internalID: 2116080207067554198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 13
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: 0.3216321, y: 0.00000081743514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f902451c143f380800000000000000
+      internalID: -8938728536804384911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_Earth_Cast_Aerial_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 13
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.35266113, y: 0.00000081743514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd1de21dbaab1fb0800000000000000
+      internalID: -4675956059051057706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eea17c95c76022243bc9253111c6f339
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mage_Earth_Move_Gnd_2: 7618175774540671426
+      Mage_Earth_Cast_Ground_4: 9144740309738177634
+      Mage_Earth_Cast_Ground_3: 3859875152673566274
+      Mage_Earth_Move_Gnd_4: 7056588670266298153
+      Mage_Earth_Cast_Aerial_8: -4675956059051057706
+      Mage_Earth_Cast_Aerial_4: 4546661473967275736
+      Mage_Earth_Idle_Gnd_0: -7137556173429586522
+      Mage_Earth_Death_1: 8214755810280746093
+      Mage_Earth_Idle_Air_0: 2535168176161459244
+      Mage_Earth_Idle_Air_1: -6750510806786283439
+      Mage_Earth_Move_Air_0: -5035267135485227791
+      Mage_Earth_Move_Air_2: -5283379656778011194
+      Mage_Earth_Death_0: 8258408881666613731
+      Mage_Earth_Move_Gnd_1: -5179943742280411178
+      Mage_Earth_Cast_Ground_7: 4011227431593751940
+      Mage_Earth_Move_Air_3: 8734124104335251694
+      Mage_Earth_Idle_Gnd_2: -8479541352136680482
+      Mage_Earth_Move_Gnd_0: -5301080501338343740
+      Mage_Earth_Death_2: 7805100997128340077
+      Mage_Earth_Cast_Ground_5: -977224331057123990
+      Mage_Earth_Cast_Aerial_3: -3813778125678823981
+      Mage_Earth_Cast_Aerial_7: -8938728536804384911
+      Mage_Earth_Idle_Gnd_1: 3072181134664709093
+      Mage_Earth_Cast_Aerial_6: 2116080207067554198
+      Mage_Earth_Cast_Ground_8: -1463194475794698176
+      Mage_Earth_Cast_Aerial_5: 853195896353928383
+      Mage_Earth_Cast_Ground_2: 7282615271411005423
+      Mage_Earth_Death_3: -172519036266920555
+      Mage_Earth_Idle_Gnd_3: 2371556203033684383
+      Mage_Earth_Cast_Ground_1: -8646556328671580571
+      Mage_Earth_Cast_Aerial_1: -51547859343820891
+      Mage_Earth_Cast_Aerial_0: 4288526901431344853
+      Mage_Earth_Idle_Gnd_4: 4814771966753768861
+      Mage_Earth_Idle_Air_4: -4241193892502052770
+      Mage_Earth_Move_Gnd_5: -3471516478480641638
+      Mage_Earth_Move_Gnd_6: 475304637586734954
+      Mage_Earth_Idle_Air_3: -4211198239363854600
+      Mage_Earth_Move_Air_1: -4283270743104928454
+      Mage_Earth_Hit: -5854571879291665274
+      Mage_Earth_Move_Gnd_7: 5947434836302903089
+      Mage_Earth_Cast_Aerial_2: 875381205541150073
+      Mage_Earth_Move_Gnd_3: -617356813506731603
+      Mage_Earth_Idle_Air_2: -723315732534110695
+      Mage_Earth_Cast_Ground_0: -5493718789865780523
+      Mage_Earth_Cast_Ground_6: -4495595904051150424
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
