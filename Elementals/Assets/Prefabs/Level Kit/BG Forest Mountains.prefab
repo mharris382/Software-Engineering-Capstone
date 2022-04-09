@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2250704712519634153}
   m_Layer: 0
-  m_Name: Parallax BG
+  m_Name: BG Forest Mountains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
