@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile:
-    prefab: {fileID: 233051282330676417, guid: 80d2e3aeb00d6104c95f6327d9fe11ce, type: 3}
+    prefab: {fileID: 8872598542648376196, guid: 3b83c90bf955691448e8be14e34a099d, type: 3}
     launchForce: 15
     castRate: 0.5
     accuracy: 1
