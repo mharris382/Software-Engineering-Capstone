@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: winter_trees_0
+      name: Bare winter trees 4
       rect:
         serializedVersion: 2
         x: 98
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7584c25fbc5ef44aacdd9fe263b7eb0
-      internalID: -1571842148
+      spriteID: d574e247f5ad67c4c878e1c059c53fa6
+      internalID: 7994287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_trees_1
+      name: Bare winter trees 6
       rect:
         serializedVersion: 2
         x: 182
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf6c50b262be899408e6084bf37b0179
-      internalID: 1858214341
+      spriteID: 7619c1bac9d88ec498789135488f58b8
+      internalID: 1707222478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_trees_2
+      name: Bare winter trees 5
       rect:
         serializedVersion: 2
         x: 263
@@ -160,35 +160,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd203868b5665c64b8cb2b5f18ceccfc
-      internalID: -1703487172
+      spriteID: f0c363625eabb7a408712794d2535403
+      internalID: 2018392891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_trees_3
+      name: Bare winter trees 2
       rect:
         serializedVersion: 2
         x: 13
         y: 255
         width: 243
         height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.50454223, y: 0.061810058}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67ee44a617eb4ca4b9889e8fa5bd8334
-      internalID: 967618594
+      spriteID: ceea35c522c7238428de86f65288232c
+      internalID: 922375633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_trees_4
+      name: Bare winter trees 1
       rect:
         serializedVersion: 2
         x: 275
@@ -202,29 +202,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5c1a64ed9bce548ab31366cf2a84ec
-      internalID: 149318850
+      spriteID: 453f9f2908f38f64eb0bd1d9a92a979c
+      internalID: -1702471336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_trees_5
+      name: Bare winter trees 3
       rect:
         serializedVersion: 2
         x: 17
         y: 33
         width: 175
         height: 162
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.04087978}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5431a6e2cb6df784c8368ee976aaa6f8
-      internalID: 747053942
+      spriteID: 871f4718b771a1d48aabf20e484d93d0
+      internalID: -1613137049
       vertices: []
       indices: 
       edges: []
@@ -240,12 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      winter_trees_0: -1571842148
-      winter_trees_3: 967618594
-      winter_trees_5: 747053942
-      winter_trees_4: 149318850
-      winter_trees_1: 1858214341
-      winter_trees_2: -1703487172
+      Bare winter trees 5: 2018392891
+      Bare winter trees 2: 922375633
+      Bare winter trees 3: -1613137049
+      Bare winter trees 4: 7994287
+      Bare winter trees 6: 1707222478
+      Bare winter trees 1: -1702471336
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
