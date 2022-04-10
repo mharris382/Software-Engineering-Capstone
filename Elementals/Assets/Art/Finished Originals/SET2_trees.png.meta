@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 49544625f90bf374a986f20f3e6025aa
+guid: f721d3014fdaaa549a7f406416ed6717
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,85 +104,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wall Decor Set 2 Outer Side_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 113
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f42ab93efcc63fc438f2c8c182f3e5c7
-      internalID: -814689669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Decor Set 2 Outer Side_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 81
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cda75e7e517d0849ad710d43143ecb2
-      internalID: -866112996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Decor Set 2 Outer Side_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 49
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f47cdc6617977f4799ecbc1e4911fa7
-      internalID: 186738411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Decor Set 2 Outer Side_3
+      name: Spooky trees 1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 186
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eb5a242985a0e445a6d21f73c2b6391
-      internalID: 1446054196
+      spriteID: ba7accaf8c4bb104da8f23478416bcdd
+      internalID: 1658773462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky trees 2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 147
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3f7c7422c4d0d41917e774f28c364a
+      internalID: 1456009764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky trees 3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 172
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d8e2ba49d502f4380ac77f601ef5c6
+      internalID: -1721816490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky trees 5
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 128
+        width: 70
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c832ed524f2b59044b89812b55ad73e5
+      internalID: -1757466855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky trees 6
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 128
+        width: 64
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b31438598511394bbf865ee6d02ca06
+      internalID: -1295224261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky trees 4
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 77
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1fd57cc81c5be43b054adccd43a718
+      internalID: 1469438539
       vertices: []
       indices: 
       edges: []
@@ -198,10 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall Decor Set 2 Outer Side_0: -814689669
-      Wall Decor Set 2 Outer Side_1: -866112996
-      Wall Decor Set 2 Outer Side_3: 1446054196
-      Wall Decor Set 2 Outer Side_2: 186738411
+      Spooky trees 5: -1757466855
+      Spooky trees 6: -1295224261
+      Spooky trees 2: 1456009764
+      Spooky trees 4: 1469438539
+      Spooky trees 1: 1658773462
+      Spooky trees 3: -1721816490
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
