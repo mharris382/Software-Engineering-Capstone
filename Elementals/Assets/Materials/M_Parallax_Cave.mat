@@ -62,6 +62,6 @@ Material:
     - Image_Size: {r: 640, g: 640, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _Offset: {r: 1000, g: -6.82, b: 0, a: 0}
+    - _Offset: {r: 1000, g: -33.19, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
