@@ -153,9 +153,9 @@ MonoBehaviour:
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
-    BackgroundType: 160
+    BackgroundType: 0
     BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
+    IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 0
     Key: Project
@@ -197,11 +197,11 @@ MonoBehaviour:
     Key: Scenes
     Ordinal: 15
     Priority: 0
-    IconType: 2150
+    IconType: 2650
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 1
-    BackgroundType: 90
+    BackgroundType: 0
     BackgroundTexture: {fileID: 0}
     IsBackgroundRecursive: 0
     IsHidden: 0
@@ -209,13 +209,13 @@ MonoBehaviour:
     Key: Scripts
     Ordinal: 16
     Priority: 0
-    IconType: 2160
+    IconType: 2660
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
-    BackgroundType: 140
+    BackgroundType: 0
     BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
+    IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 0
     Key: Shaders
@@ -341,13 +341,13 @@ MonoBehaviour:
     Key: Assets/Prefabs/Level Kit
     Ordinal: 27
     Priority: 0
-    IconType: 2680
+    IconType: 90
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
-    IsIconRecursive: 1
-    BackgroundType: 160
+    IsIconRecursive: 0
+    BackgroundType: 0
     BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
+    IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
     Key: Assets/Prefabs/Level Kit/Enemies
@@ -362,32 +362,8 @@ MonoBehaviour:
     IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
-    Key: Assets/Prefabs/Level Kit/Mana
-    Ordinal: 29
-    Priority: 0
-    IconType: 2550
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 0
-    BackgroundType: 0
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 0
-    IsHidden: 0
-  - Type: 1
-    Key: Assets/Prefabs/Level Kit/Enviornment
-    Ordinal: 30
-    Priority: 0
-    IconType: 2180
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 1
-    BackgroundType: 0
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 0
-    IsHidden: 0
-  - Type: 1
     Key: Assets/Art
-    Ordinal: 31
+    Ordinal: 29
     Priority: 0
     IconType: 2690
     SmallIcon: {fileID: 0}
@@ -399,7 +375,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/TextMesh Pro
-    Ordinal: 32
+    Ordinal: 30
     Priority: 0
     IconType: 2060
     SmallIcon: {fileID: 0}
@@ -410,20 +386,8 @@ MonoBehaviour:
     IsBackgroundRecursive: 1
     IsHidden: 0
   - Type: 1
-    Key: Assets/Prefabs/Level Kit/Set Dressing
-    Ordinal: 33
-    Priority: 0
-    IconType: 2180
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 0
-    BackgroundType: 0
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 0
-    IsHidden: 0
-  - Type: 1
     Key: Assets/Prefabs/Level Kit/Set Dressing/Nature
-    Ordinal: 34
+    Ordinal: 31
     Priority: 0
     IconType: 90
     SmallIcon: {fileID: 0}
@@ -434,32 +398,8 @@ MonoBehaviour:
     IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
-    Key: Assets/Prefabs/Spells
-    Ordinal: 35
-    Priority: 0
-    IconType: 1180
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 1
-    BackgroundType: 160
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
-    IsHidden: 0
-  - Type: 1
-    Key: Assets/Prefabs/UI
-    Ordinal: 36
-    Priority: 0
-    IconType: 1050
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 1
-    BackgroundType: 160
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
-    IsHidden: 0
-  - Type: 1
     Key: Assets/Prefabs/Level Kit/Enemies/FixedShooters
-    Ordinal: 37
+    Ordinal: 32
     Priority: 0
     IconType: 10
     SmallIcon: {fileID: 0}
@@ -471,7 +411,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Prefabs/Level Kit/Enemies/Fliers
-    Ordinal: 38
+    Ordinal: 33
     Priority: 0
     IconType: 10
     SmallIcon: {fileID: 0}
@@ -483,7 +423,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Prefabs/Spells/Spell Prefabs
-    Ordinal: 39
+    Ordinal: 34
     Priority: 0
     IconType: 210
     SmallIcon: {fileID: 0}
@@ -495,7 +435,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Tilesets
-    Ordinal: 40
+    Ordinal: 35
     Priority: 0
     IconType: 2680
     SmallIcon: {fileID: 0}
@@ -507,7 +447,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Tilesets
-    Ordinal: 41
+    Ordinal: 36
     Priority: 0
     IconType: 3540
     SmallIcon: {fileID: 0}
@@ -519,7 +459,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Tilesets/Presets
-    Ordinal: 42
+    Ordinal: 37
     Priority: 0
     IconType: 2140
     SmallIcon: {fileID: 0}
@@ -531,7 +471,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Tilesets/Templates Tiles
-    Ordinal: 43
+    Ordinal: 38
     Priority: 0
     IconType: 2080
     SmallIcon: {fileID: 0}
@@ -543,7 +483,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Tilesets/Palettes
-    Ordinal: 44
+    Ordinal: 39
     Priority: 0
     IconType: 2130
     SmallIcon: {fileID: 0}
@@ -555,7 +495,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Pickups
-    Ordinal: 45
+    Ordinal: 40
     Priority: 0
     IconType: 2540
     SmallIcon: {fileID: 0}
@@ -567,7 +507,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Enviornments
-    Ordinal: 46
+    Ordinal: 41
     Priority: 0
     IconType: 2680
     SmallIcon: {fileID: 0}
@@ -579,43 +519,19 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Enemies
-    Ordinal: 47
+    Ordinal: 42
     Priority: 0
     IconType: 2600
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 1
-    BackgroundType: 0
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 0
-    IsHidden: 0
-  - Type: 1
-    Key: Assets/Prefabs/Enemies
-    Ordinal: 48
-    Priority: 0
-    IconType: 2600
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 1
-    BackgroundType: 160
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
-    IsHidden: 0
-  - Type: 1
-    Key: Assets/Prefabs/Level Kit/Backgrounds
-    Ordinal: 49
-    Priority: 0
-    IconType: 2180
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 0
     BackgroundType: 0
     BackgroundTexture: {fileID: 0}
     IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
     Key: Assets/Prefabs/Level Kit/Camera Setups
-    Ordinal: 50
+    Ordinal: 43
     Priority: 0
     IconType: 3010
     SmallIcon: {fileID: 0}
@@ -626,20 +542,8 @@ MonoBehaviour:
     IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
-    Key: Assets/Prefabs/Level Kit/Tilemaps
-    Ordinal: 51
-    Priority: 0
-    IconType: 3040
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 0
-    BackgroundType: 0
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 0
-    IsHidden: 0
-  - Type: 1
     Key: Assets/Art/RenderTextures
-    Ordinal: 52
+    Ordinal: 44
     Priority: 0
     IconType: 2190
     SmallIcon: {fileID: 0}
@@ -651,7 +555,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Interactables
-    Ordinal: 53
+    Ordinal: 45
     Priority: 0
     IconType: 2090
     SmallIcon: {fileID: 0}
@@ -663,7 +567,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Wizard
-    Ordinal: 54
+    Ordinal: 46
     Priority: 0
     IconType: 210
     SmallIcon: {fileID: 0}
@@ -675,7 +579,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/UI
-    Ordinal: 55
+    Ordinal: 47
     Priority: 0
     IconType: 3510
     SmallIcon: {fileID: 0}
@@ -687,7 +591,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Sprites
-    Ordinal: 56
+    Ordinal: 48
     Priority: 0
     IconType: 520
     SmallIcon: {fileID: 0}
@@ -699,9 +603,9 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Spells
-    Ordinal: 57
+    Ordinal: 49
     Priority: 0
-    IconType: 2550
+    IconType: 2050
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -711,7 +615,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/Prototyping
-    Ordinal: 58
+    Ordinal: 50
     Priority: 0
     IconType: 520
     SmallIcon: {fileID: 0}
@@ -723,7 +627,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 1
     Key: Assets/Art/_Experiments
-    Ordinal: 59
+    Ordinal: 51
     Priority: 0
     IconType: 520
     SmallIcon: {fileID: 0}
@@ -734,34 +638,226 @@ MonoBehaviour:
     IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
-    Key: Assets/Scenes/Levels
-    Ordinal: 60
+    Key: Assets/Art/Enviornments/Animated
+    Ordinal: 52
     Priority: 0
-    IconType: 0
+    IconType: 2510
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
-    BackgroundType: 90
-    BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 1
-    IsHidden: 0
-  - Type: 1
-    Key: Assets/Scenes/Template
-    Ordinal: 61
-    Priority: 0
-    IconType: 0
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
-    IsIconRecursive: 0
-    BackgroundType: 50
+    BackgroundType: 0
     BackgroundTexture: {fileID: 0}
     IsBackgroundRecursive: 0
     IsHidden: 0
   - Type: 1
-    Key: Assets/Art/Enviornments/Animated
+    Key: Assets/Art/Props
+    Ordinal: 53
+    Priority: 0
+    IconType: 50
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Interactable Parts
+    Ordinal: 54
+    Priority: 0
+    IconType: 80
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Enemies
+    Ordinal: 55
+    Priority: 0
+    IconType: 70
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Camera Setups
+    Ordinal: 56
+    Priority: 0
+    IconType: 60
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Backgrounds
+    Ordinal: 57
+    Priority: 0
+    IconType: 50
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Spells
+    Ordinal: 58
+    Priority: 0
+    IconType: 240
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/UI
+    Ordinal: 59
+    Priority: 0
+    IconType: 220
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/~Examples
+    Ordinal: 60
+    Priority: 0
+    IconType: 520
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Level Kit/Desert Mountain Level
+    Ordinal: 61
+    Priority: 0
+    IconType: 30
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Level Kit/Castle Kits
     Ordinal: 62
     Priority: 0
-    IconType: 2510
+    IconType: 170
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Level Kit/Forest Level
+    Ordinal: 63
+    Priority: 0
+    IconType: 90
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Prefabs/Level Kit/Icy Mountain Level
+    Ordinal: 64
+    Priority: 0
+    IconType: 130
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Art/Tilesets/~Broken
+    Ordinal: 65
+    Priority: 0
+    IconType: 510
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Art/Tilesets/~Low Res
+    Ordinal: 66
+    Priority: 0
+    IconType: 510
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Art/Enviornments/Pixel Valley Revamp
+    Ordinal: 67
+    Priority: 0
+    IconType: 510
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Art/Enviornments/RuleTiles
+    Ordinal: 68
+    Priority: 0
+    IconType: 510
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Art/Enviornments/test
+    Ordinal: 69
+    Priority: 0
+    IconType: 520
+    SmallIcon: {fileID: 0}
+    LargeIcon: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 0
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 1
+    Key: Assets/Art/Enviornments/New Tilesets
+    Ordinal: 70
+    Priority: 0
+    IconType: 510
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
