@@ -11036,6 +11036,12 @@ MonoBehaviour:
   - offset: {x: 0.4, y: -0.4}
     distance: 0.1
   groundedDelay: 0.05
+  rightCorner:
+    offset: {x: -0.17, y: 0}
+    distance: 0
+  leftCorner:
+    offset: {x: 0, y: 0}
+    distance: 0
   grounded: 0
 --- !u!114 &1344690876302126606
 MonoBehaviour:

@@ -86,23 +86,35 @@ public class CharacterMove : MonoBehaviour
     // Based on Physics Updates
     private void FixedUpdate()
     {
-        void CompensateForMovingPlatforms()
-        {
-            if (State.MovingGround.Count > 0)
-            {
-                Vector2 velocity = Vector2.zero;
-                for (int i = 0; i < State.MovingGround.Count; i++)
-                {
-                    velocity += State.MovingGround[i].Velocity;
-                }
+      
 
-                _rb.velocity = velocity + _rb.velocity;
-            }
+       var velocity = IsJumping ? State.Movement.Velocity : new Vector2(State.Movement.HorizontalMovement, _rb.velocity.y);
+
+        if (!IsJumping && IsGrounded)
+        {
+            CompensateForMovingPlatforms(ref velocity);
         }
 
-        _rb.velocity = IsJumping ? State.Movement.Velocity : new Vector2(State.Movement.HorizontalMovement, _rb.velocity.y);
-        
-        if(!IsJumping && IsGrounded)
-            CompensateForMovingPlatforms();
+        bool movingRight = velocity.x > 0;
+        _groundCheck.CheckForSlope(movingRight, ref velocity);
+        if (State.MovementInput.MoveInput.x == 0 && !IsJumping && IsGrounded)
+        {
+            velocity.y = 0;
+        }
+        _rb.velocity = velocity;
+    }
+    
+    void CompensateForMovingPlatforms(ref Vector2 vel)
+    {
+        if (State.MovingGround.Count > 0)
+        {
+            Vector2 velocity = Vector2.zero;
+            for (int i = 0; i < State.MovingGround.Count; i++)
+            {
+                velocity += State.MovingGround[i].Velocity;
+            }
+
+            vel += velocity;
+        }
     }
 }
