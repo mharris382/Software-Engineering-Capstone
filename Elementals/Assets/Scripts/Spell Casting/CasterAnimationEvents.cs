@@ -11,14 +11,22 @@ public class CasterAnimationEvents : MonoBehaviour
     [UsedImplicitly]
     public void BasicCast()
     {
-        _state.BasicSpell.onCastTriggered?.Invoke();
+       // _state.BasicSpell.Trigger();
+        TriggerSpell();
     }
     
     //called from animation event
     [UsedImplicitly]
     public void StrongCast()
     {
-        _state.StrongSpell.onCastTriggered?.Invoke();
+        //_state.StrongSpell.Trigger();
+        TriggerSpell();
+    }
+
+    [UsedImplicitly]
+    public void TriggerSpell()
+    {
+        _state.SpellCast.Trigger();
     }
 
     private void Awake()

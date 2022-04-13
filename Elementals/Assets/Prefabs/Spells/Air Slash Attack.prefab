@@ -5593,6 +5593,7 @@ GameObject:
   - component: {fileID: 4811286589863148564}
   - component: {fileID: 6897351335911607339}
   - component: {fileID: 7404377758109083271}
+  - component: {fileID: 5676147200013183453}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -10396,6 +10397,33 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5676147200013183453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7104166992072282060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a39b26202f425a8e30e289be9074d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpellWasCast:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6897351335911607339}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Emit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 50
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8546875032705581529
 GameObject:
   m_ObjectHideFlags: 0

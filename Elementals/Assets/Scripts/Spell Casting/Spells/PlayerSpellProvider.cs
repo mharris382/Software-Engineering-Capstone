@@ -8,6 +8,7 @@ namespace Spell_Casting.Spells
         ISpell GetSpell(string spellName);
     }
 
+    [AddComponentMenu("Spells/Providers/Depricated/Player Spell Provider")]
     public class PlayerSpellProvider : MonoBehaviour, ISpellProvider
     {
         public SpellKey[] spells;
@@ -36,6 +37,7 @@ namespace Spell_Casting.Spells
         
         public ISpell GetSpell(string spellName)
         {
+            
             spellName = spellName + "_" + activeElement.Element;
             for (int i = 0; i < spells.Length; i++)
             {

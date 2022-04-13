@@ -4,7 +4,7 @@ using Spell_Casting.Spells;
 using UnityEngine;
 
 [AddComponentMenu("Spells/Spell As Child Object")]
-public class SpellAsChildObject : MonoBehaviour, ISpell
+public class SpellAsChildObject : InstantiateObjectSpell, ISpell
 {
     public GameObject spellPrefab;
     
@@ -23,12 +23,23 @@ public class SpellAsChildObject : MonoBehaviour, ISpell
     {
         if (!_canCast) 
             return false;
+        return base.CastSpell(caster, position, direction);
         Debug.Log($"Cast by {caster}");
         var spell =Instantiate(spellPrefab, caster.transform);
         spell.transform.SetParent(caster.transform,false);
         _canCast = false;
         StartCoroutine(CastChildObject(spell, caster.transform));
         return true;
+    }
+
+    protected override GameObject InstantiateSpellObject(GameObject caster, Vector2 position, Vector2 direction)
+    {
+        if (!_canCast) return null;
+        var spell =Instantiate(spellPrefab, caster.transform);
+        spell.transform.SetParent(caster.transform,false);
+        _canCast = false;
+        StartCoroutine(CastChildObject(spell, caster.transform));
+        return spell;
     }
 
     IEnumerator CastChildObject(GameObject spell, Transform casterTransform)

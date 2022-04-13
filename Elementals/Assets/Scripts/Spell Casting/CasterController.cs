@@ -1,4 +1,5 @@
 ﻿using System;
+using Spell_Casting.Spells;
 using UnityEngine;
 
 /// <summary>
@@ -10,7 +11,7 @@ using UnityEngine;
 public class CasterController : MonoBehaviour
 {
     private CasterState _state;
-
+    public ElementContainer playerElement;
     private void Awake()
     {
         _state = GetComponent<CasterState>();
@@ -32,11 +33,11 @@ public class CasterController : MonoBehaviour
         {
             if (_state.input.CastBasic)
             {
-                _state.BasicSpell.Start();
+                _state.SpellCast.Start($"{SpellNames.FastAttackSpell}_{playerElement.Element.ToString()}");
             }
             else if (_state.input.CastStrong)
             {
-                _state.StrongSpell.Start();
+                _state.SpellCast.Start($"{SpellNames.StrongAttackSpell}_{playerElement.Element.ToString()}");
             }
         }
     }

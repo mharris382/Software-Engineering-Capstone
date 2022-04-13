@@ -8,18 +8,29 @@ public class CasterAnimator : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         _state = GetComponentInParent<CasterState>();
-        _state.BasicSpell.onCastStarted.AddListener(() =>
+        _state.BasicSpell.onCastStarted.AddListener(str =>
         {
             _anim.SetTrigger("cast");
             StartCoroutine(WaitForAnimationToCompleteCast(_state.BasicSpell));
         });
-        _state.StrongSpell.onCastStarted.AddListener(() =>
+        _state.StrongSpell.onCastStarted.AddListener(str =>
         {
             _anim.Play("HCast");
             StartCoroutine(WaitForAnimationToCompleteCast(_state.StrongSpell));
         });
+        _state.SpellCast.onCastStarted.AddListener(StartSpellCastAnimation);
     }
 
+    void StartSpellCastAnimation(string spellName)
+    {
+        if (spellName.Contains('_'))
+        {
+            var animName = spellName.Remove(spellName.IndexOf('_'));
+            Debug.Log($"Starting Animation named {animName}");
+            _anim.Play(animName);
+            StartCoroutine(WaitForAnimationToCompleteCast(_state.SpellCast));
+        }
+    }
 
     private IEnumerator WaitForAnimationToCompleteCast(CastEvents spell)
     {

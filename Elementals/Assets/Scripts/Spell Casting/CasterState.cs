@@ -15,6 +15,11 @@ public class CasterState : MonoBehaviour
 
     private CasterInput _input;
     public CasterInput input => _input ??= new CasterInput();
+
+    [SerializeField]
+    private CastEvents spellCast;
+    public CastEvents SpellCast => spellCast; 
+    
     public CastEvents BasicSpell => basicSpell;
     public CastEvents StrongSpell => strongSpell;
 
@@ -51,31 +56,36 @@ public class CasterInput
 public class CastEvents
 {
      [Tooltip("This is called when the process of casting a spell is started")]
-    public UnityEvent onCastStarted;
+    public UnityEvent<string> onCastStarted;
     
      [Tooltip("This is called when the spell is actually created")]
-    public UnityEvent onCastTriggered;
+    public UnityEvent<string>  onCastTriggered;
     
      [Tooltip("This is called when the character is completely finished the casting process")]
-    public UnityEvent onCastCompleted;
+    public UnityEvent<string>  onCastCompleted;
 
     public bool IsCasting { get; private set; }
+    public string CurrentSpell { get; private set; }
     
-    public void Start()
+    
+    
+    public void Start(string spellName)
     {
         IsCasting = true;
-        onCastStarted?.Invoke();
+        CurrentSpell = spellName;
+        onCastStarted?.Invoke(spellName);
     }
 
     public void Finish()
     {
         IsCasting = false;
-        onCastCompleted?.Invoke();
+        onCastCompleted?.Invoke(CurrentSpell);
+        CurrentSpell = "";
     }
 
     public void Trigger()
     {
-        onCastTriggered?.Invoke();
+        onCastTriggered?.Invoke(CurrentSpell);
     }
 }
 

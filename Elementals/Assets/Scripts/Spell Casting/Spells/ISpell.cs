@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 namespace Spell_Casting.Spells
 {
@@ -12,4 +13,21 @@ namespace Spell_Casting.Spells
     {
         public string key;
     }
+
+    
+    public struct SpellInfo
+    {
+        public GameObject caster { get; set; }
+        public GameObject SpellInstance { get; set; }
+        public Vector2 CastPosition { get; set; }
+        public Vector2 CastDirection { get; set; }
+
+        public float CastTime
+        {
+            get;
+            set;
+        }
+    }
+
+   
 }

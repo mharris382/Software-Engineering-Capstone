@@ -847,7 +847,7 @@ TextureImporter:
         width: 51
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 17, z: 0, w: 16}
       outline: []
       physicsShape: []
@@ -855,6 +855,48 @@ TextureImporter:
       bones: []
       spriteID: dfdb0d13f7c657a488d2456e5bad8ac6
       internalID: 209424027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red castle parts_36
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 496
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 103}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66945d1a4ac19b14f91077a5b0315111
+      internalID: 483391602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red castle parts_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 400
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d2d8a093ff56644bffcde4fa995e30
+      internalID: -678665504
       vertices: []
       indices: 
       edges: []
@@ -895,7 +937,9 @@ TextureImporter:
       red castle parts_11: 285488873
       red castle parts_8: 1491740268
       red castle parts_15: -2003584679
+      red castle parts_36: 483391602
       red castle parts_22: -1910356428
+      red castle parts_37: -678665504
       Wall Decor Set 2 Outer Side_3: 1446054196
       red castle parts_10: -1663698374
       red castle parts_18: -2009079554

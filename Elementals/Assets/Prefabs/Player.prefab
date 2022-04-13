@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 0.1
   projectile:
     prefab: {fileID: 8872598542648376196, guid: 3b83c90bf955691448e8be14e34a099d, type: 3}
     launchForce: 15
@@ -53,8 +54,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 0.1
+  projectilePrefab: {fileID: 8872598542648376196, guid: 3b83c90bf955691448e8be14e34a099d, type: 3}
 --- !u!114 &63959713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 2
   projectile:
     prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 21.61
@@ -121,8 +124,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 2
+  projectilePrefab: {fileID: 2146039570, guid: be20cdcf853a5fc4781610e42fee3ea6, type: 3}
 --- !u!114 &94540893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +172,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6133704486436411340}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &96895263
 MonoBehaviour:
@@ -182,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 0.1
   projectile:
     prefab: {fileID: 2595622195189797816, guid: 5d814574dddabd145828e7190289ae08, type: 3}
     launchForce: 15
@@ -190,8 +195,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 0.1
+  projectilePrefab: {fileID: 5317357165494780221, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
 --- !u!114 &96895262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c3e2be8b798cc4db3f0e535d5c9aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 5
   spellPrefab: {fileID: 3104512738251572401, guid: e4f76fb9c37813b49b7a119c7a7a643a, type: 3}
   manaCost: 5
   lifetime: 10
@@ -5102,6 +5109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 694448478}
+  - component: {fileID: 3208617373034920835}
   - component: {fileID: 694448479}
   m_Layer: 0
   m_Name: Spells
@@ -5127,6 +5135,39 @@ Transform:
   m_Father: {fileID: 1344690876302126603}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3208617373034920835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694448477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9ab1c65e3242b49319e16eb04c8706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spells:
+  - key: Fast_Air
+    spell: {fileID: 1747076529}
+  - key: Fast_Fire
+    spell: {fileID: 2017650856}
+  - key: Fast_Water
+    spell: {fileID: 1650725504}
+  - key: Fast_Thunder
+    spell: {fileID: 96895260}
+  - key: Fast_Earth
+    spell: {fileID: 63959711}
+  - key: Strong_Air
+    spell: {fileID: 1588273294}
+  - key: Strong_Fire
+    spell: {fileID: 1047435832}
+  - key: Strong_Water
+    spell: {fileID: 1036965037}
+  - key: Strong_Thunder
+    spell: {fileID: 94540891}
+  - key: Strong_Earth
+    spell: {fileID: 1693989774}
 --- !u!114 &694448479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10079,6 +10120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 2
   projectile:
     prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 21.61
@@ -10087,8 +10129,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 2
+  projectilePrefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
 --- !u!114 &1036965039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10147,6 +10190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 2
   projectile:
     prefab: {fileID: -312908233938099893, guid: 24f23c60f8987e34da24d9be86b37efc, type: 3}
     launchForce: 21.61
@@ -10155,8 +10199,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 2
+  projectilePrefab: {fileID: -312908233938099893, guid: 24f23c60f8987e34da24d9be86b37efc, type: 3}
 --- !u!114 &1047435834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10259,6 +10304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 2
   projectile:
     prefab: {fileID: -5471285991506368253, guid: 22d3c78d91562ea40b0d4c55a26b0766, type: 3}
     launchForce: 21.61
@@ -10267,8 +10313,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 2
+  projectilePrefab: {fileID: -5471285991506368253, guid: 22d3c78d91562ea40b0d4c55a26b0766, type: 3}
 --- !u!114 &1588273297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10313,7 +10360,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6133704486436411340}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1650725507
 MonoBehaviour:
@@ -10327,6 +10374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 0.1
   projectile:
     prefab: {fileID: 311448704776073141, guid: d1c4d5731ec57a4409621cfed8bc4bc6, type: 3}
     launchForce: 15
@@ -10335,8 +10383,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 0.1
+  projectilePrefab: {fileID: 311448704776073141, guid: d1c4d5731ec57a4409621cfed8bc4bc6, type: 3}
 --- !u!114 &1650725506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10395,6 +10444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 2
   projectile:
     prefab: {fileID: 311448704776073141, guid: 6c830e01b5b8d914e882c445cf7584b9, type: 3}
     launchForce: 21.61
@@ -10403,8 +10453,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 2
+  projectilePrefab: {fileID: 2595622195189797816, guid: 5d814574dddabd145828e7190289ae08, type: 3}
 --- !u!114 &1693989776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10463,6 +10514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 0.1
   projectile:
     prefab: {fileID: 5317357165494780221, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
     launchForce: 15
@@ -10471,8 +10523,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 0.1
+  projectilePrefab: {fileID: 5317357165494780221, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
 --- !u!114 &1747076532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10606,7 +10659,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6133704486436411340}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2017650859
 MonoBehaviour:
@@ -10620,6 +10673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 0.1
   projectile:
     prefab: {fileID: -664825597825090570, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
     launchForce: 15
@@ -10628,8 +10682,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  manaCost: 0.1
+  projectilePrefab: {fileID: -664825597825090570, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
 --- !u!114 &2017650858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11036,12 +11091,6 @@ MonoBehaviour:
   - offset: {x: 0.4, y: -0.4}
     distance: 0.1
   groundedDelay: 0.05
-  rightCorner:
-    offset: {x: -0.17, y: 0}
-    distance: 0
-  leftCorner:
-    offset: {x: 0, y: 0}
-    distance: 0
   grounded: 0
 --- !u!114 &1344690876302126606
 MonoBehaviour:
@@ -11126,6 +11175,16 @@ MonoBehaviour:
     onCastCompleted:
       m_PersistentCalls:
         m_Calls: []
+  spellCast:
+    onCastStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    onCastTriggered:
+      m_PersistentCalls:
+        m_Calls: []
+    onCastCompleted:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &1677703089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11162,6 +11221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9748de4fe89b4affb2d5204bf2dae7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerElement: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
 --- !u!114 &32902414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11282,9 +11342,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1747076530}
-  - {fileID: 96895261}
   - {fileID: 2017650857}
   - {fileID: 1650725505}
+  - {fileID: 96895261}
   - {fileID: 63959712}
   m_Father: {fileID: 694448478}
   m_RootOrder: 0

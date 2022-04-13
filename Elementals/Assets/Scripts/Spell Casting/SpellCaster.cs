@@ -59,13 +59,19 @@ public class SpellCaster : MonoBehaviour
             var state = GetComponent<CasterState>();
             if (state != null)
             {
-                state.BasicSpell.onCastTriggered.AddListener(BasicCast);
-                state.StrongSpell.onCastTriggered.AddListener(StrongCast);
+                //state.BasicSpell.onCastTriggered.AddListener(BasicCast);
+                //state.StrongSpell.onCastTriggered.AddListener(StrongCast);
+                state.SpellCast.onCastTriggered.AddListener(TryCastSpell);
             }
         }
     }
-    
-    
+
+
+
+    void HandleSpellCastFeedback(string spellName, ISpell spell, bool success)
+    {
+        throw new NotImplementedException();
+    }
 
     
     
@@ -75,32 +81,55 @@ public class SpellCaster : MonoBehaviour
 
     void TryCastSpell(string spellName)
     {
-        ISpell spell;
-         if (TryGetSpell(out spell) && CastSpell(spell))
-            SpawnCastFX();
-
-
-         void SpawnCastFX()
-         {
-             if (castFX == null || castFX.Length == 0) return;
-             foreach (var fx in castFX)
-             {
-                 if (fx == null) continue;
-                 var t = transform;
-                 Instantiate(fx, t.position, t.rotation);
-             }
-         }
-         bool TryGetSpell(out ISpell spell1)
-         {
-             spell1 = _spellProvider.GetSpell(spellName);
-             if (spell1 == null)
-             {
-                 Debug.LogError($"Spell Provider is Missing spell with name {spellName}", this);
-                 return false;
-             }
-
-             return true;
-         }
+        ISpell spell = null;
+        try
+        {
+            spell = _spellProvider.GetSpell(spellName);
+        }
+        catch
+        {
+            Debug.LogError($"Spell Provider is Missing spell with name {spellName}", this);
+        }
+        if (spell == null) 
+            return;
+                    
+        var position = spellSpawnPoint.position;
+        var direction = spellSpawnPoint.right;
+        if (_mana.HasMana(spell.ManaCost) && spell.CastSpell(gameObject, position, direction))
+        {
+            _mana.RemoveMana(spell.ManaCost);
+            HandleSpellCastFeedback(spellName, spell, true);
+        }
+        else
+        {
+            HandleSpellCastFeedback(spellName, spell, false);
+        }
+        // ISpell spell;
+        //  if (TryGetSpell(out spell) && CastSpell(spell))
+        //     SpawnCastFX();
+        //
+        //
+        //  void SpawnCastFX()
+        //  {
+        //      if (castFX == null || castFX.Length == 0) return;
+        //      foreach (var fx in castFX)
+        //      {
+        //          if (fx == null) continue;
+        //          var t = transform;
+        //          Instantiate(fx, t.position, t.rotation);
+        //      }
+        //  }
+        //  bool TryGetSpell(out ISpell spell1)
+        //  {
+        //      spell1 = _spellProvider.GetSpell(spellName);
+        //      if (spell1 == null)
+        //      {
+        //          Debug.LogError($"Spell Provider is Missing spell with name {spellName}", this);
+        //          return false;
+        //      }
+        //
+        //      return true;
+        //  }
          
     }
     
@@ -120,10 +149,10 @@ public class SpellCaster : MonoBehaviour
             return false;
         }
         var mana = ManaState;
-        if (mana.HasMana(spell.ManaCost))
+        if (mana.HasMana(spell.ManaCost) && TryCastSpell())
         {
             mana.RemoveMana(spell.ManaCost);
-            return TryCastSpell();
+            return true;
         }
         return false;
     }

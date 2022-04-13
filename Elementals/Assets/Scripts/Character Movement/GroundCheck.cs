@@ -13,8 +13,7 @@ public class GroundCheck : MonoBehaviour
     [SerializeField] private CheckPoint[] checkPoints = new[] { new CheckPoint(0,0), new CheckPoint(-0.5f, 0),new CheckPoint(0.5f,0),   };
     
     [SerializeField] private float groundedDelay = 0.05f;
-    [SerializeField] private CheckPoint rightCorner;
-    [SerializeField] private CheckPoint leftCorner;
+    
     public bool grounded;
 
 
@@ -25,7 +24,7 @@ public class GroundCheck : MonoBehaviour
     private class CheckPoint : IComparable<CheckPoint>
     {
         [SerializeField] private  Vector2 offset;
-        [SerializeField] private  float distance = 1;
+        [SerializeField] private  float distance;
         
         public RaycastHit2D Hit { get; private set; }
         public float TimeLastChecked { get; private set; }
@@ -52,19 +51,6 @@ public class GroundCheck : MonoBehaviour
                 TimeLastGrounded = Time.time;
             }
             return hit;
-            
-            
-        }
-        public bool Check(Transform owner, Vector2 direction, LayerMask mask)
-        {
-            TimeLastChecked = Time.time;
-            var pos = (Vector2)owner.position + offset;
-            var hit = Physics2D.Raycast(pos, direction, distance, mask);
-            if (hit)
-            {
-                TimeLastGrounded = Time.time;
-            }
-            return hit;
         }
 
 #if UNITY_EDITOR
@@ -73,21 +59,6 @@ public class GroundCheck : MonoBehaviour
             Gizmos.color = Color.green;
             var p0 = (Vector2)owner.position + offset;
             var p1 = p0 + (Vector2.down * distance);
-            Gizmos.DrawLine(p0, p1);
-        }
-        public void DrawGizmos(Transform owner, Color color)
-        {
-            Gizmos.color = color;
-            var p0 = (Vector2)owner.position + offset;
-            var p1 = p0 + (Vector2.down * distance);
-            Gizmos.DrawLine(p0, p1);
-        }
-        
-        public void DrawGizmos(Transform owner, Vector2 direction, Color color)
-        {
-            Gizmos.color = color;
-            var p0 = (Vector2)owner.position + offset;
-            var p1 = p0 + (direction.normalized * distance);
             Gizmos.DrawLine(p0, p1);
         }
 #endif
@@ -141,38 +112,6 @@ public class GroundCheck : MonoBehaviour
         {
             point.DrawGizmos(transform);
         }
-        rightCorner.DrawGizmos(transform, Color.cyan);
-        rightCorner.DrawGizmos(transform, Vector2.right, Color.cyan);
-        leftCorner.DrawGizmos(transform, Color.cyan);
-        leftCorner.DrawGizmos(transform, Vector2.left, Color.cyan);
     }
 #endif
-
-
-    public void CheckForSlope(bool movingRight, ref Vector2 velocity)
-    {
-        if (velocity.y > 0)
-        {
-            return;
-        }
-
-        CheckPoint pnt = movingRight ? rightCorner : leftCorner;
-        Vector2 dir = movingRight ? Vector2.right : Vector2.left;
-        if (pnt.Check(transform, mask) || pnt.Check(transform, dir, mask))
-        {
-            //check the hit for a slope
-            var hit = pnt.Hit;
-            var angle = Vector2.Angle(Vector2.up, hit.normal);
-            if (angle <= 0.001f)
-            {
-                //not on a slope
-            }
-            else
-            {
-                var speed = velocity.magnitude;
-                var direction = Vector3.Cross(hit.normal, Vector3.forward);
-                velocity = direction * speed;
-            }
-        }
-    }
 }

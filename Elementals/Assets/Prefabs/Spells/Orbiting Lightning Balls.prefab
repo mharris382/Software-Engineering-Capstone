@@ -604,7 +604,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 5
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -4854,6 +4854,7 @@ GameObject:
   - component: {fileID: 3104512739672515964}
   - component: {fileID: 3104512739672515967}
   - component: {fileID: 4020564788338393707}
+  - component: {fileID: 6389460867518239253}
   m_Layer: 0
   m_Name: Orbiting Damage Dealers
   m_TagString: Untagged
@@ -4884,7 +4885,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3104512739672515937}
   serializedVersion: 8
-  lengthInSec: 10
+  lengthInSec: 20
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -4959,7 +4960,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 20
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5444,7 +5445,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 5
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -9669,3 +9670,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAmount: 1
   damageElement: 4
+--- !u!114 &6389460867518239253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104512739672515937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a39b26202f425a8e30e289be9074d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpellWasCast:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3104512739672515964}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Simulate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3104512739672515964}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
