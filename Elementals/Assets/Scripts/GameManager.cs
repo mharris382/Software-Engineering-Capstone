@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     private GameObject playerSaveLoader;
     [SerializeField]
     private LevelData levelData;
+
     
     public int CurrentLevel
     {
@@ -74,6 +75,22 @@ public class GameManager : MonoBehaviour
     }
 
 
+    private GameState _state;
+
+    public GameState State
+    {
+        get => _state;
+        set
+        {
+            if (value != _state)
+            {
+                _state = value;
+                OnGameStateChanged?.Invoke(_state);
+            }
+        }
+    }
+    public static event Action<GameState> OnGameStateChanged;
+    
     private SaveSlot _slot;
     private SaveSlot Slot
     {
@@ -231,4 +248,12 @@ public class GameManager : MonoBehaviour
             SaveCheckpoint();
         }
     }
+}
+
+public enum GameState
+{
+    MainMenu,
+    Loading,
+    Playing,
+    Paused,
 }
