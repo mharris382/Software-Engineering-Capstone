@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068e2e61a9ad42128509ec6bbf655ec9, type: 3}
+  m_Name: Clips_Burn
+  m_EditorClassIdentifier: 
+  monoClips:
+  - {fileID: 8300000, guid: 0d235bc2016a14bb48ffa924c32f6ff1, type: 3}
+  - {fileID: 8300000, guid: 60c0dbd5a5fcf46358bba91b4240f5e8, type: 3}
+  - {fileID: 8300000, guid: 4dfd7fd4ef21c4f0aa72b0695ebe13bc, type: 3}
+  - {fileID: 8300000, guid: 8b9882e4ee9a6493b92e5e161d485821, type: 3}
+  - {fileID: 8300000, guid: 77121b9cf44cc4bf5ab4b8032c0f36e7, type: 3}
+  stereoClips:
+  - {fileID: 8300000, guid: eaedc07f2149c48c1bf3dadfa729f9f6, type: 3}
+  - {fileID: 8300000, guid: b9e2b031b137347d5b84d03584ed3c88, type: 3}
+  - {fileID: 8300000, guid: 48f071bc0872441d5a230a9b0d36f963, type: 3}
+  - {fileID: 8300000, guid: 6412b701a1b4840b29efb1ee28372acc, type: 3}
+  - {fileID: 8300000, guid: a88c7d7e7030048839d73c264fb576e5, type: 3}

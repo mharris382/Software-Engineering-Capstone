@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068e2e61a9ad42128509ec6bbf655ec9, type: 3}
+  m_Name: Clip_Water_Hit
+  m_EditorClassIdentifier: 
+  monoClips:
+  - {fileID: 8300000, guid: 54aa22b8f8e804c85abcaca67be98048, type: 3}
+  - {fileID: 8300000, guid: f7cf7661d12e341239fa0d6baaef5d51, type: 3}
+  - {fileID: 8300000, guid: cd43761b80e08427e9d7b89fe68d0ef8, type: 3}
+  stereoClips:
+  - {fileID: 8300000, guid: 857a20c65d8b448cdae342a6c5b1db4b, type: 3}
+  - {fileID: 8300000, guid: e1e29660e347f466a861a43d68ba8c21, type: 3}
+  - {fileID: 8300000, guid: 2fac7af6189e44bfeba3582b723fbef1, type: 3}

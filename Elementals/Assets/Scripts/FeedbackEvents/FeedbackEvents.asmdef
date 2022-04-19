@@ -1,0 +1,16 @@
+{
+    "name": "FeedbackEvents",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8466e0e4c5943e547b47c86093e3f634"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

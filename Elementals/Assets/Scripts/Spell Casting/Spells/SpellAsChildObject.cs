@@ -7,9 +7,7 @@ using UnityEngine;
 public class SpellAsChildObject : InstantiateObjectSpell, ISpell
 {
     public GameObject spellPrefab;
-    
-    [Range(0,10)]
-    public int manaCost = 5;
+
 
     
     public float lifetime = 10;
@@ -60,5 +58,4 @@ public class SpellAsChildObject : InstantiateObjectSpell, ISpell
         _canCast = true;
     }
 
-    public float ManaCost => manaCost;
 }

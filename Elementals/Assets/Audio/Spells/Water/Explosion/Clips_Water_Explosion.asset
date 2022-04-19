@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068e2e61a9ad42128509ec6bbf655ec9, type: 3}
+  m_Name: Clips_Water_Explosion
+  m_EditorClassIdentifier: 
+  monoClips:
+  - {fileID: 8300000, guid: 93554323fa68d4676a48bc695c34a669, type: 3}
+  - {fileID: 8300000, guid: 23f9d01e828ba444b80986324131896e, type: 3}
+  - {fileID: 8300000, guid: 9c599bacc754749d49726744fa2c92ea, type: 3}
+  stereoClips:
+  - {fileID: 8300000, guid: 0af34b8db27be4917aeee33a272f2127, type: 3}
+  - {fileID: 8300000, guid: bad99c4a371d44ab489b3b18dff3ed2d, type: 3}
+  - {fileID: 8300000, guid: 8c1c8b89bab0146048c07f2f9db95d53, type: 3}

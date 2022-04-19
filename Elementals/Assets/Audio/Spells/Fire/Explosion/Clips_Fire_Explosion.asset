@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068e2e61a9ad42128509ec6bbf655ec9, type: 3}
+  m_Name: Clips_Fire_Explosion
+  m_EditorClassIdentifier: 
+  monoClips:
+  - {fileID: 8300000, guid: e7851e594610c49fe913d560cc05f950, type: 3}
+  - {fileID: 8300000, guid: b7c481ef80bcd42b5b8714a65d218fc8, type: 3}
+  - {fileID: 8300000, guid: 94acdfee8caca495d97bd13fac748563, type: 3}
+  stereoClips:
+  - {fileID: 8300000, guid: b78cb45994f394c6c9d49519d47ac4ef, type: 3}
+  - {fileID: 8300000, guid: c1c05fcce751d43bc8b48da40ab14203, type: 3}
+  - {fileID: 8300000, guid: b88d0e6cf45ad4b9a9c0ba1e92f2a24a, type: 3}

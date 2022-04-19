@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068e2e61a9ad42128509ec6bbf655ec9, type: 3}
+  m_Name: Clips_Water_Warmup_Long
+  m_EditorClassIdentifier: 
+  monoClips:
+  - {fileID: 8300000, guid: c3f3977c6baa64ff1882899c461c7140, type: 3}
+  - {fileID: 8300000, guid: 4c127b4297a87416eb60da60da7407c9, type: 3}
+  - {fileID: 8300000, guid: 3d662c07de9b74659a87e24e3028362b, type: 3}
+  stereoClips:
+  - {fileID: 8300000, guid: ba6c78ddab67943f3b8767abca530f6f, type: 3}
+  - {fileID: 8300000, guid: 5bda4cc71883f4409b0273e8131f573d, type: 3}
+  - {fileID: 8300000, guid: 7c11664dcb1bc40f19f25f3355cda9a8, type: 3}
