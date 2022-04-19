@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterState), typeof(GroundCheck))]
@@ -56,7 +57,11 @@ public class CharacterMove : MonoBehaviour
         _state.Movement.IsGrounded = _groundCheck.grounded;
         _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * _state.CheckForSpeedModifiers(moveSpeed);
 
-        
+        if (IsMovementPhysicsRestricted())
+        {
+            IsJumping = false;
+            return;
+        }
 
         if (IsGrounded && WantsToStartJump)
         {
@@ -100,9 +105,24 @@ public class CharacterMove : MonoBehaviour
             }
         }
 
+        if (IsMovementPhysicsRestricted())
+        {
+            CompensateForMovingPlatforms();
+            return;
+        }
         _rb.velocity = IsJumping ? State.Movement.Velocity : new Vector2(State.Movement.HorizontalMovement, _rb.velocity.y);
         
         if(!IsJumping && IsGrounded)
             CompensateForMovingPlatforms();
+    }
+
+    private bool IsMovementPhysicsRestricted()
+    {
+        return (_state.MovementRestrictions & MovementRestrictions.NoMovementPhysics) != 0;
+    }
+    
+    private bool IsMovementInputRestricted()
+    {
+        return (_state.MovementRestrictions & MovementRestrictions.NoMovementInput) != 0;
     }
 }

@@ -848,25 +848,31 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: moving
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: grounded
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: alive
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: IsInteracting
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -971,21 +977,21 @@ AnimatorStateMachine:
     m_Position: {x: 650, y: 180, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 4132217507623541407}
-    m_Position: {x: 920, y: 50, z: 0}
+    m_Position: {x: 960, y: 70, z: 0}
   m_AnyStateTransitions:
   - {fileID: -6745214831470299067}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 4132217507623541407}
-    second:
-    - {fileID: -5542952587037973625}
-    - {fileID: 6315909654549629025}
   - first: {fileID: -3103303364732510741}
     second:
     - {fileID: -2975430403340326932}
   - first: {fileID: -5401931339837229187}
     second:
     - {fileID: -976073046447651757}
+  - first: {fileID: 4132217507623541407}
+    second:
+    - {fileID: -5542952587037973625}
+    - {fileID: 6315909654549629025}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 400, y: -30, z: 0}
   m_EntryPosition: {x: 670, y: -100, z: 0}
@@ -1017,6 +1023,21 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &2014632975555288894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ef4f142be8411e830bb44d017512f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paramName: IsInteracting
+  boolValue: 1
+  resetOnExit: 1
 --- !u!1102 &3399185768697971982
 AnimatorState:
   serializedVersion: 6
@@ -1229,7 +1250,8 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 2014632975555288894}
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 780, y: 30, z: 0}
   m_ExitPosition: {x: 420, y: 610, z: 0}

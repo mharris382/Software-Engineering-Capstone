@@ -51,28 +51,4 @@ namespace AI.Attacks
         protected abstract void Attack();
         protected abstract void Cooldown();
     }
-
-    public struct AIAttackInfo
-    {
-        public GameObject aiAttacker;
-        
-        public Vector2 initialPosition;
-        public Vector2 startPosition;
-        public bool isAlive;
-    }
-
-    public enum AttackState
-    {
-        Ready,
-        Active,
-        Inactive,
-        Recharging
-    }
-
-
-    public class AttackChain
-    {
-        
-        
-    }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using DefaultNamespace;
 using UnityEngine;
 
 public class MovementInputHandler : MonoBehaviour
@@ -12,6 +13,8 @@ public class MovementInputHandler : MonoBehaviour
 
     private void Update()
     {
+        if((_state.MovementRestrictions & MovementRestrictions.NoMovementInput) != 0)
+            return;
        _state.MovementInput.Jump = Input.GetButtonDown("Jump");
         _state.MovementInput.TryingToJump = Input.GetButton("Jump");
         _state.MovementInput.IsDoneJumping = Input.GetButtonUp("Jump");

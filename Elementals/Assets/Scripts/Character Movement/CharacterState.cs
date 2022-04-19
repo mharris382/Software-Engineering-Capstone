@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 public class CharacterState : MonoBehaviour
@@ -7,8 +8,9 @@ public class CharacterState : MonoBehaviour
     public MovementInputState MovementInput { get; private set; }
     public MovementState Movement { get; private set; }
 
-    
+    public MovementRestrictions MovementRestrictions { get; set; }
     public List<IMovingGround> MovingGround { get; } = new List<IMovingGround>();
+    public bool IsInteracting { get; set; }
 
     private MoveSpeed _speed;
 
