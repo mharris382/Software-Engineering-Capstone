@@ -92,12 +92,14 @@ public class UIVolumeSettings : MonoBehaviour
     }
     public void SetMuteEnabled(bool mute)
     {
+     
         SaveSettings();
     }
-    
-    public void SetMasterVolumeFromSlider(float sliderValue) => SetMasterVolume(Mathf.Log10(sliderValue)*20);
-    public void SeMusicVolumeFromSlider(float sliderValue) => SetMusicVolume(Mathf.Log10(sliderValue)*20);
-    public void SetEffectsVolumeFromSlider(float sliderValue) => SetEffectsVolume(Mathf.Log10(sliderValue)*20);
+
+    float SliderToDecible(float sliderValue) => Mathf.Log10(Mathf.Max(sliderValue, 0.0001f)) * 20;
+    public void SetMasterVolumeFromSlider(float sliderValue) => SetMasterVolume(SliderToDecible(sliderValue));
+    public void SeMusicVolumeFromSlider(float sliderValue) => SetMusicVolume(SliderToDecible(sliderValue));
+    public void SetEffectsVolumeFromSlider(float sliderValue) => SetEffectsVolume(SliderToDecible(sliderValue));
 
     public void SetMasterVolume(float value)
     {
