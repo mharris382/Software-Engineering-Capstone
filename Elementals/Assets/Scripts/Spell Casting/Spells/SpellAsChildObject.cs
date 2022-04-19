@@ -41,6 +41,7 @@ public class SpellAsChildObject : InstantiateObjectSpell, ISpell
         StartCoroutine(CastChildObject(spell, caster.transform));
         return spell;
     }
+    
 
     IEnumerator CastChildObject(GameObject spell, Transform casterTransform)
     {

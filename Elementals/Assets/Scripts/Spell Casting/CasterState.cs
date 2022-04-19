@@ -71,6 +71,7 @@ public class CastEvents
     
     public void Start(string spellName)
     {
+        if (IsCasting) return;
         IsCasting = true;
         CurrentSpell = spellName;
         onCastStarted?.Invoke(spellName);
