@@ -12,7 +12,8 @@ Elementals/[Mm]emoryCaptures/
 Elementals/Assets/Scenes/Levels/Feedback/USERNAME.txt
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
-
+Elementals/UserSettings/EditorUserSettings.asset
+Elementals/UserSettings/Layouts/default-2021.dwlt
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 

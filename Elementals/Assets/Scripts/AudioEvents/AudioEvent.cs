@@ -46,13 +46,32 @@ namespace AudioEvents
             source.Play();
         }
 
+
+        AudioClip GetRandomClip()
+        {
+            if (monoStereoClips == null)
+            {
+                int clipIndex = Random.Range(0, clips.Length);
+                var clip = clips[clipIndex];
+                return clip;
+            }
+            else
+            {
+                var monoStereo = monoStereoClips.Clips ?? this.clips;
+                
+                int clipIndex = Random.Range(0, monoStereo.Length);
+                return monoStereo[clipIndex];
+            }
+        }
+
         public void ApplyToAudioSource(AudioSource source)
         {
             source.outputAudioMixerGroup = mixer;
-
-            int clipIndex = Random.Range(0, clips.Length);
-            source.clip = clips[clipIndex];
-
+            
+            // int clipIndex = Random.Range(0, clips.Length);
+            // source.clip = clips[clipIndex];
+            source.clip = GetRandomClip();
+            
             source.pitch = Random.Range(pitch.min, pitch.max);
             source.volume = Random.Range(volume.min, volume.max);
 

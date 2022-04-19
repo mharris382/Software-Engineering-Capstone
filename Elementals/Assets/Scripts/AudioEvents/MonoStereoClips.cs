@@ -12,8 +12,7 @@ namespace AudioEvents
         {
             get
             {
-                //TODO: return either mono or stereo version
-                return stereoClips;
+                return AudioSettingsHelper.DeviceTypeUsesStereoSound(AudioSettingsHelper.GetPlayerPrefOutputDevice()) ? stereoClips : monoClips;
             }
         }
     }
