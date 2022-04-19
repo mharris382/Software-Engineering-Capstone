@@ -3,8 +3,9 @@ using UnityEngine;
 
 using DG.Tweening;
 
-namespace DefaultNamespace.Attacks
+namespace AI.Attacks
 {
+ 
     public class ArcingAttack : MonoBehaviour
     {
         [SerializeField] private float jumpPower = 1;

@@ -2,7 +2,7 @@
 
 namespace AI.Attacks
 {
-    public class EnemyAttackTargeter : MonoBehaviour
+    public class LinearAttack : MonoBehaviour
     {
         
     }
