@@ -28,27 +28,73 @@ public class UIGraphicsSettings : MonoBehaviour
     [SerializeField] private TMP_Dropdown resolutionDropdown;
     public bool alwaysSaveSettings;
     Resolution[] resolutions;
-
+    private int[] _aaSettings;
+    private int _currentResolutionIndex;
     private void Awake()
     {
         InitResolutions();
+        InitAASettings();
+        InitVSync();
+        InitQualityPresets();
+        LoadSettings(_currentResolutionIndex);
     }
 
 
-
-
+  
     public void Quit()
     {
         SaveSettings();
         Application.Quit();
     }
+    void InitAASettings()
+    {
+        _aaSettings = new int[]
+        {
+            0,
+            2,
+            4,
+            8
+        };
+        var options = new List<string>();
+        options.Add("None");
+        options.Add("MSAA x2");
+        options.Add("MSAA x4");
+        options.Add("MSAA x8");
+        aaDropdown.options.Clear();
+        aaDropdown.AddOptions(options);
+    }
 
+
+    void InitVSync()
+    {
+        var options = new List<string>();
+        options.Add("0");
+        options.Add("1");
+        options.Add("2");
+        options.Add("3");
+        options.Add("4");
+        textureDropdown.options.Clear();
+        textureDropdown.AddOptions(options);
+    }
+    void InitQualityPresets()
+    {
+        qualityDropdown.options.Clear();
+        var options = new List<string>();
+        options.Add("Very Low");
+        options.Add("Low");
+        options.Add("Medium");
+        options.Add("High");
+        options.Add("Very High");
+        options.Add("Ultra");
+        options.Add("Custom");
+        qualityDropdown.AddOptions(options);
+    }
     void InitResolutions()
     {
         resolutionDropdown.ClearOptions();
         List<string> options = new List<string>();
         resolutions = Screen.resolutions;
-        int currentResolutionIndex = 0;
+        _currentResolutionIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + " x " + 
@@ -56,11 +102,11 @@ public class UIGraphicsSettings : MonoBehaviour
             options.Add(option);
             if (resolutions[i].width == Screen.currentResolution.width 
                 && resolutions[i].height == Screen.currentResolution.height)
-                currentResolutionIndex = i;
+                _currentResolutionIndex = i;
         }
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.RefreshShownValue();
-        LoadSettings(currentResolutionIndex);
+        LoadSettings(_currentResolutionIndex);
     }
 
     void SaveSettings()
@@ -136,22 +182,37 @@ public class UIGraphicsSettings : MonoBehaviour
 
     public void SetTextureQuality(int textureIndex)
     {
-        QualitySettings.masterTextureLimit = textureIndex;
-        SetQualityDropdown(6);
-        if(alwaysSaveSettings)
-            SaveSettings();
+        //QualitySettings.masterTextureLimit = textureIndex;
+        QualitySettings.vSyncCount = textureIndex;
+        SetGraphicsToCustom();
+        if(alwaysSaveSettings) SaveSettings();
     }
     public void SetAntiAliasing(int aaIndex)
     {
-        QualitySettings.antiAliasing = aaIndex;
-        SetQualityDropdown(6);
-        if(alwaysSaveSettings)
-            SaveSettings();
+        try
+        {
+            QualitySettings.antiAliasing = _aaSettings[aaIndex];
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"WTF:{aaIndex}");
+            SetAntiAliasing(0);
+            SetAADropdown(0);
+        }
+        SetGraphicsToCustom();
+        if(alwaysSaveSettings) SaveSettings();
     }
 
-    public void SetQuality(int qualityIndex)
+    void SetGraphicsToCustom()
     {
-        if (qualityIndex != 6) // if the user is not using 
+        SetQualityDropdown(6);
+    }
+    public void SetQualityPreset(int qualityIndex)
+    {
+        if (qualityIndex >= 6)
+            return;
+        qualityIndex = Mathf.Clamp(qualityIndex, 0, 5);
+            // if the user is not using 
             //any of the presets
             //QualitySettings.SetQualityLevel(qualityIndex);
         switch (qualityIndex)
