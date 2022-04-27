@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e76626defbb0ad4baf3a44c3e22c978, type: 3}
+  m_Name: Air Warmup
+  m_EditorClassIdentifier: 
+  looping: 0
+  clips:
+  - {fileID: 8300000, guid: 025188fcfe083464d9dea5d1c2a665e9, type: 3}
+  - {fileID: 8300000, guid: 2b82a591d1a314fbea769b244084f00b, type: 3}
+  - {fileID: 8300000, guid: eec2faa7c0a9042f3bded3aad046b348, type: 3}
+  volume:
+    min: 0.5
+    max: 0.9287918
+  pitch:
+    min: 0.62330884
+    max: 0.93662477
+  distance:
+    min: 1
+    max: 1000
+  monoStereoClips: {fileID: 0}
+  mixer: {fileID: 4146724529265351937, guid: f9fdf3ae482826a44b9b1fd2d4e31382, type: 2}
