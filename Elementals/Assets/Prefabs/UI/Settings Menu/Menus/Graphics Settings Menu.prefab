@@ -54,6 +54,7 @@ MonoBehaviour:
   textureDropdown: {fileID: 8050928246645980418}
   aaDropdown: {fileID: 8050928247387787925}
   resolutionDropdown: {fileID: 8050928247898116613}
+  alwaysSaveSettings: 1
 --- !u!1 &1665193053697292349
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,10 +92,10 @@ RectTransform:
   m_Father: {fileID: 6282437610632730614}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000030518}
-  m_SizeDelta: {x: 381.25, y: 376.9061}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665193053697292347
 MonoBehaviour:
@@ -131,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4258970948089494091, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.50001526
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6980437754586674290, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_Pivot.x
@@ -272,7 +273,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4258970948089494091, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.50001526
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6980437754586674290, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_Pivot.x
@@ -409,7 +410,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4258970948089494091, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.50001526
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6980437754586674290, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_Pivot.x
@@ -550,7 +551,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4258970948089494091, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.50001526
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6980437754586674290, guid: 52da6598f0f28de4e9d3d1132bbe7544, type: 3}
       propertyPath: m_Pivot.x
