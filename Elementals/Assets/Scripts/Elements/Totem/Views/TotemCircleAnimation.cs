@@ -4,12 +4,6 @@ using Elements.Utilities;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TotemColorController : MonoBehaviour
-{
-    
-    public ElementColorPalettes elementColors;
-}
-
 public class TotemCircleAnimation : MonoBehaviour
 {
     
