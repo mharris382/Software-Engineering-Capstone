@@ -13,110 +13,110 @@ MonoBehaviour:
   m_Name: Element Color Palettes
   m_EditorClassIdentifier: 
   fireColors:
-    mainColor: {r: 1, g: 0, b: 0, a: 1}
-    secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    mainColor: {r: 1, g: 0.12061543, b: 0, a: 1}
+    secondaryColor: {r: 1, g: 0.38606954, b: 0, a: 1}
     mainGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+      key0: {r: 1, g: 0.96559095, b: 0, a: 1}
+      key1: {r: 1, g: 0.656466, b: 0.3443396, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
+      ctime1: 65535
+      ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
     secondaryGradient:
       serializedVersion: 2
-      key0: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 1, g: 0.9891787, b: 0.6933962, a: 1}
+      key1: {r: 1, g: 0.9532509, b: 0, a: 1}
+      key2: {r: 1, g: 0.7916667, b: 0, a: 0}
+      key3: {r: 0.8490566, g: 0.35887375, b: 0, a: 0}
+      key4: {r: 0.7264151, g: 0.11059899, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
-      ctime3: 0
-      ctime4: 0
+      ctime1: 12143
+      ctime2: 29298
+      ctime3: 46260
+      ctime4: 65535
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
   waterColors:
-    mainColor: {r: 0, g: 0, b: 1, a: 1}
-    secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    mainColor: {r: 0.19215688, g: 0.97647065, b: 1, a: 1}
+    secondaryColor: {r: 0.3443396, g: 0.80783165, b: 1, a: 1}
     mainGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+      key0: {r: 0.19215688, g: 0.97647065, b: 1, a: 1}
+      key1: {r: 0.3443396, g: 0.80783165, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
+      ctime1: 65535
+      ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
     secondaryGradient:
       serializedVersion: 2
-      key0: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      key0: {r: 0, g: 0.87411356, b: 1, a: 1}
+      key1: {r: 0.027451005, g: 0.6139799, b: 0.95686275, a: 1}
+      key2: {r: 0.16789784, g: 0.38974017, b: 0.7264151, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
+      ctime1: 32382
       ctime2: 65535
       ctime3: 0
       ctime4: 0
@@ -124,8 +124,8 @@ MonoBehaviour:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
@@ -133,43 +133,43 @@ MonoBehaviour:
       atime7: 0
       m_Mode: 0
       m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumAlphaKeys: 2
   earthColors:
-    mainColor: {r: 0, g: 1, b: 0, a: 1}
-    secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    mainColor: {r: 0.13679248, g: 1, b: 0.30279395, a: 1}
+    secondaryColor: {r: 0.22012575, g: 0.7264151, b: 0, a: 1}
     mainGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+      key0: {r: 0, g: 0.8301887, b: 0.15621835, a: 1}
+      key1: {r: 0, g: 0.2830189, b: 0.031199997, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
+      ctime1: 65535
+      ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
     secondaryGradient:
       serializedVersion: 2
-      key0: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      key0: {r: 0.6509434, g: 0.5049974, b: 0.371529, a: 1}
+      key1: {r: 0.3490566, g: 0.2537773, b: 0.14324494, a: 1}
       key2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -177,7 +177,7 @@ MonoBehaviour:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
+      ctime1: 65535
       ctime2: 65535
       ctime3: 0
       ctime4: 0
@@ -193,127 +193,127 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
+      m_NumColorKeys: 2
       m_NumAlphaKeys: 3
   lightningColors:
-    mainColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    mainColor: {r: 1, g: 0.9537698, b: 0.4198113, a: 1}
+    secondaryColor: {r: 0.9844944, g: 1, b: 0.8254717, a: 1}
     mainGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+      key0: {r: 0.9844944, g: 1, b: 0.8254717, a: 1}
+      key1: {r: 1, g: 0.968256, b: 0.6084906, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
+      ctime1: 65535
+      ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
     secondaryGradient:
       serializedVersion: 2
-      key0: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key3: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0.9844944, g: 1, b: 0.8254717, a: 1}
+      key1: {r: 1, g: 0.968256, b: 0.6084906, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0.9992577, g: 0.9697757, b: 0.618878, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
+      ctime1: 48380
+      ctime2: 51079
+      ctime3: 53199
+      ctime4: 55512
+      ctime5: 61295
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
   airColors:
-    mainColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+    mainColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+    secondaryColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
     mainGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+      key0: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+      key1: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
+      ctime1: 65535
+      ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
     secondaryGradient:
       serializedVersion: 2
-      key0: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      key2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      key0: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+      key1: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 32768
-      ctime2: 65535
+      ctime1: 65535
+      ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32768
-      atime2: 65535
+      atime1: 65535
+      atime2: 0
       atime3: 0
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2

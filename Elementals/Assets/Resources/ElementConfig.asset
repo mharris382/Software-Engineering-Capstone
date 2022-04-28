@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d680116bd60b254e8c5a3f5e2ac1d28, type: 3}
   m_Name: ElementConfig
   m_EditorClassIdentifier: 
+  colorPalettes: {fileID: 11400000, guid: a947ae8d219c8cd49ab345a86d52173a, type: 2}
+  fireElement: {fileID: 11400000, guid: 9bce380b48d1d6c49b984b97f23a5b7f, type: 2}
+  waterElement: {fileID: 11400000, guid: 45ce299b105b78040bbc311a16d3bc40, type: 2}
+  thunderElement: {fileID: 11400000, guid: 1f0d235b23736ab4a8649dc2b7e08d2b, type: 2}
+  earthElement: {fileID: 11400000, guid: 8c3962301077d4745bd6f05a8b55097e, type: 2}
+  airElement: {fileID: 11400000, guid: 0faa2c7a9b61a6b4bac0571719ed8f1e, type: 2}

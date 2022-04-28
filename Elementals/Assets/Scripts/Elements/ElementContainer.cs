@@ -1,11 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Elements;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Containers/Element Container")]
 public class ElementContainer : ScriptableObject
 {
+
+    public static ElementContainer Fire => ElementConfig.Instance.fireElement;
+    public static ElementContainer Water => ElementConfig.Instance.waterElement;
+    public static ElementContainer Thunder => ElementConfig.Instance.thunderElement;
+    public static ElementContainer Earth => ElementConfig.Instance.earthElement;
+    public static ElementContainer Air => ElementConfig.Instance.airElement;
+    
     [SerializeField]
     private Element element;
 

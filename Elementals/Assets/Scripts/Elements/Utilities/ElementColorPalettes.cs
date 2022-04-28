@@ -61,6 +61,33 @@ namespace Elements.Utilities
             }
         }
 
+
+        public static ElementColors GetPalette(Element e) => ElementConfig.Instance.colorPalettes.GetElementColors(e);
+        public static Color GetColor(Element e) => ElementConfig.Instance.colorPalettes.GetElementColors(e).mainColor;
+        public static Gradient GetGradient(Element e) => ElementConfig.Instance.colorPalettes.GetElementColors(e).mainGradient;
+        
+        
+        
+
+        public static ElementColors FireColors => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Fire);
+        public static ElementColors WaterColors => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Water);
+        public static ElementColors LightningColors => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Thunder);
+        public static ElementColors EarthColors => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Earth);
+        public static ElementColors AirColors => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Air);
+        
+        public static Color FireColor => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Fire).mainColor;
+        public static Color WaterColor => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Water).mainColor;
+        public static Color LightningColor => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Thunder).mainColor;
+        public static Color EarthColor => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Earth).mainColor;
+        public static Color AirColor => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Air).mainColor;
+        
+        public static Gradient FireGradient => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Fire).mainGradient;
+        public static Gradient WaterGradient => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Water).mainGradient;
+        public static Gradient LightningGradient => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Thunder).mainGradient;
+        public static Gradient EarthGradient => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Earth).mainGradient;
+        public static Gradient AirGradient => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Air).mainGradient;
+        
+        
         [ContextMenu("Copy Colors To Gradient/All")]
         void CopyGradients()
         {

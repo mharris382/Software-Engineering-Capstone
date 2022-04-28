@@ -1,3 +1,4 @@
+using Elements.Utilities;
 using UnityEngine;
 
 namespace Elements
@@ -18,5 +19,12 @@ namespace Elements
                 return _instance;
             }
         }
+
+        public ElementColorPalettes colorPalettes;
+        public ElementContainer fireElement;
+        public ElementContainer waterElement;
+        public ElementContainer thunderElement;
+        public ElementContainer earthElement;
+        public ElementContainer airElement;
     }
 }

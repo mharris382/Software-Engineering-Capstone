@@ -1,11 +1,13 @@
-﻿namespace Elements.Totem
+﻿using UniRx;
+
+namespace Elements.Totem
 {
     /// <summary>
     /// implements the strategy for determining if the player is inside or outside the totem range of influence
     /// </summary>
     public interface ITotemPlayerDetection
     {
-        
+        public ReadOnlyReactiveProperty<bool> PlayerIsDetected { get; }
     }
 
     /// <summary>
@@ -15,5 +17,7 @@
     {
         private static NullTotemPlayerDetection _instance;
         public static NullTotemPlayerDetection Instance => _instance ??= new NullTotemPlayerDetection();
+
+        public ReadOnlyReactiveProperty<bool> PlayerIsDetected => Observable.Never<bool>().ToReadOnlyReactiveProperty();
     }
 }

@@ -17,33 +17,57 @@ namespace Elements.Totem
     [RequireComponent(typeof(UITotemController), typeof(GameplayTotemController))]
     public class TotemInstaller : MonoBehaviour
     {
-        private GameplayTotemController _gameController;
-        private UITotemController _uiController;
+        [SerializeField] private TotemConfig config;
+
+        
         private TotemStateData _stateData;
         
+        private GameplayTotemController _gameController;
+        private UITotemController _uiController;
+        
+        private ITotemPlayerDetection _playerDetection;
+        private ITotemInputHandler _inputHandler;
+
         private void Awake()
         {
-            _uiController = GetComponent<UITotemController>();
-            _uiController.InputHandler = GetTotemInputHandler();
-            _gameController = GetComponent<GameplayTotemController>();
-            
-            
-            var dependents = GetComponentsInChildren<ITotemDependent>();
-            _stateData = new TotemStateData();
-            foreach (var dependent in dependents) 
-                dependent.InjectSharedTotemState(_stateData);
+            void InstallAllDepdencies()
+            {
+                _gameController.PlayerDetection = _playerDetection;
+                _uiController.InputHandler = _inputHandler;
+                _uiController.StateData = _stateData;
+                _gameController.StateData = _stateData;
+            }
+
+            void LoadAllDependencies()
+            {
+                _stateData = new TotemStateData(config);
+                _uiController = GetComponent<UITotemController>();
+                _gameController = GetComponent<GameplayTotemController>();
+                _playerDetection = GetComponentInChildren<ITotemPlayerDetection>();
+                _inputHandler = new TotemMouseWheelInput();
+                Debug.Assert(_playerDetection != null, $"No ITotemPlayerDetection found on Totem: {name}", this);
+            }
+
+            void InitializeDependents()
+            {
+                var dependents = GetComponentsInChildren<ITotemDependent>();
+                foreach (var dependent in dependents) dependent.InjectSharedTotemState(_stateData);
+                _uiController.Initialize();
+                _gameController.Initialize();
+            }
+
+            LoadAllDependencies();
+            InstallAllDepdencies();
+            InitializeDependents();
         }
 
-        //TODO: implement totem input handler
-        ITotemInputHandler GetTotemInputHandler()
+        private void OnDrawGizmosSelected()
         {
-            throw new NotImplementedException();
-        }
-        
-        //TODO: implement totem player detection
-        ITotemPlayerDetection GetTotemPlayerDetection()
-        {
-            throw new NotImplementedException();
+            var radius = config.totemRadius;
+            var color = Color.magenta;
+            color.a = 0.4f;
+            Gizmos.color = color;
+            Gizmos.DrawWireSphere(transform.position, radius);
         }
     }
 }
