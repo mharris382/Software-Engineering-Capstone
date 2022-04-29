@@ -4,6 +4,7 @@ using Elements.Utilities;
 using UnityEngine;
 using UnityEngine.Events;
 
+[Obsolete("Replaced by TotemDisplayHandler")]
 public class TotemCircleAnimation : MonoBehaviour
 {
     

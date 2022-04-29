@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class PlayerTrigger : MonoBehaviour
@@ -6,6 +7,7 @@ public class PlayerTrigger : MonoBehaviour
     public UnityEvent onPlayerEntered;
     public bool ignorePlayerTriggerCollider = true;
 
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {

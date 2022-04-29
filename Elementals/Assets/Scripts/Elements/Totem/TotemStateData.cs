@@ -51,8 +51,9 @@ namespace Elements.Totem
             _isCharging = new ReactiveProperty<bool>(false);
             _playerInRange = new ReactiveProperty<bool>(false);
         }
-        
-       public IObservable<TotemStates> GetStateStream() => _playerInRange.ZipLatest(_isCharging, GetCurrentState);
+
+        public IObservable<bool> InRangeStream => _playerInRange;
+       public IObservable<TotemStates> GetStateStream() => _playerInRange.WithLatestFrom(_isCharging, GetCurrentState);
 
        static TotemStates GetCurrentState(bool playerInRange, bool isFullyCharged)
        {

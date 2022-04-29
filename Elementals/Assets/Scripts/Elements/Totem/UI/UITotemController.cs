@@ -1,20 +1,26 @@
 ﻿using System;
+using System.Collections;
 using UniRx;
+using UniRx.Diagnostics;
 using UnityEngine;
 
 namespace Elements.Totem.UI
 {
     public class UITotemController : MonoBehaviour
     {
-   
-
         public ElementContainer playerElement;
         public ElementContainer uiSelectedElement;
         
-        private TotemUI _uiLogic;
+        private TotemInputProcessor inputProcessorLogic;
         private ITotemInputHandler _inputHandler;
 
-        
+        private Coroutine waitForChange;
+        private bool _uiDirty = false;
+
+
+        public bool debugInput;
+        public bool debugElement;
+        private ReactiveProperty<bool> _uiVisible = new ReactiveProperty<bool>();
         public TotemStateData StateData
         {
             get;
@@ -25,34 +31,115 @@ namespace Elements.Totem.UI
             get => _inputHandler ?? NullTotemInput.Instance;
             set => _inputHandler = value;
         }
-        
+
+        private void OnDestroy()
+        {
+            inputProcessorLogic?.Dispose();
+        }
+
+        public void SetUIActive(bool active)
+        {
+            if(active)OpenUI();
+            else HideUI();
+        }
+
+        void HideUI()
+        {
+            if (_uiDirty)
+            {
+                Debug.Assert(inputProcessorLogic.CurrentSelection == uiSelectedElement.Element);
+                
+                playerElement.Element = uiSelectedElement.Element;//apply change to player
+                StateData.ConsumeTotem(); //consume the totem, starts recharge timer
+            }
+            else if(waitForChange != null)
+            {
+                StopCoroutine(waitForChange);
+            }
+        }
+
+        void OpenUI()
+        {
+            inputProcessorLogic.CurrentSelection = uiSelectedElement.Element = playerElement.Element;
+            waitForChange = StartCoroutine(WaitForChange(playerElement.Element));
+        }
+
+        IEnumerator WaitForChange(Element initialElement, Action onBecameDirty = null)
+        {
+            _uiDirty = false;
+            inputProcessorLogic.CurrentSelection = uiSelectedElement.Element = initialElement;
+            while (!_uiDirty)
+            {
+                if (inputProcessorLogic.CurrentSelection != initialElement)
+                {
+                    onBecameDirty?.Invoke();
+                    _uiDirty = true;
+                }
+                yield return null;
+            }
+        }
+
+        private void Update()
+        {
+            if (inputProcessorLogic == null) return;
+            _uiVisible.Value = StateData.CurrentState == TotemStates.InUse;
+            inputProcessorLogic.State = StateData.CurrentState;
+        }
+
         public void Initialize()
         {
             Debug.Assert(StateData != null);
             Debug.Assert(InputHandler != null);
+            inputProcessorLogic = new TotemInputProcessor(uiSelectedElement, InputHandler, debugInput);//this will automatically update itself
             
-            IObservable<TotemStates> uiStateStream = StateData.GetStateStream();
-            _uiLogic = new TotemUI(() => playerElement.Element, newElement => playerElement.Element = newElement, InputHandler, uiStateStream);
-            
-            _uiLogic.TakeUntilDestroy(this).Subscribe(element => uiSelectedElement.Element = element);
+            _uiVisible = new ReactiveProperty<bool>();
+            _uiDirty = false;
+            _uiVisible.TakeUntilDestroy(this).Subscribe(SetUIActive);
+            StateData.InRangeStream.TakeUntilDestroy(this).Subscribe(inRange =>
+            {
+                if (inRange)
+                {
+                    //Debug.Log("UI Visible = true");
+                    inputProcessorLogic.CurrentSelection = uiSelectedElement.Element = playerElement.Element;
+                    //_uiVisible.Value = true;
+                }
+                else
+                {
+                    // Debug.Log("UI Visible = false");
+                    //_uiVisible.Value = false;
+                }
+            });
         }
 
-        public class TotemUI : IObservable<Element>, IDisposable
+        /// <summary>
+        /// handles processing the input and tracking the state of the selected element
+        /// </summary>
+        public class TotemInputProcessor : IDisposable
         {
-            private readonly Subject<Element> uiSelectionChanged;
             private int _index;
             private ElementContainer[] _elements;
-            private IDisposable _disposable;
+            private ElementContainer _selection;
             
-            public TotemUI(Func<Element> readActiveElement, Action<Element> writeActiveElement, ITotemInputHandler inputHandler, IObservable<TotemStates> uiState)
+            
+            public Element CurrentSelection
+            {
+                get => _elements[_index].Element;
+                set => _index = (int)value;
+            }
+
+            public TotemStates State
+            {
+                get;
+                set;
+            }
+            private IDisposable _disposable;
+
+            public TotemInputProcessor(ElementContainer uiElement, ITotemInputHandler inputHandler, bool debugInput = false)
             {
                 //Init all internal dependencies
-                #region [Initialization]
-
-                ReactiveProperty<Element> uiElement = new ReactiveProperty<Element>();
-                var compositeDisposable = (_disposable = new CompositeDisposable()) as CompositeDisposable; //cast is needed b/c _disposable is interface
-                uiSelectionChanged = new Subject<Element>();
-                ElementContainer[] _element = new ElementContainer[5] {
+                var compositeDisposable = (CompositeDisposable)(_disposable = new CompositeDisposable());
+                _selection = uiElement;
+                this._elements = new ElementContainer[5] {
                     ElementContainer.Fire,
                     ElementContainer.Water,
                     ElementContainer.Thunder,
@@ -61,54 +148,28 @@ namespace Elements.Totem.UI
                 };
                 
 
-                #endregion
-
-                //handle reading/writing logic for selected and active element 
-                #region [Sync UI and gameplay logic]
-
-                void ConfirmUIDecision()
-                {
-                    writeActiveElement(_element[_index].Element);
-                }
-                void SyncTotemWithActiveElement()
-                {
-                    //even though the player should only be able to change elements while totem is active, there may be more than one instance of the totem so the element may have been changed by a different totem
-                    _index = (int) readActiveElement();
-                    Debug.Log($"UI Element is now {(Element)_index}:{_index}");
-                }
-                
-                uiState.DistinctUntilChanged().Where(t => t ==TotemStates.Charging).Subscribe(_ => ConfirmUIDecision()).AddTo(compositeDisposable);
-                uiState.DistinctUntilChanged().Where(t => t !=TotemStates.Charging).Subscribe(_ => SyncTotemWithActiveElement()).AddTo(compositeDisposable);
-
-                #endregion
 
                 //handle ui input while UI is in use
-                #region [UI Input]
-
-                var activeInputStream = Observable.EveryUpdate().Select(_ => inputHandler.GetElementSelectionInputAxis()).DistinctUntilChanged();
-                var nullInputStream = Observable.Never<int>();
+                var activeInputStream = Observable.EveryUpdate()
+                    .Where(t => State == TotemStates.InUse)
+                    .Select(_ => inputHandler.GetElementSelectionInputAxis());
                 
-                //create a meta-stream which emits an input stream when the ui state changes. emits the real stream when the UI is opened, and a null object stream otherwise 
-                uiState.Select(state => state == TotemStates.InUse).DistinctUntilChanged() //when totem becomes in use start reading input axis
-                    .Select(uiOpen => uiOpen ? activeInputStream : nullInputStream)
-                    .Switch().Subscribe(OnUIInputAxis).AddTo(compositeDisposable);
+                activeInputStream.Subscribe(OnUIInputAxis).AddTo(compositeDisposable);
+                if (debugInput) activeInputStream.Subscribe(value => Debug.Log($"Input Stream= {value}")).AddTo(compositeDisposable);
 
-                void OnUIInputAxis(int inputAxis)
-                {
-                    if (inputAxis > 0)
-                        NextElement();
-                    else if (inputAxis < 0)
-                        PrevElement();
-                }
-
-                #endregion
             }
-
+            
+            void OnUIInputAxis(int inputAxis)
+            {
+                if (inputAxis > 0) NextElement();
+                else if (inputAxis < 0) PrevElement();
+            }
+            
             void NextElement()
             {
                 _index++;
                 _index %= 5;
-                uiSelectionChanged.OnNext(_elements[_index].Element);
+                _selection.Element = _elements[_index].Element;
             }
 
             void PrevElement()
@@ -116,15 +177,12 @@ namespace Elements.Totem.UI
                 _index--;
                 if (_index < 0) 
                     _index = 4;
-                uiSelectionChanged.OnNext(_elements[_index].Element);
+                _selection.Element = _elements[_index].Element;
             }
 
 
-            public IDisposable Subscribe(IObserver<Element> observer) => uiSelectionChanged.Subscribe(observer);
-
             public void Dispose()
             {
-                uiSelectionChanged?.Dispose();
                 _disposable?.Dispose();
             }
         }

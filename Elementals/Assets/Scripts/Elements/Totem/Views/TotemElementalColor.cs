@@ -10,7 +10,8 @@ namespace Elements.Totem.Views
     {
         [SerializeField] private ElementContainer totemElement;
         [SerializeField] private Color inactiveColor = Color.clear;
-        
+        [SerializeField,Range(0,1)]
+        private float maxAlpha = 0.2f;
         private SpriteRenderer _sr;
         public SpriteRenderer sr
         {
@@ -41,17 +42,19 @@ namespace Elements.Totem.Views
 
         private void Awake()
         {
-            Observable.FromEvent<Element>(t => totemElement.OnElementChanged += t, t => totemElement.OnElementChanged -= t)
-                .Select(ElementColorPalettes.GetColor)
-                .TakeUntilDestroy(this)
-                .Subscribe(c => color.Value = c);
-            
-            isActive.Select(active => active ? color : Observable.Return(inactiveColor))
-                .Switch()
-                .TakeUntilDestroy(this)
-                .Subscribe( color => sr.color = color);
-            
-            
+            totemElement.OnElementChanged += OnElementChanged;
+        }
+
+        void OnElementChanged(Element element)
+        {
+            var color = ElementColorPalettes.GetColor(element);
+            color.a = Mathf.Min(maxAlpha, color.a);
+            sr.color = color;
+        }
+
+        private void OnDestroy()
+        {
+            totemElement.OnElementChanged -= OnElementChanged;
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+[System.Obsolete("Replaced by TotemDisplayHandler")]
 [RequireComponent(typeof(SpriteRenderer))]
 public class ElementTotemVisuals : MonoBehaviour
 {
