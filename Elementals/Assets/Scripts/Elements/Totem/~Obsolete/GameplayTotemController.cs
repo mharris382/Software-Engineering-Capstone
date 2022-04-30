@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UniRx;
 namespace Elements.Totem.Gameplay
 {
+    [Obsolete("Replaced with single totem controller")]
     public class GameplayTotemController : MonoBehaviour
     {
         public bool debug;

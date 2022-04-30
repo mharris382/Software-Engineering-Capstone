@@ -6,6 +6,10 @@ using UnityEngine.Events;
 
 namespace Elements.Totem
 {
+    /// <summary>
+    /// Main controller for all totem logic.  Handles all totem logic which is not view related.
+    /// View related code is handled indirectly through the TotemDisplayHandler <see cref="totemDisplayHandler"/>.
+    /// </summary>
     public class Totem : MonoBehaviour
     {
         [SerializeField] private ElementContainer playerElement;

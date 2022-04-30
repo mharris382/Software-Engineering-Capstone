@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace Elements.Totem.UI
 {
+    [System.Obsolete("Replaced with single totem controller")]
     public class UITotemController : MonoBehaviour
     {
         public ElementContainer playerElement;
