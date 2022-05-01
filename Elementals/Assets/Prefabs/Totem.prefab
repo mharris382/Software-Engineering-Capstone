@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1.88
-  startColor: {r: 0, g: 0, b: 0, a: 0}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!199 &1452441305895573232
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -87,9 +87,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1469910695
-  m_SortingLayer: 4
-  m_SortingOrder: 23
+  m_SortingLayerID: 1784859945
+  m_SortingLayer: -1
+  m_SortingOrder: 15
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
