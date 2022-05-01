@@ -4,8 +4,7 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Elementals",
-        "UniRx"
+        "Elementals"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

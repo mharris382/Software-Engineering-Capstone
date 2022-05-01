@@ -1,5 +1,5 @@
 ﻿using System;
-using UniRx;
+// using UniRx;
 
 namespace Elements.Totem
 {
@@ -15,11 +15,11 @@ namespace Elements.Totem
     /// <summary>
     /// implementation of the null object pattern for ITotemInputHandler
     /// </summary>
-    public class NullTotemInput : ITotemInputHandler
-    {
-        private static NullTotemInput _instance;
-        public static NullTotemInput Instance => _instance ??= new NullTotemInput();
-        public IObservable<int> CreateInputAxisCycleElements() => Observable.Never<int>();
-        public int GetElementSelectionInputAxis() => 0;
-    }
+    // public class NullTotemInput : ITotemInputHandler
+    // {
+    //     private static NullTotemInput _instance;
+    //     public static NullTotemInput Instance => _instance ??= new NullTotemInput();
+    //     public IObservable<int> CreateInputAxisCycleElements() => Observable.Never<int>();
+    //     public int GetElementSelectionInputAxis() => 0;
+    // }
 }
