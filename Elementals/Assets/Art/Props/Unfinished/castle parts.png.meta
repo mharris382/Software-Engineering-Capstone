@@ -124,6 +124,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: castle parts_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 157
+        height: 193
+      alignment: 9
+      pivot: {x: 0.47634816, y: 0.5240501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9538c533dd8ffa4db4b02549f554142
+      internalID: 209186282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -135,6 +156,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      castle parts_1: 209186282
       castle parts_0: 1342379948
   spritePackingTag: 
   pSDRemoveMatte: 0
