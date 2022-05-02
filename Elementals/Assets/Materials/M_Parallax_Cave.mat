@@ -57,11 +57,11 @@ Material:
     - _fg_max_distance: 0.2
     - _fg_min_z: 0
     - distance: 0.5
-    - ppu: 32
+    - ppu: 8
     m_Colors:
     - Image_Size: {r: 640, g: 640, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _Offset: {r: 1000, g: -33.19, b: 0, a: 0}
+    - _Offset: {r: 1000, g: -80.4, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
