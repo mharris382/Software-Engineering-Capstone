@@ -51,7 +51,7 @@ TagManager:
   - name: Enviornment_BG
     uniqueID: 1396063509
     locked: 0
-  - name: Ground
+  - name: Ground_MG
     uniqueID: 1032539115
     locked: 0
   - name: Enviornment_MG
@@ -68,6 +68,9 @@ TagManager:
     locked: 0
   - name: Projectiles
     uniqueID: 4074351819
+    locked: 0
+  - name: Ground_FG
+    uniqueID: 1260729203
     locked: 0
   - name: Enviornment_FG
     uniqueID: 2825056601

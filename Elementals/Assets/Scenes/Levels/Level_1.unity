@@ -35080,6 +35080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Air Slash Attack
       objectReference: {fileID: 0}
+    - target: {fileID: 5317357165494780222, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfb47ceb8a07d3747b27e8c8fa97476c, type: 3}
 --- !u!4 &105132783 stripped
@@ -73705,8 +73709,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c3e2be8b798cc4db3f0e535d5c9aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellPrefab: {fileID: 3104512738251572401, guid: e4f76fb9c37813b49b7a119c7a7a643a, type: 3}
   manaCost: 5
+  spellPrefab: {fileID: 3104512738251572401, guid: e4f76fb9c37813b49b7a119c7a7a643a, type: 3}
   lifetime: 10
   additionalCastDelay: 1
 --- !u!1 &675804357
@@ -74166,14 +74170,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778280135}
-  m_LocalRotation: {x: -0, y: -0, z: -0.25843823, w: 0.9660278}
-  m_LocalPosition: {x: 14.305243, y: -15.0260315, z: -3.914699}
+  m_LocalRotation: {x: -0, y: -0, z: 0.12158674, w: -0.99258083}
+  m_LocalPosition: {x: 15.03, y: -14.810001, z: -3.914699}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 532971334}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -29.955}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -733.967}
 --- !u!1001 &807441599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88470,7 +88474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4879027861966826638, guid: 1783283b360aeeb4e8b67007f6c16572, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.66
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4879027861966826638, guid: 1783283b360aeeb4e8b67007f6c16572, type: 3}
       propertyPath: m_LocalRotation.w
@@ -132574,6 +132578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orbiting Lightningball Spell
       objectReference: {fileID: 0}
+    - target: {fileID: 1458972141262872342, guid: fd587748b7e05c049945e8e2e6ac2b6e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8680811577343533911, guid: fd587748b7e05c049945e8e2e6ac2b6e, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -133326,6 +133334,10 @@ PrefabInstance:
     - target: {fileID: 784254636428107173, guid: 0e2be89018b90084093128eb85172a77, type: 3}
       propertyPath: m_Name
       value: Mudball Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 784254636428107173, guid: 0e2be89018b90084093128eb85172a77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e2be89018b90084093128eb85172a77, type: 3}
