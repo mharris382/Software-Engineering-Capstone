@@ -6,9 +6,15 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 namespace ManaSystem
 {
+    /// <summary>
+    /// Service provider singleton object which allows objects to request that mana of a specific element be dropped at the requested location <see> <cref>ManaDropper.DropMana</cref> </see>
+    /// the ManaDropper internally handles all the logic involved spawning mana objects  
+    /// </summary>
     public class ManaDropper : MonoBehaviour
     {
+        [Tooltip("Maximum mana that can be dropped at once")]
         [SerializeField] private int maxDropAmount = 200; 
+        [Tooltip("Drop Info that is used to spawn mana when the caller does not specify the parameters of the mana drop")]
         [SerializeField]
         private ManaDropInfo defaultDrop = new ManaDropInfo()
         {

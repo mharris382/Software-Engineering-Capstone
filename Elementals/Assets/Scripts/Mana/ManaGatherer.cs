@@ -5,6 +5,10 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
+
+/// <summary>
+/// https://miro.com/app/board/uXjVOMlCbWk=/?moveToWidget=3458764519657002825&amp;cot=14
+/// </summary>
 public class ManaGatherer : MonoBehaviour
 {
    public ElementContainer element;

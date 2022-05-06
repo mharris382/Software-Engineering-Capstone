@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace ManaSystem
 {
+    /// <summary>
+    /// data structure to define editor parameters which control the randomness values of a mana particular drop.  If no drop info is specified when mana drop
+    /// is called, a default configuration will be used instead.  The default configuration can be edited in scene on the ManaDropper object <see cref="ManaDropper"/>
+    /// </summary>
     [Serializable]
     public struct ManaDropInfo
     {
