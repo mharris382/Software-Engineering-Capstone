@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DefaultNamespace;
 using DG.Tweening;
 using Elementals;
+using Elements.Totem.Views;
 using Elements.Utilities;
 using UnityEngine;
 
