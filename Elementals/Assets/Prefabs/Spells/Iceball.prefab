@@ -76,6 +76,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1787732256176840097, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
+      propertyPath: explodePrefab
+      value: 
+      objectReference: {fileID: 100000, guid: 18204b98237ccb540808f2cd2d78c2c8, type: 3}
+    - target: {fileID: 674372379997326750, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
+      propertyPath: amount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 674372379997326750, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
       propertyPath: element
       value: 1

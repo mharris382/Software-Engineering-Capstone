@@ -118,6 +118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2678078726782390189, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 2678078727074619838, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.038

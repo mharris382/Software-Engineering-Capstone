@@ -80,6 +80,10 @@ public class ElementAnimationSwitcher : MonoBehaviour
             }
         }
         var controller = _elementControllers[obj] != null ? _elementControllers[obj] : _defaultController;
+        if (controller == null) return;
+        if (_anim == null) {
+            _anim = GetComponent<Animator>();
+        }
         _anim.runtimeAnimatorController = controller;
     }
 }

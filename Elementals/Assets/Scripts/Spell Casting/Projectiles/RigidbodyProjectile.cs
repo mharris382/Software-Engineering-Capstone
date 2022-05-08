@@ -58,17 +58,17 @@ public class RigidbodyProjectile : MonoBehaviour
         _sr = GetComponentInChildren<SpriteRenderer>();
     }
 
- 
+
     public RigidbodyProjectile FireProjectile(GameObject shooter, Vector2 spawnOrigin, Vector2 direction)
     {
         config.ApplyAccuracy(ref direction);
         config.ClampDirection(ref direction);
         config.OffsetSpawnPosition(ref spawnOrigin, direction);
-        
+
         var angleZ = Vector2.Angle(Vector2.right, direction);
         var rot = Quaternion.Euler(0, 0, angleZ);
         var spawnedProjectile = GameObject.Instantiate(this, spawnOrigin, rot);
-        
+
         UpdateSpriteFlipped();
         UpdateIgnoreColliders();
         CallDecorators(spawnedProjectile);
@@ -76,33 +76,41 @@ public class RigidbodyProjectile : MonoBehaviour
         //apply the launch force
         var force = direction.normalized * spawnedProjectile.config.launchForce;
         spawnedProjectile.Rb.AddForce(force, ForceMode2D.Impulse);
-        
+        IgnoreCollisionsWithShooter(shooter, spawnedProjectile.Coll);
         void UpdateSpriteFlipped()
         {
-            if (((int) flipSprite & (int) FlipSpriteMode.X) != 0)
-            {
+            if (((int)flipSprite & (int)FlipSpriteMode.X) != 0) {
                 spawnedProjectile.FlipX = direction.x < 0;
             }
 
-            if (((int) flipSprite & (int) FlipSpriteMode.Y) != 0)
-            {
+            if (((int)flipSprite & (int)FlipSpriteMode.Y) != 0) {
                 spawnedProjectile.FlipY = direction.y < 0;
             }
         }
 
         void UpdateIgnoreColliders()
         {
-            if (shooter != null && ignoreCollisions)
-            {
+            if (shooter != null && ignoreCollisions) {
                 var ignoreColls = shooter.GetComponentsInChildren<Collider2D>();
                 foreach (var coll in ignoreColls) Physics2D.IgnoreCollision(coll, spawnedProjectile.Coll, true);
             }
         }
 
+     
+
 
         return spawnedProjectile;
     }
-
+    void IgnoreCollisionsWithShooter(GameObject shooter, Collider2D projectileCollider)
+    {
+        var shooterRB = shooter.GetComponent<Rigidbody2D>();
+        if (shooterRB == null) return;
+            
+        foreach (var coll in shooterRB.GetComponentsInChildren<Collider2D>()) 
+        {
+            Physics2D.IgnoreCollision(projectileCollider, coll , true);
+        }
+    }
     private static void CallDecorators(RigidbodyProjectile spawnedProjectile)
     {
         var decorators = spawnedProjectile.GetComponentsInChildren<IProjectileDecorator>();

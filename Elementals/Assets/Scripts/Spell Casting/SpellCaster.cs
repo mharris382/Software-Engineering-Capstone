@@ -70,7 +70,7 @@ public class SpellCaster : MonoBehaviour
 
     void HandleSpellCastFeedback(string spellName, ISpell spell, bool success)
     {
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 
     

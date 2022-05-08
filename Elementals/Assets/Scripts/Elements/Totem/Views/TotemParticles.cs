@@ -71,11 +71,7 @@ namespace Elements.Totem.Views
             shapeModule.radius = radius;
             _ps.Simulate(_time, true, true);
             int count = _ps.particleCount;
-            var particles = new NativeArray<ParticleSystem.Particle>(count, Allocator.TempJob);
 
-
-            ParticleSystemJobData data = new ParticleSystemJobData();
-        
         }
 
         public bool IsCharging

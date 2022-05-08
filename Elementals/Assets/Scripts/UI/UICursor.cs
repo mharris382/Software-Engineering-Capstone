@@ -17,8 +17,8 @@ namespace UI
 
         public void ShowCursor(bool cursorVisible)
         {
-            Cursor.visible = cursorVisible;
-            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = cursorVisible; 
+            //Cursor.lockState = CursorLockMode.Confined;
         }
         
     

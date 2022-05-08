@@ -1,4 +1,5 @@
 ﻿using System;
+using AudioEvents;
 using UnityEngine;
 
 namespace Spell_Casting.Spells
@@ -6,7 +7,7 @@ namespace Spell_Casting.Spells
     public class ExplodeOnCollision : MonoBehaviour
     {
         public GameObject explodePrefab;
-
+        public AudioEvent explodeSound;
         public bool rotatePrefabToNormal;
         
         private void OnCollisionEnter2D(Collision2D other)
@@ -19,9 +20,21 @@ namespace Spell_Casting.Spells
                 var ang = Vector2.SignedAngle(dir, Vector2.right);
                 rotation = Quaternion.Euler(0,0,ang);
             }
-
+       
+            if (explodeSound != null)
+            {
+                var go = new GameObject("ExplodeSound");
+                go.transform.position = pos;
+                var audioSource = go.AddComponent<AudioSource>();
+                explodeSound.Play(audioSource);
+            }
+            else {
+                Debug.LogWarning("Missing explode sound");
+            }
             var prefab = Instantiate(explodePrefab, pos, rotation);
             Destroy(this.gameObject);
+     
+            
         }
     }
 }
