@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  element: 4
+  element: 2
 --- !u!114 &7465557160382965917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +225,7 @@ MonoBehaviour:
     min: 4
     max: 7
   element: 0
+  debug: 0
 --- !u!1 &2678078727074619833
 GameObject:
   m_ObjectHideFlags: 0

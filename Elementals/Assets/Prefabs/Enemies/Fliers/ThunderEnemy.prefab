@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1896819740636263061}
   m_RootOrder: 0
@@ -149,16 +150,15 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 3988263176044727965, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+      propertyPath: element
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
 --- !u!1 &1896819740636263058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2678078727074619833, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
-  m_PrefabInstance: {fileID: 4573592239187596075}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1896819740636263061 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2678078727074619838, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
   m_PrefabInstance: {fileID: 4573592239187596075}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1123931287
@@ -175,3 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   element: 4
   amount: 1
+--- !u!4 &1896819740636263061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2678078727074619838, guid: 23f69535b67de0141bd9aa68f4b215f0, type: 3}
+  m_PrefabInstance: {fileID: 4573592239187596075}
+  m_PrefabAsset: {fileID: 0}

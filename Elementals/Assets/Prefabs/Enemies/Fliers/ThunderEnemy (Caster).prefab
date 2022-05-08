@@ -57,6 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52dfed11c7febb94599c874252a5e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaCost: 1
   projectile:
     prefab: {fileID: 2146039570, guid: be20cdcf853a5fc4781610e42fee3ea6, type: 3}
     launchForce: 15
@@ -65,8 +66,9 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
+  flipSprite: 0
   ignore: {fileID: 2801701307267833334}
-  manaCost: 1
+  projectilePrefab: {fileID: 0}
 --- !u!1 &5449518193357140941
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,6 +122,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 585892167804280246, guid: 550d654b2aeca3d4982fe927b14d04a8, type: 3}
+      propertyPath: element
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1896819740319300260, guid: 550d654b2aeca3d4982fe927b14d04a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

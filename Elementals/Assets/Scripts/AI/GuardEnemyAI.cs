@@ -10,6 +10,7 @@ namespace AI
         public Transform testObject;
 
 
+#if UNITY_EDITOR
         private void OnDrawGizmos()
         {
             engageZone.DrawGizmos(Color.Lerp(Color.magenta, Color.red, 0.45f));
@@ -18,6 +19,7 @@ namespace AI
                 engageZone.DrawTestObject(testObject);
             }
         }
+#endif
     }
 
     

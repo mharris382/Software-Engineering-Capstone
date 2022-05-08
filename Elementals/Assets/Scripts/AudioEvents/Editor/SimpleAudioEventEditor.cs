@@ -1,4 +1,5 @@
 ﻿using AudioEvents;
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 #if ODIN_INSPECTOR
@@ -67,3 +68,5 @@ public class SimpleAudioEventEditor : Editor
         EditorGUI.EndDisabledGroup();
     }
 }
+
+#endif

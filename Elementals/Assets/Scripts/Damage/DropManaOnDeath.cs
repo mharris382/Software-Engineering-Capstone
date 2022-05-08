@@ -14,15 +14,21 @@ namespace Damage
         [SerializeField]
         private Element element;
 
+        public bool debug = false;
         public Element Element
         {
             get => element;
-            set => element = value;
+            set
+            {
+                element = value;
+                Debug.Log("Element set to " + element);
+            }
         }
 
         public void OnHealthDamaged(IHealth health, DamageInfo damageInfo)
         {
             if (health.isAlive) return;
+            Debug.Log("Dropping mana of type " + element);
             ManaDropper.DropMana(element, transform.position, dropAmount);
         }
         

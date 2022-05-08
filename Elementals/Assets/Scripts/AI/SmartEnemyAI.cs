@@ -49,6 +49,7 @@ namespace AI
 #endif
         }
 
+#if UNITY_EDITOR
         bool DrawRadiusHandles(Vector2 center, ref float r)
         {
             var size = HandleUtility.GetHandleSize(center) * 0.04f;
@@ -79,6 +80,7 @@ namespace AI
 
             return false;
         }
+#endif
     }
 
 
