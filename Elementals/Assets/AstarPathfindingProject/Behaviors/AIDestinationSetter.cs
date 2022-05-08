@@ -18,6 +18,12 @@ namespace Pathfinding {
 		public Transform target;
 		IAstarAI ai;
 
+		public Transform Target
+		{
+			set => target = value;
+			get => target;
+		}
+
 		void OnEnable () {
 			ai = GetComponent<IAstarAI>();
 			// Update the destination right before searching for a path as well.
