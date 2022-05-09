@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -4512457440423381014}
   - component: {fileID: 3102681931972050576}
   - component: {fileID: 1553664835487065235}
+  - component: {fileID: -3002477165831661107}
   m_Layer: 9
   m_Name: Cyrstal Spell
   m_TagString: Untagged
@@ -99,6 +100,19 @@ MonoBehaviour:
   collisionMask:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &-3002477165831661107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4043166339369244649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 3
 --- !u!1 &8641477476793619048
 GameObject:
   m_ObjectHideFlags: 0

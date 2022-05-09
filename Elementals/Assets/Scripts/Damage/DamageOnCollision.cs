@@ -1,9 +1,15 @@
 ﻿using System;
+using Elements;
 using UnityEngine;
 
 namespace Damage
 {
-    public class DamageOnCollision : MonoBehaviour
+    /// <summary>
+    /// attempts to deal damage to any rigidbody that it collides with
+    /// <see cref="DamageOnTrigger"/>
+    /// <seealso cref=" Spell_Casting.Spells.DamageOnParticleCollision"/> 
+    /// </summary>
+    public class DamageOnCollision : MonoBehaviour, IElementalDependent
     {
         public Element element;
         public float amount = 1;
@@ -23,6 +29,12 @@ namespace Damage
                 Element = element,
                 RawDamage = amount
             };
+        }
+
+        public Element Element
+        {
+            get => element;
+            set => element = value;
         }
     }
 }

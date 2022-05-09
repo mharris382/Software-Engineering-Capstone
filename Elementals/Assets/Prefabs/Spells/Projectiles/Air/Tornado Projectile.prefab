@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: -5471285991506368253}
   - component: {fileID: 8992392172357290293}
   - component: {fileID: 8245879203530829594}
+  - component: {fileID: -7139535707635270252}
   m_Layer: 9
   m_Name: Tornado Projectile
   m_TagString: Untagged
@@ -298,6 +299,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 7
+--- !u!114 &-7139535707635270252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837525590269683157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 4
 --- !u!1 &8838207625501115848
 GameObject:
   m_ObjectHideFlags: 0

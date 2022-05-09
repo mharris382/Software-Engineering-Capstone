@@ -27,7 +27,7 @@ namespace ManaSystem
         private static ManaDropper _instance;
 
 
-        private Dictionary<Element, Mana> _manaDropPrefabs = new Dictionary<Element, Mana>();
+        private Dictionary<Element, Mana.Mana> _manaDropPrefabs = new Dictionary<Element, Mana.Mana>();
 
 
         private Vector2[] _dropPoints;
@@ -90,7 +90,7 @@ namespace ManaSystem
             _instance = null;
         }
 
-        Mana GetElementPrefab(Element e)
+        Mana.Mana GetElementPrefab(Element e)
         {
             if(!_manaDropPrefabs.ContainsKey(e))
                 LoadManaPrefabs();
@@ -116,7 +116,7 @@ namespace ManaSystem
             var path = "ManaPrefabs";
             var prefabs = Resources.LoadAll<GameObject>(path);
 
-            Mana GetPrefab(Element e)
+            Mana.Mana GetPrefab(Element e)
             {
                 var name = $"ManaObject_{e.ToString()}";
                 var go = prefabs.FirstOrDefault(t => t.name == name);
@@ -125,7 +125,7 @@ namespace ManaSystem
                     Debug.LogError($"Couldn't find mana prefab in Resources/ManaPrefabs/{name}");
                     throw new NullReferenceException("Missing Mana Prefab!");
                 }
-                var mana =go.GetComponent<Mana>(); 
+                var mana =go.GetComponent<Mana.Mana>(); 
                 if(mana == null)throw new MissingComponentException($"Prefab {name} is missing Mana Component!");
                 Debug.Assert(mana.element == e, $"Element Mismatch, name {name} expected {e} but found element {mana.element}", mana);
                 return mana;

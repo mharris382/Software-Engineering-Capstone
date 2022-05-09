@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
+/// <summary>
+/// experimental class (not used)
+/// </summary>
 public class TeleportOnCollision : MonoBehaviour
 {
     public float minTeleportRadius = 4;

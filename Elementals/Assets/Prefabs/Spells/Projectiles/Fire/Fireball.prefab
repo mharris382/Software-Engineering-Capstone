@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -664825597825090570}
   - component: {fileID: -1787732256176840097}
   - component: {fileID: 674372379997326750}
+  - component: {fileID: 7086488614802802832}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -94,7 +95,7 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
-  ignoreCollisions: 0
+  ignoreCollisions: 1
   flipSprite: 0
 --- !u!114 &-1787732256176840097
 MonoBehaviour:
@@ -125,6 +126,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   element: 0
   amount: 5
+--- !u!114 &7086488614802802832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919023403400811334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 0
 --- !u!1001 &5492175677633732983
 PrefabInstance:
   m_ObjectHideFlags: 0

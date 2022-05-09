@@ -4,6 +4,7 @@ using UnityEngine.Events;
 
 namespace Damage
 {
+    [System.Obsolete("decided not to apply fall damage")]
     [RequireComponent(typeof(CharacterState))]
     public class FallDamage : MonoBehaviour
     {

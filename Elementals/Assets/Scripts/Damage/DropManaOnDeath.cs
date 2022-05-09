@@ -5,7 +5,9 @@ using UnityEngine;
 
 namespace Damage
 {
-    
+    /// <summary>
+    /// triggers mana drop when the entity is killed.  OnHealthDamaged is called from a UnityEvent
+    /// </summary>
     public class DropManaOnDeath : MonoBehaviour, IElementalDependent
     {
         [SerializeField, MinMaxRange(0, 50)]

@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 #endif
 
+
+/// <summary>
+/// manages loading of scenes and saves/load (although this functionality is not integrated yet)
+/// </summary>
 public class GameManager : MonoBehaviour
 {
     [SerializeField]

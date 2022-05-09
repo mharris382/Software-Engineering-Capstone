@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace Damage
 {
+    /// <summary>
+    /// entry/exit point for all damage.  This is the only class that should be called from outside of the damage system
+    /// </summary>
     public static class DamageSystem
     {
         private static Dictionary<GameObject, IHealth> _receivers = new Dictionary<GameObject, IHealth>();

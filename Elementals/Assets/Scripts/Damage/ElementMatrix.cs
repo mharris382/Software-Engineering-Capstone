@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Damage
 {
+    /// <summary>
+    /// class is responsible for determining the damage multiplier when one element is damaged by another
+    /// </summary>
     public static class ElementMatrix
     {
         static Dictionary<Element, Element> weaknessLookup = new Dictionary<Element, Element>();

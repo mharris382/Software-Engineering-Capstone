@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 8872598542648376196}
   - component: {fileID: 2728784264495446775}
   - component: {fileID: -5148102102791066559}
+  - component: {fileID: 3915849349334548353}
   m_Layer: 9
   m_Name: Fast Mudball Projectile
   m_TagString: Untagged
@@ -199,7 +200,7 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
-  ignoreCollisions: 0
+  ignoreCollisions: 1
   flipSprite: 0
 --- !u!114 &2728784264495446775
 MonoBehaviour:
@@ -214,6 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explodePrefab: {fileID: 100000, guid: 3156817f64ec68948ad6bb26569b9ef5, type: 3}
+  explodeSound: {fileID: 0}
   rotatePrefabToNormal: 0
 --- !u!114 &-5148102102791066559
 MonoBehaviour:
@@ -229,3 +231,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   element: 3
   amount: 5
+--- !u!114 &3915849349334548353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223796945565673787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 3

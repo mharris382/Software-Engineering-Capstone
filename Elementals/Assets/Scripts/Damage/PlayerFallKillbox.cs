@@ -10,6 +10,8 @@ namespace Damage
         [SerializeField]
         private PlayerDeathHandler fallDeathHandler;
 
+        public Transform customRespawnPosition;
+        
         private BoxCollider2D _boxCollider2D;
         private void OnTriggerEnter2D(Collider2D other)
         {
@@ -23,7 +25,12 @@ namespace Damage
 
         void TriggerPlayerFallDeath(GameObject playerGameObject)
         {
-            fallDeathHandler.HandlePlayerDied(playerGameObject);
+            if (customRespawnPosition != null) {
+                fallDeathHandler.HandlePlayerDied(playerGameObject, customRespawnPosition.position);
+            }
+            else {
+                fallDeathHandler.HandlePlayerDied(playerGameObject);
+            }
         }
         
         private void OnDrawGizmos()

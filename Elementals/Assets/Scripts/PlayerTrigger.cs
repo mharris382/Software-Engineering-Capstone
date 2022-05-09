@@ -2,6 +2,11 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// similar behavior to PlayerDetectionTrigger , but does not track the detected state only fires event when the player
+/// enters the trigger
+/// <see cref="PlayerDetectionTrigger"/>
+/// </summary>
 public class PlayerTrigger : MonoBehaviour
 {
     public UnityEvent onPlayerEntered;

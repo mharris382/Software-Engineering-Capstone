@@ -258,7 +258,7 @@ MonoBehaviour:
       m_NumAlphaKeys: 2
   airColors:
     mainColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
-    secondaryColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+    secondaryColor: {r: 0.6636027, g: 0.2588235, b: 1, a: 1}
     mainGradient:
       serializedVersion: 2
       key0: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}

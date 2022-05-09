@@ -5,6 +5,9 @@
 
         public bool HasDamageBeenApplied { get; internal set; }
         
+        /// <summary>
+        /// calculated by the damage system using the ElementMatrix
+        /// </summary>
         public float DamageMultiplier { get; internal set; }
 
         /// <summary>

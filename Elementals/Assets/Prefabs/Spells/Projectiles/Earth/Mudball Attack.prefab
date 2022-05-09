@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 784254636428107180}
   - component: {fileID: 784254636428107183}
   - component: {fileID: 784254636428107182}
+  - component: {fileID: -7013754276311018916}
   m_Layer: 0
   m_Name: Mudball Attack
   m_TagString: Untagged
@@ -229,6 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explodePrefab: {fileID: 0}
+  explodeSound: {fileID: 0}
   rotatePrefabToNormal: 0
 --- !u!58 &784254636428107181
 CircleCollider2D:
@@ -302,3 +304,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 1.5
+--- !u!114 &-7013754276311018916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784254636428107173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 3

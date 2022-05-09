@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// triggers the progression from one level to the next
+/// </summary>
 [RequireComponent(typeof(Collider2D))]
 public class VictoryTrigger : MonoBehaviour
 {

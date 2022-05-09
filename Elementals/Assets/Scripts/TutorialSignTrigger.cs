@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// used for the tutorial level to show the player how to use the game
+/// </summary>
 public class TutorialSignTrigger : MonoBehaviour
 {
     // Start is called before the first frame update

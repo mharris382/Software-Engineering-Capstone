@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -312908233938099893}
   - component: {fileID: 4914320838362624042}
   - component: {fileID: -1240563111813911993}
+  - component: {fileID: -158437177891871841}
   m_Layer: 0
   m_Name: Large Fireball
   m_TagString: Untagged
@@ -94,7 +95,7 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
-  ignoreCollisions: 0
+  ignoreCollisions: 1
   flipSprite: 0
 --- !u!114 &4914320838362624042
 MonoBehaviour:
@@ -109,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explodePrefab: {fileID: 1247311384876784, guid: 4adffb0018aeda44e9263f901167af1f, type: 3}
-  explodeSound: {fileID: 11400000, guid: 1d939969f9ea02d4b9668a65e873c311, type: 2}
+  explodeSound: {fileID: 11400000, guid: c85b4680369462d4ab097570f021f50a, type: 2}
   rotatePrefabToNormal: 0
 --- !u!114 &-1240563111813911993
 MonoBehaviour:
@@ -125,6 +126,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   element: 0
   amount: 10
+--- !u!114 &-158437177891871841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919023403400811334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 0
 --- !u!1001 &5492175677633732983
 PrefabInstance:
   m_ObjectHideFlags: 0

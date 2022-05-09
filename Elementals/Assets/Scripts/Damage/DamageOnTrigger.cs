@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace Damage
 {
+    /// <summary>
+    /// attempts to deal damage to any rigidbody that enters the trigger
+    /// <seealso cref="DamageOnCollision"/>
+    /// <seealso cref=" Spell_Casting.Spells.DamageOnParticleCollision"/> 
+    /// </summary>
     public class DamageOnTrigger : MonoBehaviour
     {
         public Element element;

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7491002620067440193
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3554375623078507444, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_Name
+      value: Physics Pathfinder (Water)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 244.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46851617
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797421701364738989, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_Name
+      value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797421703001132424, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 725c2a3ad1daafa4db590c0202e7e48d, type: 2}
+    - target: {fileID: 7797421703001132431, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 845d2cc70cdce4e408fcbdcb39f3bae1, type: 3}
+    - target: {fileID: 8773796234061323679, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: element
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098779684653214364, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: element
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}

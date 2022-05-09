@@ -5,6 +5,11 @@ using UnityEngine;
 
 namespace Spell_Casting.Spells
 {
+    /// <summary>
+    /// another way to deal damage besides using rigidbodies and colliders
+    /// <see cref="DamageOnCollision"/>
+    /// <seealso cref="DamageOnTrigger"/>
+    /// </summary>
     public class DamageOnParticleCollision : MonoBehaviour, IElementalDependent
     {
         public int damageAmount = 1;

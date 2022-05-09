@@ -239,7 +239,7 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 32, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_platform_1
+      name: stone_platform_1way
       rect:
         serializedVersion: 2
         x: 32
@@ -313,6 +313,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Smp_cliff_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5af640352360e54aa0892fbe4208e43
+      internalID: 1826852359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -327,14 +348,15 @@ TextureImporter:
       simple_corner_inner: 1188216950
       simple_platform_end: -933118803
       simple_side_2: -1183197878
+      Smp_cliff_1_0: 1826852359
       simple_corner_outer: -997144649
       simple_top_2: 1822461974
       simple_side_: -1862510692
+      stone_platform_1way: 602322314
       simple_top_1: 1457915455
       simple_platform_2: -898707160
       simple_side_to_platform: 1816882425
       simple_grass_3_6: 1702437118
-      simple_platform_1: 602322314
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

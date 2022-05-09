@@ -1,17 +1,30 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace DefaultNamespace
+namespace AI
 {
+    /// <summary>
+    /// prototoype enemy behavior. follows player when in range, otherwise returns to it's initial position
+    /// </summary>
     public class StupidEnemyAI : MonoBehaviour
     {
         private bool autoTargetPlayer = true;
-       [SerializeField] private Transform target;
+       
         private CharacterState _state;
+       
+        [Tooltip("The target to attack, if not set will automatically target the player")]
+        [SerializeField] private Transform target;
+        
+        [Tooltip("The distance at which the enemy will attack the player")]
         [SerializeField]
         private float radius = 5f;
 
+        [SerializeField, Tooltip("The point from which the enemy will measure the distance to the player. if null, the enemy will use their own transform.")]
+        private Transform radiusCenter;
+        
         private Vector3 _initialPosition = new Vector2(0,0);
+        
+        
+        private Transform RadiusCenter => radiusCenter ? radiusCenter : transform;
 
         public Transform Target
         {
@@ -20,24 +33,28 @@ namespace DefaultNamespace
         }
 
 
-        private void Awake()
+        protected virtual void Awake()
         {
             _state = GetComponent<CharacterState>();
             _initialPosition = transform.position;
             AutoTargetPlayerTransform();
         }
 
-        private void Update()
+        protected virtual Vector2 GetSteeringDestination()
+        {
+            if (IsTargetOutsideRadius()) {
+                return _initialPosition;
+            }
+            else {
+                return target.position;
+            }
+        }
+
+        protected virtual void Update()
         { 
             AutoTargetPlayerTransform(); //rider gives expensive warning, but in practice it is only expensive if no player exists in the scene
-            if (IsTargetOutsideRadius())
-            {
-                SteerTowards(_initialPosition);
-            }
-            else
-            {
-                SteerTowards(target.position);
-            }
+            var steeringDestination = GetSteeringDestination();
+            SteerTowards(steeringDestination);
         }
 
         private void SteerTowards(Vector3 targetPosition)
@@ -45,9 +62,9 @@ namespace DefaultNamespace
             _state.MovementInput.MoveInput = targetPosition - transform.position;
         }
 
-        private bool IsTargetOutsideRadius()
+        protected bool IsTargetOutsideRadius()
         {
-            return Vector2.Distance(target.position, transform.position) > (radius *2);
+            return Vector2.Distance(target.position, RadiusCenter.position) > (radius *2);
         }
 
         private void AutoTargetPlayerTransform()

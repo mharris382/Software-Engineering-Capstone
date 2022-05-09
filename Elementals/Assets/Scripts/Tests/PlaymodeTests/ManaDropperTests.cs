@@ -40,7 +40,7 @@ namespace Tests.PlaymodeTests
             ManaDropper.DropMana(expectElement, Vector2.zero, dropInfo);
             yield return null;
             Assert.AreEqual(expectedDropAmount, parent.childCount, "Parent has incorrect number of children!");
-            var mana = parent.GetComponentsInChildren<Mana>();
+            var mana = parent.GetComponentsInChildren<Mana.Mana>();
             Assert.AreEqual(expectedDropAmount, mana.Length, "Found incorrect number of mana objects!");
             foreach (var mana1 in mana) Assert.AreEqual(expectElement, mana1.element, "Mana object has incorrect element!");
         }

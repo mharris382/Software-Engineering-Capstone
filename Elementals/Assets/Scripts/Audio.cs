@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[System.Obsolete("replaced this with AudioEvent system")]
 public class Audio : MonoBehaviour
 {
     [SerializeField]

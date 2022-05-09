@@ -36,7 +36,7 @@ namespace Elements.Utilities
 
         public Color GetMainColor(Element element) => GetElementColors(element).mainColor;
 
-        public Color GetSecondaryColor(Element element) => GetElementColors(element).secondaryColor;
+        public Color _GetSecondaryColor(Element element) => GetElementColors(element).secondaryColor;
 
         public Gradient GetMainGradient(Element element) => GetElementColors(element).mainGradient;
 
@@ -66,7 +66,7 @@ namespace Elements.Utilities
         public static Color GetColor(Element e) => ElementConfig.Instance.colorPalettes.GetElementColors(e).mainColor;
         public static Gradient GetGradient(Element e) => ElementConfig.Instance.colorPalettes.GetElementColors(e).mainGradient;
         
-        
+        public static Color GetSecondaryColor(Element e) => ElementConfig.Instance.colorPalettes.GetElementColors(e).secondaryColor;
         
 
         public static ElementColors FireColors => ElementConfig.Instance.colorPalettes.GetElementColors(Element.Fire);

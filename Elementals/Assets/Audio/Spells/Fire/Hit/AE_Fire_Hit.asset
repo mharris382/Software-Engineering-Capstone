@@ -18,12 +18,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 276ca0eb317a34344888b8f81e7d3424, type: 3}
   - {fileID: 8300000, guid: 0fbdf27c0320d4e66b9776affa12fc99, type: 3}
   volume:
-    min: 0.5
-    max: 1
+    min: 0.30888003
+    max: 0.48374307
   pitch:
     min: 1
     max: 1
   distance:
     min: 1
     max: 1000
+  monoStereoClips: {fileID: 0}
   mixer: {fileID: 4146724529265351937, guid: f9fdf3ae482826a44b9b1fd2d4e31382, type: 2}

@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Obsolete("Damage Prototype: has been replaced with the damage system")]
 public class TakeDamage : MonoBehaviour
 {
     public ParticleSystem sys;

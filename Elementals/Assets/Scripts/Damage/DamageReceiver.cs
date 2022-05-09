@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace Damage
 {
+    /// <summary>
+    /// responsible for registering and unregistering health component to the damage system
+    /// </summary>
     public class DamageReceiver : MonoBehaviour
     {
         private void Awake()
