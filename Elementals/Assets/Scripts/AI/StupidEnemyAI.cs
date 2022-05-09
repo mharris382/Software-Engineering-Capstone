@@ -22,9 +22,26 @@ namespace AI
         private Transform radiusCenter;
         
         private Vector3 _initialPosition = new Vector2(0,0);
-        
-        
-        private Transform RadiusCenter => radiusCenter ? radiusCenter : transform;
+
+        public float Radius
+        {
+            get => radius;
+            set => radius = value;
+        }
+
+        public void AssignRadiusCenter(Transform center)
+        {
+            radiusCenter = center;
+        }
+        public void ClearRadiusCenter()
+        {
+            radiusCenter = null;
+        }
+        public bool HasRadiusCenter()
+        {
+            return radiusCenter != null;
+        }
+        public Transform RadiusCenter => radiusCenter ? radiusCenter : transform;
 
         public Transform Target
         {
