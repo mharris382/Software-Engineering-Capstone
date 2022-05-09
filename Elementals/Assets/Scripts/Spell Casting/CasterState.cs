@@ -20,7 +20,10 @@ public class CasterState : MonoBehaviour
     private CastEvents spellCast;
     public CastEvents SpellCast => spellCast; 
     
+    [System.Obsolete("Use SpellCast instead")]
     public CastEvents BasicSpell => basicSpell;
+    
+    [System.Obsolete("Use SpellCast instead")]
     public CastEvents StrongSpell => strongSpell;
 
     public bool IsCasting => BasicSpell.IsCasting || StrongSpell.IsCasting;

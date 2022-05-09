@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2916699294483861248, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
+      propertyPath: element
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3554375623078507444, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
       propertyPath: m_Name
-      value: Physics Pathfinder (Water)
+      value: Physics Pathfinder (Water) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3554375623078507445, guid: 25dc5c8d85dd93542b80bf8561853c22, type: 3}
       propertyPath: m_RootOrder

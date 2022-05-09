@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Elements;
 using UnityEngine;
 
 namespace Damage
@@ -9,7 +10,7 @@ namespace Damage
     /// <seealso cref="DamageOnCollision"/>
     /// <seealso cref=" Spell_Casting.Spells.DamageOnParticleCollision"/> 
     /// </summary>
-    public class DamageOnTrigger : MonoBehaviour
+    public class DamageOnTrigger : MonoBehaviour, IElementalDependent
     {
         public Element element;
         public float amount = 1;
@@ -28,6 +29,11 @@ namespace Damage
                 Element = element,
                 RawDamage = amount
             };
+        }
+
+        public Element Element
+        {
+            set => element = value;
         }
     }
 }

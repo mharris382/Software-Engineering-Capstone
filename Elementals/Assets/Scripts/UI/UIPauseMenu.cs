@@ -10,7 +10,7 @@ public class UIPauseMenu : MonoBehaviour
     [Range(1,3)]
     [SerializeField] private int currentLevel = 1;
     private bool _paused;
-
+    public bool isTutorialLevel = false;
     public UnityEvent<bool> onGamePaused;
     public UnityEvent onMenuOpened;
     public void ResumeGame()
@@ -35,7 +35,11 @@ public class UIPauseMenu : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(currentLevel);
+        if(!isTutorialLevel)
+            SceneManager.LoadScene(currentLevel);
+        else {
+            SceneManager.LoadScene("Tutorial Level");
+        }
     }
 
     IEnumerator Start()

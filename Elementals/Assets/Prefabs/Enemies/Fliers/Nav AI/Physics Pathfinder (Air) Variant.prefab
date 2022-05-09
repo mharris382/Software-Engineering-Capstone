@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5335873440928378564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1109760139817064148, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_Name
+      value: Physics Pathfinder (Air) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 257.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46851617
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109760139817064149, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203457556423944700, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: element
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203457556423944700, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: maxValue
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998091959703490957, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: element
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749471801333406005, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: element
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241343563861187254, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: element
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909572093196734156, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909572093196734157, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_Name
+      value: Air Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909572093758154984, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3c6ac49f73e5dba469010e01b6950983, type: 2}
+    - target: {fileID: 5909572093758154991, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f633c27c122797143bf4782f5c45d885, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6e6e85cf8d91b24286fe69fe467e8c1, type: 3}

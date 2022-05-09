@@ -11,6 +11,7 @@ using UnityEngine.SceneManagement;
 public class VictoryTrigger : MonoBehaviour
 {
     public bool isFinalLevel => level == 3;
+    public bool isTutorialLevel;
     [Range(1,3)]
     public int level = 1;
 
@@ -19,7 +20,8 @@ public class VictoryTrigger : MonoBehaviour
     
     public void OnVictory()
     {
-        SceneManager.LoadScene(level + 1);
+        if (isTutorialLevel) SceneManager.LoadScene(1);
+        else SceneManager.LoadScene(level + 1);
     }
 
     public void OnTriggerEnter2D(Collider2D other)

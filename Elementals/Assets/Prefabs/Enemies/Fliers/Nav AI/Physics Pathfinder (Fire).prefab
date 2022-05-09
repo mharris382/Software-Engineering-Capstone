@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3554375623078507445}
+  - component: {fileID: 2916699294483861248}
   m_Layer: 0
   m_Name: Physics Pathfinder (Fire)
   m_TagString: Untagged
@@ -34,6 +35,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2916699294483861248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554375623078507444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 0
 --- !u!1 &3554375623292394489
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +284,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5699013022199135036, guid: 1970118568345ef4e96988fdea964a0f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1970118568345ef4e96988fdea964a0f, type: 3}
 --- !u!4 &7797421701364738979 stripped
 Transform:
@@ -298,22 +313,22 @@ MonoBehaviour:
   radius: 5
   radiusCenter: {fileID: 0}
   followTarget: {fileID: 3554375623361318767}
-  onNavTargetCreated:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3554375623361318764}
-        m_TargetAssemblyTypeName: Pathfinding.AIDestinationSetter, AstarPathfindingProject
-        m_MethodName: set_Target
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   acceptableDistanceToFollowTarget: 0.01
   blockingMask:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &8533407731956713083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797421701364738989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751b1ee2499d49279a3d95cc1104a7fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onDestinationTransformCreated:
+    m_PersistentCalls:
+      m_Calls: []
