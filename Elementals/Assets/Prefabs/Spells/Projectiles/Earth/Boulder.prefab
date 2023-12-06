@@ -136,6 +136,10 @@ GameObject:
   - component: {fileID: 154930675714012266}
   - component: {fileID: -2368388147588215118}
   - component: {fileID: 2595622195189797816}
+  - component: {fileID: 7680598952863495197}
+  - component: {fileID: -2801592602702719770}
+  - component: {fileID: 7263107836646496261}
+  - component: {fileID: -6088715802670635983}
   m_Layer: 0
   m_Name: Boulder
   m_TagString: Untagged
@@ -218,3 +222,58 @@ MonoBehaviour:
     projectileRadius: 0.25
   ignoreCollisions: 1
   flipSprite: 0
+--- !u!114 &7680598952863495197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154930675714012265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d911ba5e264e6888b507953ba2768b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explodePrefab: {fileID: 100000, guid: 3156817f64ec68948ad6bb26569b9ef5, type: 3}
+  explodeSound: {fileID: 0}
+  rotatePrefabToNormal: 0
+--- !u!114 &-2801592602702719770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154930675714012265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c8b043ddcc4ee48eedfa905e89e7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 7b164cd6d68c1f948a7f01b3f3583992, type: 2}
+--- !u!114 &7263107836646496261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154930675714012265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c64f967394dc290aa37a5bd824961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 3
+--- !u!114 &-6088715802670635983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154930675714012265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd09fc92d8004c2cbdb5e218ea288c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 3
+  amount: 10

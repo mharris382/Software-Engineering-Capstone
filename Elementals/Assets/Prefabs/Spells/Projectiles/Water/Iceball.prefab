@@ -148,7 +148,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Iceball
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7086488614802802832, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 683f731d85353304f8de281fcb04e4af, type: 3}
 --- !u!1 &1337889554986911493 stripped
 GameObject:
@@ -168,6 +169,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 1
+--- !u!114 &9157877427802495648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337889554986911493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e9288ef092441383bf42abf33295a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limitToSpecificTiles: 1
+  tiles:
+  - {fileID: 11400000, guid: 7b164cd6d68c1f948a7f01b3f3583992, type: 2}
 --- !u!4 &6880457819678277467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3307937599814495000, guid: 683f731d85353304f8de281fcb04e4af, type: 3}

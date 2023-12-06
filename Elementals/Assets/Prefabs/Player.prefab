@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -559592581
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
@@ -382,7 +382,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -559592581
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
@@ -466,7 +466,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -559592581
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
@@ -5338,6 +5338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1268982209}
   aimTransform: {fileID: 694164927}
+  flipOnY: 0
 --- !u!114 &2279508872983745894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5436,18 +5437,18 @@ MonoBehaviour:
     spell: {fileID: 1747076529}
   - key: Strong_Air
     spell: {fileID: 1588273294}
-  - key: Strong_Water
-    spell: {fileID: 1036965037}
   - key: Fast_Water
     spell: {fileID: 1650725504}
+  - key: Strong_Water
+    spell: {fileID: 1036965037}
   - key: Fast_Fire
     spell: {fileID: 2017650856}
   - key: Strong_Fire
     spell: {fileID: 1047435832}
-  - key: Strong_Earth
-    spell: {fileID: 1693989774}
   - key: Fast_Earth
     spell: {fileID: 63959711}
+  - key: Strong_Earth
+    spell: {fileID: 1693989774}
   - key: Fast_Thunder
     spell: {fileID: 96895260}
   - key: Strong_Thunder
@@ -10397,7 +10398,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -559592581
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
@@ -10599,6 +10600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a4a620ff08768408ffe0cd6b68a7dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetCursor: {fileID: 0}
 --- !u!1 &1588273294
 GameObject:
   m_ObjectHideFlags: 0
@@ -10646,7 +10648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manaCost: 2
   projectile:
-    prefab: {fileID: -5471285991506368253, guid: 22d3c78d91562ea40b0d4c55a26b0766, type: 3}
+    prefab: {fileID: 2907415728295939158, guid: 81e7ec5f62d48074aba3a1e883033347, type: 3}
     launchForce: 21.61
     castRate: 0.5
     accuracy: 1
@@ -10655,7 +10657,7 @@ MonoBehaviour:
     projectileRadius: 0.25
   flipSprite: 0
   ignore: {fileID: 1344690876302126593}
-  projectilePrefab: {fileID: -5471285991506368253, guid: 22d3c78d91562ea40b0d4c55a26b0766, type: 3}
+  projectilePrefab: {fileID: 2907415728295939158, guid: 81e7ec5f62d48074aba3a1e883033347, type: 3}
 --- !u!114 &1588273297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10880,7 +10882,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -559592581
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}

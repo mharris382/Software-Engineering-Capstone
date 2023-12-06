@@ -169,6 +169,8 @@ GameObject:
   - component: {fileID: 8992392172357290293}
   - component: {fileID: 8245879203530829594}
   - component: {fileID: -7139535707635270252}
+  - component: {fileID: 876812440049024946}
+  - component: {fileID: 3680794301767295540}
   m_Layer: 9
   m_Name: Tornado Projectile
   m_TagString: Untagged
@@ -270,7 +272,7 @@ MonoBehaviour:
     maxAngle: 90
     minAngle: -90
     projectileRadius: 0.25
-  ignoreCollisions: 0
+  ignoreCollisions: 1
   flipSprite: 0
 --- !u!114 &8992392172357290293
 MonoBehaviour:
@@ -312,6 +314,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 4
+--- !u!114 &876812440049024946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837525590269683157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 584f5ad2730f41e9ad4f2b65506d5f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limitToSpecificTiles: 1
+  tiles:
+  - {fileID: 11400000, guid: 7b164cd6d68c1f948a7f01b3f3583992, type: 2}
+  checkPoints:
+  - {x: 0.97, y: 0.72, z: 0}
+  - {x: 0.21, y: 0.3, z: 0}
+  - {x: 0, y: 1.15, z: 0}
+  onTileDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  drawColor: {r: 1, g: 0, b: 0, a: 1}
+  drawSize: {x: 1, y: 1, z: 1}
+--- !u!114 &3680794301767295540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837525590269683157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5398c8024c43cba801dfe32e463405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8838207625501115848
 GameObject:
   m_ObjectHideFlags: 0

@@ -110,9 +110,12 @@ namespace Elements.Totem
         {
             if (entered)
             {
-                Debug.Assert(_totemUseage == null || _totemUseage.IsDisposed, "Player Entered");
                 if (_totemUseage != null && !_totemUseage.IsDisposed)
+                {
+                    _totemUseage.Dispose();
                     _totemUseage.IsKilled = true;
+                }
+                Debug.Assert(_totemUseage == null || _totemUseage.IsDisposed, "Player Entered");
                 uiElement.Element = playerElement.Element;
                 _totemUseage = new UIUsage(uiElement, _input, ConfirmElementChange);
                 StartCoroutine(DoUI());
@@ -130,7 +133,7 @@ namespace Elements.Totem
             if (!totemPlayerTrigger.IsPlayerDetected)
                 yield break;
             
-            while (totemPlayerTrigger.IsPlayerDetected)
+            while (totemPlayerTrigger.IsPlayerDetected && !_totemUseage.IsDisposed)
             {
                 _totemUseage.Tick();
                 yield return null;
