@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c582b2df-8ff5-4edf-a8a6-6c9651c0816e}">
+		<property name="assetPath">
+			<value>Lava burning person 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.0178458049886623</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{937f0ef7-68ed-4b27-9ca3-597b715701bf}</destination>
+		</relationship>
+	</object>
+</objects>

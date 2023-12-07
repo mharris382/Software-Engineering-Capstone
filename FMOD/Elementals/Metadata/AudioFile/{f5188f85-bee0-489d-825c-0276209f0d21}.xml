@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f5188f85-bee0-489d-825c-0276209f0d21}">
+		<property name="assetPath">
+			<value>Flamethrower Fire Loop.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{937f0ef7-68ed-4b27-9ca3-597b715701bf}</destination>
+		</relationship>
+	</object>
+</objects>
