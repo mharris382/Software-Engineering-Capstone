@@ -12,11 +12,29 @@ namespace Elements.Totem
     /// </summary>
     public class Totem : MonoBehaviour
     {
-        [SerializeField] private ElementContainer playerElement;
+        [SerializeField] private ElementContainer _playerElement;
+        
         [SerializeField] private ElementContainer uiElement;
+
+        [SerializeField] private bool useElementSlots;
+        [SerializeField] private IntContainer playerSelectedElementSlot;
+        [SerializeField] private ElementContainer[] playerElementSlots;
+        
         public TotemDisplayHandler totemDisplayHandler;
         public PlayerDetectionTrigger totemPlayerTrigger;
-        
+
+        private ElementContainer playerElement
+        {
+            get
+            {
+                if (!useElementSlots)
+                {
+                    return _playerElement;
+                }
+                var slot = playerElementSlots[playerSelectedElementSlot.Value];
+                return slot;
+            }
+        }
         public float resetDuration = 50;
 
         public float activeRadius = 20;

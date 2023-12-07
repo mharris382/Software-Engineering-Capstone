@@ -10142,8 +10142,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0025d46754e497f991c8a7d20c694da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerElement: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
+  _playerElement: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
   uiElement: {fileID: 11400000, guid: b0580479b64f1b04d815be245007f3a2, type: 2}
+  useElementSlots: 1
+  playerSelectedElementSlot: {fileID: 11400000, guid: 504e92cd517304546baa19613ce1680d, type: 2}
+  playerElementSlots:
+  - {fileID: 11400000, guid: 404a8aecf6a1f6e448625c7812f8fc0b, type: 2}
+  - {fileID: 11400000, guid: 66c4cf018bfc15f4eba19cc55ac6281f, type: 2}
   totemDisplayHandler: {fileID: 1452441306958712413}
   totemPlayerTrigger: {fileID: 1452441306813865560}
   resetDuration: 8

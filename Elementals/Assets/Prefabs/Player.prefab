@@ -11391,6 +11391,7 @@ GameObject:
   - component: {fileID: 32902414}
   - component: {fileID: 6571520475765550769}
   - component: {fileID: 209023990}
+  - component: {fileID: 1389973550247753444}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -11721,6 +11722,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0faa2c7a9b61a6b4bac0571719ed8f1e, type: 2}
   - {fileID: 11400000, guid: 1f0d235b23736ab4a8649dc2b7e08d2b, type: 2}
   swapDelay: 0.5
+--- !u!114 &1389973550247753444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344690876302126593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a866f3212047378e2d71b597f92f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeElement: {fileID: 11400000, guid: 849d10cd03a7cf04fbc6a13957e06df2, type: 2}
+  activeElementSlot: {fileID: 11400000, guid: 504e92cd517304546baa19613ce1680d, type: 2}
+  elementSlots:
+  - {fileID: 11400000, guid: 404a8aecf6a1f6e448625c7812f8fc0b, type: 2}
+  - {fileID: 11400000, guid: 66c4cf018bfc15f4eba19cc55ac6281f, type: 2}
+  switchElementButton: Switch Element
 --- !u!1 &2090044610573684206
 GameObject:
   m_ObjectHideFlags: 0
