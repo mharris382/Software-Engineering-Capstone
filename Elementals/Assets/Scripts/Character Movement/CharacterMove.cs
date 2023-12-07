@@ -53,7 +53,6 @@ public class CharacterMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        void ApplyJumpVelocity() => State.Movement.VerticalMovement = jumpVert;
         _state.Movement.IsGrounded = _groundCheck.grounded;
         _state.Movement.HorizontalMovement = _state.MovementInput.MoveInput.x * _state.CheckForSpeedModifiers(moveSpeed);
 
@@ -63,6 +62,8 @@ public class CharacterMove : MonoBehaviour
             return;
         }
 
+        
+
         if (IsGrounded && WantsToStartJump)
         {
             IsJumping = true;
@@ -70,6 +71,11 @@ public class CharacterMove : MonoBehaviour
             ApplyJumpVelocity();
         }  
 
+        HandleJumping();
+    }
+
+    private void HandleJumping()
+    {
         if (IsJumping && WantsToKeepJumping)
         {
             if (JumpTimeCounter > 0)
@@ -82,11 +88,13 @@ public class CharacterMove : MonoBehaviour
                 IsJumping = false;
             }
         }
-        else if(IsJumping)
+        else if (IsJumping)
         {
-            IsJumping = false; 
+            IsJumping = false;
         }
     }
+
+    private void ApplyJumpVelocity() => State.Movement.VerticalMovement = jumpVert;
 
     // Based on Physics Updates
     private void FixedUpdate()
@@ -104,16 +112,39 @@ public class CharacterMove : MonoBehaviour
                 _rb.velocity = velocity + _rb.velocity;
             }
         }
-
-        if (IsMovementPhysicsRestricted())
-        {
-            CompensateForMovingPlatforms();
-            return;
-        }
-        _rb.velocity = IsJumping ? State.Movement.Velocity : new Vector2(State.Movement.HorizontalMovement, _rb.velocity.y);
         
         if(!IsJumping && IsGrounded)
             CompensateForMovingPlatforms();
+        
+        if (!_state.IsInteracting)
+        {
+            NormalMovementFixed();
+            return;
+        }
+        
+        switch (_state.PhysicsMode)
+        {
+            case InteractionPhysicsMode.Default:
+                _rb.velocity += State.Movement.AnimatorAccel;
+                break;
+            case InteractionPhysicsMode.Mixed:
+                _rb.velocity += State.Movement.AnimatorAccel + (Physics2D.gravity * Time.fixedDeltaTime);
+                break;
+            case InteractionPhysicsMode.FullPhysics:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+
+    private void NormalMovementFixed()
+    {
+        if (IsMovementPhysicsRestricted())
+        {
+            return;
+        }
+        _rb.velocity = IsJumping ? State.Movement.Velocity : new Vector2(State.Movement.HorizontalMovement, _rb.velocity.y);
+
     }
 
     private bool IsMovementPhysicsRestricted()

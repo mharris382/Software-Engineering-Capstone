@@ -38,7 +38,7 @@ namespace Spell_Casting.Spells
         public ISpell GetSpell(string spellName)
         {
             
-            spellName = spellName + "_" + activeElement.Element;
+            spellName = $"{spellName}_{activeElement.Element}";
             for (int i = 0; i < spells.Length; i++)
             {
                 if (spells[i].key == spellName)

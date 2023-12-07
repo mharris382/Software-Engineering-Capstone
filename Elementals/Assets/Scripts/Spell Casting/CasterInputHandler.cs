@@ -14,9 +14,11 @@ public class CasterInputHandler : MonoBehaviour
     {
         // if (allowCasting)
         // {
-            _state.input.CastBasic  =  Input.GetButtonDown("Fire1");
-            _state.input.CastStrong =  Input.GetButtonDown("Fire2");
-            _state.input.Gathering     =  Input.GetButton("Fire3");
+            _state.input.IsCastBasicDown  =  Input.GetButtonDown("Fire1");
+            _state.input.IsCastStrongDown =  Input.GetButtonDown("Fire2");
+            _state.input.IsCastBasicHeld  =  Input.GetButton("Fire1");
+            _state.input.IsCastStrongHeld =  Input.GetButton("Fire2");
+            _state.input.IsGatheringHeld     =  Input.GetButton("Fire3");
         // }
 
     }

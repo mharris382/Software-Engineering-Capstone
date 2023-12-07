@@ -18,4 +18,16 @@ public class MovementState
         get => Velocity.y;
         set => Velocity = new Vector2(Velocity.x, value);
     }
+
+    public Vector2 AnimatorDelta
+    {
+        get;
+        set;
+    }
+    public Vector2 AnimatorAccel
+    {
+        get;
+        set;
+    }
+    
 }

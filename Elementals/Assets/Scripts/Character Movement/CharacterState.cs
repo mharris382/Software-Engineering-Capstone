@@ -9,6 +9,7 @@ public class CharacterState : MonoBehaviour
     public MovementState Movement { get; private set; }
 
     public MovementRestrictions MovementRestrictions { get; set; }
+    public InteractionPhysicsMode PhysicsMode { get; set; }
     public List<IMovingGround> MovingGround { get; } = new List<IMovingGround>();
     public bool IsInteracting { get; set; }
 

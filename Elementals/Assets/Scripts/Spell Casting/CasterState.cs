@@ -13,6 +13,14 @@ public class CasterState : MonoBehaviour
     public bool CastingStrong { get; set; }
     public bool AllowCast { get; set; }
 
+    private CastState _castState;
+    
+    public CastState CastState
+    {
+        get => _castState;
+        set => _castState = value;
+    }
+    
     private CasterInput _input;
     public CasterInput input => _input ??= new CasterInput();
 
@@ -45,9 +53,12 @@ public class CasterState : MonoBehaviour
 /// </summary>
 public class CasterInput
 {
-    public bool Gathering { get; set; }
-    public bool CastBasic { get; set; }
-    public bool CastStrong { get; set; }
+    public bool IsGatheringHeld { get; set; }
+    public bool IsCastBasicDown { get; set; }
+    public bool IsCastStrongDown { get; set; }
+    
+    public bool IsCastBasicHeld { get; set; }
+    public bool IsCastStrongHeld { get; set; }
 }
 
 /// <summary>
@@ -93,4 +104,10 @@ public class CastEvents
 }
 
 
-
+public enum CastState
+{
+    Idle,
+    Gathering,
+    Casting,
+    CastingStrong
+}

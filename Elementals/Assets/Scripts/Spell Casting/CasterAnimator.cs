@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 public class CasterAnimator : MonoBehaviour
 {
@@ -60,4 +61,9 @@ public class CasterAnimator : MonoBehaviour
                 _anim.Play("HCast");
         }
     }
+
+
+   
 }
+
+

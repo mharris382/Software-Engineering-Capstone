@@ -26,16 +26,16 @@ public class CasterController : MonoBehaviour
         isCastingBasicSpell = _state.BasicSpell.IsCasting;
         bool isCasting = isCastingBasicSpell || isCastingStrongSpell;
       
-        _state.Gathering = _state.input.Gathering && !isCasting;
+        _state.Gathering = _state.input.IsGatheringHeld && !isCasting;
         bool canStartNewCast = !isCasting && !_state.Gathering;
         
         if (canStartNewCast)
         {
-            if (_state.input.CastBasic)
+            if (_state.input.IsCastBasicDown)
             {
                 _state.SpellCast.Start($"{SpellNames.FastAttackSpell}_{playerElement.Element.ToString()}");
             }
-            else if (_state.input.CastStrong)
+            else if (_state.input.IsCastStrongDown)
             {
                 _state.SpellCast.Start($"{SpellNames.StrongAttackSpell}_{playerElement.Element.ToString()}");
             }
