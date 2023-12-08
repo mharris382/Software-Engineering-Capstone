@@ -1,5 +1,74 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3568571097233280535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5964827274366942476}
+  - component: {fileID: 7177421903429757682}
+  - component: {fileID: 2693271787742735945}
+  m_Layer: 9
+  m_Name: Circle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5964827274366942476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568571097233280535}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39722237, w: 0.9177224}
+  m_LocalPosition: {x: 4.0132155, y: 0.8772862, z: 0.39000928}
+  m_LocalScale: {x: 9.126879, y: 9.126879, z: 9.126879}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 524636139218830914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &7177421903429757682
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568571097233280535}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.000030517578, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!250 &2693271787742735945
+PointEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568571097233280535}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 3221258064
+  m_ForceMagnitude: -10
+  m_ForceVariation: 0.97
+  m_DistanceScale: 1
+  m_ForceSource: 0
+  m_ForceTarget: 0
+  m_ForceMode: 0
+  m_Drag: 0
+  m_AngularDrag: 0
 --- !u!1001 &2038759899244504405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77,6 +146,11 @@ PrefabInstance:
 --- !u!50 &514995905291501594 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 1976661732712113487, guid: 22d3c78d91562ea40b0d4c55a26b0766, type: 3}
+  m_PrefabInstance: {fileID: 2038759899244504405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &524636139218830914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1949144508058772247, guid: 22d3c78d91562ea40b0d4c55a26b0766, type: 3}
   m_PrefabInstance: {fileID: 2038759899244504405}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2106726704106019408 stripped

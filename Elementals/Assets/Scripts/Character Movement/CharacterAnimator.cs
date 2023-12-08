@@ -8,6 +8,9 @@ public class CharacterAnimator : MonoBehaviour
     private Animator _anim;
     private CharacterState _state;
     private static readonly int IsInteracting = Animator.StringToHash("IsInteracting");
+    private static readonly int Grounded = Animator.StringToHash("grounded");
+    private static readonly int Moving = Animator.StringToHash("moving");
+    private static readonly int InteractionPhysMode = Animator.StringToHash("InteractionPhysMode");
 
     void Start()
     {
@@ -18,11 +21,16 @@ public class CharacterAnimator : MonoBehaviour
     
     void Update()
     {
+        //animator reads only from character movement state 
         var moving = Mathf.Abs(_state.Movement.Velocity.x) > 0.1f;
-        _anim.SetBool("moving", moving);
-        _anim.SetBool("grounded", _state.Movement.IsGrounded);
+        _anim.SetBool(Moving, moving);
+        _anim.SetBool(Grounded, _state.Movement.IsGrounded);
+        
+        //animator writes to interacting state from the animation machine parameters 
         _state.IsInteracting = _anim.GetBool(IsInteracting);
-        _state.PhysicsMode = (InteractionPhysicsMode)_anim.GetInteger("InteractionPhysMode");
+        _state.PhysicsMode = (InteractionPhysicsMode)_anim.GetInteger(InteractionPhysMode);
+        
+        
         if (moving)
         {
             var yRotation = 0;
@@ -50,6 +58,7 @@ public class CharacterAnimator : MonoBehaviour
 
     public void SetInteractionMode(int mode)
     {
-        _state.PhysicsMode =  _anim.SetInteger("InteractionPhysMode", mode);
+         _anim.SetInteger("InteractionPhysMode",  mode);
+         _state.PhysicsMode = (InteractionPhysicsMode)mode;
     }
 }

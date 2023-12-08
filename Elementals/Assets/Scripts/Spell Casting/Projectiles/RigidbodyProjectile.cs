@@ -61,6 +61,7 @@ public class RigidbodyProjectile : MonoBehaviour
 
     public RigidbodyProjectile FireProjectile(GameObject shooter, Vector2 spawnOrigin, Vector2 direction)
     {
+        this.Shooter = shooter;
         config.ApplyAccuracy(ref direction);
         config.ClampDirection(ref direction);
         config.OffsetSpawnPosition(ref spawnOrigin, direction);
@@ -101,6 +102,9 @@ public class RigidbodyProjectile : MonoBehaviour
 
         return spawnedProjectile;
     }
+
+    public GameObject Shooter { get; set; }
+
     void IgnoreCollisionsWithShooter(GameObject shooter, Collider2D projectileCollider)
     {
         var shooterRB = shooter.GetComponent<Rigidbody2D>();

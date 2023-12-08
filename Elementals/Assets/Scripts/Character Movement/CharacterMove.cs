@@ -116,24 +116,26 @@ public class CharacterMove : MonoBehaviour
         if(!IsJumping && IsGrounded)
             CompensateForMovingPlatforms();
         
+        //if not playing animation do normal movement
         if (!_state.IsInteracting)
         {
             NormalMovementFixed();
             return;
         }
-        
+      
+        //if playing animation perform movement based on interaction physics mode
+        var rootMotionAccel = State.Movement.AnimatorAccel;
         switch (_state.PhysicsMode)
         {
-            case InteractionPhysicsMode.Default:
-                _rb.velocity += State.Movement.AnimatorAccel;
+            case InteractionPhysicsMode.FullRootMotion:
+                _rb.velocity += rootMotionAccel;
                 break;
             case InteractionPhysicsMode.Mixed:
-                _rb.velocity += State.Movement.AnimatorAccel + (Physics2D.gravity * Time.fixedDeltaTime);
+                _rb.velocity += rootMotionAccel + (Physics2D.gravity * Time.fixedDeltaTime);
                 break;
             case InteractionPhysicsMode.FullPhysics:
-                break;
             default:
-                throw new ArgumentOutOfRangeException();
+                break;
         }
     }
 

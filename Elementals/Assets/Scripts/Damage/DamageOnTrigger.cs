@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Elements;
@@ -14,10 +15,20 @@ namespace Damage
     {
         public Element element;
         public float amount = 1;
+        private RigidbodyProjectile _projectile;
+
+        private void Awake()
+        {
+            _projectile = GetComponentInParent<RigidbodyProjectile>();
+        }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.attachedRigidbody == null) return;
+            if (_projectile != null && _projectile.Shooter != null)
+            {
+                if(_projectile.Shooter.gameObject == other.attachedRigidbody.gameObject) return;
+            }
             var hit = other.attachedRigidbody.gameObject;
             DamageSystem.DealDamage(hit, GetDamageInfo());
         }
