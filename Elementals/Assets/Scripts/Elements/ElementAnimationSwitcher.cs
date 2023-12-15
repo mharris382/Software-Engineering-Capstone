@@ -10,51 +10,37 @@ public class ElementAnimationSwitcher : MonoBehaviour
 {
     public ElementContainer playerElement;
     [SerializeField] private RuntimeAnimatorController[] _controllers;
-    
+
+    [SerializeField] private RuntimeAnimatorController fireController;
+    [SerializeField] private RuntimeAnimatorController waterController;
+    [SerializeField] private RuntimeAnimatorController earthController;
+    [SerializeField] private RuntimeAnimatorController thunderController;
+    [SerializeField] private RuntimeAnimatorController airController;
     private Animator _anim;
     private RuntimeAnimatorController _defaultController;
     private Dictionary<Element, RuntimeAnimatorController> _elementControllers = new Dictionary<Element, RuntimeAnimatorController>();
     private List<RuntimeAnimatorController> racs;
     private void Awake()
     {
-        var anims = Resources.LoadAll<AnimatorOverrideController>("WizardAnimations");
-        var anims2 = Resources.LoadAll<RuntimeAnimatorController>("WizardAnimations");
-        racs = new List<RuntimeAnimatorController>();
-        foreach (var animatorOverrideController in anims)
-        {
-            racs.Add(animatorOverrideController);
-        }
-
-        foreach (var animatorController in anims2)
-        {
-            racs.Add(animatorController);
-        }
-        
         _anim = GetComponent<Animator>();
         _defaultController = _anim.runtimeAnimatorController;
-        if (playerElement == null) playerElement = Resources.Load<ElementContainer>("PlayerElement");
-
-        Array elements = Enum.GetValues(typeof(Element));
-        foreach (var element in elements)
-        {
-            var e = (Element) element;
-            var controller = racs.FirstOrDefault(t => t.name.Contains(element.ToString()));
-            if(controller == null)Debug.LogError($"Couldn't find controller for element {element}",this);
-            _elementControllers.Add(e, controller);
-        }
-        foreach (var kvp in _elementControllers)
-        {
-            if (kvp.Value == null)
-            {
-                Debug.LogError($"No Animator Controller found for Element {kvp.Key}!", this);
-            }
-        }
+        _elementControllers.Add(Element.Fire, fireController);
+        _elementControllers.Add(Element.Water, waterController);
+        _elementControllers.Add(Element.Earth, earthController);
+        _elementControllers.Add(Element.Thunder, thunderController);
+        _elementControllers.Add(Element.Air, airController);
+        _anim.runtimeAnimatorController = _elementControllers[playerElement.Element];
     }
 
     private void Start()
     {
         playerElement.OnElementChanged += OnElementChanged;
         OnElementChanged(playerElement.Element);
+    }
+
+    private void OnDestroy()
+    {
+        playerElement.OnElementChanged -= OnElementChanged;
     }
 
     private void OnElementChanged(Element obj)

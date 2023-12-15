@@ -11366,6 +11366,11 @@ MonoBehaviour:
   - {fileID: 22100000, guid: ff1f2669206f6934cb114b302f0403f8, type: 2}
   - {fileID: 22100000, guid: 15547c83c4d06a34995a1e809c3b45d5, type: 2}
   - {fileID: 22100000, guid: 06a1406634adedb4d8e08c9a104e313c, type: 2}
+  fireController: {fileID: 22100000, guid: ff1f2669206f6934cb114b302f0403f8, type: 2}
+  waterController: {fileID: 9100000, guid: 6c8a956fa7168604793f58eb5d04ae85, type: 2}
+  earthController: {fileID: 22100000, guid: 15547c83c4d06a34995a1e809c3b45d5, type: 2}
+  thunderController: {fileID: 22100000, guid: 947cedda3eb78574ebd52fc71d3983f4, type: 2}
+  airController: {fileID: 22100000, guid: 06a1406634adedb4d8e08c9a104e313c, type: 2}
 --- !u!1 &1344690876302126593
 GameObject:
   m_ObjectHideFlags: 0

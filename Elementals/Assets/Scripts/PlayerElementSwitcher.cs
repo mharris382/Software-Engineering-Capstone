@@ -14,7 +14,7 @@ namespace DefaultNamespace
 
         public void Update()
         {
-            if (Input.GetButtonDown(switchElementButton) || Input.GetKeyDown(KeyCode.F2))
+            if (Input.GetButtonDown(switchElementButton) || Input.GetKeyDown(KeyCode.Tab))
             {
                 var current = activeElementSlot.Value;
                 current++;
